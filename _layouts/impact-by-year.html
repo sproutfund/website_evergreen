@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body data-smooth-scroll-offset="77">
+  {%- assign page_slug = page.url | split: '/' | last -%}
+
+  {% include navbar.html %}
+
+  <div class="main-container">
+    <section class="cover imagebg height-100" data-overlay="4">
+      <div class="background-image-holder"><img alt="background" src="{{ site.baseurl }}{{ page.cover-image.source }}"></div>
+      <div class="container pos-vertical-center">
+        <div class="row">
+          <div class="col-md-9 col-lg-8">
+            <h1>{{ page.subtitle | smartify }}</h1>
+            <p class="lead">{{ page.description | smartify }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="pos-absolute pos-bottom col-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-left">
+              <div class="text-block">
+                <h5>{{ page.cover-image.caption | smartify }}</h5><span>{{ page.cover-image.subcaption | smartify }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="switchable switchable--switch bg--white">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-8 col-lg-7">
+            <h2>{{ page.community-context.heading | smartify }}</h2>
+            {%- for detail in page.community-context.details -%}
+              <p class="lead">{{ detail | smartify }}</p>
+            {%- endfor -%}
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h3>{{ page_slug }} In Brief</h3>
+            <div class="text-block">
+              <h5>Total Investment</h5>
+              <p>{{ page.by-the-numbers.investment }}</p>
+            </div>
+            <div class="text-block">
+              <h5>Funded Projects</h5>
+              <p>{{ page.by-the-numbers.projects }}</p>
+            </div>
+            <div class="text-block">
+              <h5>Average Grant</h5>
+              <p>{{ page.by-the-numbers.average }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {%- for section in page.sections -%}
+      <section class="{% cycle 'bg--secondary', 'bg--white' %}">
+        <div class="container">
+          <div class="row mb--1">
+            <div class="col-12">
+              <h2>{{ section.title | smartify }}</h2>
+              {%- for description_para in section.description -%}
+                <p class="lead">{{ description_para | smartify }}</p>
+              {%- endfor -%}
+            </div>
+          </div>
+          <div class="row">
+            {%- for feature in section.features -%}
+              <div class="col-md-4">
+                <div class="feature">
+                  <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature.image }}">
+                  <h4>{{ feature.name | smartify }}</h4>
+                  <p>{{ feature.summary | smartify }}{% if feature.addon %} <span class="type--fine-print type--fade">{{ feature.addon | smartify }}</span>{% endif %}</p>
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      </section>
+    {%- endfor -%}
+
+    <section class="bg--dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <h3>Advisory Board</h3>
+            <ul>
+              <li>Laurel Brandstetter</li>
+              <li>Kate Brownlee</li>
+              <li>Edgar Um Bucholtz</li>
+              <li>Lou Castelli</li>
+              <li>Danielle Crumrine</li>
+              <li>Peter Eberhart</li>
+              <li>Elvira Eichleay</li>
+              <li>Scott Izzo</li>
+              <li>Christian Manders</li>
+              <li>Henry J. Simonds</li>
+              <li>Phil Stephenson</li>
+              <li>Kaveri Subbarao</li>
+              <li>Kate Trimble</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4">
+            <h3>Staff &amp; Interns</h3>
+            <ul>
+              <li>Cathy Lewis Long</li>
+              <li>Matt Hannigan</li>
+              <li>Morton Brown</li>
+              <li>Ryan Coon</li>
+              <li>Curt Gettman</li>
+              <li>Mac Howison</li>
+              <li>Tori Mistick</li>
+              <li>Dustin Stiver</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <h3>Supporters</h3>
+            <ul>
+              <li><strong>Richard King Mellon Foundation</strong></li>
+              <li>Atlas America</li>
+              <li>Armstrong County Community Foundation</li>
+              <li>BNY Mellon</li>
+              <li>Citizens Bank</li>
+              <li>Community Foundation of Greene County</li>
+              <li>Community Foundation of Fayette County</li>
+              <li>Community Foundation of Western PA &amp; Eastern OH</li>
+              <li>Community Foundation of Westmoreland County</li>
+              <li>Community Foundation for the Alleghenies</li>
+              <li>The Grable Foundation</li>
+              <li>The Hillman Foundation</li>
+              <li>Jewish Healthcare Foundation</li>
+              <li>Laurel Foundation</li>
+              <li>McCune Foundation</li>
+              <li>Mellon Charitable Foundation</li>
+              <li>National City Bank of Pennsylvania</li>
+              <li>NiSource Charitable Foundation</li>
+              <li>Pennsylvania Council on the Arts</li>
+              <li>Pennsylvania Department of Community and Economic Development</li>
+              <li>PNC Financial Services Group</li>
+              <li>PPG Industries Foundation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center space--sm footer-5 bg--dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div><span class="type--fine-print">Impact By Year</span></div>
+            <div class="heading-block">
+              <ul class="list-inline list--hover">
+                <li>
+                  <a href="#"><span>2001</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2002</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2003</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2004</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2005</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2006</span></a>
+                </li>
+                <li>
+                  <strong><span>2007</span></strong>
+                </li>
+                <li>
+                  <a href="#"><span>2008</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2009</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2010</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2011</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2012</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2013</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2014</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2015</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2016</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2017</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>2018</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div><span class="type--fine-print">Impact By Focus Area</span></div>
+            <div class="heading-block">
+              <ul class="list-inline list--hover">
+                <li>
+                  <a href="#"><span>Catalytic Grants</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Learning Networks</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Public Art &amp; Murals</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Community Building Events</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Storytelling &amp; Documentation</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Showcase &amp; Creativity</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!--end of row-->
+      </div><!--end of container-->
+    </footer>
+
+    <footer class="space--xs footer-1 text-center bg--secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="#home"><img alt="Image" class="logo" src="{{ site.baseurl }}/assets/img/sprout_grey-circle.png"></a> <span class="type--fine-print">This work by The Sprout Fund is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    {{ content }}
+
+  </div>
+
+  {% include scripts.html %}
+</body>
+</html>
