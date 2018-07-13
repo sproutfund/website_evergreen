@@ -25,97 +25,137 @@
                 <div class="dropdown__container">
                   <div class="container">
                     <div class="row">
-                      <div class="dropdown__content col-lg-6">
+                      <div class="dropdown__content col-lg-12">
                         <div class="row">
-                          <div class="col-lg-6">
-                            <h5>By Focus Area</h5>
+                          <div class="col-lg-3">
+                            <h5>By Focus</h5>
                             <ul class="menu-vertical">
-                              <li>
-                                <a href="#">Catalytic Grants</a>
-                              </li>
-                              <li>
-                                <a href="#">Learning Networks</a>
-                              </li>
-                              <li>
-                                <a href="#">Public Art &amp; Murals</a>
-                              </li>
-                              <li>
-                                <a href="#">Community Building Events</a>
-                              </li>
-                              <li>
-                                <a href="#">Storytelling &amp; Documentation</a>
-                              </li>
-                              <li>
-                                <a href="#">Showcase &amp; Creativity</a>
-                              </li>
+                              {%- for item in site.data.focus.items -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.focus.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- else -%}
+                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.focus.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- endif -%}
+                                <li>
+                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                          {%- assign col_length = site.data.program.items.size | divided_by: 3.0 | ceil -%}
+                          {%- assign col2_offset = col_length -%}
+                          {%- assign col3_offset = col_length | times: 2 -%}
+                          <div class="col-lg-2">
+                            <h5>By Program</h5>
+                            <ul class="menu-vertical">
+                              {%- for item in site.data.program.items limit:col_length -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- else -%}
+                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- endif -%}
+                                <li>
+                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
                             </ul>
                           </div>
                           <div class="col-lg-2">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              {%- for item in site.data.program.items offset:col2_offset limit:col_length -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- else -%}
+                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- endif -%}
+                                <li>
+                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                          <div class="col-lg-2">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              {%- for item in site.data.program.items offset:col3_offset limit:col_length -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- else -%}
+                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- endif -%}
+                                <li>
+                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
                             <h5>By Year</h5>
                             <ul class="menu-vertical">
                               <li>
-                                <a href="#">2001</a>
+                                <a href="{{ site.baseurl }}/year/2001/">2001</a>
                               </li>
                               <li>
-                                <a href="#">2002</a>
+                                <a href="{{ site.baseurl }}/year/2002/">2002</a>
                               </li>
                               <li>
-                                <a href="#">2003</a>
+                                <a href="{{ site.baseurl }}/year/2003/">2003</a>
                               </li>
                               <li>
-                                <a href="#">2004</a>
+                                <a href="{{ site.baseurl }}/year/2004/">2004</a>
                               </li>
                               <li>
-                                <a href="#">2005</a>
+                                <a href="{{ site.baseurl }}/year/2005/">2005</a>
                               </li>
                               <li>
-                                <a href="#">2006</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-2">
-                            <h5>&nbsp;</h5>
-                            <ul class="menu-vertical">
-                              <li>
-                                <a href="#">2007</a>
-                              </li>
-                              <li>
-                                <a href="#">2008</a>
-                              </li>
-                              <li>
-                                <a href="#">2009</a>
-                              </li>
-                              <li>
-                                <a href="#">2010</a>
-                              </li>
-                              <li>
-                                <a href="#">2011</a>
-                              </li>
-                              <li>
-                                <a href="#">2012</a>
+                                <a href="{{ site.baseurl }}/year/2006/">2006</a>
                               </li>
                             </ul>
                           </div>
-                          <div class="col-lg-2">
+                          <div class="col-lg-1">
                             <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
                               <li>
-                                <a href="#">2013</a>
+                                <a href="{{ site.baseurl }}/year/2007/">2007</a>
                               </li>
                               <li>
-                                <a href="#">2014</a>
+                                <a href="{{ site.baseurl }}/year/2008/">2008</a>
                               </li>
                               <li>
-                                <a href="#">2015</a>
+                                <a href="{{ site.baseurl }}/year/2009/">2009</a>
                               </li>
                               <li>
-                                <a href="#">2016</a>
+                                <a href="{{ site.baseurl }}/year/2010/">2010</a>
                               </li>
                               <li>
-                                <a href="#">2017</a>
+                                <a href="{{ site.baseurl }}/year/2011/">2011</a>
                               </li>
                               <li>
-                                <a href="#">2018</a>
+                                <a href="{{ site.baseurl }}/year/2012/">2012</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              <li>
+                                <a href="{{ site.baseurl }}/year/2013/">2013</a>
+                              </li>
+                              <li>
+                                <a href="{{ site.baseurl }}/year/2014/">2014</a>
+                              </li>
+                              <li>
+                                <a href="{{ site.baseurl }}/year/2015/">2015</a>
+                              </li>
+                              <li>
+                                <a href="{{ site.baseurl }}/year/2016/">2016</a>
+                              </li>
+                              <li>
+                                <a href="{{ site.baseurl }}/year/2017/">2017</a>
+                              </li>
+                              <li>
+                                <a href="{{ site.baseurl }}/year/20183/">2018</a>
                               </li>
                             </ul>
                           </div>
@@ -159,24 +199,16 @@
           <div class="bar__module">
             <ul class="social-list list-inline list--hover">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="socicon socicon-twitter icon icon--xs"></i>
-                </a>
+                <a target="_blank" title="Twitter" href="https://twitter.com/sproutfund"><i class="socicon socicon-twitter icon icon--xs"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="socicon socicon-facebook icon icon--xs"></i>
-                </a>
+                <a target="_blank" title="Facebook" href="https://www.facebook.com/sproutfund"><i class="socicon socicon-facebook icon icon--xs"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="socicon socicon-flickr icon icon--xs"></i>
-                </a>
+                <a target="_blank" title="Instagram" href="https://www.instagram.com/sproutfund/"><i class="socicon socicon-instagram icon icon--xs"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="socicon socicon-github icon icon--xs"></i>
-                </a>
+                <a target="_blank" title="Github" href="https://github.com/sproutfund/"><i class="socicon socicon-github icon icon--xs"></i></a>
               </li>
             </ul>
           </div>
