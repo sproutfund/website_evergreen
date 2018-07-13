@@ -1,0 +1,14 @@
+plural:      "Focus Areas"
+singular:    "Focus"
+slug_prefix: "focus/"
+items:
+
+  - title: "Catalytic Funding"
+
+  - title: "Public Art & Murals"
+
+  - title: "Networks & Community Building"
+
+  - title: "Storytelling & Documentation"
+
+  - title: "Showcase & Creativity Events"

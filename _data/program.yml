@@ -1,0 +1,55 @@
+plural:      "Programs"
+singular:    "Program"
+slug_prefix: "program/"
+items:
+
+  - title: "Seed Award"
+
+  - title: "Community Murals"
+    slug:  "murals"
+
+  - title: "Hothouse"
+
+  - title: "AMP"
+
+  - title: "Engage Pittsburgh"
+
+  - title: "Giant Inflatables"
+
+  - title: "Community Connections"
+
+  - title: "Spark"
+
+  - title: "Spring"
+
+  - title: "Social Innovation Exchange"
+
+  - title: "Remake Learning"
+
+  - title: "Grand Ideas"
+
+  - title: "Hive"
+
+  - title: "Film & Video"
+
+  - title: "Open Badges"
+
+  - title: "The Digital Corps"
+    slug:  "digital-corps"
+
+  - title: "One Northside"
+
+  - title: "City of Learning"
+
+  - title: "Rec2Tech"
+
+  - title: "100 Days"
+
+  - title: "Belonging"
+
+  - title: "My Brother's Keeper"
+    slug:  "mbk"
+
+  - title: "Economic Opportunity"
+
+  - title: "Sunset"
