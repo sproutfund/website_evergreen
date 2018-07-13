@@ -5,3 +5,9 @@ h1, .h1 { font-weight: 500; }
 .bar--transparent .social-list a {
   color: #fff;
 }
+
+.menu-vertical li.current a,
+ul:not([class*='menu']) li.current > a {
+  font-weight: bolder;
+  cursor: default;
+}

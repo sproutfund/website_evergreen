@@ -16,12 +16,19 @@
           <div class="heading-block">
             <ul class="list-inline list--hover">
               {%- for item in browse-by_data.items -%}
+                {%- assign item_current = false -%}
                 {%- if item.slug -%}
                   {%- assign item_url = item.slug | append: '/' | prepend: browse-by_data.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                  {%- if page_slug == item.slug -%}
+                    {%- assign item_current = true -%}
+                  {%- endif -%}
                 {%- else -%}
                   {%- assign item_url = item.title | slugify | append: '/' | prepend: browse-by_data.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                  {%- if page_slug == item.title | slugify -%}
+                    {%- assign item_current = true -%}
+                  {%- endif -%}
                 {%- endif -%}
-                <li>
+                <li {% if item_current %} class="current"{% endif %}>
                   <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
                 </li>
               {%- endfor -%}
