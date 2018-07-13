@@ -35,53 +35,57 @@
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-md-8 col-lg-7">
-            <h2>{{ page.community-context.heading | smartify }}</h2>
-            {%- for detail in page.community-context.details -%}
+            <h2>{{ page.context.heading | smartify }}</h2>
+            {%- for detail in page.context.details -%}
               <p class="lead">{{ detail | smartify }}</p>
             {%- endfor -%}
           </div>
           <div class="col-md-4 col-lg-3">
             <h3>{{ page_slug }} In Brief</h3>
-            <div class="text-block">
-              <h5>Total Investment</h5>
-              <p>{{ page.by-the-numbers.investment }}</p>
-            </div>
-            <div class="text-block">
-              <h5>Funded Projects</h5>
-              <p>{{ page.by-the-numbers.projects }}</p>
-            </div>
-            <div class="text-block">
-              <h5>Average Grant</h5>
-              <p>{{ page.by-the-numbers.average }}</p>
-            </div>
+            {%- for by-the-numbers_block in page.by-the-numbers -%}
+              <div class="text-block">
+                <h5>{{ by-the-numbers_block.heading }}</h5>
+                <p>{{ by-the-numbers_block.data }}</p>
+              </div>
+            {%- endfor -%}
           </div>
         </div>
       </div>
     </section>
 
-    {%- for section in page.sections -%}
+    {%- for highlight in page.highlights -%}
       <section class="{% cycle 'bg--secondary', 'bg--white' %}">
         <div class="container">
-          <div class="row mb--1">
-            <div class="col-12">
-              <h2>{{ section.title | smartify }}</h2>
-              {%- for description_para in section.description -%}
-                <p class="lead">{{ description_para | smartify }}</p>
+          <div class="row">
+            <div class="col-md-12 mb--1">
+              <h1>{{ highlight.title }}</h1>
+            </div>
+          </div>
+        </div>
+        {%- for section in highlight.sections -%}
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <hr>
+                <h2>{{ section.title | smartify }}</h2>
+                {%- for description_para in section.description -%}
+                  <p class="lead">{{ description_para | smartify }}</p>
+                {%- endfor -%}
+              </div>
+            </div>
+            <div class="row">
+              {%- for feature in section.features -%}
+                <div class="col-md-4 mt--1 mb--2">
+                  <div class="feature">
+                    <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature.image }}">
+                    <h4>{{ feature.name | smartify }}</h4>
+                    <p>{{ feature.summary | smartify }}{% if feature.addon %} <span class="type--fine-print type--fade">{{ feature.addon | smartify }}</span>{% endif %}</p>
+                  </div>
+                </div>
               {%- endfor -%}
             </div>
           </div>
-          <div class="row">
-            {%- for feature in section.features -%}
-              <div class="col-md-4">
-                <div class="feature">
-                  <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature.image }}">
-                  <h4>{{ feature.name | smartify }}</h4>
-                  <p>{{ feature.summary | smartify }}{% if feature.addon %} <span class="type--fine-print type--fade">{{ feature.addon | smartify }}</span>{% endif %}</p>
-                </div>
-              </div>
-            {%- endfor -%}
-          </div>
-        </div>
+        {%- endfor -%}
       </section>
     {%- endfor -%}
 
