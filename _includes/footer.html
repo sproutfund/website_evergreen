@@ -1,6 +1,60 @@
-<footer class="text-muted mt-5 pb-3">
-  <div class="d-flex justify-content-center align-items-start align-items-sm-center">
-    <div class=""><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" style="border-width:0"></a></div>
-    <div class="px-2">This work by <span>The Sprout Fund</span> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+<footer class="text-center space--sm footer-5 bg--dark">
+  <div class="container">
+    <div class="row">
+      {%- case page.layout -%}
+        {%- when 'year' -%}
+          {%- assign browse-by-groups = "year, focus, program" | split: ", " -%}
+        {%- when 'focus' -%}
+          {%- assign browse-by-groups = "focus, program, year" | split: ", " -%}
+        {%- when 'program' -%}
+          {%- assign browse-by-groups = "program, year, focus" | split: ", " -%}
+      {% endcase %}
+      {%- for browse-by in browse-by-groups -%}
+        {%- assign browse-by_data = site.data[browse-by] -%}
+        <div class="col-md-12">
+          <div><span class="type--fine-print">Browse By {{ browse-by_data.singular }}</span></div>
+          <div class="heading-block">
+            <ul class="list-inline list--hover">
+              {%- for item in browse-by_data.items -%}
+                {%- if item.slug -%}
+                  {%- assign item_url = item.slug | append: '/' | prepend: browse-by_data.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                {%- else -%}
+                  {%- assign item_url = item.title | slugify | append: '/' | prepend: browse-by_data.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                {%- endif -%}
+                <li>
+                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div><!--end of row-->
+  </div><!--end of container-->
+</footer>
+
+<footer class="space--xs footer-1 bg--secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 text-left text-center-xs">
+        <a href="#home"><img alt="Image" class="logo" src="{{ site.baseurl }}/assets/img/sprout_grey-circle.png"></a> <span class="type--fine-print">This work by The Sprout Fund is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</span>
+      </div>
+      <div class="col-4 text-right text-center-xs">
+        <ul class="social-list list-inline list--hover">
+          <li class="list-inline-item">
+            <a target="_blank" title="Twitter" href="https://twitter.com/sproutfund"><i class="socicon socicon-twitter icon icon--xs"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" title="Facebook" href="https://www.facebook.com/sproutfund"><i class="socicon socicon-facebook icon icon--xs"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" title="Instagram" href="https://www.instagram.com/sproutfund/"><i class="socicon socicon-instagram icon icon--xs"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" title="Github" href="https://github.com/sproutfund/"><i class="socicon socicon-github icon icon--xs"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>
