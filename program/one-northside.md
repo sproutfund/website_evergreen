@@ -35,8 +35,8 @@ context:
 highlights:
   - title: "Our Approach"
     description:
-      - "The Sprout Fund provided catalytic support to advance the One Northside vision through the Neighbor-to-Neighbor micro grant stream from 2015-2017. These resident-led projects raised awareness about Northside organizations, events, and activities; engaged Northside residents to take an active role in the civic life of their community; and provided opportunities for motivated community members to assume leadership roles in the ongoing transformation of the Northside."
-      - "Sprout’s combination of direct funding and ongoing support helped to increase the capacity of diverse groups of Northsiders and tapped into the ingenuity of these emerging leaders to create innovative responses to the issues and challenges faced by Northside neighborhoods and communities."
+     - "Sprout’s combination of direct funding and ongoing support helped to increase the capacity of diverse groups of Northsiders and tapped into the ingenuity of these emerging leaders to create innovative responses to the issues and challenges faced by Northside neighborhoods and communities."
+     - "The Sprout Fund provided catalytic support to advance the One Northside vision through the Neighbor-to-Neighbor micro grant stream from 2015-2017. These resident-led projects raised awareness about Northside organizations, events, and activities; engaged Northside residents to take an active role in the civic life of their community; and provided opportunities for motivated community members to assume leadership roles in the ongoing transformation of the Northside."
 
   - title: "Funded Project Highlights"
     description: 
@@ -117,9 +117,9 @@ highlights:
             image: "/photos/programs/one-northside_neighbor-to-neighbor-family-reunion.jpg"
             summary: "Neighbor-to-Neighbor project leaders from 2015-2016 created display tables as a part of a resource fair, where community members could learn more about the project activities."
 
-          - name: "On The Ground from Grassroots Grantmakers"
+          - name: "On The Ground"
             image: "/photos/programs/one-northside_on-the-ground-2017.jpg"
-            summary: "The Sprout Fund and The Buhl Foundation hosted the 2017 learning exchange “On The Ground” in Pittsburgh, highlighting resident-led change taking place on the Northside."
+            summary: "The Sprout Fund and The Buhl Foundation hosted Grassroots Grantmakers' 2017 learning exchange “On The Ground” in Pittsburgh, highlighting resident-led change taking place on the Northside."
 
       - title: "Other One Northside Programs"
         description:     
