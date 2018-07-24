@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body data-smooth-scroll-offset="77">
+  {%- assign page_slug = page.url | split: '/' | last -%}
+  {%- case page_slug -%}
+    {%- when 'community' -%}
+      {%- assign superprogram = "Community" -%}
+    {%- when 'learning' -%}
+      {%- assign superprogram = "Learning" -%}
+    {%- when 'public-art' -%}
+      {%- assign superprogram = "Public Art" -%}
+  {% endcase %}
+
+  {% include navbar.html %}
+
+  <div class="main-container">
+    <section class="pt-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1>Project Highlights</h1>
+          </div>
+          <div class="col-6 text-right">
+            <ul class="tabs">
+              <li class="{%- if page_slug == 'community' -%}active{%- endif -%}">
+                <a href="{{ site.baseurl }}/projects/highlights/community/">
+                  <div class="tab__title">
+                    <span class="h5">Community</span>
+                  </div>
+                </a>
+              </li>
+              <li class="{%- if page_slug == 'learning' -%}active{%- endif -%}">
+                <a href="{{ site.baseurl }}/projects/highlights/learning/">
+                  <div class="tab__title">
+                    <span class="h5">Learning</span>
+                  </div>
+                </a>
+              </li>
+              <li class="{%- if page_slug == 'public-art' -%}active{%- endif -%}">
+                <a href="{{ site.baseurl }}/projects/highlights/public-art/">
+                  <div class="tab__title">
+                    <span class="h5">Public Art</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <hr/>
+          </div>
+        </div>
+        {%- assign superprogram_grants = site.data.grants | where: 'superprogram',superprogram -%}
+        {%- assign filtered_grants = superprogram_grants | where: 'featured','TRUE' -%}
+        {%- for grant in filtered_grants -%}
+          {%- assign grant_count_numeric = grant.count | to_integer -%}
+          {%- if grant_count_numeric > 0 -%}
+            {%- if grant.type == 'mural' -%}
+              {%- assign feature_image = grant.project-slug | prepend: '/photos/murals/' | append: '.jpg' -%}
+            {%- else -%}
+              {%- assign feature_image = grant.project-slug | prepend: '/photos/projects/' | append: '.jpg' -%}
+            {%- endif -%}
+            {% include grants/addon.html %}
+            <div class="row justify-content-center mt--2 mb--2" id="{{ grant.project-slug }}">
+              <div class="col-md-4">
+                <div class="feature">
+                  <img alt="{{ grant.project-name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="feature">
+                  <h4 style="font-weight: 600;">{{ grant.project-name | smartify }}</h4>
+                  <p style="font-size: 1.35714286em; line-height: 1.36842105em;">{{ grant.short-statement | smartify }}</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-block">
+                  <h5><span class="type--fine-print type--fade">{{ grant_addon }}</span></h5>
+                  <p>{{ grant.full-description | smartify }}</p>
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+  </div>
+
+  {% include scripts.html %}
+</body>
+</html>
