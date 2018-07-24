@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body data-smooth-scroll-offset="77">
+  {%- assign page_slug = page.url | split: '/' | last -%}
+
+  {% include navbar.html %}
+
+  <div class="main-container">
+    <section class="pt-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8">
+            <h1>{{ page.title }}</h1>
+            {%- assign filtered_grants = site.data.grants | where: 'year-display',page_slug | sort: 'project-slug' -%}
+            {% include grants/listing.html %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+  </div>
+
+  {% include scripts.html %}
+</body>
+</html>

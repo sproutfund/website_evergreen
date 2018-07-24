@@ -1,0 +1,10 @@
+{%- for grant in filtered_grants -%}
+  {%- assign grant_count_numeric = grant.count | to_integer -%}
+  {%- if grant_count_numeric > 0 -%}
+    {% include grants/addon.html %}
+    <div class="text-block" id="{{ grant.project-slug }}">
+      <h5>{{ grant.project-name | smartify }}<br/><span class="type--fine-print type--fade">{{ grant_addon }}</span></h5>
+      <p>{{ grant.full-description | smartify }}</p>
+    </div>
+  {%- endif -%}
+{%- endfor -%}
