@@ -3,14 +3,18 @@
     <div class="row">
       {%- case page.layout -%}
         {%- when 'year' -%}
-          {%- assign browse-by-groups = "year, focus, program" | split: ", " -%}
+          {%- assign browse-by-groups = "year, focus, program, slug" | split: ", " -%}
+        {%- when 'projects-by-year' -%}
+          {%- assign browse-by-groups = "year, focus, program, slug" | split: ", " -%}
         {%- when 'focus' -%}
-          {%- assign browse-by-groups = "focus, program, year" | split: ", " -%}
+          {%- assign browse-by-groups = "focus, program, year, slug" | split: ", " -%}
         {%- when 'program' -%}
-          {%- assign browse-by-groups = "program, year, focus" | split: ", " -%}
+          {%- assign browse-by-groups = "program, focus, year, slug" | split: ", " -%}
+        {%- when 'projects-by-slug' -%}
+          {%- assign browse-by-groups = "slug, focus, program, year" | split: ", " -%}
       {% endcase %}
       {%- for browse-by in browse-by-groups -%}
-        {%- assign browse-by_data = site.data[browse-by] -%}
+        {%- assign browse-by_data = site.data.browse-by[browse-by] -%}
         <div class="col-md-12">
           <div><span class="type--fine-print">Browse By {{ browse-by_data.singular }}</span></div>
           <div class="heading-block">
