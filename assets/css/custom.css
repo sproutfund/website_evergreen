@@ -1,6 +1,6 @@
 /*! Place your custom styles here */
 
-h1, .h1 { font-weight: 500; }
+.cover h1, .cover .h1 { font-weight: 700; }
 
 .bar--transparent .social-list a {
   color: #fff;
@@ -10,4 +10,10 @@ h1, .h1 { font-weight: 500; }
 ul:not([class*='menu']) li.current > a {
   font-weight: bolder;
   cursor: default;
+}
+
+@media (max-width: 767px) {
+  .cover .pos-bottom.pos-absolute .text-block {
+    margin-bottom: 0;
+  }
 }
