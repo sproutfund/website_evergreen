@@ -31,19 +31,20 @@ acknowledgements:
       - "Curt Gettman, 2007-2013"
   - title: "Partners"
     items:
-      - ""
+      - "NEED TO ADD"
 
 funders:
   title: "Supporters"
   items:
-    - ""
+    - "NEED TO ADD"
 
 context:
   heading: "Combining Community and Public Art"
   details:
-    - "The Sprout Public Art Program was modeled after successful similar efforts in Philadelphia and other cities across the country. Sprout Public Art improved the image of a region synonymous with the aging Rust Belt and enhanced the visual landscape of neighborhoods in Pittsburgh and the surrounding communities of Allegheny County by creating high quality public art."
-    - "The Public Art program additionally raised awareness about the important role that local artists can have in shaping communities, encouraging dialogue between communities and artists while contributing to neighborhood development."
-    - "From 2003 to 2010, Sprout Public Art fostered collaboration between artists and neighborhood community groups. During this time, Sprout Public Art worked with nearly 100 community groups and dozens of local artists to develop more than 55 enduring works of public art. The program’s collaborative dialogue and design process excelled at considering the people of the community, their history, and their vision for the future. "
+    - "The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art."
+    - "Launched in 2003, the community murals program was modeled after successful similar efforts in Philadelphia and other cities across the country. Through support from local foundations and corporations, Sprout enhanced the visual landscape of neighborhoods in Pittsburgh and the surrounding communities of Allegheny County—creating an always-open “museum without walls” of local artworks."
+    - "The program’s collaborative dialogue and design process excelled at considering the people of the community, their history, and their vision for the future. The program also raised awareness about the important role that local artists can have in shaping communities, encouraging dialogue between communities and artists while contributing to neighborhood development. The program concluded in 2010 after largely achieving its goals of creating cooridors, concentrations, and coverage of murals throughout the area."
+    - "Conceived as long-lasting works, the murals were painted using materials with a 20-year lifespan. However, as many murals were created in communities already in a state of change, some of Sprout's most prominent murals were later removed or lost to redevelopment."
 
 highlights:
   - title: "Mural Highlights"
