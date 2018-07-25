@@ -149,14 +149,14 @@ highlights:
 
       - title: "Northside"
         features:
+          - name: "“Children's Alphabet Garden” (2004)"
+            grant-id: "SPA-2004-3"
+
           - name: "“Birds Not Words” (2005)"
             grant-id: "SPA-2005-1"
 
           - name: "“What A View” (2007)"
             grant-id: "SPA-2007-7"
-
-          - name: "“Peace, Hope and Charity” (2008)"
-            grant-id: "SPA-2008-5"
 
       - title: "Troy Hill & Millvale"
         features:
@@ -188,7 +188,7 @@ highlights:
           - name: "“The Night Garden” (2008)"
             grant-id: "SPA-2008-4"
 
-      - title: "Carnegie, Carrick & Dormont"
+      - title: "Carnegie, Carrick & Oakdale"
         features:
           - name: "“Rebirth” (2005)"
             grant-id: "SPA-2005-4"
@@ -196,8 +196,8 @@ highlights:
           - name: "“Carrick Above Us” (2008)"
             grant-id: "SPA-2008-1"
 
-          - name: "“100 Years Young” (2009)"
-            grant-id: "SPA-2009-1"
+          - name: "“America's Home Town” (2010)"
+            grant-id: "SPA-2010-2"
 
   - title: "Programmatic Activities"
     description:
