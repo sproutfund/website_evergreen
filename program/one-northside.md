@@ -6,7 +6,7 @@ subtitle: "Improving the quality of life for residents in all 18 neighborhoods o
 description: "One Northside was a community-driven initiative to improve the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside. Sprout provided $553,000 to 187 projects over 3 years from 2015 to 2017."
 
 cover-image:
-  source: "/photos/programs/one-northside_project-leader-circle-2015.jpg"
+  source: "/photos/covers/one-northside.jpg"
   caption: "Northside project leaders at a meet-up in Manchester"
   subcaption: "June 2015"
 
@@ -91,15 +91,15 @@ highlights:
           -  "Community events were used to solicit in-kind support from neighbors, update the community on project activities, and celebrate the great work happening throughout the Northside. These events were always free, open to the public, and outside of regular business hours to help encourage high turnout from local community members."
         features:
           - name: "Reporting Party"
-            image: "/photos/programs/one-northside_reporting-party.jpg"
+            image: "/photos/programs/one-northside/reporting-party.jpg"
             summary: "Leaders from nearly half of the 2015 supported Neighbor-to-Neighbor projects shared their Northside stories through performances, presentations, and table displays."
 
           - name: "Neighbor-to-Neighbor Family Reunion"
-            image: "/photos/programs/one-northside_neighbor-to-neighbor-family-reunion.jpg"
+            image: "/photos/programs/one-northside/neighbor-to-neighbor-family-reunion.jpg"
             summary: "Neighbor-to-Neighbor project leaders from 2015-2016 created display tables as a part of a resource fair, where community members could learn more about the project activities."
 
           - name: "On The Ground"
-            image: "/photos/programs/one-northside_on-the-ground-2017.jpg"
+            image: "/photos/programs/one-northside/on-the-ground-2017.jpg"
             summary: "The Sprout Fund and The Buhl Foundation hosted Grassroots Grantmakers' 2017 learning exchange “On The Ground” in Pittsburgh, highlighting resident-led change taking place on the Northside."
 
       - title: "Other One Northside Programs"
