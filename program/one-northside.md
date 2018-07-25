@@ -42,8 +42,8 @@ funders:
 context:
   heading: "Promoting Resident-led Change"
   details:
-    - "One Northside was a community-driven initiative to improve the quality of life in all 18 neighborhoods of Pittsburgh’s Northside. Beginning in early 2014, hundreds of Northside residents engaged with local leaders and stakeholders in community-wide conversations to create a shared agenda for the revitalization of this vital component of the greater Pittsburgh region. "
-    - "Facilitated by Jackson/Clark Partners and on behalf of The Buhl Foundation, this process leveraged existing community assets and the dedication of the people of the Northside to create a meaningful community driven engagement initiative and articulate a compelling vision for the future of these communities."
+    - "One Northside was a community-driven initiative to improve the quality of life in all 18 neighborhoods of Pittsburgh’s Northside. Through $1,000 Neighbor-to-Neighbor grants and other funding programs, Sprout helped residents leverage existing community assets and the dedication of the people of the Northside to create a meaningful local change."
+    - "Beginning in early 2014, hundreds of Northside residents engaged with local leaders and stakeholders in community-wide conversations to create a shared agenda for the revitalization of this vital component of the greater Pittsburgh region. Facilitated by Jackson/Clark Partners and on behalf of The Buhl Foundation, this process articulated a compelling vision for the future of these communities."
     - "Through grants from The Buhl Foundation from 2015 to 2017, Sprout’s combination of direct funding and ongoing support helped to increase the capacity of diverse groups of Northsiders and tapped into the ingenuity of these emerging leaders to create innovative responses to the issues and challenges faced by Northside neighborhoods and communities."
 
 highlights:
