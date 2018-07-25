@@ -82,6 +82,14 @@
                 {%- assign feature_name  = feature.name -%}
                 {%- assign feature_summary = feature.summary -%}
                 {%- assign feature_description = feature.description -%}
+                {%- if feature.link -%}
+                  {%- assign feature_link = feature.link | replace_first: "local:/",site.baseurl -%}
+                  {%- if feature.link contains "local:/" -%}
+                    {%- assign feature_link_target = "_self" -%}
+                  {%- else -%}
+                    {%- assign feature_link_target = "_blank" -%}
+                  {%- endif -%}
+                {%- endif -%}
                 {%- if feature.grant-id -%}
                   {%- assign grant = site.data.grants | where: 'grant-id',feature.grant-id | first -%}
                   {%- unless feature_image -%}
@@ -102,18 +110,27 @@
                   {%- endunless -%}
                   {% include grants/addon.html %}
                 {%- endif -%}
-
                 <div class="col-md-4">
-                  <div class="feature">
+                  <div class="feature"
+                    {%- if feature_image -%}
+                      {% unless feature_name or feature_summary %}
+                        style="margin-bottom: 30px;"
+                      {% endunless %}
+                    {% endif %}
+                  >
                     {%- if feature_description -%}
                       <div class="modal-instance">
                         <a class="modal-trigger" href="#">
                           {%- if feature_image -%}
                             <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
                           {%- endif -%}
-                          <h4>{{ feature_name | smartify }}</h4>
+                          {%- if feature_name -%}
+                            <h4>{{ feature_name | smartify }}</h4>
+                          {%- endif -%}
                         </a>
-                        <p>{{ feature_summary | smartify }}</p>
+                        {%- if feature_summary -%}
+                          <p>{{ feature_summary | smartify }}</p>
+                        {%- endif -%}
                         <div class="modal-container">
                           <div class="modal-content">
                             <section class="imageblock feature-large bg--site border--round">
@@ -141,11 +158,21 @@
                         </div>
                       </div>
                     {%- else -%}
+                      {%- if feature_link -%}
+                        <a href="{{ feature_link }}" target="{{ feature_link_target }}">
+                      {%- endif -%}
                       {%- if feature_image -%}
                         <img alt="{{ feature_name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
                       {%- endif -%}
-                      <h4>{{ feature_name | smartify }}</h4>
-                      <p>{{ feature_summary | smartify }}</p>
+                      {%- if feature_name -%}
+                        <h4>{{ feature_name | smartify }}</h4>
+                      {%- endif -%}
+                      {%- if feature_link -%}
+                        </a>
+                      {%- endif -%}
+                      {%- if feature_summary -%}
+                        <p>{{ feature_summary | smartify }}</p>
+                      {%- endif -%}
                     {%- endif -%}
                   </div>
                 </div>
