@@ -51,3 +51,6 @@ js/coverage
 theme/demo
 theme/docs
 theme/variant
+
+# Ignore Source Photos
+_photos_src
