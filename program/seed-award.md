@@ -25,15 +25,18 @@ by-the-numbers:
 acknowledgements:
   - title: "Key Staff"
     items:
-      - ""
+      - "Cathy Lewis Long, 2001-2002"
+      - "Matt Hannigan, 2001-2004"
+      - "Mac Howison, 2004-2014"
+      - "Sandra Hartkopf, 2012-2014"
   - title: "Partners"
     items:
-      - ""
+      - "NEED TO ADD"
 
 funders:
   title: "Supporters"
   items:
-    - ""
+    - "NEED TO ADD"
 
 context:
   heading: "Seeding Transformative Change"
