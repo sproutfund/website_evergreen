@@ -38,9 +38,10 @@ funders:
 context:
   heading: "Seeding Transformative Change"
   details:
-    - "The Seed Award program was the flagship funding program of The Sprout Fund. It was created as a mechanism to support innovative ideas to make Pittsburgh a better place to live, work, and play."
-    - "The Seed Award model was the natural outgrowth of the New Idea Factory, which worked to support the ideas of young people (18-40 years old) and contribute to the region’s overall ability to attract and retain its young talent. The program was unique within Southwestern Pennsylvania, with a distinctive approach to facilitating community change and creating social impact through a blend of grantmaking, community engagement strategies, and other forms of support."
-    - "Modest financial awards of $500–$10,000 supported community-based projects and initiatives at the grassroots-level. Seed Award supported, celebrated, and showcased the initiatives of young and creative people in the region. The program’s cumulative power helped to create a critical mass of positive change for Pittsburgh and the surrounding communities of Allegheny County, Fayette, and Greene counties."
+    - "The Seed Award program was the flagship funding program of The Sprout Fund. More than 300 modest financial awards up to $10,000 supported community-based projects and initiatives at the grassroots-level."
+    - "The model was the natural outgrowth of the New Idea Factory, which worked in 2000 to develop the ideas of young people (18-40 years old) and contribute to the region’s overall ability to attract and retain its young talent. Seed Award was created as a mechanism to support these and future innovative ideas to make Pittsburgh a better place to live, work, and play."
+    - "The program was unique within Southwestern Pennsylvania, with a distinctive approach to facilitating community change and creating social impact through a blend of grantmaking, community engagement strategies, and other forms of support. Seed Award supported, celebrated, and showcased the initiatives of young and creative people in the region."
+    - "The program’s cumulative power helped to create a critical mass of positive change for Pittsburgh and the surrounding communities of Allegheny County, Fayette, and Greene counties."
 
 highlights:
   - title: "Funded Project Highlights"
