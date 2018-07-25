@@ -198,8 +198,22 @@
                 <div class="dropdown__container">
                   <div class="container">
                     <div class="row">
-                      <div class="dropdown__content col-lg-7">
+                      <div class="dropdown__content col-lg-8">
                         <div class="row justify-content-around">
+                          <div class="col-lg-2">
+                            <h5>Highlights</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == 'community' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/community/">Community</a>
+                              </li>
+                              <li {% if page_slug == 'learning' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/community/">Learning</a>
+                              </li>
+                              <li {% if page_slug == 'public-art' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/community/">Public Art</a>
+                              </li>
+                            </ul>
+                          </div>
                           <div class="col-lg-1">
                             <h5>Name</h5>
                             <ul class="menu-vertical">
