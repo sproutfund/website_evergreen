@@ -53,7 +53,7 @@ highlights:
     sections:
 
       - title: "Art, Music, & Performance"
-        description: 
+        description:
           - "Celebrations of local artists through installations, productions, performances, and other art-related experiences."
         features:
           - name: "Knit the Bridge"
@@ -84,11 +84,14 @@ highlights:
             grant-id: "1513-SEED"
 
       - title: "Buses & Bikes"
-        description: 
+        description:
           - "Initiatives dedicated to improving and advocating for alternative transportation throughout the region."
         features:
           - name: "Three Rivers Bike Racks"
             grant-id: "0209-SEED"
+
+          - name: "Commute-by-Bike Zine"
+            grant-id: "0937-SEED"
 
           - name: "BikeFest"
             grant-id: "0524-SEED"
@@ -102,11 +105,8 @@ highlights:
           - name: "3 Rivers on 2 Wheels"
             grant-id: "0050-SEED"
 
-          - name: "Support Mass Transit Bumper Stickers"
-            grant-id: "0295-SEED"
-
       - title: "Dialogue & Political Engagement"
-        description: 
+        description:
           - "Creative ways to engage local residents in the civic life of their neighborhoods, towns, and rural communities."
         features:
           - name: "Conflict Kitchen"
@@ -128,7 +128,7 @@ highlights:
             grant-id: "1311-SEED"
 
       - title: "DIY"
-        description: 
+        description:
           - "Events and activities for all ages that highlight the industrious roots of the region."
         features:
           - name: "Handmade Arcade"
@@ -163,7 +163,7 @@ highlights:
             grant-id: "1006-SEED"
 
       - title: "Neighborhoods"
-        description: 
+        description:
           - "Hands-on approaches that bring people together to capture the unique history and identity of the local community."
         features:
           - name: "East of Liberty"
