@@ -3,8 +3,8 @@ layout: program
 redirect_from: /rec2tech
 title: "Rec2Tech"
 subtitle: "Transforming community spaces into technology learning centers for Pittsburgh youth."
-description: "Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community."
-logo: /logos/rec2tech.png"
+description: "During a one-week demonstration in September 2016, The Sprout Fund worked with the City of Pittsburgh and educators from the Remake Learning Network to transform 5 city-owned recreation centers into technology-enhanced STEAM learning centers."
+logo: "/logos/rec2tech.png"
 
 cover-image:
   source: "/photos/covers/rec2tech.jpg"
