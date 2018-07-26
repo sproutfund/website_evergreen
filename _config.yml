@@ -30,6 +30,15 @@ exclude:
   - LICENSE.md
   - sache.json
   - twbsconfig.yml
+keep_files:
+  - assets/brand/
+  - assets/fonts/
+  - assets/img/
+  - assets/js/
+  - downloads/
+  - photos/
+  - videos/
+  - theme/
 
 plugins:
   - github-pages
