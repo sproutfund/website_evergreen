@@ -268,12 +268,12 @@ highlights:
         description:
         features:
           - name: "Grand Ideas"
-            summary: "Seed Awards of $1,000 or less."
+            summary: "Showed that a little bit of funding and willingness to take a chance on an unproven idea can go a long way when you simply ask “How would you use $1,000 for an innovative community project?” "
 
           - name: "Root Award"
-            summary: "Capacity-building investments in prior grantees."
+            summary: "Helped Seed Awardees scale up by making $25,000 grants available only to former Seed Award recipients for a new proposal with a greater scope than their previously supported project."
 
           - name: "Awards in Fayette & Greene"
-            summary: "Focusing geographically on the neighboring counties of Southwestern Pennsylvania."
+            summary: "Brought the Seed Award approach to a new geographic area, supporting creative ideas that addressed the needs and opportunities unique to Fayette and Greene counties with $5,000 project grants."
 
 ---
