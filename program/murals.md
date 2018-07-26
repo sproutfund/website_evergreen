@@ -3,8 +3,8 @@ layout: program
 redirect_from: /murals
 title: "Community Murals"
 subtitle: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
-description: ""
-logo: /logos/murals.png"
+description: "From 2003 to 2010, The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art."
+logo: "/logos/murals.png"
 
 cover-image:
   source: "/photos/covers/murals.jpg"
