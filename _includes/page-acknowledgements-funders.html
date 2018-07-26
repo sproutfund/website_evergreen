@@ -1,0 +1,30 @@
+{%- if page.acknowledgements or page.funders -%}
+  <section class="bg--dark">
+    <div class="container">
+      <div class="row">
+        {%- for column in page.acknowledgements -%}
+          <div class="col-6 col-md-4">
+            <h3>{{ column.title }}</h3>
+            <ul>
+              {%- for item in column.items -%}
+                {%- assign item_front = item | split: ',' | first | strip -%}
+                {%- assign item_back  = item | split: ',' | last  | strip -%}
+                <li>{{ item_front | smartify }}{% if item_back != item_front %} <span class="type--fine-print type--fade type--italic ">{{ item_back | smartify }}</span>{%- endif -%}</li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endfor -%}
+        {%- if page.funders -%}
+          <div class="col-12 col-md-4">
+            <h3>{{ page.funders.title }}</h3>
+            <ul>
+              {%- for item in page.funders.items -%}
+                <li>{{ item | smartify }}</li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </section>
+{%- endif -%}

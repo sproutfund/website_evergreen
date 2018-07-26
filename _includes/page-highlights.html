@@ -1,0 +1,129 @@
+{%- for highlight in page.highlights -%}
+  <section class="{% cycle 'bg--white', 'bg--secondary' %}">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mb--1">
+          <h1>{{ highlight.title }}</h1>
+          {%- for description_para in highlight.description -%}
+            <p class="lead">{{ description_para | smartify }}</p>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+    {%- for section in highlight.sections -%}
+      <div class="container">
+        <div class="row mb--1">
+          <div class="col-12">
+            <hr>
+            <h2>{{ section.title | smartify }}</h2>
+            {%- for description_para in section.description -%}
+              <p class="lead">{{ description_para | smartify }}</p>
+            {%- endfor -%}
+          </div>
+        </div>
+        <div class="row mb--2">
+          {%- for feature in section.features -%}
+            {%- assign feature_image = feature.image -%}
+            {%- assign feature_name  = feature.name -%}
+            {%- assign feature_summary = feature.summary -%}
+            {%- assign feature_description = feature.description -%}
+            {%- if feature.link -%}
+              {%- assign feature_link = feature.link | replace_first: "local:/",site.baseurl -%}
+              {%- if feature.link contains "local:/" -%}
+                {%- assign feature_link_target = "_self" -%}
+              {%- else -%}
+                {%- assign feature_link_target = "_blank" -%}
+              {%- endif -%}
+            {%- endif -%}
+            {%- if feature.grant-id -%}
+              {%- assign grant = site.data.grants | where: 'grant-id',feature.grant-id | first -%}
+              {%- unless feature_image -%}
+                {%- if grant.type == 'mural' -%}
+                  {%- assign feature_image = grant.project-slug | prepend: '/photos/murals/' | append: '.jpg' -%}
+                {%- else -%}
+                  {%- assign feature_image = grant.project-slug | prepend: '/photos/projects/' | append: '.jpg' -%}
+                {%- endif -%}
+              {%- endunless -%}
+              {%- unless feature_name -%}
+                {%- assign feature_name = grant.project-name -%}
+              {%- endunless -%}
+              {%- unless feature_summary -%}
+                {%- assign feature_summary = grant.short-statement -%}
+              {%- endunless -%}
+              {%- unless feature_description -%}
+                {%- assign feature_description = grant.full-description -%}
+              {%- endunless -%}
+              {% include grants/addon.html %}
+            {%- endif -%}
+            <div class="col-md-4">
+              <div class="feature"
+                {%- if feature_image -%}
+                  {% unless feature_name or feature_summary %}
+                    style="margin-bottom: 30px;"
+                  {% endunless %}
+                {% endif %}
+              >
+                {%- if feature_description -%}
+                  <div class="modal-instance">
+                    <a class="modal-trigger" href="#">
+                      {%- if feature_image -%}
+                        <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
+                      {%- endif -%}
+                      {%- if feature_name -%}
+                        <h4>{{ feature_name | smartify }}</h4>
+                      {%- endif -%}
+                    </a>
+                    {%- if feature_summary -%}
+                      <p>{{ feature_summary | smartify }}</p>
+                    {%- endif -%}
+                    <div class="modal-container">
+                      <div class="modal-content">
+                        <section class="imageblock feature-large bg--site border--round">
+                          <div class="imageblock__content col-lg-5 col-md-4 pos-left">
+                            <div class="background-image-holder">
+                              <img alt="background" src="{{ site.baseurl }}{{ feature_image }}" />
+                            </div>
+                          </div>
+                          <div class="container">
+                            <div class="row justify-content-end">
+                              <div class="col-lg-7 col-md-8">
+                                <div class="row justify-content-center">
+                                  <div class="col-md-11 col-lg-10">
+                                    <h2>{{ feature_name | smartify }}</h2>
+                                    {% if grant_addon %}<p class="lead">{{ grant_addon | smartify }}</p>{% endif %}
+                                    <p>{{ feature_description | newline_to_br | smartify }}</p>
+                                  </div><!--end of col-->
+                                </div><!--end of row-->
+                              </div>
+                            </div><!--end of row-->
+                          </div><!--end of container-->
+                        </section>
+                        <div class="modal-close modal-close-cross"></div>
+                      </div>
+                    </div>
+                  </div>
+                {%- else -%}
+                  {%- if feature_link -%}
+                    <a href="{{ feature_link }}" target="{{ feature_link_target }}">
+                  {%- endif -%}
+                  {%- if feature_image -%}
+                    <img alt="{{ feature_name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
+                  {%- endif -%}
+                  {%- if feature_name -%}
+                    <h4>{{ feature_name | smartify }}</h4>
+                  {%- endif -%}
+                  {%- if feature_link -%}
+                    </a>
+                  {%- endif -%}
+                  {%- if feature_summary -%}
+                    <p>{{ feature_summary | smartify }}</p>
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    {%- endfor -%}
+  </section>
+{%- endfor -%}

@@ -1,0 +1,24 @@
+{%- if page.cover-image.source -%}
+  <section class="cover imagebg height-100" data-overlay="4">
+    <div class="background-image-holder"><img alt="background" src="{{ site.baseurl }}{{ page.cover-image.source }}"></div>
+    <div class="container pos-vertical-center">
+      <div class="row">
+        <div class="col-md-9 col-lg-8">
+          <h1>{{ page.title | smartify }}</h1>
+          <h3>{{ page.subtitle | smartify }}</h3>
+        </div>
+      </div>
+    </div>
+    <div class="pos-absolute pos-bottom col-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-left pl-0 pr-0">
+            <div class="text-block">
+              <h5>{{ page.cover-image.caption | smartify }}</h5><span>{{ page.cover-image.subcaption | smartify }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{%- endif -%}

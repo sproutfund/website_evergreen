@@ -9,120 +9,12 @@
   {% include navbar.html %}
 
   <div class="main-container">
-    <section class="cover imagebg height-100" data-overlay="4">
-      <div class="background-image-holder"><img alt="background" src="{{ site.baseurl }}{{ page.cover-image.source }}"></div>
-      <div class="container pos-vertical-center">
-        <div class="row">
-          <div class="col-md-9 col-lg-8">
-            <h1>{{ page.subtitle | smartify }}</h1>
-            <p class="lead">{{ page.description | smartify }}</p>
-          </div>
-        </div>
-      </div>
-      <div class="pos-absolute pos-bottom col-12">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-left">
-              <div class="text-block">
-                <h5>{{ page.cover-image.caption | smartify }}</h5><span>{{ page.cover-image.subcaption | smartify }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="switchable switchable--switch bg--white">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-md-8 col-lg-7">
-            <h2>{{ page.context.heading | smartify }}</h2>
-            {%- for detail in page.context.details -%}
-              <p class="lead">{{ detail | smartify }}</p>
-            {%- endfor -%}
-          </div>
-          <div class="col-md-4 col-lg-3">
-            <h3>{{ page_slug }} In Brief</h3>
-            {%- for by-the-numbers_block in page.by-the-numbers -%}
-              <div class="text-block">
-                <h5>{{ by-the-numbers_block.heading }}</h5>
-                <p>{{ by-the-numbers_block.data }}</p>
-              </div>
-            {%- endfor -%}
-          </div>
-        </div>
-      </div>
-    </section>
 
-    {%- for highlight in page.highlights -%}
-      <section class="{% cycle 'bg--secondary', 'bg--white' %}">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 mb--1">
-              <h1>{{ highlight.title }}</h1>
-            </div>
-          </div>
-        </div>
-        {%- for section in highlight.sections -%}
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <hr>
-                <h2>{{ section.title | smartify }}</h2>
-                {%- for description_para in section.description -%}
-                  <p class="lead">{{ description_para | smartify }}</p>
-                {%- endfor -%}
-              </div>
-            </div>
-            <div class="row">
-              {%- for feature in section.features -%}
-                <div class="col-md-4 mt--1 mb--2">
-                  <div class="feature">
-                    <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature.image }}">
-                    <h4>{{ feature.name | smartify }}</h4>
-                    <p>{{ feature.summary | smartify }}{% if feature.addon %} <span class="type--fine-print type--fade">{{ feature.addon | smartify }}</span>{% endif %}</p>
-                  </div>
-                </div>
-              {%- endfor -%}
-            </div>
-          </div>
-        {%- endfor -%}
-      </section>
-    {%- endfor -%}
-
-    <section class="bg--dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 col-md-4">
-            <h3>{{ page.acknowledgements.board.title }}</h3>
-            <ul>
-              {%- for item in page.acknowledgements.board.items -%}
-                {%- assign item_front = item | split: ',' | first | strip -%}
-                {%- assign item_back  = item | split: ',' | last  | strip -%}
-                <li>{{ item_front | smartify }}{% if item_back != item_front %} <span class="type--fine-print type--fade type--italic ">{{ item_back | smartify }}</span>{%- endif -%}</li>
-              {%- endfor -%}
-            </ul>
-          </div>
-          <div class="col-6 col-md-4">
-            <h3>{{ page.acknowledgements.staff.title }}</h3>
-            <ul>
-              {%- for item in page.acknowledgements.staff.items -%}
-                {%- assign item_front = item | split: ',' | first | strip -%}
-                {%- assign item_back  = item | split: ',' | last  | strip -%}
-                <li>{{ item_front | smartify }}{% if item_back != item_front %} <span class="type--fine-print type--fade type--italic ">{{ item_back | smartify }}</span>{%- endif -%}</li>
-              {%- endfor -%}
-            </ul>
-          </div>
-          <div class="col-12 col-md-4">
-            <h3>{{ page.acknowledgements.funders.title }}</h3>
-            <ul>
-              {%- for item in page.acknowledgements.funders.items -%}
-                <li>{{ item | smartify }}</li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    {% include page-cover.html %}
+    {% include page-context.html %}
+    {% include page-video.html %}
+    {% include page-highlights.html %}
+    {% include page-acknowledgements-funders.html %}
 
     {% include footer.html %}
 

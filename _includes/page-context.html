@@ -1,0 +1,28 @@
+<section class="switchable switchable--switch bg--secondary">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-8 col-lg-7">
+        <h2>{{ page.context.heading | smartify }}</h2>
+        {%- for detail in page.context.details -%}
+          <p class="lead">{{ detail | smartify }}</p>
+        {%- endfor -%}
+      </div>
+      <div class="col-md-4 col-lg-3">
+        {%- if page.logo -%}
+          <img alt="{{ page.title | smartify }}" class="border--round" src="{{ site.baseurl }}{{ page.logo }}">
+        {%- endif -%}
+        {%- if page.layout == 'program' -%}
+          <h3>Program In Brief</h3>
+        {%- else -%}
+          <h3>{{ page_slug }} In Brief</h3>
+        {%- endif -%}
+        {%- for by-the-numbers_block in page.by-the-numbers -%}
+          <div class="text-block">
+            <h5>{{ by-the-numbers_block.heading }}</h5>
+            <p>{{ by-the-numbers_block.data }}</p>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
