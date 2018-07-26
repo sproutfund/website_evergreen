@@ -53,7 +53,8 @@ highlights:
     sections:
 
       - title: "Art, Music, & Performance"
-        description:
+        description: 
+          - "Celebrations of local artists through installations, productions, performances, and other art-related experiences."
         features:
           - name: "Knit the Bridge"
             grant-id: "1527-SEED"
@@ -83,7 +84,8 @@ highlights:
             grant-id: "1513-SEED"
 
       - title: "Buses & Bikes"
-        description:
+        description: 
+          - "Initiatives dedicated to improving and advocating for alternative transportation throughout the region."
         features:
           - name: "Three Rivers Bike Racks"
             grant-id: "0209-SEED"
@@ -104,7 +106,8 @@ highlights:
             grant-id: "0295-SEED"
 
       - title: "Dialogue & Political Engagement"
-        description:
+        description: 
+          - "Creative ways to engage local residents in the civic life of their neighborhoods, towns, and rural communities."
         features:
           - name: "Conflict Kitchen"
             grant-id: "1144-SEED"
@@ -125,7 +128,8 @@ highlights:
             grant-id: "1311-SEED"
 
       - title: "DIY"
-        description:
+        description: 
+          - "Events and activities for all ages that highlight the industrious roots of the region."
         features:
           - name: "Handmade Arcade"
             grant-id: "0449-SEED"
@@ -159,7 +163,8 @@ highlights:
             grant-id: "1006-SEED"
 
       - title: "Neighborhoods"
-        description:
+        description: 
+          - "Hands-on approaches that bring people together to capture the unique history and identity of the local community."
         features:
           - name: "East of Liberty"
             grant-id: "0580-SEED"
@@ -181,6 +186,7 @@ highlights:
 
       - title: "Play"
         description:
+          - "Attention-grabbing, unique ways that create a more spontaneous and lively Pittsburgh."
         features:
           - name: "Accordion Pool Party"
             grant-id: "1058-SEED"
