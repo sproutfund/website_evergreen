@@ -209,15 +209,15 @@ highlights:
           -  "The concept of community engagement was central to Sprout’s vision for site-specific public art. Community members were engaged multiple times throughout the process to ensure that the final design reflected and incorporated the voices of residents."
         features:
           - name: "Community Brainstorming"
-            image: "/photos/programs/murals_community-brainstorming.jpg"
+            image: "/photos/programs/murals/community-brainstorming.jpg"
             summary: "Community members were invited to participate in a facilitated brainstorming session. The resulting notes were made available to artists to use as for their preliminary designs."
 
           - name: "Annual Preliminary Design Exhibition"
-            image: "/photos/programs/murals_preliminary-design-exhibition.jpg"
+            image: "/photos/programs/murals/preliminary-design-exhibition.jpg"
             summary: "Preliminary designs were debuted to the communities through an annual show that showcased the designs in a gallery setting."
 
           - name: "Mural Dedications"
-            image: "/photos/programs/murals_dedication-event.jpg"
+            image: "/photos/programs/murals/dedication-event.jpg"
             summary: "Public dedication ceremonies offered an opportunity for Sprout to formally present the murals to the communities and acknowledge the artists and community partners for their contributions."
 
       - title: "Selection Process"
