@@ -4,11 +4,19 @@ redirect_from: /rec2tech
 title: "Rec2Tech"
 subtitle: "Transforming community spaces into technology learning centers for Pittsburgh youth."
 description: "Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community."
+logo: /logos/rec2tech.png"
 
 cover-image:
   source: "/photos/covers/rec2tech.jpg"
   caption: "Game Design with Carnegie Library of Pittsburgh"
   subcaption: "Paulson Recreation Center, 2016"
+
+video:
+  url: "https://player.vimeo.com/video/190143250?autoplay=1&title=0&byline=0&portrait=0"
+  thumbnail: "/photos/video_thumbnails/rec2tech.jpg"
+  title: "Rec2Tech Pittsburgh Video Recap"
+  caption: "Learn more about the program partners and activities during the demonstration week in September 2016."
+  duration: "4½ minutes"
 
 by-the-numbers:
   - heading: "Demonstration Week"

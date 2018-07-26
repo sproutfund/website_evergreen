@@ -4,11 +4,19 @@ redirect_from: /murals
 title: "Community Murals"
 subtitle: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
 description: ""
+logo: /logos/murals.png"
 
 cover-image:
   source: "/photos/covers/murals.jpg"
   caption: "Artist Jonathan Laidacker painting in Oakland"
   subcaption: "2006"
+
+video:
+  url: "https://www.youtube.com/embed/JmNWGHqg0gM?rel=0&showinfo=0&autoplay=1"
+  thumbnail: "/photos/video_thumbnails/murals.jpg"
+  title:   "Sprout Public Art 2003–2010 Video Retrospective"
+  caption: "Learn more about Sprout's process for creating community murals and the goals of the program."
+  duration: "4 minutes"
 
 by-the-numbers:
   - heading: "Years Active"
