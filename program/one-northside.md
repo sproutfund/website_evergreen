@@ -11,12 +11,12 @@ cover-image:
   caption: "Northside project leaders at a meet-up in Manchester"
   subcaption: "June 2015"
 
-  video:
-    url: "https://player.vimeo.com/video/219520743?autoplay=1&title=0&byline=0&portrait=0"
-    thumbnail: "/photos/video_thumbnails/one-northside.jpg"
-    title:   "Neighbors seeding change on Pittsburgh’s Northside"
-    caption: "Learn more about One Northside and Sprout's microgrant program for residents."
-    duration: "5½ minutes"
+video:
+  url: "https://player.vimeo.com/video/219520743?autoplay=1&title=0&byline=0&portrait=0"
+  thumbnail: "/photos/video_thumbnails/one-northside.jpg"
+  title:   "Neighbors seeding change on Pittsburgh’s Northside"
+  caption: "Learn more about One Northside and Sprout's microgrant program for residents."
+  duration: "5½ minutes"
 
 by-the-numbers:
   - heading: "Years Active"
