@@ -6742,12 +6742,12 @@ a.block:hover > .feature {
   margin-left: 0.92857143em;
 }
 @media all and (min-width: 1025px) {
-  .video-play-icon {
+  .video-cover .video-play-icon {
     transition: 0.2s ease-out;
     -webkit-transition: 0.2s ease-out;
     -moz-transition: 0.2s ease-out;
   }
-  .video-play-icon:hover {
+  .video-cover .video-play-icon:hover {
     box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2);
     transform: translate3d(-50%, -52%, 0);
     -webkit-transform: translate3d(-50%, -52%, 0);
@@ -7813,6 +7813,11 @@ label {
   left: 0;
   border-right: 1px solid #ececec;
 }
+input[type="image"] {
+  padding: 0;
+  width: auto;
+  border: none;
+}
 /*! -- Stack Subscribe Forms -- */
 .subscribe-form-1 h3 {
   margin-bottom: 0.52em;
@@ -8270,6 +8275,10 @@ label {
 .progress-horizontal__progress {
   background: #2374ab;
   border-radius: 100px;
+}
+.imagebg .progress-horizontal__bar {
+  background: rgba(20, 20, 20, 0.2);
+  border: none;
 }
 /*! -- Stack Maps -- */
 iframe[src*='google.com/maps'] {
