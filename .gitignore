@@ -48,9 +48,7 @@ node_modules
 js/coverage
 
 # Ignore Theme Files
-theme/demo
-theme/docs
-theme/variant
+theme
 
 # Ignore Source Photos
 _photos_src
