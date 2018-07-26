@@ -53,7 +53,8 @@ highlights:
     sections:
 
       - title: "Art, Music, & Performance"
-        description:
+        description: 
+          - "Celebrations of local artists through installations, productions, performances, and other art-related experiences."
         features:
           - name: "Knit the Bridge"
             grant-id: "1527-SEED"
@@ -83,7 +84,8 @@ highlights:
             grant-id: "1513-SEED"
 
       - title: "Buses & Bikes"
-        description:
+        description: 
+          - "Initiatives dedicated to improving and advocating for alternative transportation throughout the region."
         features:
           - name: "Three Rivers Bike Racks"
             grant-id: "0209-SEED"
@@ -104,7 +106,8 @@ highlights:
             grant-id: "0295-SEED"
 
       - title: "Dialogue & Political Engagement"
-        description:
+        description: 
+          - "Creative ways to engage local residents in the civic life of their neighborhoods, towns, and rural communities."
         features:
           - name: "Conflict Kitchen"
             grant-id: "1144-SEED"
@@ -125,7 +128,8 @@ highlights:
             grant-id: "1311-SEED"
 
       - title: "DIY"
-        description:
+        description: 
+          - "Events and activities for all ages that highlight the industrious roots of the region."
         features:
           - name: "Handmade Arcade"
             grant-id: "0449-SEED"
@@ -159,7 +163,8 @@ highlights:
             grant-id: "1006-SEED"
 
       - title: "Neighborhoods"
-        description:
+        description: 
+          - "Hands-on approaches that bring people together to capture the unique history and identity of the local community."
         features:
           - name: "East of Liberty"
             grant-id: "0580-SEED"
@@ -181,6 +186,7 @@ highlights:
 
       - title: "Play"
         description:
+          - "Attention-grabbing, unique ways that create a more spontaneous and lively Pittsburgh."
         features:
           - name: "Accordion Pool Party"
             grant-id: "1058-SEED"
@@ -219,6 +225,7 @@ highlights:
 
       - title: "Application Assistance"
         description:
+          - "Acknowledging that not every prospective applicant was an experienced fundraiser, Sprout implemented a series of optional support services that anyone could take advantage of leading up to the application deadline."
         features:
           - name: "Open Application Workshops"
             summary: "Held on the second Friday of every month for more than a decade, anyone could drop in to learn about the process and ask questions."
@@ -231,6 +238,7 @@ highlights:
 
       - title: "Community Decisionmaking"
         description:
+          - "Sprout believed that funding recommendations were best made by those that understood the needs of the project’s intended audience intimately and that decisions were rooted in consensus instead of allowing the loudest voice in the room to carry the day."
         features:
           - name: "Jury of Peers"
             summary: "Seed Awards were reviewed by people in the target audience the projects were designed to serve."
@@ -262,12 +270,12 @@ highlights:
         description:
         features:
           - name: "Grand Ideas"
-            summary: "Seed Awards of $1,000 or less."
+            summary: "Showed that a little bit of funding and willingness to take a chance on an unproven idea can go a long way when you simply ask “How would you use $1,000 for an innovative community project?” "
 
           - name: "Root Award"
-            summary: "Capacity-building investments in prior grantees."
+            summary: "Helped Seed Awardees scale up by making $25,000 grants available only to former Seed Award recipients for a new proposal with a greater scope than their previously supported project."
 
           - name: "Awards in Fayette & Greene"
-            summary: "Focusing geographically on the neighboring counties of Southwestern Pennsylvania."
+            summary: "Brought the Seed Award approach to a new geographic area, supporting creative ideas that addressed the needs and opportunities unique to Fayette and Greene counties with $5,000 project grants."
 
 ---
