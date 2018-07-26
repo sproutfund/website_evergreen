@@ -225,6 +225,7 @@ highlights:
 
       - title: "Application Assistance"
         description:
+          - "Acknowledging that not every prospective applicant was an experienced fundraiser, Sprout implemented a series of optional support services that anyone could take advantage of leading up to the application deadline."
         features:
           - name: "Open Application Workshops"
             summary: "Held on the second Friday of every month for more than a decade, anyone could drop in to learn about the process and ask questions."
@@ -237,6 +238,7 @@ highlights:
 
       - title: "Community Decisionmaking"
         description:
+          - "Sprout believed that funding recommendations were best made by those that understood the needs of the project’s intended audience intimately and that decisions were rooted in consensus instead of allowing the loudest voice in the room to carry the day."
         features:
           - name: "Jury of Peers"
             summary: "Seed Awards were reviewed by people in the target audience the projects were designed to serve."
