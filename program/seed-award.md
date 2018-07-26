@@ -4,6 +4,7 @@ redirect_from: /seed-award
 title: "Seed Award"
 subtitle: "Providing support when just a small amount of investment has the potential to yield big results in the community."
 description: "Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community."
+logo: "/logos/seed-award.png"
 
 cover-image:
   source: "/photos/projects/album-art-of-mozelle-thompson.jpg"
@@ -144,14 +145,14 @@ highlights:
         description:
           - "Projects and programs devoted to biodiversity, air quality, pollution, cleanup, river life, and urban ecology."
         features:
-          - name: "Steel City Biofuels"
-            grant-id: "0612-SEED"
-
           - name: "Tireless Fridays"
             grant-id: "0445-SEED"
 
           - name: "Worms for a Better World"
             grant-id: "0748-SEED"
+
+          - name: "Burgh Bees"
+            grant-id: "1006-SEED"
 
           - name: "Ohio River Lifeboat"
             grant-id: "0585-SEED"
@@ -159,8 +160,8 @@ highlights:
           - name: "Knotweed Project"
             grant-id: "0430-SEED"
 
-          - name: "Burgh Bees"
-            grant-id: "1006-SEED"
+          - name: "Basic Mechanics and Biofuels for Women"
+            grant-id: "0761-SEED"
 
       - title: "Neighborhoods"
         description:
