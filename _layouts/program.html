@@ -65,7 +65,7 @@
                 <div class="video-cover border--round">
                   <div class="background-image-holder"><img alt="image" src="{{ site.baseurl }}{{ page.video.thumbnail }}"></div>
                   <div class="video-play-icon"></div><iframe allowfullscreen="allowfullscreen" data-src="{{ page.video.url }}"></iframe>
-                </div><span><strong>{{ page.video.title }}</strong><br/><i class="icon material-icons" style="font-size: 1.25rem; color: #555555;">timer</i>&nbsp;{{ page.video.duration }}</span>
+                </div><span><strong>{{ page.video.title | smartify }}</strong><br/><i class="icon material-icons" style="font-size: 1.25rem; color: #555555;">timer</i>&nbsp;{{ page.video.duration }}</span>
               </div>
             </div>
           </div>
@@ -76,8 +76,8 @@
         <div class="container pos-vertical-center">
           <div class="row">
             <div class="col-md-8">
-              <h1>{{ page.video.title }}</h1>
-              <p class="lead">{{ page.video.caption }}</p>
+              <h1>{{ page.video.title | smartify }}</h1>
+              <p class="lead">{{ page.video.caption | smartify }}</p>
               <div class="modal-instance block">
                 <div class="video-play-icon video-play-icon--sm modal-trigger"></div><span><strong>Watch the video</strong>&nbsp;&nbsp;&nbsp;<i class="icon color--white material-icons" style="font-size: 1.25rem">timer</i>&nbsp;{{ page.video.duration }}</span>
                 <div class="modal-container">
