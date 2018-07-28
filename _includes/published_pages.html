@@ -1,0 +1,2 @@
+{%- assign published_pages = site.pages | where_exp: "page","page.sitemap != false" -%}
+{%- assign published_pages_urls = published_pages | map: "url" -%}
