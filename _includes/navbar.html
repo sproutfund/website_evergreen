@@ -1,9 +1,10 @@
+{%- include published_pages.html -%}
 <div class="nav-container">
   <div class="bar bar--sm visible-xs">
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <a href="index.html"><img alt="logo" class="logo logo-dark" src="{{ site.baseurl }}/assets/img/sproutfund_black.svg"> <img alt="logo" class="logo logo-light" src="{{ site.baseurl }}/assets/img/sproutfund_white.svg"></a>
+          <a href="{{ site.url }}"><img alt="logo" class="logo logo-dark" src="{{ site.baseurl }}/assets/img/sproutfund_black.svg"> <img alt="logo" class="logo logo-light" src="{{ site.baseurl }}/assets/img/sproutfund_white.svg"></a>
         </div>
         <div class="col-6 text-right">
           <a class="hamburger-toggle" data-toggle-class="#menu2;hidden-xs hidden-sm" href="#"><i class="icon icon--sm stack-interface stack-menu"></i></a>
@@ -17,8 +18,30 @@
         <div class="col-12 col-md-4 text-left hidden-xs">
           <div class="bar__module">
             <ul class="menu-horizontal">
-              <li>
-                <a href="#">About</a>
+              <li class="dropdown">
+                <span class="dropdown__trigger">About</span>
+                <div class="dropdown__container">
+                  <div class="container">
+                    <div class="row">
+                      <div class="dropdown__content col-lg-2">
+                        <ul class="menu-vertical">
+                          <li>
+                            <a href="{{ site.baseurl }}/about/ideals/">Ideals</a>
+                          </li>
+                          <li>
+                            <a href="{{ site.baseurl }}/about/history/">History</a>
+                          </li>
+                          <li>
+                            <a class="type--fade" title="in development">Team</a>
+                          </li>
+                          <li>
+                            <a class="type--fade" title="in development">Supporters</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li class="dropdown">
                 <span class="dropdown__trigger">Impact</span>
@@ -28,70 +51,52 @@
                       <div class="dropdown__content col-lg-12">
                         <div class="row">
                           <div class="col-lg-3">
-                            <h5>Focus</h5>
+                            <h5>By&nbsp;Focus</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.focus.items -%}
-                                {%- assign item_current = false -%}
                                 {%- if item.slug -%}
-                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.browse-by.focus.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.slug -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
+                                  {%- assign item_slug = item.slug -%}
                                 {%- else -%}
-                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.browse-by.focus.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.title | slugify -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
+                                  {%- assign item_slug = item.title | slugify -%}
+                                {%- endif -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.focus.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_exists = false -%}
+                                {%- if published_pages_urls contains item_url -%}
+                                  {%- assign item_exists = true -%}
+                                {%- endif -%}
+                                {%- assign item_current = false -%}
+                                {%- if page_slug == item_slug -%}
+                                  {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
                           </div>
-                          {%- assign col_length = site.data.browse-by.program.items.size | divided_by: 3.0 | ceil -%}
-                          {%- assign col2_offset = col_length -%}
-                          {%- assign col3_offset = col_length | times: 2 -%}
+                          {%- assign program_col_length = site.data.browse-by.program.items.size | divided_by: 3.0 | ceil -%}
+                          {%- assign program_col2_offset = program_col_length -%}
+                          {%- assign program_col3_offset = program_col_length | times: 2 -%}
                           <div class="col-lg-2">
-                            <h5>Program</h5>
+                            <h5>By&nbsp;Program</h5>
                             <ul class="menu-vertical">
-                              {%- for item in site.data.browse-by.program.items limit:col_length -%}
-                                {%- assign item_current = false -%}
+                              {%- for item in site.data.browse-by.program.items limit:program_col_length -%}
                                 {%- if item.slug -%}
-                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.slug -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
+                                  {%- assign item_slug = item.slug -%}
                                 {%- else -%}
-                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.title | slugify -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
+                                  {%- assign item_slug = item.title | slugify -%}
+                                {%- endif -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_exists = false -%}
+                                {%- if published_pages_urls contains item_url -%}
+                                  {%- assign item_exists = true -%}
+                                {%- endif -%}
+                                {%- assign item_current = false -%}
+                                {%- if page_slug == item_slug -%}
+                                  {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
-                                </li>
-                              {%- endfor -%}
-                            </ul>
-                          </div>
-                          <div class="col-lg-2">
-                            <h5>&nbsp;</h5>
-                            <ul class="menu-vertical">
-                              {%- for item in site.data.browse-by.program.items offset:col2_offset limit:col_length -%}
-                                {%- assign item_current = false -%}
-                                {%- if item.slug -%}
-                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.slug -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
-                                {%- else -%}
-                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.title | slugify -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
-                                {%- endif -%}
-                                <li {% if item_current %} class="current"{% endif %}>
-                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -99,92 +104,124 @@
                           <div class="col-lg-2">
                             <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
-                              {%- for item in site.data.browse-by.program.items offset:col3_offset limit:col_length -%}
-                                {%- assign item_current = false -%}
+                              {%- for item in site.data.browse-by.program.items offset:program_col2_offset limit:program_col_length -%}
                                 {%- if item.slug -%}
-                                  {%- assign item_url = item.slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.slug -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
+                                  {%- assign item_slug = item.slug -%}
                                 {%- else -%}
-                                  {%- assign item_url = item.title | slugify | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
-                                  {%- if page_slug == item.title | slugify -%}
-                                    {%- assign item_current = true -%}
-                                  {%- endif -%}
+                                  {%- assign item_slug = item.title | slugify -%}
+                                {%- endif -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_exists = false -%}
+                                {%- if published_pages_urls contains item_url -%}
+                                  {%- assign item_exists = true -%}
+                                {%- endif -%}
+                                {%- assign item_current = false -%}
+                                {%- if page_slug == item_slug -%}
+                                  {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a href="{{ item_url }}"><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                          <div class="col-lg-2">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              {%- for item in site.data.browse-by.program.items offset:program_col3_offset limit:program_col_length -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_slug = item.slug -%}
+                                {%- else -%}
+                                  {%- assign item_slug = item.title | slugify -%}
+                                {%- endif -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_exists = false -%}
+                                {%- if published_pages_urls contains item_url -%}
+                                  {%- assign item_exists = true -%}
+                                {%- endif -%}
+                                {%- assign item_current = false -%}
+                                {%- if page_slug == item_slug -%}
+                                  {%- assign item_current = true -%}
+                                {%- endif -%}
+                                <li {% if item_current %} class="current"{% endif %}>
+                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                          {%- assign year_col_length = site.data.browse-by.year.items.size | divided_by: 3.0 | ceil -%}
+                          {%- assign year_col2_offset = year_col_length -%}
+                          {%- assign year_col3_offset = year_col_length | times: 2 -%}
+                          <div class="col-lg-1">
+                            <h5>By&nbsp;Year</h5>
+                            <ul class="menu-vertical">
+                              {%- for item in site.data.browse-by.year.items limit:year_col_length -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_slug = item.slug -%}
+                                {%- else -%}
+                                  {%- assign item_slug = item.title | slugify -%}
+                                {%- endif -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_exists = false -%}
+                                {%- if published_pages_urls contains item_url -%}
+                                  {%- assign item_exists = true -%}
+                                {%- endif -%}
+                                {%- assign item_current = false -%}
+                                {%- if page_slug == item_slug -%}
+                                  {%- assign item_current = true -%}
+                                {%- endif -%}
+                                <li {% if item_current %} class="current"{% endif %}>
+                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
                           </div>
                           <div class="col-lg-1">
-                            <h5>Year</h5>
+                            <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
-                              <li {% if page_slug == '2001' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2001/">2001</a>
-                              </li>
-                              <li {% if page_slug == '2002' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2002/">2002</a>
-                              </li>
-                              <li {% if page_slug == '2003' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2003/">2003</a>
-                              </li>
-                              <li {% if page_slug == '2004' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2004/">2004</a>
-                              </li>
-                              <li {% if page_slug == '2005' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2005/">2005</a>
-                              </li>
-                              <li {% if page_slug == '2006' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2006/">2006</a>
-                              </li>
+                              {%- for item in site.data.browse-by.year.items offset:year_col2_offset limit:year_col_length -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_slug = item.slug -%}
+                                {%- else -%}
+                                  {%- assign item_slug = item.title | slugify -%}
+                                {%- endif -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_exists = false -%}
+                                {%- if published_pages_urls contains item_url -%}
+                                  {%- assign item_exists = true -%}
+                                {%- endif -%}
+                                {%- assign item_current = false -%}
+                                {%- if page_slug == item_slug -%}
+                                  {%- assign item_current = true -%}
+                                {%- endif -%}
+                                <li {% if item_current %} class="current"{% endif %}>
+                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
                             </ul>
                           </div>
                           <div class="col-lg-1">
                             <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
-                              <li {% if page_slug == '2007' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2007/">2007</a>
-                              </li>
-                              <li {% if page_slug == '2008' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2008/">2008</a>
-                              </li>
-                              <li {% if page_slug == '2009' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2009/">2009</a>
-                              </li>
-                              <li {% if page_slug == '2010' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2010/">2010</a>
-                              </li>
-                              <li {% if page_slug == '2011' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2011/">2011</a>
-                              </li>
-                              <li {% if page_slug == '2012' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2012/">2012</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-1">
-                            <h5>&nbsp;</h5>
-                            <ul class="menu-vertical">
-                              <li {% if page_slug == '2013' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2013/">2013</a>
-                              </li>
-                              <li {% if page_slug == '2014' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2014/">2014</a>
-                              </li>
-                              <li {% if page_slug == '2015' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2015/">2015</a>
-                              </li>
-                              <li {% if page_slug == '2016' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2016/">2016</a>
-                              </li>
-                              <li {% if page_slug == '2017' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2017/">2017</a>
-                              </li>
-                              <li {% if page_slug == '2018' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/year/2018/">2018</a>
-                              </li>
+                              {%- for item in site.data.browse-by.year.items offset:year_col3_offset limit:year_col_length -%}
+                                {%- if item.slug -%}
+                                  {%- assign item_slug = item.slug -%}
+                                {%- else -%}
+                                  {%- assign item_slug = item.title | slugify -%}
+                                {%- endif -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_exists = false -%}
+                                {%- if published_pages_urls contains item_url -%}
+                                  {%- assign item_exists = true -%}
+                                {%- endif -%}
+                                {%- assign item_current = false -%}
+                                {%- if page_slug == item_slug -%}
+                                  {%- assign item_current = true -%}
+                                {%- endif -%}
+                                <li {% if item_current %} class="current"{% endif %}>
+                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                </li>
+                              {%- endfor -%}
                             </ul>
                           </div>
                         </div>
@@ -415,7 +452,9 @@
         </div>
         <div class="col-12 col-md-4 text-center hidden-xs">
           <div class="bar__module">
-            <a href="index.html"><img alt="logo" class="logo logo-dark" src="{{ site.baseurl }}/assets/img/sproutfund_black.svg"> <img alt="logo" class="logo logo-light" src="{{ site.baseurl }}/assets/img/sproutfund_white.svg"></a>
+            {% unless page.url == "/" %}
+              <a href="{{ site.url }}"><img alt="logo" class="logo logo-dark" src="{{ site.baseurl }}/assets/img/sproutfund_black.svg"> <img alt="logo" class="logo logo-light" src="{{ site.baseurl }}/assets/img/sproutfund_white.svg"></a>
+            {% endunless %}
           </div><!--end module-->
         </div>
         <div class="col-12 col-md-4 text-right">

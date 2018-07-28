@@ -21,3 +21,6 @@
 {% include social.html %}
 
 {% include analytics.html %}
+
+{%- assign page_slug = page.url | split: '/' | last -%}
+{%- assign published_pages = site.pages | where_exp: "page","page.sitemap != false" | map: "url" -%}
