@@ -8,11 +8,8 @@
       <div class="row">
 
         <main id="content" class="col-12 d-print-block col-print-12 px-print-0 py-print-0" role="main">
-          {%- comment -%}
-          {%- capture example -%}
-          {%- endcapture -%}
-          {% include example.html content=example %}
-          {%- endcomment -%}
+          {%- include published_pages.html -%}
+          <code>{{ published_pages__program_urls | jsonify }}</code>
         </main>
       </div>
     </div>
