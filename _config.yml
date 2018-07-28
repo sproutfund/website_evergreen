@@ -11,7 +11,8 @@ permalink:      pretty
 
 # Server
 source:         "."
-url:            "https://sproutfund.github.io/website_evergreen/"
+url:            "https://sproutfund.github.io"
+baseurl:        "/website_evergreen"
 encoding:       UTF-8
 exclude:
   - .bundle/

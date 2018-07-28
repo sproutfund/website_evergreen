@@ -59,7 +59,7 @@
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.focus.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.focus.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}
@@ -69,7 +69,7 @@
                                   {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -86,7 +86,7 @@
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}
@@ -96,7 +96,7 @@
                                   {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -110,7 +110,7 @@
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}
@@ -120,7 +120,7 @@
                                   {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -134,7 +134,7 @@
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.program.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}
@@ -144,7 +144,7 @@
                                   {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -161,7 +161,7 @@
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}
@@ -171,7 +171,7 @@
                                   {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -185,7 +185,7 @@
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}
@@ -195,7 +195,7 @@
                                   {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -209,7 +209,7 @@
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}
@@ -219,7 +219,7 @@
                                   {%- assign item_current = true -%}
                                 {%- endif -%}
                                 <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
+                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                                 </li>
                               {%- endfor -%}
                             </ul>
