@@ -1,138 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include header.html %}
-  </head>
-  <body class="layout-{{ page.layout }}">
-    {% include skippy.html %}
+<head>
+  {% include header.html %}
+</head>
+<body data-smooth-scroll-offset="77">
 
-    {% include navbar.html %}
+  {% include navbar.html %}
 
-    <div class="container-fluid">
-      <div class="row flex-xl-nowrap">
-        <div class="{{ site.css_sidebar }}">
-          {% include sidebar.html %}
-        </div>
+  <div class="main-container">
 
-        {%- capture heading_content -%}
-          {%- for section in site.data.nav -%}
-
-            {%- assign section_slug = section.title | slugify -%}
-            <h2 id="{{ section_slug }}">{{ section.title }}</h2>
-
-            {% unless section.pages == nil %}
-            {%- for group in section.pages -%}
-
-              {%- assign group_slug = group.title | slugify -%}
-              <h3 id="{{ section_slug }}--{{ group_slug }}">{{ group.title }}</h3>
-
-              {% unless group.pages == nil %}
-              {%- for doc in group.pages -%}
-
-                {%- assign doc_slug = doc.title | slugify -%}
-                <h4 id="{{ section_slug }}--{{ group_slug }}--{{ doc_slug }}">{{ doc.title }}</h4>
-
-              {%- endfor -%}
-              {% endunless %}
-
-            {%- endfor -%}
-            {% endunless %}
-          {%- endfor -%}
-        {%- endcapture -%}
-
-        {% if page.toc %}
-          <div class="{{ site.css_toc }}">
-            {% include toc.html html=heading_content class="section-nav" item_class="toc-entry toc-h%level%" %}
+    <!-- Cover -->
+    <section class="cover imagebg height-100 text-center" data-overlay="4">
+      <div class="background-image-holder background--top"><img alt="background" src="{{ site.baseurl }}{{ page.cover-image.source }}"></div>
+      <div class="container pos-vertical-center">
+        <div class="row">
+          <div class="col-md-8">
+            <img alt="Image" class="unmarg--bottom" src="{{ site.baseurl }}/assets/brand/sproutfund-in-circle_white.svg">
+            <h1>2001–2018</h1>
+            <h3>Communities are better places to live, learn, and thrive because of the people and ideas supported by The Sprout Fund.</h3>
           </div>
-        {% endif %}
+        </div>
+      </div>
+    </section>
 
-        <main id="content" class="{{ site.css_main }}" role="main">
-          {% include docs/header_print.html %}
-          <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
-          <p class="bd-lead">{{ page.subtitle | smartify }}</p>
+    <!--Letter-->
+    <section class="switchable switchable--switch space--sm" id="sunset">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h2>After 17 successful years, The Sprout Fund sunset in 2018.</h2>
+            <p class="lead">The Sprout Fund improved Pittsburgh by inspiring and nurturing people with innovative, grassroots ideas to positively impact their communities.</p>
+            <p class="lead">Helping others become catalysts for civic change has defined our organization for nearly two decades. Nearly $8 million of community-decided investments went to 1,500+ people, projects, and ideas.</p>
+            <p class="lead">Our pioneering efforts to achieve this mission have spread further and wider than we could have imagined.</p>
+            <p class="lead">Now, a cultural shift has taken root and our community is stronger and more resilient. It’s a good time to sunset.</p>
+            <p class="lead"><strong>Thank you, Pittsburgh.</strong> This work was only possible because of deep, trusting relationships with all who shared their ideas, money, leadership, and time.</p>
+            <p class="lead">— <em>All of us at Sprout</em></p>
+          </div>
+          <div class="col-md-4">
+            <div class="project-thumb">
+              <img src="{{ site.baseurl }}/photos/programs/sunset/CJL-MGH.jpg" class="img-fluid rounded" alt="Cathy Lewis Long &amp; Matt Hannigan, Sprout’s Co-Founders">
+              <h4 style="font-size: 1.221428574em; line-height: 1.231578945em;">Cathy Lewis Long &amp; Matt Hannigan</h4>
+              <span>Sprout’s Co-Founders</span>
+              <span class="type--fine-print text-right" style="opacity: .5;"> / photo: Rob Long</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          {{ content }}
+    <!--Learn More-->
+    <section class="text-center imagebg space--sm" data-gradient-bg="#ADC585,#6D7B3B,#162505,#9A2E26">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-6">
+            <div class="cta">
+              <h1>Learn More about Sprout and Our Impact</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          {%- assign content_pages = site.pages | where_exp: "page","page.layout != 'redirect'" -%}
-          {%- for section in site.data.nav -%}
-            {%- assign section_slug = section.title | slugify -%}
-            {%- capture section_url -%}
-              {{ site.baseurl }}/{{ section_slug }}/
-            {%- endcapture -%}
-            {%- assign section_page = content_pages | where: "url",section_url | first -%}
+    {% include page-highlights.html %}
 
-            <h2 class="display-2" id="{{ section_slug }}">
-              {%- if section_page == nil -%}
-                {{ section.title }}
-              {%- else -%}
-                <a href="{{ section_url }}">
-                  {{ section.title }}
-                </a>
-              {%- endif -%}
-              {% if section_page.status %}<div class="d-inline page-status"> {{ section_page.status }}</div>{% endif %}
-            </h2>
-            {%- if section_page.description -%}
-              <p>{{ section_page.description | smartify }}</p>
-            {%- endif -%}
-
-            {% unless section.pages == nil %}
-            {%- for group in section.pages -%}
-              {%- assign group_slug = group.title | slugify -%}
-              {%- capture group_url -%}
-                {{ site.baseurl }}/{{ section_slug }}/{{ group_slug }}/
-              {%- endcapture -%}
-              {%- assign group_page = content_pages | where: "url",group_url | first -%}
-
-              <h3 id="{{ section_slug }}--{{ group_slug }}">
-                {%- if group_page == nil -%}
-                  {{ group.title }}
-                {%- else -%}
-                  <a href="{{ group_url }}">
-                    {{ group.title }}
-                  </a>
-                {%- endif -%}
-                {% if group_page.status %}<div class="d-inline page-status"> {{ group_page.status }}</div>{% endif %}
-              </h3>
-              {%- if group_page.description -%}
-                <p>{{ group_page.description | smartify }}</p>
-              {%- endif -%}
-
-              {% unless group.pages == nil %}
-              <ul>
-                {%- for doc in group.pages -%}
-                  {%- assign doc_slug = doc.title | slugify -%}
-                  {%- capture doc_url -%}
-                    {{ site.baseurl }}/{{ section_slug }}/{{ group_slug }}/{{ doc_slug }}/
-                  {%- endcapture -%}
-                  {%- assign doc_page = content_pages | where: "url",doc_url | first -%}
-
-                  <h4 id="{{ section_slug }}--{{ group_slug }}--{{ doc_slug }}">
-                    {%- if doc_page == nil -%}
-                      {{ doc.title }}
-                    {%- else -%}
-                      <a href="{{ doc_url }}">
-                        {{ doc.title }}
-                      </a>
-                    {%- endif -%}
-                    {% if doc_page.status %}<div class="d-inline page-status"> {{ doc_page.status }}</div>{% endif %}
-                  </h4>
-                  {%- if doc_page.description -%}
-                    <p>{{ doc_page.description | smartify }}</p>
-                  {%- endif -%}
-
+    <footer class="space--sm footer-5 bg--dark">
+      <div class="container">
+        <div class="row mb--1">
+          <div class="col-12">
+            <h1>Browse By Project Name</h1>
+            <p class="lead" style="display: none;"></p>
+          </div>
+        </div>
+        <div class="row mb--2">
+          {%- assign browse-by_data = site.data.browse-by.slug -%}
+          <div class="col-md-12">
+            <div class="heading-block">
+              <ul class="list-inline list--hover">
+                {%- for item in browse-by_data.items -%}
+                  {%- assign item_url = item.title | slugify | append: '/' | prepend: browse-by_data.slug_prefix | prepend: '/' | prepend: site.baseurl -%}
+                  <li>
+                    <a href="{{ item_url }}" class="lead"><span>{{ item.title | smartify }}</span></a>
+                  </li>
                 {%- endfor -%}
               </ul>
-              {% endunless %}
+            </div>
+          </div>
+        </div><!--end of row-->
+      </div><!--end of container-->
+    </footer>
 
-            {%- endfor -%}
-            {% endunless %}
-          {%- endfor -%}
+    {% include footer.html %}
 
-          {% include footer.html %}
-        </main>
-      </div>
-    </div>
+  </div>
 
-    {% include scripts.html %}
-  </body>
+  {% include scripts.html %}
+  <script src="{{ site.baseurl }}/assets/js/granim.min.js">
+  </script>
+</body>
 </html>
