@@ -1,1 +1,20 @@
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body data-smooth-scroll-offset="77">
+
+  {% include navbar.html %}
+
+  <div class="main-container">
+
+    {{ content }}
+
+    {% include footer.html %}
+
+  </div>
+
+  {% include scripts.html %}
+</body>
+</html>

@@ -4,7 +4,6 @@
   {% include header.html %}
 </head>
 <body data-smooth-scroll-offset="77">
-  {%- assign page_slug = page.url | split: '/' | last -%}
   {%- case page_slug -%}
     {%- when 'community' -%}
       {%- assign superprogram = "Community" -%}
