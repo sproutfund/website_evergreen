@@ -35,7 +35,7 @@ by-the-numbers:
     data:    "$41,000"
 
 acknowledgements:
-  - title: "Key Staff"
+  - title: "Key Program Staff"
     items:
       - "Mac Howison"
       - "Ryan Coon"

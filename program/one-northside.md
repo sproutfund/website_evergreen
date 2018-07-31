@@ -29,7 +29,7 @@ by-the-numbers:
     data:    "43 totalling $405,000 for community groups and nonprofit agencies"
 
 acknowledgements:
-  - title: "Key Staff"
+  - title: "Key Program Staff"
     items:
       - "Mac Howison, 2015-2017"
       - "Diana Avart, 2015-2018"

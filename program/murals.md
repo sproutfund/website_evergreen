@@ -33,7 +33,7 @@ by-the-numbers:
     data:    "67"
 
 acknowledgements:
-  - title: "Key Staff"
+  - title: "Key Program Staff"
     items:
       - "Morton Brown, 2003-2007"
       - "Curt Gettman, 2007-2013"

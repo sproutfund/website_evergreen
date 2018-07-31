@@ -24,7 +24,7 @@ by-the-numbers:
     data:    "$6,200"
 
 acknowledgements:
-  - title: "Key Staff"
+  - title: "Key Program Staff"
     items:
       - "Cathy Lewis Long, 2001-2002"
       - "Matt Hannigan, 2001-2004"

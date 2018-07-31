@@ -29,7 +29,7 @@ by-the-numbers:
     data:    "500+"
 
 acknowledgements:
-  - title: "Key Staff"
+  - title: "Key Program Staff"
     items:
       - "Ani Martinez"
       - "Tricia Monticello Kievlan"
@@ -100,7 +100,7 @@ highlights:
           - image: "/photos/programs/rec2tech/demo-party_5.jpg"
           - image: "/photos/programs/rec2tech/demo-party_6.jpg"
 
-  - title: "Lasting Impact"
+  - title: "Broader Impact"
     description:
     sections:
 
