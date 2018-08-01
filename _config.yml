@@ -20,6 +20,7 @@ exclude:
   - .github/
   - _vendor/
   - _photos_src/
+  - node_modules/
   - CODE_OF_CONDUCT.md
   - composer.json
   - Gemfile
