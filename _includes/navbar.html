@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <a href="{{ site.url }}{{ site.baseurl }}"><img alt="logo" class="logo logo-dark" src="{{ site.baseurl }}/assets/img/sproutfund_black.svg"> <img alt="logo" class="logo logo-light" src="{{ site.baseurl }}/assets/img/sproutfund_white.svg"></a>
+          <a href="{{ '/' | relative_url }}"><img alt="logo" class="logo logo-dark" src="{{ '/assets/img/sproutfund_black.svg' | relative_url }}"> <img alt="logo" class="logo logo-light" src="{{ '/assets/img/sproutfund_white.svg' | relative_url }}"></a>
         </div>
         <div class="col-6 text-right">
           <a class="hamburger-toggle" data-toggle-class="#menu2;hidden-xs hidden-sm" href="#"><i class="icon icon--sm stack-interface stack-menu"></i></a>
@@ -26,10 +26,10 @@
                       <div class="dropdown__content col-lg-2">
                         <ul class="menu-vertical">
                           <li>
-                            <a href="{{ site.baseurl }}/about/ideals/">Ideals</a>
+                            <a href="{{ '/about/ideals/' | relative_url }}">Ideals</a>
                           </li>
                           <li>
-                            <a href="{{ site.baseurl }}/about/history/">History</a>
+                            <a href="{{ '/about/history/' | relative_url }}">History</a>
                           </li>
                           <li>
                             <a class="type--fade" title="in development">Team</a>
@@ -453,27 +453,29 @@
         <div class="col-12 col-md-4 text-center hidden-xs">
           <div class="bar__module">
             {% unless page.url == "/" %}
-              <a href="{{ site.url }}{{ site.baseurl }}"><img alt="logo" class="logo logo-dark" src="{{ site.baseurl }}/assets/img/sproutfund_black.svg"> <img alt="logo" class="logo logo-light" src="{{ site.baseurl }}/assets/img/sproutfund_white.svg"></a>
+              <a href="{{ '/' | relative_url }}"><img alt="logo" class="logo logo-dark" src="{{ '/assets/img/sproutfund_black.svg' | relative_url }}"> <img alt="logo" class="logo logo-light" src="{{ '/assets/img/sproutfund_white.svg' | relative_url }}"></a>
             {% endunless %}
           </div><!--end module-->
         </div>
         <div class="col-12 col-md-4 text-right">
-          <div class="bar__module">
-            <ul class="social-list list-inline list--hover">
-              <li class="list-inline-item">
-                <a target="_blank" title="Twitter" href="https://twitter.com/sproutfund"><i class="socicon socicon-twitter icon icon--xs"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" title="Facebook" href="https://www.facebook.com/sproutfund"><i class="socicon socicon-facebook icon icon--xs"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" title="Instagram" href="https://www.instagram.com/sproutfund/"><i class="socicon socicon-instagram icon icon--xs"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" title="Github" href="https://github.com/sproutfund/"><i class="socicon socicon-github icon icon--xs"></i></a>
-              </li>
-            </ul>
-          </div>
+          {%- if page_slug != 'search' -%}
+            <div class="bar__module">
+              <form action="/website_evergreen/search/" method="get" id="searchbar">
+                <div class="input-icon">
+                  <i class="material-icons">search</i>
+                  <input type="search" placeholder="Search projects &amp; programs" name="query" />
+                </div>
+              </form>
+              <style type="text/css">
+                .bar--transparent #searchbar {
+                  opacity: 0.6;
+                }
+                .bar--transparent #searchbar:focus-within {
+                  opacity: 1;
+                }
+              </style>
+            </div>
+          {%- endif -%}
         </div>
       </div><!--end of row-->
     </div><!--end of container-->
