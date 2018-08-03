@@ -17,3 +17,105 @@ ul:not([class*='menu']) li.current > a {
     margin-bottom: 0;
   }
 }
+
+#hits > .ais-hits > .ais-hits--item > .ais-hits--item--header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.92857143em;
+}
+#hits > .ais-hits > .ais-hits--item > .ais-hits--item--header > a:link > span {
+  display: inline-block;
+  margin-left: 0.46428571em;
+}
+#hits > .ais-hits > .ais-hits--item > .ais-hits--item--header > a:link {
+  text-decoration: none;
+}
+#hits > .ais-hits > .ais-hits--item > .ais-hits--item--header > a:link > h4,
+#hits > .ais-hits > .ais-hits--item > .ais-hits--item--header > h4 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+#hits > .ais-hits > .ais-hits--item:not(:last-child) {
+  margin-bottom: 1.85714286em;
+  padding-bottom: 1.85714286em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.label.facet-count {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #666666;
+  text-transform: uppercase;
+  height: 25px;
+  min-width: 20px;
+  padding: 0 5px;
+  text-align: center;
+  border-radius: 9px;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  background: #FFFFFF;
+  margin-left: .5rem;
+}
+
+.input-radio--innerlabel label {
+  height: 2.78571429em;
+  line-height: 2.50714286em;
+  padding: 0 0.92857143em;
+}
+
+.ais-toggle--label.active,
+.ais-refinement-list--item__active .ais-refinement-list--label {
+  font-weight: bold;
+}
+
+.ais-refinement-list--item .input-radio--innerlabel {
+  margin-top: 0.46428571em;
+  /*margin-right: 0.46428571em;
+  float: left;*/
+}
+
+.ais-toggle--label,
+.ais-refinement-list--item .input-radio--innerlabel .ais-refinement-list--label {
+  font-size: 0.85714286em;
+}
+
+.ais-toggle--label {
+  cursor: pointer;
+}
+
+button.btn.ais-range-input--submit {
+  padding: 0 10px;
+  margin-left: 0.46428571em;
+}
+
+#hits em {
+  font-style: normal;
+  background-color: #FFFF99;
+}
+
+.ais-search-box--reset-wrapper button.ais-search-box--reset {
+  display: none;
+}
+
+.pagination__prev {
+  margin-right: .5rem;
+}
+.pagination__next {
+  margin-left: .5rem;
+}
+
+.ais-show-more {
+  cursor: pointer;
+}
+
+.sidebar__widget:not(:last-child) {
+  margin-bottom: 2.7857142825em;
+}
+
+.feature img.border--round {
+  border: 1px solid #ECECEC;
+}
