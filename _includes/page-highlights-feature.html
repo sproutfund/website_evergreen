@@ -13,11 +13,8 @@
 {%- if feature.grant-id -%}
   {%- assign grant = site.data.grants | where: 'grant-id',feature.grant-id | first -%}
   {%- unless feature_image -%}
-    {%- if grant.type == 'mural' -%}
-      {%- assign feature_image = grant.project-slug | prepend: '/photos/murals/' | append: '.jpg' -%}
-    {%- else -%}
-      {%- assign feature_image = grant.project-slug | prepend: '/photos/projects/' | append: '.jpg' -%}
-    {%- endif -%}
+    {%- include grants/image.html -%}
+    {%- assign feature_image = grant_image -%}
   {%- endunless -%}
   {%- unless feature_name -%}
     {%- assign feature_name = grant.project-name -%}
@@ -34,7 +31,11 @@
     {%- assign feature_description = grant.full-description | newline_to_br | append: grant_website -%}
   {%- endunless -%}
   {% include grants/addon.html %}
+  {%- assign feature_slug = grant.project-slug -%}
 {%- endif -%}
+{%- unless feature_slug -%}
+  {%- assign feature_slug = feature_name | slugify -%}
+{%- endunless -%}
 <div class="col-md-4">
   <div class="feature"
     {%- if feature_image -%}
@@ -45,7 +46,7 @@
   >
     {%- if feature_description -%}
       <div class="modal-instance">
-        <a class="modal-trigger" href="#">
+        <a class="modal-trigger" href="#{{ feature_slug }}">
           {%- if feature_image -%}
             <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
           {%- endif -%}
@@ -56,8 +57,8 @@
         {%- if feature_summary -%}
           <p>{{ feature_summary | smartify }}</p>
         {%- endif -%}
-        <div class="modal-container">
-          <div class="modal-content">
+        <div class="modal-container" data-modal-id="{{feature_slug}}">
+          <div class="modal-content section-modal">
             <section class="imageblock feature-large bg--site border--round">
               <div class="imageblock__content col-lg-5 col-md-4 pos-left">
                 <div class="background-image-holder">
