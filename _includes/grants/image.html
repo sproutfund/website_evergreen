@@ -1,0 +1,18 @@
+{%- comment -%}
+finds the photo (if available) for a grant
+should be placed within a grant forloop
+  {%- include grants/image.html -%}
+  "returns" grant_image
+{%- endcomment -%}
+{%- unless static_files_paths -%}
+  {%- assign static_files_paths = site.static_files | map: "path" -%}
+{%- endunless -%}
+{%- if grant.featured == "TRUE" -%}
+  {%- if static_files_paths contains grant.photo -%}
+    {%- assign grant_image = grant.photo -%}
+  {%- else -%}
+    {%- assign grant_image = "/photos/!placeholder.png" -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign grant_image = grant.program | slugify | prepend: "/logos/" | append: ".png" -%}
+{%- endif -%}

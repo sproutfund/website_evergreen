@@ -1,3 +1,9 @@
+{%- comment -%}
+prints the standard grant addon info
+should be placed within a grant forloop
+  {%- include grants/addon.html -%}
+  "returns" grant_addon
+{%- endcomment -%}
 {%- assign grant_amount_numeric = grant.amount-numeric | to_integer -%}
 {%- capture grant_addon -%}
   {% if grant_amount_numeric > 0 %}{{ grant.amount }}{% endif %}{% if grant_count_numeric > 1 %} via {{ grant.count }} grants{% endif %}{% if grant_amount_numeric > 0 and grant.organizations %} » {% endif %}{% if grant.organizations %}{{ grant.organizations }}{% endif %}{% if grant_amount_numeric > 0 or grant.organizations %}, {% endif %}{{ grant.year-display }} {{ grant.program }} {{ grant.type }}
