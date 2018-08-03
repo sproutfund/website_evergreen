@@ -5,6 +5,7 @@ title: "Community Murals"
 subtitle: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
 description: "From 2003 to 2010, The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art."
 logo: "/logos/murals.png"
+superprogram: "Public Art"
 
 cover-image:
   source: "/photos/covers/murals.jpg"
@@ -46,12 +47,22 @@ funders:
   items:
     - "NEED TO ADD"
 
+years:
+  - 2003
+  - 2004
+  - 2005
+  - 2006
+  - 2007
+  - 2008
+  - 2009
+  - 2010
+
 context:
   heading: "Combining Community and Public Art"
   details:
     - "The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art."
     - "Launched in 2003, the community murals program was modeled after successful similar efforts in Philadelphia and other cities across the country. Through support from local foundations and corporations, Sprout enhanced the visual landscape of neighborhoods in Pittsburgh and the surrounding communities of Allegheny County—creating an always-open “museum without walls” of local artworks."
-    - "The program’s collaborative dialogue and design process excelled at considering the people of the community, their history, and their vision for the future. The program also raised awareness about the important role that local artists can have in shaping communities, encouraging dialogue between communities and artists while contributing to neighborhood development. The program concluded in 2010 after largely achieving its goals of creating cooridors, concentrations, and coverage of murals throughout the area."
+    - "The program’s collaborative dialogue and design process excelled at considering the people of the community, their history, and their vision for the future. The program also raised awareness about the important role that local artists can have in shaping communities, encouraging dialogue between communities and artists while contributing to neighborhood development. The program concluded in 2010 after largely achieving its goals of creating corridors, concentrations, and coverage of murals throughout the area."
     - "Conceived as long-lasting works, the murals were painted using materials with a 20-year lifespan. However, as many murals were created in communities already in a state of change, some of Sprout's most prominent murals were later removed or lost to redevelopment."
 
 highlights:

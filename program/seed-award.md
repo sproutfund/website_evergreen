@@ -5,6 +5,7 @@ title: "Seed Award"
 subtitle: "Providing support when just a small amount of investment has the potential to yield big results in the community."
 description: "Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community."
 logo: "/logos/seed-award.png"
+superprogram: "Community"
 
 cover-image:
   source: "/photos/projects/album-art-of-mozelle-thompson.jpg"
@@ -38,6 +39,21 @@ funders:
   title: "Supporters"
   items:
     - "NEED TO ADD"
+
+years:
+  - 2001
+  - 2002
+  - 2003
+  - 2004
+  - 2005
+  - 2006
+  - 2007
+  - 2008
+  - 2009
+  - 2010
+  - 2011
+  - 2012
+  - 2013
 
 context:
   heading: "Seeding Transformative Change"
