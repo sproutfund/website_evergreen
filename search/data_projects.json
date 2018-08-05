@@ -23,6 +23,8 @@
   {%- assign grant_keywords = grant.keywords | split: ", " -%}
   {
     "objectID"    : "{{ grant.grant-id }}",
+    "lastUpdated" : {{ site.time | date: "%s"}},
+    "recordType"  : "project",
     "featured"    : {{ grant_featured }},
     "year"        : {{ grant.year-display | to_integer }},
     "name"        : "{{ grant.project-name | smartify }}",

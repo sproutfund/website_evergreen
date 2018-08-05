@@ -16,6 +16,8 @@
   {%- assign program_keywords = program.keywords | split: ", " -%}
   {
     "objectID"    : "!program_{{ program_slug }}",
+    "lastUpdated" : {{ site.time | date: "%s"}},
+    "recordType"  : "program",
     "featured"    : true,
     "year"        : [{{ program_years_list }}],
     "name"        : "{{ program_name | smartify }}",
