@@ -6,6 +6,7 @@ subtitle: "Improving the quality of life for residents in all 18 neighborhoods o
 description: "One Northside was a community-driven initiative to improve the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside. Sprout provided $553,000 to 187 projects over 3 years from 2015 to 2017."
 logo: "/logos/one-northside.png"
 superprogram: "Community"
+keywords: ""
 
 cover-image:
   source: "/photos/covers/one-northside.jpg"
@@ -13,11 +14,33 @@ cover-image:
   subcaption: "June 2015"
 
 video:
-  url: "https://player.vimeo.com/video/219520743?autoplay=1&title=0&byline=0&portrait=0"
-  thumbnail: "/photos/video_thumbnails/one-northside.jpg"
+  url: "https://player.vimeo.com/video/219520743?autoplay=1#t=2s&title=0&byline=0&portrait=0"
+  thumbnail: "/photos/video_thumbnails/one-northside1.jpg"
   title:   "Neighbors seeding change on Pittsburgh’s Northside"
   caption: "Learn more about One Northside and Sprout's microgrant program for residents."
   duration: "5½ minutes"
+
+acknowledgements:
+  - title: "Supporters"
+    items:
+      - "The Buhl Foundation"
+  - title: "Partners"
+    items:
+      - "Carnegie Library of Pittsburgh"
+      - "Grassroots Grantmakers"
+      - "ioby"
+      - "Jackson/Clark Partners"
+      - "New Sun Rising"
+  - title: "Staff"
+    items:
+      - "Mac Howison"
+      - "Diana Avart"
+      - "Amber Farr|Buhl Foundation Fellow"
+
+years:
+  - 2015
+  - 2016
+  - 2017
 
 by-the-numbers:
   - heading: "Years Active"
@@ -28,30 +51,6 @@ by-the-numbers:
     data:    "144 totalling $148,000 for local residents"
   - heading: "Other Grants"
     data:    "43 totalling $405,000 for community groups and nonprofit agencies"
-
-acknowledgements:
-  - title: "Key Program Staff"
-    items:
-      - "Mac Howison, 2015-2017"
-      - "Diana Avart, 2015-2018"
-      - "Amber Farr, Buhl Foundation Fellow"
-  - title: "Partners"
-    items:
-      - "Carnegie Library of Pittsburgh"
-      - "Grassroots Grantmakers"
-      - "ioby"
-      - "Jackson/Clark Partners"
-      - "New Sun Rising"
-
-funders:
-  title: "Supporters"
-  items:
-    - "The Buhl Foundation"
-
-years:
-  - 2015
-  - 2016
-  - 2017
 
 context:
   heading: "Promoting Resident-led Change"

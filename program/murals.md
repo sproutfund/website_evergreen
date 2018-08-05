@@ -6,6 +6,7 @@ subtitle: "Enhancing the urban landscape of Pittsburgh and surrounding communiti
 description: "From 2003 to 2010, The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art."
 logo: "/logos/murals.png"
 superprogram: "Public Art"
+keywords: ""
 
 cover-image:
   source: "/photos/covers/murals.jpg"
@@ -13,11 +14,33 @@ cover-image:
   subcaption: "2006"
 
 video:
-  url: "https://www.youtube.com/embed/JmNWGHqg0gM?rel=0&showinfo=0&autoplay=1"
+  url: "https://player.vimeo.com/video/47045579?autoplay=1#t=2s&title=0&byline=0&portrait=0"
   thumbnail: "/photos/video_thumbnails/murals.jpg"
   title:   "Sprout Public Art 2003–2010 Video Retrospective"
   caption: "Learn more about Sprout's process for creating community murals and the goals of the program."
   duration: "4 minutes"
+
+acknowledgements:
+  - title: "Supporters"
+    items:
+      - "NEED TO ADD"
+  - title: "Partners"
+    items:
+      - "NEED TO ADD"
+  - title: "Staff"
+    items:
+      - "Morton Brown|2003-2007"
+      - "Curt Gettman|2007-2013"
+
+years:
+  - 2003
+  - 2004
+  - 2005
+  - 2006
+  - 2007
+  - 2008
+  - 2009
+  - 2010
 
 by-the-numbers:
   - heading: "Years Active"
@@ -32,30 +55,6 @@ by-the-numbers:
     data:    "48"
   - heading: "Jury Members Engaged"
     data:    "67"
-
-acknowledgements:
-  - title: "Key Program Staff"
-    items:
-      - "Morton Brown, 2003-2007"
-      - "Curt Gettman, 2007-2013"
-  - title: "Partners"
-    items:
-      - "NEED TO ADD"
-
-funders:
-  title: "Supporters"
-  items:
-    - "NEED TO ADD"
-
-years:
-  - 2003
-  - 2004
-  - 2005
-  - 2006
-  - 2007
-  - 2008
-  - 2009
-  - 2010
 
 context:
   heading: "Combining Community and Public Art"

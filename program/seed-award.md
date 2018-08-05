@@ -6,39 +6,26 @@ subtitle: "Providing support when just a small amount of investment has the pote
 description: "Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community."
 logo: "/logos/seed-award.png"
 superprogram: "Community"
+keywords: ""
 
 cover-image:
   source: "/photos/projects/album-art-of-mozelle-thompson.jpg"
   caption: "The Album Art of Mozelle Thompson"
   subcaption: "$3,500 » Jason Molyneaux & Bloomfield-Garfield Corp., 2014"
 
-by-the-numbers:
-  - heading: "Years Active"
-    data:    "2001–2014"
-  - heading: "Total Grantmaking"
-    data:    "$1.9 million"
-  - heading: "Applications Received"
-    data:    "2,100+"
-  - heading: "Funded Projects"
-    data:    "302"
-  - heading: "Average Grant Size"
-    data:    "$6,200"
-
 acknowledgements:
-  - title: "Key Program Staff"
+  - title: "Supporters"
     items:
-      - "Cathy Lewis Long, 2001-2002"
-      - "Matt Hannigan, 2001-2004"
-      - "Mac Howison, 2004-2014"
-      - "Sandra Hartkopf, 2012-2014"
+      - "NEED TO ADD"
   - title: "Partners"
     items:
       - "NEED TO ADD"
-
-funders:
-  title: "Supporters"
-  items:
-    - "NEED TO ADD"
+  - title: "Staff"
+    items:
+      - "Cathy Lewis Long|2001-2002"
+      - "Matt Hannigan|2001-2004"
+      - "Mac Howison|2004-2014"
+      - "Sandra Hartkopf|2012-2014"
 
 years:
   - 2001
@@ -54,6 +41,18 @@ years:
   - 2011
   - 2012
   - 2013
+
+by-the-numbers:
+  - heading: "Years Active"
+    data:    "2001–2014"
+  - heading: "Total Investment"
+    data:    "$1.9 million"
+  - heading: "Applications Received"
+    data:    "2,100+"
+  - heading: "Funded Projects"
+    data:    "302"
+  - heading: "Average Grant Size"
+    data:    "$6,200"
 
 context:
   heading: "Seeding Transformative Change"

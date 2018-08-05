@@ -6,6 +6,7 @@ subtitle: "Transforming community spaces into technology learning centers for Pi
 description: "During a one-week demonstration in September 2016, The Sprout Fund worked with the City of Pittsburgh and educators from the Remake Learning Network to transform 5 city-owned recreation centers into technology-enhanced STEAM learning centers."
 logo: "/logos/rec2tech.png"
 superprogram: "Learning"
+keywords: ""
 
 cover-image:
   source: "/photos/covers/rec2tech.jpg"
@@ -19,26 +20,11 @@ video:
   caption: "Learn more about the program partners and activities during the demonstration week in September 2016."
   duration: "4½ minutes"
 
-by-the-numbers:
-  - heading: "Demonstration Week"
-    data:    "September 12–17, 2016"
-  - heading: "Community Centers Transformed"
-    data:    "5"
-  - heading: "Youth Engaged"
-    data:    "105"
-  - heading: "Public Celebration Attendees"
-    data:    "500+"
-
 acknowledgements:
-  - title: "Key Program Staff"
+  - title: "Supporters"
     items:
-      - "Ani Martinez"
-      - "Tricia Monticello Kievlan"
-      - "Dustin Stiver"
-      - "Arielle Evans"
-      - "Ryan Coon"
-      - "Lizzy Nolin"
-      - "Njaimeh Njie, production assistant"
+      - "Comcast NBCUniversal"
+      - "John D. and Catherine T. MacArthur Foundation"
   - title: "Partners"
     items:
       - "City of Pittsburgh Office of the Mayor"
@@ -52,14 +38,27 @@ acknowledgements:
       - "TechShop"
       - "YMCA Lighthouse Project"
       - "Remake Learning"
-
-funders:
-  title: "Supporters"
-  items:
-    - "Comcast NBCUniversal"
-    - "John D. and Catherine T. MacArthur Foundation"
+  - title: "Staff"
+    items:
+      - "Ani Martinez"
+      - "Tricia Monticello Kievlan"
+      - "Dustin Stiver"
+      - "Arielle Evans"
+      - "Ryan Coon"
+      - "Lizzy Nolin"
+      - "Njaimeh Njie|production assistant"
 
 years: 2016
+
+by-the-numbers:
+  - heading: "Demonstration Week"
+    data:    "September 12–17, 2016"
+  - heading: "Community Centers Transformed"
+    data:    "5"
+  - heading: "Youth Engaged"
+    data:    "105"
+  - heading: "Public Celebration Attendees"
+    data:    "500+"
 
 context:
   heading: "Meeting Kids Where They Are"

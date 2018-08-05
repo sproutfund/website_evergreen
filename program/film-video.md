@@ -9,6 +9,7 @@ subtitle: "A special funding opportunity in 2013 for Pittsburgh’s community of
 description: "In late 2013, The Sprout Fund provided catalytic support to catalyze the creation or completion of new and innovative community-based projects that took the form of short or feature-length films, documentaries, online videos, and multimedia experiences. 3 projects were selected to receive the $10,000 awards and 6 received $1,000 honorable mentions."
 logo: "/logos/film-video.png"
 superprogram: "Community"
+keywords: ""
 
 cover-image:
   source: "/photos/covers/film-video.jpg"
@@ -23,6 +24,24 @@ video:
   caption: "Sprout shared this video to request proposals for film and video projects and encourage the public to cast their votes."
   duration: "2 minutes"
 
+acknowledgements:
+  - title: "Supporters"
+    items:
+      - "The Hillman Foundation"
+      - "The Fisher Fund of The Pittsburgh Foundation"
+      - "The Pittsburgh Foundation"
+  - title: "Partners"
+    items:
+      - "Pittsburgh Filmmakers/Pittsburgh Center for the Arts"
+      - "Hollywood Theater Dormont"
+  - title: "Staff"
+    items:
+      - "Mac Howison"
+      - "Ryan Coon"
+      - "Matt Hannigan"
+
+years: 2013
+
 by-the-numbers:
   - heading: "Year Active"
     data:    "2013"
@@ -34,26 +53,6 @@ by-the-numbers:
     data:    "10"
   - heading: "Total Funding Support"
     data:    "$41,000"
-
-acknowledgements:
-  - title: "Key Program Staff"
-    items:
-      - "Mac Howison"
-      - "Ryan Coon"
-      - "Matt Hannigan"
-  - title: "Partners"
-    items:
-      - "Pittsburgh Filmmakers/Pittsburgh Center for the Arts"
-      - "Hollywood Theater Dormont"
-
-funders:
-  title: "Supporters"
-  items:
-    - "The Hillman Foundation"
-    - "The Fisher Fund of The Pittsburgh Foundation"
-    - "The Pittsburgh Foundation"
-
-years: 2013
 
 context:
   heading: "Supporting community innovation through filmmmaking"
