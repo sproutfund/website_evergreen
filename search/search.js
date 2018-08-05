@@ -114,7 +114,7 @@ window.addEventListener('load', function() {
       attributeName: 'program',
       operator: 'or',
       limit: 10,
-      sortBy: ['count:desc'],
+      sortBy: ['isRefined','count:desc'],
       showMore: {
         templates: {
           active: '<a class="ais-show-more ais-show-more__active" title="show less">less<i class="icon icon--xs stack-up-dir"></i></a>',
@@ -134,7 +134,7 @@ window.addEventListener('load', function() {
       container: '#filter_type',
       attributeName: 'type',
       operator: 'or',
-      sortBy: ['count:desc'],
+      sortBy: ['isRefined','count:desc'],
       templates: {
         item: checkboxRefinementListTemplate,
         header: '<h5>Grant Type</h5>'
