@@ -21,9 +21,9 @@
           <h1>{{ page.video.title | smartify }}</h1>
           <p class="lead">{{ page.video.caption | smartify }}</p>
           <div class="modal-instance block">
-            <div class="video-play-icon video-play-icon--sm modal-trigger"></div><span><strong>Watch the video</strong>&nbsp;&nbsp;&nbsp;<i class="icon color--white material-icons" style="font-size: 1.25rem">timer</i>&nbsp;{{ page.video.duration }}</span>
+            <div class="video-play-icon video-play-icon--sm modal-trigger"></div><span><strong>Watch the video</strong>&nbsp;&nbsp;&nbsp;<i class="icon color--white material-icons" style="font-size: 1.25rem; position: relative; top: 0.2rem;">timer</i>&nbsp;{{ page.video.duration }}</span>
             <div class="modal-container">
-              <div class="modal-content bg-dark" data-height="80%" data-width="80%">
+              <div class="modal-content" data-height="80%" data-width="80%">
                 <iframe allowfullscreen="allowfullscreen" data-src="{{ page.video.url }}"></iframe>
               </div>
             </div>

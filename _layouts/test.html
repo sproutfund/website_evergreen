@@ -8,8 +8,8 @@
       <div class="row">
 
         <main id="content" class="col-12 d-print-block col-print-12 px-print-0 py-print-0" role="main">
-          {%- include published_pages.html -%}
-          <code>{{ published_pages_urls | jsonify }}</code>
+          {%- assign static_files_paths = site.static_files | map: "path" -%}
+          <code>{{ static_files_paths | jsonify }}</code>
         </main>
       </div>
     </div>
