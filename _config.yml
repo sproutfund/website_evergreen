@@ -30,6 +30,7 @@ exclude:
   - package-lock.json
   - README.md
   - LICENSE.md
+  - TO-DO.md
   - sache.json
   - twbsconfig.yml
   - scripts
