@@ -1,37 +1,6 @@
 ---
 ---
 {{ "[" }}
-{%- assign published_pages = site.pages | where_exp: "page","page.sitemap != false" -%}
-{%- assign published_programs = published_pages | where: "layout","program" -%}
-{%- for program in published_programs -%}
-  {%- assign program_name = program.title -%}
-  {%- assign program_slug = program.url | split: '/' | last -%}
-  {%- assign program_years_list = program.years | join: ", " -%}
-  {%- if program_years_list contains ', ' -%}
-    {%- assign program_years_range = program.years.first | append: '–' | append: program.years.last -%}
-  {%- else -%}
-    {%- assign program_years_range = program_years_list -%}
-  {%- endif -%}
-  {%- assign program_description = program.context.details | join: " " -%}
-  {
-    "objectID"    : "!program_{{ program_slug }}",
-    "featured"    : true,
-    "year"        : [{{ program_years_list }}],
-    "name"        : "{{ program_name | smartify }}",
-    "slug"        : "{{ program_slug }}",
-    "description" : "{{ program_description }}",
-    "summary"     : "{{ program.subtitle | smartify }}",
-    "orgs"        : "",
-    "amount"      : 0,
-    "addon"       : "{{ program_years_range }}, {{ program.superprogram }} program",
-    "superprogram": "{{ program.superprogram }}",
-    "program"     : "{{ program_name | smartify }}",
-    "type"        : "",
-    "firstletter" : "",
-    "image"       : "{{ '/logos/' | append: program_slug | append: '.png' | relative_url | prepend: 'https://sproutfund.github.io' }}",
-    "url"         : "{{ program.url | relative_url | prepend: 'https://sproutfund.github.io' }}"
-  },
-{%- endfor -%}
 {%- assign filtered_grants = site.data.grants | where: "show-hide","show" -%}
 {%- assign static_files_paths = site.static_files | map: "path" -%}
 {%- for grant in filtered_grants -%}
@@ -51,6 +20,7 @@
   {%- else -%}
     {%- assign grant_type = grant.type -%}
   {%- endif -%}
+  {%- assign grant_keywords = grant.keywords | split: ", " -%}
   {
     "objectID"    : "{{ grant.grant-id }}",
     "featured"    : {{ grant_featured }},
@@ -66,6 +36,7 @@
     "program"     : "{{ grant_program }}",
     "type"        : "{{ grant_type }}",
     "firstletter" : "{{ grant.first-letter }}",
+    "keywords"    : {{ grant_keywords | jsonify }},
     "image"       : "{{ grant_image | relative_url | prepend: 'https://sproutfund.github.io' }}",
     "url"         : "{{ grant.url-evergreen | relative_url | prepend: 'https://sproutfund.github.io' }}"
   }{%- unless forloop.last -%},{%- endunless -%}

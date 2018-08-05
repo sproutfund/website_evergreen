@@ -1,0 +1,37 @@
+---
+---
+{{ "[" }}
+{%- assign published_pages = site.pages | where_exp: "page","page.sitemap != false" -%}
+{%- assign published_programs = published_pages | where: "layout","program" -%}
+{%- for program in published_programs -%}
+  {%- assign program_name = program.title -%}
+  {%- assign program_slug = program.url | split: '/' | last -%}
+  {%- assign program_years_list = program.years | join: ", " -%}
+  {%- if program_years_list contains ', ' -%}
+    {%- assign program_years_range = program.years.first | append: '–' | append: program.years.last -%}
+  {%- else -%}
+    {%- assign program_years_range = program_years_list -%}
+  {%- endif -%}
+  {%- assign program_description = program.context.details | join: " " -%}
+  {%- assign program_keywords = program.keywords | split: ", " -%}
+  {
+    "objectID"    : "!program_{{ program_slug }}",
+    "featured"    : true,
+    "year"        : [{{ program_years_list }}],
+    "name"        : "{{ program_name | smartify }}",
+    "slug"        : "{{ program_slug }}",
+    "description" : "{{ program_description }}",
+    "summary"     : "{{ program.subtitle | smartify }}",
+    "orgs"        : "",
+    "amount"      : 0,
+    "addon"       : "{{ program_years_range }}, {{ program.superprogram }} program",
+    "superprogram": "{{ program.superprogram }}",
+    "program"     : "{{ program_name | smartify }}",
+    "type"        : "",
+    "firstletter" : "",
+    "keywords"    : {{ program_keywords | jsonify }},
+    "image"       : "{{ '/logos/' | append: program_slug | append: '.png' | relative_url | prepend: 'https://sproutfund.github.io' }}",
+    "url"         : "{{ program.url | relative_url | prepend: 'https://sproutfund.github.io' }}"
+  }{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+{{ "]" }}
