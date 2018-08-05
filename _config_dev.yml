@@ -1,0 +1,53 @@
+# Server
+exclude:
+  - .bundle/
+  - .git/
+  - .github/
+  - _vendor/
+  - _photos_src/
+  - node_modules/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE.md
+  - sache.json
+  - twbsconfig.yml
+  - "*.bak"
+  - about/
+#  - assets/
+  - downloads/
+#  - logos/
+#  - photos/
+#  - program/
+  - projects/
+#  - search/data_projects.json
+  - search/data_programs.json
+#  - theme/
+  - videos/
+#  - year/
+#  - index.md
+
+plugins:
+  - github-pages
+#  - jekyll-redirect-from
+#  - jekyll-relative-links
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+  - jemoji
+
+sass:
+  style: full
+
+page_gen-dirs: true
+
+page_gen:
+  - data: "grants"
+    template: "grant"
+    name: "grant-id"
+    extension: "txt"
+    filter_condition: "record['show-hide'] == 'show'"
