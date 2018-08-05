@@ -1,0 +1,108 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body data-smooth-scroll-offset="77">
+
+  {% include navbar.html %}
+
+  <div id="project-modals">
+    {%- for i in (0..19) -%}
+      <div class="modal-instance block" id="project-modal-{{i}}">
+        <div class="modal-container" data-modal-id="project-modal-{{i}}">
+          <div class="modal-content section-modal">
+            <section class="cover height-70 imagebg border--round" data-overlay="3">
+              <div class="modal-close modal-close-cross"></div>
+              <div class="background-image-holder"><img class="projectImage" alt="background" src="{{site.baseurl}}/photos/!placeholder.png"></div>
+              <div class="container pos-vertical-center">
+                <div class="row">
+                  <div class="col-md-7 col-lg-5">
+                    <div class="pl-5">
+                      <h2 class="projectName">{% raw %}{{name}}{% endraw %}</h2>
+                      <p class="projectSummary lead">{% raw %}{{summary}}{% endraw %}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  <div class="main-container">
+
+    <section class="pt-3">
+      <div class="container">
+        <div class="row flex-row-reverse justify-content-between">
+          <div class="col-8" id="results">
+            <div class="row">
+              <div class="col-12">
+                <form>
+                  <div class="input-icon">
+                    <i class="material-icons">search</i>
+                    <input type="text" name="q" id="q"/>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-6 text-left">
+                <div class="type--fine-print type--fade" id="stats">
+                </div>
+              </div>
+              <div class="col-6 text-right">
+                <span class="type--fine-print type--fade">Search powered by <a class="ais-search-box--powered-by-link" href="https://www.algolia.com/?utm_source=instantsearch.js&amp;utm_medium=website&amp;utm_content=localhost&amp;utm_campaign=poweredby" target="_blank">Algolia</a></span>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12">
+                <div id="hits"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div id="custom-pagination-container"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4" id="filters">
+            <div class="row justify-content-start">
+              <div class="col-10">
+                <div class="boxed boxed--border boxed--sm bg--secondary">
+                  <div class="sidebar__widget" id="filter_featured">
+                  </div>
+                  <div class="sidebar__widget" id="filter_year">
+                  </div>
+                  <div class="sidebar__widget" id="filter_superprogram">
+                  </div>
+                  <div class="sidebar__widget" id="filter_program">
+                  </div>
+                  <div class="sidebar__widget" id="filter_type">
+                  </div>
+                  <div class="sidebar__widget" id="filter_amount">
+                  </div>
+                  <div id="clear-all">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--end of row-->
+      </div><!--end of container-->
+    </section>
+
+  </div>
+
+  {% include scripts.html %}
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.includes"></script>
+  <script src="https://cdn.jsdelivr.net/react/15.5.4/react.min.js" async></script>
+  <script src="https://cdn.jsdelivr.net/react/15.5.4/react-dom.min.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.9.0"></script>
+  <script src="search.js"></script>
+</body>
+</html>
