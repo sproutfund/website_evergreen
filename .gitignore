@@ -45,10 +45,13 @@ twbsconfig.yml
 
 # Folders to ignore
 node_modules
-js/coverage
+_plugins
 
 # Ignore Theme Files
 theme
 
 # Ignore Source Photos
 _photos_src
+
+# Ignore Source Videos
+_videos_src
