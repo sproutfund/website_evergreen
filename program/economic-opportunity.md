@@ -16,7 +16,7 @@ cover-image:
 
 video:
   url: "https://player.vimeo.com/video/275110417?autoplay=1&title=0&byline=0&portrait=0"
-  thumbnail: "/photos/video_thumbnails/economic-opportunity1.jpg"
+  thumbnail: "/photos/video_thumbnails/economic-opportunity.jpg"
   title: "Expanding Economic Opportunity in Pittsburgh"
   caption: ""
   duration: "6 minutes"
