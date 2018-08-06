@@ -35,7 +35,7 @@
     "amount"      : {{ grant.amount | replace: '$','' | replace: ',','' | to_integer }},
     "addon"       : "{{ grant.project-addon | smartify }}",
     "superprogram": "{{ grant.superprogram }}",
-    "program"     : "{{ grant_program }}",
+    "program"     : "{{ grant_program | smartify }}",
     "type"        : "{{ grant_type }}",
     "firstletter" : "{{ grant.first-letter }}",
     "keywords"    : {{ grant_keywords | jsonify }},

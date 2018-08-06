@@ -6,6 +6,7 @@ subtitle: "Developing digital literacy skills to enable youth to thrive in schoo
 description: ""
 logo: "/logos/digital-corps.png"
 superprogram: "Learning"
+program: "Digital Corps"
 keywords: ""
 
 cover-image:

@@ -4,7 +4,11 @@
 {%- assign published_pages = site.pages | where_exp: "page","page.sitemap != false" -%}
 {%- assign published_programs = published_pages | where: "layout","program" -%}
 {%- for program in published_programs -%}
-  {%- assign program_name = program.title -%}
+  {%- if program.program -%}
+    {%- assign program_name = program.program -%}
+  {%- else -%}
+    {%- assign program_name = program.title -%}
+  {%- endif -%}
   {%- assign program_slug = program.url | split: '/' | last -%}
   {%- assign program_years_list = program.years | join: ", " -%}
   {%- if program_years_list contains ', ' -%}
