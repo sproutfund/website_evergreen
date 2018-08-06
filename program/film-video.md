@@ -115,18 +115,14 @@ highlights:
 
   - title: "Programmatic Activities"
     description:
-    sections:
+    features:
 
-      - title:
-        description:
-        features:
+      - name:  "Screening Party"
+        summary: "Sprout and PF/PCA hosted a free public screening of competition shorts at Pittsburgh Filmmakers Melwood Theater where trailers and short promotional films made by the applicants were shown to a supportive community audience."
 
-          - name:  "Screening Party"
-            summary: "Sprout and PF/PCA hosted a free public screening of competition shorts at Pittsburgh Filmmakers Melwood Theater where trailers and short promotional films made by the applicants were shown to a supportive community audience."
+      - name:  "Public Voting"
+        summary: "Members of the public were invited to view shorts and trailers for the submitted videos on a special page of the Sprout website, where they could vote for their favorites."
 
-          - name:  "Public Voting"
-            summary: "Members of the public were invited to view shorts and trailers for the submitted videos on a special page of the Sprout website, where they could vote for their favorites."
-
-          - name:  "Jury"
-            summary: "Winning projects were selected by a seven-person jury that included members Seed Award committee members, representatives of the film and video community, and experts in film and video creation, production, and management."
+      - name:  "Jury"
+        summary: "Winning projects were selected by a seven-person jury that included members Seed Award committee members, representatives of the film and video community, and experts in film and video creation, production, and management."
 ---
