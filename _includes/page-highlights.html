@@ -10,23 +10,34 @@
         </div>
       </div>
     </div>
-    {%- for section in highlight.sections -%}
+    {%- if highlight.features -%}
       <div class="container">
-        <div class="row mb--1">
-          <div class="col-12">
-            <hr>
-            <h2>{{ section.title | smartify }}</h2>
-            {%- for description_para in section.description -%}
-              <p class="lead">{{ description_para | smartify }}</p>
-            {%- endfor -%}
-          </div>
-        </div>
         <div class="row mb--2">
-          {%- for feature in section.features -%}
+          {%- for feature in highlight.features -%}
             {% include page-highlights-feature.html %}
           {%- endfor -%}
         </div>
       </div>
-    {%- endfor -%}
+    {%- endif -%}
+    {%- if highlight.sections -%}
+      {%- for section in highlight.sections -%}
+        <div class="container">
+          <div class="row mb--1">
+            <div class="col-12">
+              <hr>
+              <h2>{{ section.title | smartify }}</h2>
+              {%- for description_para in section.description -%}
+                <p class="lead">{{ description_para | smartify }}</p>
+              {%- endfor -%}
+            </div>
+          </div>
+          <div class="row mb--2">
+            {%- for feature in section.features -%}
+              {% include page-highlights-feature.html %}
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    {%- endif -%}
   </section>
 {%- endfor -%}
