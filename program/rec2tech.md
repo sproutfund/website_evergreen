@@ -104,22 +104,18 @@ highlights:
 
   - title: "Broader Impact"
     description:
-    sections:
+    features:
+      - name:  "White House Event"
+        image: "/photos/programs/rec2tech/white-house-event.jpg"
+        summary: "In May 2016, the White House Office of Science & Technology Policy convened more than a dozen cities to take the first steps toward building a nationwide movement to expand access to new and innovative learning opportunities for students living in under-resourced and disadvantaged communities through local Rec2Tech initiatives. Sprout helped lead and coordinate this event."
 
-      - title:
-        description:
-        features:
-          - name:  "White House Event"
-            image: "/photos/programs/rec2tech/white-house-event.jpg"
-            summary: "In May 2016, the White House Office of Science & Technology Policy convened more than a dozen cities to take the first steps toward building a nationwide movement to expand access to new and innovative learning opportunities for students living in under-resourced and disadvantaged communities through local Rec2Tech initiatives. Sprout helped lead and coordinate this event."
+      - name:  "National League of Cities Event"
+        image: "/photos/programs/rec2tech/national-league-of-cities-event.jpg"
+        summary: "In November 2016, Pittsburgh hosted the National League of Cities annual conference. More than 40 leaders from cities across the United States and Canada attended a “mobile workshop” that showcased Pittsburgh’s Rec2Tech demonstration project. Students from Ormbsy Recreation Center attended the event and participated in mini-sessions from each the five Rec2Tech funded projects."
 
-          - name:  "National League of Cities Event"
-            image: "/photos/programs/rec2tech/national-league-of-cities-event.jpg"
-            summary: "In November 2016, Pittsburgh hosted the National League of Cities annual conference. More than 40 leaders from cities across the United States and Canada attended a “mobile workshop” that showcased Pittsburgh’s Rec2Tech demonstration project. Students from Ormbsy Recreation Center attended the event and participated in mini-sessions from each the five Rec2Tech funded projects."
-
-          - name:  "Report & Recommendations"
-            image: "/photos/programs/rec2tech/report.jpg"
-            link:  "local://downloads/rec2tech/rec2tech-report_web.pdf"
-            summary: "The Sprout Fund produced a report documenting the demonstration project from planning to evaluation. It also included recommendations for replicating similar Rec2Tech programs in other communities."
+      - name:  "Report & Recommendations"
+        image: "/photos/programs/rec2tech/report.jpg"
+        link:  "local://downloads/rec2tech/rec2tech-report_web.pdf"
+        summary: "The Sprout Fund produced a report documenting the demonstration project from planning to evaluation. It also included recommendations for replicating similar Rec2Tech programs in other communities."
 
 ---
