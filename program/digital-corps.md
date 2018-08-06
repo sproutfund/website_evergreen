@@ -42,15 +42,15 @@ by-the-numbers:
   - heading: "Years Active"
     data:    "2014–2015"
   - heading: "Adult Mentors Trained"
-    data:    "59"
+    data:    "82"
   - heading: "Afterschool Host Sites"
-    data:    "37"
+    data:    "53"
   - heading: "Hours of Workshops"
     data:    "500+"
   - heading: "Youth Engaged in Programs"
     data:    "500+"
   - heading: "Youth Participants in Spot Engagements"
-    data:    "500+"
+    data:    "1,000+"
 
 context:
   heading: "Empowering youth through free digital literacy programming"
