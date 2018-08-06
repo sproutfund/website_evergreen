@@ -18,7 +18,7 @@ video:
   url: "https://player.vimeo.com/video/275110417?autoplay=1&title=0&byline=0&portrait=0"
   thumbnail: "/photos/video_thumbnails/economic-opportunity.jpg"
   title: "Expanding Economic Opportunity in Pittsburgh"
-  caption: ""
+  caption: "Learn more about the process and funded projects for 2018 Sprout Seed Award for Economic Opportunity."
   duration: "6 minutes"
 
 acknowledgements:
