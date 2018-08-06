@@ -19,25 +19,40 @@ highlights:
           - name:  "Seed Award"
             image: "/photos/projects/album-art-of-mozelle-thompson.jpg"
             link:  "local://program/seed-award/"
-            summary: "Providing support when just a small amount of investment has the potential to yield big results in the community."
+            summary: "Providing support when just a small investment has the potential to yield big results in the community."
 
           - name:  "One Northside"
             image: "/photos/covers/one-northside.jpg"
             link:  "local://program/one-northside/"
             summary: "Improving the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside."
 
+          - name:  "Economic Opportunity"
+            image: "/photos/covers/economic-opportunity.jpg"
+            link:  "local://program/economic-opportunity/"
+            summary: "Supporting collaborative approaches that expand economic opportunity for all."
+
           - name:  "Film & Video"
             image: "/photos/covers/film-video.jpg"
             link:  "local://program/film-video/"
-            summary: "Showcasing and supporting Pittsburgh’s community of filmmakers, videographers, and multimedia artists and their work."
+            summary: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
 
       - title: "Learning Innovation"
         description:
         features:
+          - name: "The Digital Corps"
+            image: "/photos/covers/digital-corps.jpg"
+            link:  "local://program/digital-corps/"
+            summary: "Developing digital literacy skills to enable youth to thrive in school, college, and the workforce."
+
           - name: "Rec2Tech"
             image: "/photos/covers/rec2tech.jpg"
             link:  "local://program/rec2tech/"
             summary: "Transforming community spaces into technology learning centers for Pittsburgh youth."
+
+          - name: "Open Badges Summit"
+            image: "/photos/covers/open-badges-summit.jpg"
+            link:  "local://program/open-badges-summit/"
+            summary: "Setting the course for the next evolution to assess learning and recognize skills and competencies."
 
       - title: "Public Art"
         description:
