@@ -7,12 +7,12 @@ should be placed within a grant forloop
 {%- unless static_files_paths -%}
   {%- assign static_files_paths = site.static_files | map: "path" -%}
 {%- endunless -%}
-{%- if grant.featured == "TRUE" -%}
-  {%- if static_files_paths contains grant.photo -%}
-    {%- assign grant_image = grant.photo -%}
-  {%- else -%}
-    {%- assign grant_image = "/photos/!placeholder.png" -%}
-  {%- endif -%}
+{%- if static_files_paths contains grant.photo -%}
+  {%- assign grant_image = grant.photo -%}
 {%- else -%}
-  {%- assign grant_image = grant.program | slugify | prepend: "/logos/" | append: ".png" -%}
+  {%- if grant.featured == "TRUE" -%}
+    {%- assign grant_image = "/photos/!placeholder.png" -%}
+  {%- else -%}
+    {%- assign grant_image = grant.program | slugify | prepend: "/logos/" | append: ".png" -%}
+  {%- endif -%}
 {%- endif -%}
