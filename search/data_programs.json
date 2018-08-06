@@ -3,6 +3,9 @@
 {{ "[" }}
 {%- assign published_pages = site.pages | where_exp: "page","page.sitemap != false" -%}
 {%- assign published_programs = published_pages | where: "layout","program" -%}
+{%- if site.algolia-index.program -%}
+  {%- assign published_programs = published_programs | where: "program",site.algolia-index.program -%}
+{%- endif -%}
 {%- for program in published_programs -%}
   {%- if program.program -%}
     {%- assign program_name = program.program -%}

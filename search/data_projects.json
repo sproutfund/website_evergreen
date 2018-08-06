@@ -2,6 +2,9 @@
 ---
 {{ "[" }}
 {%- assign filtered_grants = site.data.grants | where: "show-hide","show" -%}
+{%- if site.algolia-index.program -%}
+  {%- assign filtered_grants = filtered_grants | where: "program",site.algolia-index.program -%}
+{%- endif -%}
 {%- assign static_files_paths = site.static_files | map: "path" -%}
 {%- for grant in filtered_grants -%}
   {%- include grants/image.html -%}
