@@ -18,11 +18,15 @@
           ">
             <h3>{{ column.title }}</h3>
             <ul>
-              {%- for item in column.items -%}
-                {%- assign item_front = item | split: '|' | first | strip -%}
-                {%- assign item_back  = item | split: '|' | last  | strip -%}
-                <li>{{ item_front | smartify }}{% if item_back != item_front %} <span class="type--fine-print type--fade type--italic ">{{ item_back | smartify }}</span>{%- endif -%}</li>
-              {%- endfor -%}
+              {%- if column.items[0] == 'NEED TO ADD' -%}
+                <li><span style="background-color: #FFFF99; color: black; padding: 0 0.5rem;">NEED TO ADD</span></li>
+              {%- else -%}
+                {%- for item in column.items -%}
+                  {%- assign item_front = item | split: '|' | first | strip -%}
+                  {%- assign item_back  = item | split: '|' | last  | strip -%}
+                  <li>{{ item_front | smartify }}{% if item_back != item_front %} <span class="type--fine-print type--fade type--italic ">{{ item_back | smartify }}</span>{%- endif -%}</li>
+                {%- endfor -%}
+              {%- endif -%}
             </ul>
           </div>
         {%- endfor -%}
