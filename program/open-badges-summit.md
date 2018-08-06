@@ -11,7 +11,7 @@ keywords: ""
 
 cover-image:
   source: "/photos/covers/open-badges-summit.jpg"
-  caption: "Summit attendees network in between plenary and working group sessions"
+  caption: "Summit attendees network between plenary and working group sessions"
   subcaption: "NestGSV, February 2014"
   credit: "photo: Ben Filio"
 
@@ -84,6 +84,9 @@ by-the-numbers:
     data:    "300+"
   - heading: "Commitments Announced"
     data:    "11"
+  - heading: "Session Recordings"
+    data:    "Available on Vimeo"
+    link:    "https://vimeo.com/album/5334664"
 
 context:
   heading: "Growing the Open Badges Ecosystem"
@@ -103,31 +106,31 @@ highlights:
         description:
           - "The event began with opening remarks from the venue partners, Karen Cator, Executive Director of Digital Promise and Kayvan Baroumand, founder of NestGSV. Throughout the rest of the morning and early afternoon, a series of speakers and panels took the stage on different topics in the badge ecosystem."
         features:
-          - name: "Cathy Lewis Long from The Sprout Fund"
+          - summary: "Cathy Lewis Long from The Sprout Fund"
             image: "/photos/programs/open-badges-summit/speaker_cathy-lewis-long.jpg"
 
-          - name: "Connie Yowell from MacArthur Foundation"
+          - summary: "Connie Yowell from MacArthur Foundation"
             image: "/photos/programs/open-badges-summit/speaker_connie-yowell.jpg"
 
-          - name: "David Theo Goldberg from HASTAC"
+          - summary: "David Theo Goldberg from HASTAC"
             image: "/photos/programs/open-badges-summit/speaker_david-theo-goldberg.jpg"
 
-          - name: "Mark Surman from Mozilla"
+          - summary: "Mark Surman from Mozilla"
             image: "/photos/programs/open-badges-summit/speaker_mark-surman.jpg"
 
-          - name: "Erin Knight from Mozilla"
+          - summary: "Erin Knight from Mozilla"
             image: "/photos/programs/open-badges-summit/speaker_erin-knight.jpg"
 
-          - name: "Nichole Pinkard from DePaul University"
+          - summary: "Nichole Pinkard from DePaul University"
             image: "/photos/programs/open-badges-summit/speaker_nichole-pinkard.jpg"
 
-          - name: "Elizabeth Swanson from the Office of Chicago Mayor Rahm Emanuel"
+          - summary: "Elizabeth Swanson from the Office of Chicago Mayor Rahm Emanuel"
             image: "/photos/programs/open-badges-summit/speaker_elizabeth-swanson.jpg"
 
-          - name: "Tim Riches from DigitalMe"
+          - summary: "Tim Riches from DigitalMe"
             image: "/photos/programs/open-badges-summit/speaker_tim-riches.jpg"
 
-          - name: "Michael Strautmanis from Disney"
+          - summary: "Michael Strautmanis from Disney"
             image: "/photos/programs/open-badges-summit/speaker_michael-strautmanis.jpg"
 
       - title: "Day 2"
