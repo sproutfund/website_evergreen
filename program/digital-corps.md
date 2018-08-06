@@ -91,17 +91,9 @@ highlights:
         description:
           - "From teaching artists to librarians to engineers, the Digital Corps included artists, educators, librarians, and technologists who dedicated their time to enhance their own digital literacy skills and help convey them to eager learners."
         features:
-          - name:  "Louise"
-            image: "/photos/programs/digital-corps/mentor_louise.jpg"
-            summary:
-
-          - name:  "Jomari"
-            image: "/photos/programs/digital-corps/mentor_jomari.jpg"
-            summary:
-
-          - name:  "Matthew"
-            image: "/photos/programs/digital-corps/mentor_matthew.jpg"
-            summary:
+          - image: "/photos/programs/digital-corps/mentor_louise.jpg"
+          - image: "/photos/programs/digital-corps/mentor_jomari.jpg"
+          - image: "/photos/programs/digital-corps/mentor_matthew.jpg"
 
       - title: "Spot Engagements"
         description:
