@@ -23,10 +23,13 @@
     {%- assign feature_summary = grant.short-statement -%}
   {%- endunless -%}
   {%- unless feature_description -%}
+
     {%- if grant.website -%}
       {%- capture grant_website -%}
         <br/><br/><a href="{{ grant.website }}" target="_blank">{{ grant.website }}</a>
       {%- endcapture -%}
+    {%- else -%}
+      {%- assign grant_website = grant.website -%}
     {%- endif -%}
     {%- assign feature_description = grant.full-description | newline_to_br | append: grant_website -%}
   {%- endunless -%}
