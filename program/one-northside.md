@@ -15,7 +15,7 @@ cover-image:
 
 video:
   url: "https://player.vimeo.com/video/219520743?autoplay=1#t=2s&title=0&byline=0&portrait=0"
-  thumbnail: "/photos/video_thumbnails/one-northside1.jpg"
+  thumbnail: "/photos/video_thumbnails/one-northside.jpg"
   title:   "Neighbors seeding change on Pittsburgh’s Northside"
   caption: "Learn more about One Northside and Sprout's microgrant program for residents."
   duration: "5½ minutes"
