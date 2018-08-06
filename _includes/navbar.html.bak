@@ -51,15 +51,15 @@
                       <div class="dropdown__content col-lg-12">
                         <div class="row">
                           <div class="col-lg-3">
-                            <h5>By&nbsp;Focus</h5>
+                            <h5>By&nbsp;Strategy</h5>
                             <ul class="menu-vertical">
-                              {%- for item in site.data.browse-by.focus.items -%}
+                              {%- for item in site.data.browse-by.strategy.items -%}
                                 {%- if item.slug -%}
                                   {%- assign item_slug = item.slug -%}
                                 {%- else -%}
                                   {%- assign item_slug = item.title | slugify -%}
                                 {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.focus.slug_prefix | prepend: '/' -%}
+                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.strategy.slug_prefix | prepend: '/' -%}
                                 {%- assign item_exists = false -%}
                                 {%- if published_pages_urls contains item_url -%}
                                   {%- assign item_exists = true -%}

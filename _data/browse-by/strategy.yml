@@ -1,6 +1,6 @@
-plural:      "Focus Areas"
-singular:    "Focus"
-slug_prefix: "focus/"
+plural:      "Strategies"
+singular:    "Strategy"
+slug_prefix: "strategy/"
 items:
 
   - title: "Catalytic Funding"
