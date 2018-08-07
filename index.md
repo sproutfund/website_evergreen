@@ -67,6 +67,11 @@ highlights:
             link:  "local://program/murals/"
             summary: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
 
+          - name: "Belonging"
+            image: "/photos/programs/belonging.jpg"
+            link:  "local://program/belonging/"
+            summary: "A community art project affirming that Pittsburgh is a place where we all belong."
+
   - title: "Browse By Year"
     description:
       - "Many year pages are still in development. Here's what's available so far."
