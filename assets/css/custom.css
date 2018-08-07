@@ -119,3 +119,26 @@ button.btn.ais-range-input--submit {
 .feature img.border--round {
   border: 1px solid #ECECEC;
 }
+
+ul.acknowledgements-list li {
+  line-height: 1.3rem;
+  margin-bottom: 0.65714286rem;
+}
+
+.feature img + p {
+  margin-top: -1.392857145rem;
+}
+
+.feature a:link h4 .material-icons.feature-link-icon {
+  position: relative;
+  top: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.feature a:hover {
+  color: #252525;
+}
+
+.feature a.modal-trigger {
+  cursor: zoom-in;
+}
