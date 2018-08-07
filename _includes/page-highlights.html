@@ -1,48 +1,56 @@
 {%- for highlight in page.highlights -%}
   <section class="{% cycle 'bg--white', 'bg--secondary' %}">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mb--1">
-          <h1>{{ highlight.title }}</h1>
-          {%- for description_para in highlight.description -%}
-            <p class="lead">{{ description_para | smartify }}</p>
-          {%- endfor -%}
-        </div>
-      </div>
-    </div>
-    {%- if highlight.features -%}
+    {%- if highlight.include_file -%}
+      {% include {{ highlight.include_file }} %}
+    {%- else -%}
       <div class="container">
-        <div class="row mb--1">
-          <div class="col-12">
-            <hr>
+        <div class="row">
+          <div class="col-md-12 mb--1">
+            <h1>{{ highlight.title }}</h1>
+            {%- for description_para in highlight.description -%}
+              <p class="lead">{{ description_para | smartify }}</p>
+            {%- endfor -%}
           </div>
         </div>
-        <div class="row mb--2">
-          {%- for feature in highlight.features -%}
-            {% include page-highlights-feature.html %}
-          {%- endfor -%}
-        </div>
       </div>
-    {%- endif -%}
-    {%- if highlight.sections -%}
-      {%- for section in highlight.sections -%}
+      {%- if highlight.features -%}
         <div class="container">
           <div class="row mb--1">
             <div class="col-12">
               <hr>
-              <h2>{{ section.title | smartify }}</h2>
-              {%- for description_para in section.description -%}
-                <p class="lead">{{ description_para | smartify }}</p>
-              {%- endfor -%}
             </div>
           </div>
           <div class="row mb--2">
-            {%- for feature in section.features -%}
+            {%- for feature in highlight.features -%}
               {% include page-highlights-feature.html %}
             {%- endfor -%}
           </div>
         </div>
-      {%- endfor -%}
+      {%- endif -%}
+      {%- if highlight.sections -%}
+        {%- for section in highlight.sections -%}
+          {%- if section.include_file -%}
+            {% include {{ section.include_file }} %}
+          {%- else -%}
+            <div class="container">
+              <div class="row mb--1">
+                <div class="col-12">
+                  <hr>
+                  <h2>{{ section.title | smartify }}</h2>
+                  {%- for description_para in section.description -%}
+                    <p class="lead">{{ description_para | smartify }}</p>
+                  {%- endfor -%}
+                </div>
+              </div>
+              <div class="row mb--2">
+                {%- for feature in section.features -%}
+                  {% include page-highlights-feature.html %}
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
     {%- endif -%}
   </section>
 {%- endfor -%}
