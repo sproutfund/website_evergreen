@@ -1,0 +1,48 @@
+{%- if page.acknowledgements -%}
+  <section class="bg--dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb--1">
+          <h2>Acknowledgements</h2>
+          <p class="type--italic">Thank you to all those who made this {{ page.layout }} possible!</p>
+        </div>
+      </div>
+      <div class="row">
+        {%- for column in page.acknowledgements -%}
+          {%- if column.width -%}
+            {%- assign column_width = column.width -%}
+          {%- else -%}
+            {%- assign column_width = "col-12 col-md-4" -%}
+          {%- endif -%}
+          <div class="{{ column_width }}">
+            {%- if column.divided -%}
+              <div class="row">
+                <div class="col-12">
+                  <h3>{{ column.title }}</h3>
+                </div>
+              </div>
+              <div class="row">
+                {%- for list in column.divided -%}
+                  <div class="col">
+                    {%- assign list_items = list.items -%}
+                    {% include page-acknowledgements-list.html %}
+                  </div>
+                {%- endfor -%}
+              </div>
+            {%- elsif column.stacked -%}
+              {%- for list in column.stacked -%}
+                <h3>{{ list.title }}</h3>
+                {%- assign list_items = list.items -%}
+                {% include page-acknowledgements-list.html %}
+              {%- endfor -%}
+            {%- else -%}
+              <h3>{{ column.title }}</h3>
+              {%- assign list_items = column.items -%}
+              {% include page-acknowledgements-list.html %}
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+{%- endif -%}
