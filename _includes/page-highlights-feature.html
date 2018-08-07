@@ -2,12 +2,18 @@
 {%- assign feature_name  = feature.name -%}
 {%- assign feature_summary = feature.summary -%}
 {%- assign feature_description = feature.description -%}
+{%- assign feature_link = false -%}
+{%- assign feature_link_icon = false -%}
 {%- if feature.link -%}
   {%- assign feature_link = feature.link | replace_first: "local:/",site.baseurl -%}
-  {%- if feature.link contains "local:/" -%}
+  {%- if feature.link contains "local://downloads/" -%}
+    {%- assign feature_link_target = "_blank" -%}
+    {%- assign feature_link_icon = "save_alt" -%}
+  {%- elsif feature.link contains "local:/" -%}
     {%- assign feature_link_target = "_self" -%}
   {%- else -%}
     {%- assign feature_link_target = "_blank" -%}
+    {%- assign feature_link_icon = "launch" -%}
   {%- endif -%}
 {%- endif -%}
 {%- if feature.grant-id -%}
@@ -23,7 +29,6 @@
     {%- assign feature_summary = grant.short-statement -%}
   {%- endunless -%}
   {%- unless feature_description -%}
-
     {%- if grant.website -%}
       {%- capture grant_website -%}
         <br/><br/><a href="{{ grant.website }}" target="_blank">{{ grant.website }}</a>
@@ -94,7 +99,7 @@
         <img alt="{{ feature_name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
       {%- endif -%}
       {%- if feature_name -%}
-        <h4>{{ feature_name | smartify }}</h4>
+        <h4>{{ feature_name | smartify }}{%- if feature_link_icon -%}<i class="material-icons feature-link-icon">{{ feature_link_icon }}</i>{%- endif -%}</h4>
       {%- endif -%}
       {%- if feature_link -%}
         </a>
