@@ -3,7 +3,7 @@ layout: program
 redirect_from: /belonging
 title: "Belonging"
 subtitle: "A community art project affirming that Pittsburgh is a place where we all belong."
-description: ""
+description: "The Belonging Community Art Project created artwork to express the concept of “belonging” and advocating for a welcoming Pittsburgh to immigrants and refugees. Nearly 250 submissions of artwork were received, including many from local youth. Winners were selected through a combination of juried art processes and online voting that drew more than 14,000 votes. The winning design, by Bob Ziller, was produced as yard signs and posters that were distributed for free across the region."
 logo: "/logos/belonging.png"
 superprogram: "Public Art"
 program: "Belonging"
