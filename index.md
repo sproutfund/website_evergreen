@@ -31,6 +31,11 @@ highlights:
             link:  "local://program/100-days/"
             summary: "Empowering the people's agenda for the first 100 days of a new presidential administration."
 
+          - name:  "Spring"
+            image: "/photos/programs/spring.jpg"
+            link:  "local://program/spring/"
+            summary: "Supporting local, community-based biodiversity initiatives in and around Pittsburgh."
+
           - name:  "Economic Opportunity"
             image: "/photos/programs/economic-opportunity.jpg"
             link:  "local://program/economic-opportunity/"
