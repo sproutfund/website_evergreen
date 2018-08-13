@@ -21,7 +21,7 @@
         <div class="col-md-12 text-left text-md-center">
           <div class="m-0 mb-md-3"><span class="type--fine-print">Browse By {{ browse-by_data.singular }}</span></div>
           <div class="heading-block mb-3 mb-md-5">
-            <ul class="list-inline social-list list--hover">
+            <ul class="list-inline list--hover">
               {%- for item in browse-by_data.items -%}
                 {%- if item.slug -%}
                   {%- assign item_slug = item.slug -%}
