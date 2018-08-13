@@ -59,6 +59,11 @@ highlights:
             link:  "local://program/rec2tech/"
             summary: "Transforming community spaces into technology learning centers for Pittsburgh youth."
 
+          - name: "My Brother's Keeper"
+            image: "/photos/programs/my-brothers-keeper.jpg"
+            link:  "local://program/my-brothers-keeper/"
+            summary: "Addressing opportunity gaps for boys and young men of color from cradle to career."
+
           - name: "Open Badges Summit"
             image: "/photos/programs/open-badges-summit.jpg"
             link:  "local://program/open-badges-summit/"
