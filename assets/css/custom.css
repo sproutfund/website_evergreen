@@ -142,3 +142,12 @@ ul.acknowledgements-list li {
 .feature a.modal-trigger {
   cursor: zoom-in;
 }
+
+@media all and (max-width: 767px) {
+  .list-inline li.list-inline-item {
+    display: inline-block!important;
+  }
+  .list-inline li.list-inline-item:not(:last-child) {
+    margin-right: 1.3rem!important;
+  }
+}

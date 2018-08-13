@@ -37,7 +37,7 @@
                 {%- if page_slug == item_slug -%}
                   {%- assign item_current = true -%}
                 {%- endif -%}
-                <li {% if item_current %} class="current"{% endif %}>
+                <li class="list-inline-item {% if item_current %}current{% endif %}">
                   <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="{{ item_url}} is in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
                 </li>
               {%- endfor -%}
