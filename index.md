@@ -31,6 +31,11 @@ highlights:
             link:  "local://program/100-days/"
             summary: "Empowering the people's agenda for the first 100 days of a new presidential administration."
 
+          - name:  "Grand Ideas"
+            image: "/photos/programs/grand-ideas.jpg"
+            link:  "local://program/grand-ideas/"
+            summary: "Demonstrating how a good idea and a small amount of support can go a long way."
+
           - name:  "Spring"
             image: "/photos/programs/spring.jpg"
             link:  "local://program/spring/"
