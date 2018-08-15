@@ -12,7 +12,7 @@ keywords: ""
 cover-image:
   source: "/photos/covers/digital-corps.jpg"
   caption: "Teens programming Hummingbird Robotics Kits"
-  subcaption: "Bible Center Church, Homewood, 2014"
+  subcaption: "Bible Center Church in Homewood, 2014"
 
 video:
   url: "https://player.vimeo.com/video/134246465?autoplay=1&title=0&byline=0&portrait=0"

@@ -11,7 +11,7 @@ keywords: ""
 cover-image:
   source: "/photos/covers/rec2tech.jpg"
   caption: "Game Design with Carnegie Library of Pittsburgh"
-  subcaption: "Paulson Recreation Center, 2016"
+  subcaption: "Paulson Recreation Center, September 2016"
 
 video:
   url: "https://player.vimeo.com/video/190143250?autoplay=1&title=0&byline=0&portrait=0"

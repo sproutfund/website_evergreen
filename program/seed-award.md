@@ -10,8 +10,8 @@ keywords: ""
 
 cover-image:
   source: "/photos/projects/album-art-of-mozelle-thompson.jpg"
-  caption: "The Album Art of Mozelle Thompson"
-  subcaption: "$3,500 » Jason Molyneaux & Bloomfield-Garfield Corp., 2014"
+  caption: "Opening of The Album Art of Mozelle Thompson"
+  subcaption: "Penn Avenue Arts District, November 2014"
 
 acknowledgements:
   - title: "Supporters"

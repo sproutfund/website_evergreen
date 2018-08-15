@@ -13,7 +13,7 @@ keywords: ""
 
 cover-image:
   source: "/photos/covers/spring.jpg"
-  caption: "Students learn about the restoration of native plant species and the important role of pollinators"
+  caption: "Students learn about pollinators and native plant species"
   subcaption: "The Outdoor Classroom, May 2011"
   credit: "photo: Joey Kennedy"
 
