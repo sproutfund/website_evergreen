@@ -80,7 +80,7 @@
                       <div class="col-md-11 col-lg-10">
                         <h2>{{ feature_name | smartify }}</h2>
                         {% if grant_addon %}<p class="lead">{{ grant_addon | smartify }}</p>{% endif %}
-                        <p>{{ feature_description | smartify }}</p>
+                        <p>{{ feature_description | smartify }}{%- if jekyll.environment == "development" -%}<br/><br/><span class="type--fine-print">{{ feature_slug }}</span>{%- endif -%}</p>
                       </div><!--end of col-->
                     </div><!--end of row-->
                   </div>
