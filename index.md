@@ -54,6 +54,11 @@ highlights:
       - title: "Learning Innovation"
         description:
         features:
+          - name: "City of Learning"
+            image: "/photos/programs/city-of-learning.jpg"
+            link:  "local://program/city-of-learning/"
+            summary: "Recognizing learning and achievement anytime, anywhere with digital badges and enriching summer experiences."
+
           - name: "The Digital Corps"
             image: "/photos/programs/digital-corps.jpg"
             link:  "local://program/digital-corps/"
