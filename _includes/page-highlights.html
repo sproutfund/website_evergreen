@@ -6,10 +6,30 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb--1">
-            <h1>{{ highlight.title }}</h1>
+            {%- if highlight.video -%}
+              <div class="modal-instance block">
+                <h1>{{ highlight.title | smartify }}<a href="#{{ highlight.title | slugify }}--video"  class="btn btn--sm float-right modal-trigger" style="font-size: 1rem;"><span class="btn__text">Play Video</span></a></h1>
+                <div class="modal-container" data-modal-id="{{ highlight.title | slugify }}--video">
+                  <div class="modal-content" data-height="80%" data-width="80%">
+                    <iframe allowfullscreen="allowfullscreen" data-src="{{ section.video }}"></iframe>
+                  </div>
+                </div>
+              </div>
+            {%- else -%}
+              <h1>{{ highlight.title | smartify }}</h1>
+            {%- endif -%}
             {%- for description_para in highlight.description -%}
               <p class="lead">{{ description_para | smartify }}</p>
             {%- endfor -%}
+            {%- if highlight.video -%}
+              <div class="modal-instance block">
+                <div class="modal-container" data-modal-id="{{ highlight.title | slugify }}--video">
+                  <div class="modal-content" data-height="80%" data-width="80%">
+                    <iframe allowfullscreen="allowfullscreen" data-src="{{ highlight.video }}"></iframe>
+                  </div>
+                </div>
+              </div>
+            {%- endif -%}
           </div>
         </div>
       </div>
@@ -36,7 +56,18 @@
               <div class="row mb--1">
                 <div class="col-12">
                   <hr>
-                  <h2>{{ section.title | smartify }}</h2>
+                  {%- if section.video -%}
+                    <div class="modal-instance block">
+                      <h2>{{ section.title | smartify }}<a href="#{{ section.title | slugify }}--video"  class="btn btn--sm float-right modal-trigger" style="font-size: 1rem;"><span class="btn__text">Play Video</span></a></h2>
+                      <div class="modal-container" data-modal-id="{{ section.title | slugify }}--video">
+                        <div class="modal-content" data-height="80%" data-width="80%">
+                          <iframe allowfullscreen="allowfullscreen" data-src="{{ section.video }}"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  {%- else -%}
+                    <h2>{{ section.title | smartify }}</h2>
+                  {%- endif -%}
                   {%- for description_para in section.description -%}
                     <p class="lead">{{ description_para | smartify }}</p>
                   {%- endfor -%}

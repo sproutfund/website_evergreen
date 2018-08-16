@@ -191,10 +191,10 @@ highlights:
             summary: "Although developed independently, several working groups arrived at the same or similar competencies, many of which connect to 21st century learning and innovation skills."
 
       - title: "Pittsburgh Learning Pathways Summit"
+        video: "https://player.vimeo.com/video/118836439?autoplay=1&title=0&byline=0&portrait=0"
         description:
           - "In November 2014, Sprout hosted a large public forum to explore the potential for digital badges. The event featured a mixture of remarks from stage, panel discussions, table-based facilitation activities, science fair-style feedback stations, and an enthusiastic emcee."
           - "Attended by more than 300 educators and 100 high school students and supported by a local team of 35 facilitators, the event helped kick off a region-wide effort to reimagine how Pittsburgh might recognize and reward learning."
-          - "<a href='https://vimeo.com/118836439' target='_blank'>Watch the recap video on Vimeo.</a>"
         features:
           - image: "/photos/programs/city-of-learning/learning-pathways-summit_1.jpg"
           - image: "/photos/programs/city-of-learning/learning-pathways-summit_2.jpg"
@@ -204,10 +204,10 @@ highlights:
           - image: "/photos/programs/city-of-learning/learning-pathways-summit_6.jpg"
 
       - title: "Digital Badges Employers Forum"
+        video: "https://player.vimeo.com/video/141051521?autoplay=1&title=0&byline=0&portrait=0"
         description:
           - "In July 2015, Sprout hosted the Digital Badges Employers Forum, an event that convened representatives from more than 50 employers, government agencies, and workforce development organizations from across the region to discuss the opportunities and challenges surrounding digital badges."
           - "This event featured panel discussions and remarks from local leaders, including Pittsburgh Mayor Bill Peduto, and participation by representatives from key national partners including the MacArthur Foundation."
-          - "<a href='https://vimeo.com/141051521' target='_blank'>Watch the recap video on Vimeo.</a>"
         features:
           - image: "/photos/programs/city-of-learning/employers-forum_1.jpg"
           - image: "/photos/programs/city-of-learning/employers-forum_2.jpg"
