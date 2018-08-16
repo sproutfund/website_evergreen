@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: program
 redirect_from:
   - /city-of-learning
@@ -7,8 +6,8 @@ redirect_from:
   - /competencies
   - /lrng
 title: "City of Learning"
-subtitle: ""
-description: ""
+subtitle: "Recognizing learning and achievement anytime, anywhere with digital badges and enriching summer experiences."
+description: "The Sprout Fund worked with local and national partners to promote digital badges for learning from 2014 to 2016. More than 6,000 students across Pittsburgh and the surrounding communities of Allegheny County earned more than 8,000 digital badges through their participation in summer programs in schools, museums, libraries, and learning spaces across the city."
 logo: "/logos/city-of-learning.png"
 superprogram: "Learning"
 program: "City of Learning"
@@ -16,15 +15,15 @@ keywords: ""
 
 cover-image:
   source: "/photos/covers/city-of-learning.jpg"
-  caption: ""
-  subcaption: ""
-  credit: ""
+  caption: "Young Naturalists spend summer outdoors learning about the environment and gaining unique work experience"
+  subcaption: "Frick Park, July 2014"
+  credit: "photo: Ben Filio"
 
 video:
   url: "https://player.vimeo.com/video/160728893?autoplay=1&title=0&byline=0&portrait=0"
   thumbnail: "/photos/video_thumbnails/city-of-learning.jpg"
-  title: "Turning the Entire City into a Campus for Learning"
-  caption: "Look back at Pittsburgh City of Learning in 2015."
+  title: "Pittsburgh City of Learning Program Recap"
+  caption: "Looking back at how youth in Pittsburgh spent their summer 2015 learning new knowledge and skills and earning digital badges."
   duration: "4 minutes"
 
 acknowledgements:
@@ -77,7 +76,7 @@ by-the-numbers:
     link:    "https://medium.com/sprout-digital-badges"
 
 context:
-  heading: "Recognizing learning and achievement anytime, anywhere"
+  heading: "Turning the entire city into a campus for learning"
   details:
     - "From 2014 to 2016, The Sprout Fund worked with local and national partners to promote digital badges for learning. Like badges earned in scouting, digital badges recognize learning wherever and whenever it happens: in classrooms, in libraries, in city parks, and more."
     - "Sprout led local and national conversations about this new model’s potential to transform how employers and educators recognize and reward learning. It was closely aligned with our stewardship of the Remake Learning Network and its efforts to make remarkable learning opportunities available to all youth in the greater Pittsburgh region."
@@ -97,13 +96,13 @@ highlights:
           - "We also built relationships with 3 major citywide partners: our public school system, our public library system, and the local workforce investment board, which champions our region’s summer youth employment program."
           - "Finally, Sprout hosted several community events each summer to help build awareness of innovative learning activities available to youth and families throughout the city."
         features:
-          - name: "Carnegie Library of Pittsburgh"
+          - name: "The Labs @ CLP"
             grant-id: "2372-COL"
 
           - name: "Learn and Earn"
             grant-id: "2373-COL"
 
-          - name: "PPS Summer Dreamers"
+          - name: "Summer Dreamers"
             grant-id: "2371-COL"
 
           - name: "Learning Pathways Student Video Series"
@@ -111,11 +110,11 @@ highlights:
             summary: "Enabling local teens to gain hands-on experience in production by interviews with local badge innovators and experts on topics such as art/storytelling, engineering, environmental science, gaming, robotics, design and making, and entrepreneurship."
 
           - name: "Pop-Up Events"
-            image: "/photos/!placeholder.png"
+            image: "/photos/programs/city-of-learning/col-pop-up-events.jpg"
             summary: "Featuring a range of learning activities in a diversity of settings throughout the city of Pittsburgh and surrounding communities of Allegheny County, these pop-up events provided free and fun interest-driven learning opportunities to expand participation in Pittsburgh City of Learning."
 
           - name: "Formative Research"
-            image: "/photos/!placeholder.png"
+            image: "/photos/programs/city-of-learning/col-formative-research.jpg"
             summary: "University of Pittsburgh, Children's Museum of Pittsburgh, and Carnegie Mellon University collaborated to understand the effectiveness of local badge programs in terms of youth participation and interest development and how practitioners overcame the challenges associated with initiating digital badges."
 
       - title: "Badge-Enable Learning Pathways"
@@ -221,16 +220,16 @@ highlights:
           - "To help support the educators creating and issue digital badges, Sprout also offered hosted periodic “reporting parties” we we invited participating educators and organizations to look back on what worked and what didn’t."
         features:
           - name: "Digital Badge Lab"
-            image: "/photos/!placeholder.png"
+            image: "/photos/programs/city-of-learning/digital-badge-lab.jpg"
             summary: "We hosted awareness-building events to conversations among badge-curious educators and provoke them to think about incorporating digital badges into their own work."
 
           - name: "Helpdesk"
-            image: "/photos/!placeholder.png"
+            image: "/photos/programs/city-of-learning/col-helpdesk.jpg"
             summary: "We recruited a team of “helpdesk staff” to train and offer tech support to educators from participating organizations as they developed digital badges and navigated the online badge-issuing platform."
 
           - name: "Research & Reporting Party"
-            image: "/photos/!placeholder.png"
-            summary: "In addition to soliciting feedback through a survey for educators, Sprout hosted an the end-of-summer reporting party in order to capture stories from participants and celebrate partners’ work. Additionally, Sprout supported university researchers who documented and evaluated our work."
+            image: "/photos/programs/city-of-learning/col-reporting-party.jpg"
+            summary: "In addition to soliciting feedback through a survey for educators, Sprout hosted an the end-of-summer reporting party in order to capture stories from participants and celebrate partners’ work."
 
   - title: "Related Programs"
     description:
