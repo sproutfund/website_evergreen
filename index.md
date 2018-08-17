@@ -54,6 +54,11 @@ highlights:
       - title: "Learning Innovation"
         description:
         features:
+          - name: "Hive"
+            image: "/photos/programs/hive.jpg"
+            link:  "local://program/hive/"
+            summary: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school."
+
           - name: "City of Learning"
             image: "/photos/programs/city-of-learning.jpg"
             link:  "local://program/city-of-learning/"
