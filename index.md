@@ -31,6 +31,11 @@ highlights:
             link:  "local://program/100-days/"
             summary: "Empowering the people's agenda for the first 100 days of a new presidential administration."
 
+          - name:  "Community Connections"
+            image: "/photos/programs/community-connections.jpg"
+            link:  "local://program/community-connections/"
+            summary: "Celebrating Pittsburgh’s 250th anniversary by engaging citizens and contributing to regional “Pride & Progress.”"
+
           - name:  "Grand Ideas"
             image: "/photos/programs/grand-ideas.jpg"
             link:  "local://program/grand-ideas/"
