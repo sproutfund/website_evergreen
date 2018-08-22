@@ -1,0 +1,6 @@
+{%- if page.context.heading -%}
+<h2>{{ page.context.heading | smartify }}</h2>
+{%- endif -%}
+{%- for detail in page.context.details -%}
+  <p class="lead">{{ detail | smartify }}</p>
+{%- endfor -%}

@@ -1,0 +1,20 @@
+{%- if page.layout == 'program' -%}
+  <h3>Program In Brief</h3>
+{%- else -%}
+  <h3>{{ page_slug }} In Brief</h3>
+{%- endif -%}
+{%- for by-the-numbers_block in page.by-the-numbers -%}
+  {%- assign by-the-numbers_block_link = false -%}
+  {%- if by-the-numbers_block.link -%}
+    {%- assign by-the-numbers_block_link = by-the-numbers_block.link | replace_first: "local:/",site.baseurl -%}
+    {%- if by-the-numbers_block.link contains "local:/" -%}
+      {%- assign by-the-numbers_block_link_target = "_self" -%}
+    {%- else -%}
+      {%- assign by-the-numbers_block_link_target = "_blank" -%}
+    {%- endif -%}
+  {%- endif -%}
+  <div class="text-block">
+    <h5>{{ by-the-numbers_block.heading }}</h5>
+    <p>{%- if by-the-numbers_block_link -%}<a href="{{ by-the-numbers_block_link }}" target="{{ by-the-numbers_block_link_target }}">{%- endif -%}{{ by-the-numbers_block.data }}{%- if by-the-numbers_block_link -%}</a>{%- endif -%}</p>
+  </div>
+{%- endfor -%}

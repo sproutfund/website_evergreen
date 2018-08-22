@@ -25,7 +25,7 @@
                 {%- for list in column.divided -%}
                   <div class="col">
                     {%- assign list_items = list.items -%}
-                    {% include page-acknowledgements-list.html %}
+                    {% include page_parts/acknowledgements-list.html %}
                   </div>
                 {%- endfor -%}
               </div>
@@ -33,12 +33,12 @@
               {%- for list in column.stacked -%}
                 <h3>{{ list.title }}</h3>
                 {%- assign list_items = list.items -%}
-                {% include page-acknowledgements-list.html %}
+                {% include page_parts/acknowledgements-list.html %}
               {%- endfor -%}
             {%- else -%}
               <h3>{{ column.title }}</h3>
               {%- assign list_items = column.items -%}
-              {% include page-acknowledgements-list.html %}
+              {% include page_parts/acknowledgements-list.html %}
             {%- endif -%}
           </div>
         {%- endfor -%}
