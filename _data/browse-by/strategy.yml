@@ -5,10 +5,11 @@ items:
 
   - title: "Catalytic Funding"
 
-  - title: "Public Art & Murals"
-
   - title: "Networks & Community Building"
 
   - title: "Storytelling & Documentation"
+
+  - title: "Art with Community Engagement"
+    slug:  "art-community-engagement"
 
   - title: "Showcase & Creativity Events"

@@ -7,6 +7,36 @@ cover-image:
   source: "/photos/sprouts.jpg"
 
 highlights:
+  - title: "Strategies for Community Change"
+    description:
+      - "This is how we did it."
+    features:
+      - name:  "Catalytic Funding"
+        image: "/photos/strategies/catalytic-funding.jpg"
+        link:  "local://strategy/catalytic-funding/"
+        summary: "Seeding change through small grant programs."
+
+      - name:  "Networks & Community Building"
+        image: "/photos/strategies/networks-community-building.jpg"
+        link:  "local://strategy/networks-community-building/"
+        summary: "Helping people openly collaborate to achieve shared goals."
+
+      - name:  "Storytelling & Documentation"
+        image: "/photos/strategies/storytelling-documentation.jpg"
+        link:  "local://strategy/storytelling-documentation/"
+        summary: ""
+
+      - name:  "Art with Community Engagement"
+        image: "/photos/strategies/art-community-engagement.jpg"
+        link:  "local://strategy/art-community-engagement/"
+        summary: ""
+
+      - name:  "Showcase & Creativity Events"
+        image: "/photos/strategies/showcase-creativity-events.jpg"
+        link:  "local://strategy/showcase-creativity-events/"
+        summary: ""
+
+
   - title: "Browse By Program"
     description:
       - "Many program pages are still in development. Here's what's available so far."
