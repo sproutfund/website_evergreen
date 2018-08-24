@@ -45,6 +45,7 @@ twbsconfig.yml
 
 # Folders to ignore
 node_modules
+_assets_src
 
 # Ignore dev files
 _plugins

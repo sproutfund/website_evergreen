@@ -19,6 +19,7 @@ exclude:
   - .git/
   - .github/
   - _vendor/
+  - _assets_src/
   - _photos_src/
   - node_modules/
   - CODE_OF_CONDUCT.md
