@@ -136,18 +136,18 @@ highlights:
             link:  "local://program/belonging/"
             description: "A community art project affirming that Pittsburgh is a place where we all belong."
 
-  - title: "Browse By Year"
-    description:
-      - "Many year pages are still in development. Here's what's available so far."
-    sections:
-
-      - title:
-        description:
-        features:
-
-          - title: "2007"
-            image: "/photos/covers/2007.jpg"
-            link:  "local://year/2007/"
-            description: "The Sprout Fund invested in new ideas that responded to community requests for proposals and travelled across the region to cultivate projects in celebration of Pittsburgh’s 250th anniversary."
+#  - title: "Browse By Year"
+#    description:
+#      - "Many year pages are still in development. Here's what's available so far."
+#    sections:
+#
+#      - title:
+#        description:
+#        features:
+#
+#          - title: "2007"
+#            image: "/photos/covers/2007.jpg"
+#            link:  "local://year/2007/"
+#            description: "The Sprout Fund invested in new ideas that responded to community requests for proposals and travelled across the region to cultivate projects in celebration of Pittsburgh’s 250th anniversary."
 
 ---
