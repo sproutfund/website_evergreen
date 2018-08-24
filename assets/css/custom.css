@@ -151,3 +151,12 @@ ul.acknowledgements-list li {
     margin-right: 1.3rem!important;
   }
 }
+
+@media (min-width: 992px) {
+  section.highlight--big-picture .feature-2 i {
+    width: 15%;
+  }
+  section.highlight--big-picture .feature-2 .feature__body {
+    width: 85%;
+  }
+}
