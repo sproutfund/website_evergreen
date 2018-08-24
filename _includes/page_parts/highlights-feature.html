@@ -1,6 +1,6 @@
 {%- assign feature_image = feature.image -%}
-{%- assign feature_name  = feature.name -%}
-{%- assign feature_summary = feature.summary -%}
+{%- assign feature_title  = feature.title -%}
+{%- assign feature_description = feature.description -%}
 {%- assign feature_description = feature.description -%}
 {%- assign feature_link = false -%}
 {%- assign feature_link_icon = false -%}
@@ -22,11 +22,11 @@
     {%- include grants/image.html -%}
     {%- assign feature_image = grant_image -%}
   {%- endunless -%}
-  {%- unless feature_name -%}
-    {%- assign feature_name = grant.project-name -%}
+  {%- unless feature_title -%}
+    {%- assign feature_title = grant.project-name -%}
   {%- endunless -%}
-  {%- unless feature_summary -%}
-    {%- assign feature_summary = grant.short-statement -%}
+  {%- unless feature_description -%}
+    {%- assign feature_description = grant.short-statement -%}
   {%- endunless -%}
   {%- unless feature_description -%}
     {%- if grant.website -%}
@@ -42,12 +42,12 @@
   {%- assign feature_slug = grant.project-slug -%}
 {%- endif -%}
 {%- unless feature_slug -%}
-  {%- assign feature_slug = feature_name | slugify -%}
+  {%- assign feature_slug = feature_title | slugify -%}
 {%- endunless -%}
 <div class="col-md-4">
   <div class="feature"
     {%- if feature_image -%}
-      {% unless feature_name or feature_summary %}
+      {% unless feature_title or feature_description %}
         style="margin-bottom: 30px;"
       {% endunless %}
     {% endif %}
@@ -56,14 +56,14 @@
       <div class="modal-instance">
         <a class="modal-trigger" href="#{{ feature_slug }}">
           {%- if feature_image -%}
-            <img alt="{{ feature.name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
+            <img alt="{{ feature.title | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
           {%- endif -%}
-          {%- if feature_name -%}
-            <h4>{{ feature_name | smartify }}</h4>
+          {%- if feature_title -%}
+            <h4>{{ feature_title | smartify }}</h4>
           {%- endif -%}
         </a>
-        {%- if feature_summary -%}
-          <p>{{ feature_summary | smartify }}</p>
+        {%- if feature_description -%}
+          <p>{{ feature_description | smartify }}</p>
         {%- endif -%}
         <div class="modal-container" data-modal-id="{{feature_slug}}">
           <div class="modal-content section-modal">
@@ -78,7 +78,7 @@
                   <div class="col-lg-7 col-md-8">
                     <div class="row justify-content-center">
                       <div class="col-md-11 col-lg-10">
-                        <h2>{{ feature_name | smartify }}</h2>
+                        <h2>{{ feature_title | smartify }}</h2>
                         {% if grant_addon %}<p class="lead">{{ grant_addon | smartify }}</p>{% endif %}
                         <p>{{ feature_description | smartify }}{%- if jekyll.environment == "development" -%}<br/><br/><span class="type--fine-print">{{ feature_slug }}</span>{%- endif -%}</p>
                       </div><!--end of col-->
@@ -96,16 +96,16 @@
         <a href="{{ feature_link }}" target="{{ feature_link_target }}">
       {%- endif -%}
       {%- if feature_image -%}
-        <img alt="{{ feature_name | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
+        <img alt="{{ feature_title | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
       {%- endif -%}
-      {%- if feature_name -%}
-        <h4>{{ feature_name | smartify }}{%- if feature_link_icon -%}<i class="material-icons feature-link-icon">{{ feature_link_icon }}</i>{%- endif -%}</h4>
+      {%- if feature_title -%}
+        <h4>{{ feature_title | smartify }}{%- if feature_link_icon -%}<i class="material-icons feature-link-icon">{{ feature_link_icon }}</i>{%- endif -%}</h4>
       {%- endif -%}
       {%- if feature_link -%}
         </a>
       {%- endif -%}
-      {%- if feature_summary -%}
-        <p>{{ feature_summary | smartify }}</p>
+      {%- if feature_description -%}
+        <p>{{ feature_description | smartify }}</p>
       {%- endif -%}
     {%- endif -%}
   </div>

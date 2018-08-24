@@ -68,35 +68,35 @@ highlights:
         description:
           - "Projects from leading organizations for initiatives that addressed critical needs affecting our region’s biodiversity."
         features:
-          - name: "Community Tree Nursery"
+          - title: "Community Tree Nursery"
             grant-id: "SPRING-070"
 
-          - name: "Garfield BioShelter and Food Systems Center"
+          - title: "Garfield BioShelter and Food Systems Center"
             grant-id: "SPRING-053"
 
-          - name: "Heritage Seed Bank and Nursery"
+          - title: "Heritage Seed Bank and Nursery"
             grant-id: "SPRING-045"
 
       - title: "$5,000 Projects"
         description:
           - "Projects from organizations or individuals that positively impacted our region’s biodiversity at the grassroots level."
         features:
-          - name: "Chimney Swift Towers"
+          - title: "Chimney Swift Towers"
             grant-id: "SPRING-005"
 
-          - name: "Growing Biodiversity"
+          - title: "Growing Biodiversity"
             grant-id: "SPRING-024"
 
-          - name: "Knotweed Knockout"
+          - title: "Knotweed Knockout"
             grant-id: "SPRING-032"
 
-          - name: "Pollinator Restoration and Education Program"
+          - title: "Pollinator Restoration and Education Program"
             grant-id: "SPRING-035"
 
-          - name: "Shaler Area Green Initiative"
+          - title: "Shaler Area Green Initiative"
             grant-id: "SPRING-012"
 
-          - name: "Shelby Montgomery Community Garden"
+          - title: "Shelby Montgomery Community Garden"
             grant-id: "SPRING-021"
 
   - title: "Programmatic Activities"
@@ -104,36 +104,36 @@ highlights:
       - "Throughout 2010 and 2011, Spring hosted networking activities like workshops, meet & greet happy hours, and site visits to coordinate activity among organizations already working to enhance biodiversity, as well as galvanize interest of individuals and community groups who had not previously worked on this issue. Additionally, Spring staged several major public events to educate citizens about biodiversity issues and offer concrete ways for them to get involved."
     features:
 
-      - name:  "Biodiversity Symposium"
+      - title: "Biodiversity Symposium"
         image: "/photos/programs/spring/biodiversity-symposium.jpg"
-        summary: "On August 9, 2010, Sprout hosted the Biodiversity Symposium at the Cabaret Theater. The event featured presentations by local leaders in the academic, nonprofit, and government sectors to create awareness about biodiversity challenges."
+        description: "On August 9, 2010, Sprout hosted the Biodiversity Symposium at the Cabaret Theater. The event featured presentations by local leaders in the academic, nonprofit, and government sectors to create awareness about biodiversity challenges."
 
-      - name:  "Awards Ceremony"
+      - title: "Awards Ceremony"
         image: "/photos/programs/spring/awards-ceremony.jpg"
-        summary: "On December 14, 2010, local leaders, community members, and funded project managers gathered at the Union Project for the Spring Awards Ceremony and Reception."
+        description: "On December 14, 2010, local leaders, community members, and funded project managers gathered at the Union Project for the Spring Awards Ceremony and Reception."
 
-      - name:  "Biodiversity Festival"
+      - title: "Biodiversity Festival"
         image: "/photos/programs/spring/biodiversity-festival.jpg"
-        summary: "On September 10, 2011, Sprout hosted a Biodiversity Festival to celebrate the accomplishments of the Spring program and showcase both funded projects and allied organizations."
+        description: "On September 10, 2011, Sprout hosted a Biodiversity Festival to celebrate the accomplishments of the Spring program and showcase both funded projects and allied organizations."
 
   - title: "Related Efforts"
     description:
       - "Spring was Sprout’s only program dedicated exclusively to biodiversity; however, Sprout supported many environmentally-focused projects both before and after the Spring program’s lifetime."
     features:
 
-      - name:  "Community Connections"
+      - title: "Community Connections"
         image: "/photos/projects/indiana-county-covered-bridge-festival.jpg"
         link: "local://program/community-connections/"
-        summary: "In 2008, Sprout’s Pittsburgh 250 program supported no fewer than 8 biodiversity projects across the region, which partially served as the impetus for creating the Spring program in 2010."
+        description: "In 2008, Sprout’s Pittsburgh 250 program supported no fewer than 8 biodiversity projects across the region, which partially served as the impetus for creating the Spring program in 2010."
 
-      - name:  "Garfield Hops Project"
+      - title: "Garfield Hops Project"
         grant-id: "SPRING-100"
         image: "/photos/projects/garfield-hops-project.jpg"
-        summary: "GTECH Strategies, in collaboration with Garfield Community Farms and the Hops Project, planted hops to increase biodiversity in vacant lots. They received a special grant of $10,000 that fostered collaboration among prior Spring projects. "
+        description: "GTECH Strategies, in collaboration with Garfield Community Farms and the Hops Project, planted hops to increase biodiversity in vacant lots. They received a special grant of $10,000 that fostered collaboration among prior Spring projects. "
 
-      - name:  "Commemorative Poster"
+      - title: "Commemorative Poster"
         image: "/photos/programs/spring/final-poster.jpg"
         link: "local://downloads/spring/final-poster.pdf"
-        summary: "Sprout worked with Bearded Studio, the design lead for the entire Spring campaign, to create and distribute a summative poster for Spring that highlighted the program’s by-the-numbers impact."
+        description: "Sprout worked with Bearded Studio, the design lead for the entire Spring campaign, to create and distribute a summative poster for Spring that highlighted the program’s by-the-numbers impact."
 
 ---

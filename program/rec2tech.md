@@ -76,19 +76,19 @@ highlights:
         description:
           - "Each afternoon during the demonstration week, educators from local nonprofit program providers hosted hands-on STEAM learning activities for youth ages 7 to 12. Sessions challenged youth to apply lessons learned in science, technology, engineering, arts, and math to complete a project that helped solve a community challenge. And rec center staff made sure each session included a snack, physical activity, and dinner so that youth had all the basic resources they needed to stay healthy and engaged."
         features:
-          - name: "Exploration & Expression at Ormsby"
+          - title: "Exploration & Expression at Ormsby"
             grant-id: "2970-R2T"
 
-          - name: "Tech Solutions for Greener Living at Phillips"
+          - title: "Tech Solutions for Greener Living at Phillips"
             grant-id: "2969-R2T"
 
-          - name: "High-Tech Health at Magee"
+          - title: "High-Tech Health at Magee"
             grant-id: "2973-R2T"
 
-          - name: "Game Design Studio at Paulson"
+          - title: "Game Design Studio at Paulson"
             grant-id: "2972-R2T"
 
-          - name: "Making & Breaking the Web at Warrington"
+          - title: "Making & Breaking the Web at Warrington"
             grant-id: "2971-R2T"
 
       - title: "Demo Party"
@@ -105,17 +105,17 @@ highlights:
   - title: "Broader Impact"
     description:
     features:
-      - name:  "White House Event"
+      - title: "White House Event"
         image: "/photos/programs/rec2tech/white-house-event.jpg"
-        summary: "In May 2016, the White House Office of Science & Technology Policy convened more than a dozen cities to take the first steps toward building a nationwide movement to expand access to new and innovative learning opportunities for students living in under-resourced and disadvantaged communities through local Rec2Tech initiatives. Sprout helped lead and coordinate this event."
+        description: "In May 2016, the White House Office of Science & Technology Policy convened more than a dozen cities to take the first steps toward building a nationwide movement to expand access to new and innovative learning opportunities for students living in under-resourced and disadvantaged communities through local Rec2Tech initiatives. Sprout helped lead and coordinate this event."
 
-      - name:  "National League of Cities Event"
+      - title: "National League of Cities Event"
         image: "/photos/programs/rec2tech/national-league-of-cities-event.jpg"
-        summary: "In November 2016, Pittsburgh hosted the National League of Cities annual conference. More than 40 leaders from cities across the United States and Canada attended a “mobile workshop” that showcased Pittsburgh’s Rec2Tech demonstration project. Students from Ormbsy Recreation Center attended the event and participated in mini-sessions from each the five Rec2Tech funded projects."
+        description: "In November 2016, Pittsburgh hosted the National League of Cities annual conference. More than 40 leaders from cities across the United States and Canada attended a “mobile workshop” that showcased Pittsburgh’s Rec2Tech demonstration project. Students from Ormbsy Recreation Center attended the event and participated in mini-sessions from each the five Rec2Tech funded projects."
 
-      - name:  "Report & Recommendations"
+      - title: "Report & Recommendations"
         image: "/photos/programs/rec2tech/report.jpg"
         link:  "local://downloads/rec2tech/rec2tech-report_web.pdf"
-        summary: "The Sprout Fund produced a report documenting the demonstration project from planning to evaluation. It also included recommendations for replicating similar Rec2Tech programs in other communities."
+        description: "The Sprout Fund produced a report documenting the demonstration project from planning to evaluation. It also included recommendations for replicating similar Rec2Tech programs in other communities."
 
 ---

@@ -78,56 +78,56 @@ highlights:
     description:
       - "The 26 supported projects and 5 sponsored events represented 12 critical issue areas: criminal justice, immigrants & refugees, women, unity & dialogue, education, voting & democracy, environment, disabilities, free press, LGBTQIA, race, and global relations. These twelve projects represent a cross-section of issue areas, audiences, and approaches."
     features:
-      - name: "#PGHYouthVision"
+      - title: "#PGHYouthVision"
         grant-id: "3119-100DAYS"
 
-      - name: "Prototype Workshop Series"
+      - title: "Prototype Workshop Series"
         grant-id: "3130-100DAYS"
 
-      - name: "Muslim Ally Training"
+      - title: "Muslim Ally Training"
         grant-id: "3146-100DAYS"
 
-      - name: "Global Minds"
+      - title: "Global Minds"
         grant-id: "3126-100DAYS"
 
-      - name: "I Wish to Say"
+      - title: "I Wish to Say"
         grant-id: "3186-100DAYS"
 
-      - name: "Off the Street and Into the Kitchen"
+      - title: "Off the Street and Into the Kitchen"
         grant-id: "3129-100DAYS"
 
-      - name: "The Soil Superheroes"
+      - title: "The Soil Superheroes"
         grant-id: "3139-100DAYS"
 
-      - name: "Shattered Glass Podcast"
+      - title: "Shattered Glass Podcast"
         grant-id: "3134-100DAYS"
 
-      - name: "E3: Engage, Educate, Empower"
+      - title: "E3: Engage, Educate, Empower"
         grant-id: "3123-100DAYS"
 
-      - name: "Standing Strong Together"
+      - title: "Standing Strong Together"
         grant-id: "3136-100DAYS"
 
-      - name: "That's Us"
+      - title: "That's Us"
         grant-id: "3137-100DAYS"
 
-      - name: "We Speak Soccer"
+      - title: "We Speak Soccer"
         grant-id: "3142-100DAYS"
 
   - title: "Community Events"
     description:
     features:
 
-      - name:  "Applicant Support"
+      - title: "Applicant Support"
         image: "/photos/programs/100-days/applicant-support.jpg"
-        summary: "Sprout helped applicants develop their two-minute video pitches with the help of Sprout staff and a professional photographer."
+        description: "Sprout helped applicants develop their two-minute video pitches with the help of Sprout staff and a professional photographer."
 
-      - name:  "Idea Party"
+      - title: "Idea Party"
         image: "/photos/programs/100-days/idea-party.jpg"
-        summary: "Sprout hosted a party to kick off additional fundraising and to promote public voting on more than 150 submitted project ideas."
+        description: "Sprout hosted a party to kick off additional fundraising and to promote public voting on more than 150 submitted project ideas."
 
-      - name:  "Day 100 Party"
+      - title: "Day 100 Party"
         image: "/photos/programs/100-days/day-100-party.jpg"
-        summary: "On the 100th day, Sprout hosted a public open house to celebrate and showcase the funded projects’ activities and achievements."
+        description: "On the 100th day, Sprout hosted a public open house to celebrate and showcase the funded projects’ activities and achievements."
 
 ---

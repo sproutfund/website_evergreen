@@ -82,120 +82,120 @@ highlights:
         description:
           - "Art was often used to highlight issues in a way that was appealing and accessible to the broader community. This not only supported artists to get actively involved in their communities but also promoted art as something that could, and should, be an important part of every community."
         features:
-          - name: "Pop des Fleurs"
+          - title: "Pop des Fleurs"
             grant-id: "2208-SEED"
 
-          - name: "Pizza Poems PGH"
+          - title: "Pizza Poems PGH"
             grant-id: "2650-SEED"
 
-          - name: "The Skinny Building"
+          - title: "The Skinny Building"
             grant-id: "0008-SEED"
 
-          - name: "Love Poem for Water"
+          - title: "Love Poem for Water"
             grant-id: "1267-SEED"
 
-          - name: "Pittsburgh Beautification Project"
+          - title: "Pittsburgh Beautification Project"
             grant-id: "1082-SEED"
 
-          - name: "Pittsburgh Women MAKE it."
+          - title: "Pittsburgh Women MAKE it."
             grant-id: "3013-SEED"
 
       - title: "Social Justice & Advocacy"
         description:
           - "The projects were often prime examples of how to engage the community in addressing a wide range of social, environmental, and economic challenges, enabling people to not only acknowledge issues but actively advocate for positive change."
         features:
-          - name: "The Fantasy Black Draft"
+          - title: "The Fantasy Black Draft"
             grant-id: "2658-SEED"
 
-          - name: "ACJ Medical Neglect Documentation Project"
+          - title: "ACJ Medical Neglect Documentation Project"
             grant-id: "2620-SEED"
 
-          - name: "Support Mass Transit Bumper Stickers"
+          - title: "Support Mass Transit Bumper Stickers"
             grant-id: "0295-SEED"
 
-          - name: "76<100"
+          - title: "76<100"
             grant-id: "2217-SEED"
 
-          - name: "Climate Change Crankie"
+          - title: "Climate Change Crankie"
             grant-id: "3010-SEED"
 
-          - name: "Art + Feminism Wikipedia Edit-a-thon"
+          - title: "Art + Feminism Wikipedia Edit-a-thon"
             grant-id: "2643-SEED"
 
       - title: "Making Local Connections"
         description:
           - "People often comment how Pittsburgh is an urban environment with a small town feel. Several Grand Ideas helped to contribute to that way of thinking by helping people connect over everyday occurrences."
         features:
-          - name: "One Cold Hand"
+          - title: "One Cold Hand"
             grant-id: "0881-SEED"
 
-          - name: "QTPi(e)"
+          - title: "QTPi(e)"
             grant-id: "1151-SEED"
 
-          - name: "Urban Hike"
+          - title: "Urban Hike"
             grant-id: "0488-SEED"
 
-          - name: "City of Champions Million Steps Challenge"
+          - title: "City of Champions Million Steps Challenge"
             grant-id: "1351-SEED"
 
-          - name: "Co-opoly Untournament"
+          - title: "Co-opoly Untournament"
             grant-id: "2647-SEED"
 
-          - name: "Stepping Stanzas"
+          - title: "Stepping Stanzas"
             grant-id: "2580-SEED"
 
       - title: "Community Skill Sharing"
         description:
           - "Many project leaders took a page from Pittsburgh history books, encouraging people to embrace the City’s industrial legacy and get their hands dirty by learning new skills from their neighbors."
         features:
-          - name: "Steel City Folk School"
+          - title: "Steel City Folk School"
             grant-id: "2211-SEED"
 
-          - name: "Beatty Street Bicycle Co-Op"
+          - title: "Beatty Street Bicycle Co-Op"
             grant-id: "2199-SEED"
 
-          - name: "Olympic Curling Open House"
+          - title: "Olympic Curling Open House"
             grant-id: "1768-SEED"
 
-          - name: "Gender-Neutral Learn-to-Sew"
+          - title: "Gender-Neutral Learn-to-Sew"
             grant-id: "1762-SEED"
 
-          - name: "The Blacksmith Shop at Returning Home Farm"
+          - title: "The Blacksmith Shop at Returning Home Farm"
             grant-id: "2613-SEED"
 
-          - name: "LISTEN UP! Neighborhood Debate Classic"
+          - title: "LISTEN UP! Neighborhood Debate Classic"
             grant-id: "3002-SEED"
 
       - title: "Examples from Similiar Micro-Grant Programs at Sprout"
         description:
           - "Although not branded as “Grand Ideas,” several other Sprout funding programs also supported community innovation projects and events with grants of $1,000 or less. Follow the links to see all projects funded through these programs."
         features:
-          - name: "21st Sensory Mall via Open Engagement"
+          - title: "21st Sensory Mall via Open Engagement"
             image: "/photos/projects/21st-sensory-mall.jpg"
             link: "local://search/?refinementList[program][0]=Open%20Engagement"
-            summary: "Exploring post-mall culture through installations and performances in the nearly-abandoned Century III Mall."
+            description: "Exploring post-mall culture through installations and performances in the nearly-abandoned Century III Mall."
 
-          - name: "Buddy Benches via Change Machine"
+          - title: "Buddy Benches via Change Machine"
             image: "/photos/projects/buddy-benches.jpg"
             link: "local://search/?refinementList[program][0]=Change%20Machine"
-            summary: "Encouraging students to include their peers during recess and serving as a place for children to go when they don’t have anyone to play with."
+            description: "Encouraging students to include their peers during recess and serving as a place for children to go when they don’t have anyone to play with."
 
-          - name: "Cultural Gumbo via Sprout Sponsorship"
+          - title: "Cultural Gumbo via Sprout Sponsorship"
             image: "/photos/projects/cultural-gumbo.jpg"
             link: "local://search/?refinementList[program][0]=Sprout%20Sponsorship"
-            summary: "Helping New Sun Rising celebrate a decade of building culture and community at Mr. Small's Theater in Millvale."
+            description: "Helping New Sun Rising celebrate a decade of building culture and community at Mr. Small's Theater in Millvale."
 
   - title: "Programmatic Activities"
     description:
       - "With such a large programmatic emphasis on community, Sprout worked to create a sense of community between prospective applicants, funded project managers, and staff through networking events, project showcases, and applicant support opportunities. "
     features:
-      - name: "Happy Hour Showcases"
-        summary: "Prospective applicants were invited to happy hours to learn more about the funding opportunity and hear about past Grand Ideas projects from the project managers themselves."
+      - title: "Happy Hour Showcases"
+        description: "Prospective applicants were invited to happy hours to learn more about the funding opportunity and hear about past Grand Ideas projects from the project managers themselves."
 
-      - name: "Community Event Tabling"
-        summary: "Community members planted tiny container herb gardens as they talked with Sprout staff about the funding opportunity, taking home instructions for how to care for their new plants and also how to apply for a grant."
+      - title: "Community Event Tabling"
+        description: "Community members planted tiny container herb gardens as they talked with Sprout staff about the funding opportunity, taking home instructions for how to care for their new plants and also how to apply for a grant."
 
-      - name: "Working Breakfasts"
-        summary: "Applicants were encouraged to share their ideas for the Grand Ideas funding opportunity, get answers to questions about the application process, and have staff review drafts of their funding applications over breakfast."
+      - title: "Working Breakfasts"
+        description: "Applicants were encouraged to share their ideas for the Grand Ideas funding opportunity, get answers to questions about the application process, and have staff review drafts of their funding applications over breakfast."
 
 ---

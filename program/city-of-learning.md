@@ -96,47 +96,47 @@ highlights:
           - "We also built relationships with 3 major citywide partners: our public school system, our public library system, and the local workforce investment board, which champions our region’s summer youth employment program."
           - "Finally, Sprout hosted several community events each summer to help build awareness of innovative learning activities available to youth and families throughout the city."
         features:
-          - name: "The Labs @ CLP"
+          - title: "The Labs @ CLP"
             grant-id: "2372-COL"
 
-          - name: "Learn and Earn"
+          - title: "Learn and Earn"
             grant-id: "2373-COL"
 
-          - name: "Summer Dreamers"
+          - title: "Summer Dreamers"
             grant-id: "2371-COL"
 
-          - name: "Learning Pathways Student Video Series"
+          - title: "Learning Pathways Student Video Series"
             grant-id: "2388-COL"
-            summary: "Enabling local teens to gain hands-on experience in production by interviews with local badge innovators and experts on topics such as art/storytelling, engineering, environmental science, gaming, robotics, design and making, and entrepreneurship."
+            description: "Enabling local teens to gain hands-on experience in production by interviews with local badge innovators and experts on topics such as art/storytelling, engineering, environmental science, gaming, robotics, design and making, and entrepreneurship."
 
-          - name: "Pop-Up Events"
+          - title: "Pop-Up Events"
             image: "/photos/programs/city-of-learning/col-pop-up-events.jpg"
-            summary: "Featuring a range of learning activities in a diversity of settings throughout the city of Pittsburgh and surrounding communities of Allegheny County, these pop-up events provided free and fun interest-driven learning opportunities to expand participation in Pittsburgh City of Learning."
+            description: "Featuring a range of learning activities in a diversity of settings throughout the city of Pittsburgh and surrounding communities of Allegheny County, these pop-up events provided free and fun interest-driven learning opportunities to expand participation in Pittsburgh City of Learning."
 
-          - name: "Formative Research"
+          - title: "Formative Research"
             image: "/photos/programs/city-of-learning/col-formative-research.jpg"
-            summary: "University of Pittsburgh, Children's Museum of Pittsburgh, and Carnegie Mellon University collaborated to understand the effectiveness of local badge programs in terms of youth participation and interest development and how practitioners overcame the challenges associated with initiating digital badges."
+            description: "University of Pittsburgh, Children's Museum of Pittsburgh, and Carnegie Mellon University collaborated to understand the effectiveness of local badge programs in terms of youth participation and interest development and how practitioners overcame the challenges associated with initiating digital badges."
 
       - title: "Badge-Enable Learning Pathways"
         description:
           - "In 2016, Sprout funded six projects that created cross-disciplinary, collaborative learning approaches called “learning pathways” during the academic year 2016-2017. These projects empowered students to earn digital badges as they progressed through related learning activities at multiple organizations, enabling students to access new opportunities and organizations to reach new audiences."
         features:
-          - name: "Architecture Learning Network"
+          - title: "Architecture Learning Network"
             grant-id: "!2016-08-11_multi(05)_architecture-learning-network"
 
-          - name: "Expanding Learning Pathways at Carnegie Library of Pittsburgh"
+          - title: "Expanding Learning Pathways at Carnegie Library of Pittsburgh"
             grant-id: "2796-RML"
 
-          - name: "Post-Secondary Readiness Pathway"
+          - title: "Post-Secondary Readiness Pathway"
             grant-id: "2802-RML"
 
-          - name: "Introduction to Solidworks and Design"
+          - title: "Introduction to Solidworks and Design"
             grant-id: "!2016-06-30_multi(04)_introduction-to-solidworks-and-design"
 
-          - name: "Young Conservationist Connected Learning Pathway"
+          - title: "Young Conservationist Connected Learning Pathway"
             grant-id: "!2016-06-30_multi(04)_young-conservationist-connected-learning-pathway"
 
-          - name: "Youth Leading Change"
+          - title: "Youth Leading Change"
             grant-id: "2821-RML"
 
   - title: "Community Building Activities"
@@ -150,44 +150,44 @@ highlights:
           - "The competencies were developed through the active engagement of more than 100 local subject matter experts, informal and formal educators, youth workers, and program managers. Led by a team of trained facilitators, multiple meetings held in the summer and fall of 2014 harnessed the diverse knowledge and expertise of these community members."
           - "The results were organized into centers of programmatic excellence within the Pittsburgh education ecosystem."
         features:
-          - name: "Career Readiness"
+          - title: "Career Readiness"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_career-readiness.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Career-Readiness.pdf"
-            summary: "Leadership development, people skills, personal wellness, job preparation, entrepreneurship, finance, technology, and positive habits."
+            description: "Leadership development, people skills, personal wellness, job preparation, entrepreneurship, finance, technology, and positive habits."
 
-          - name: "Coding & Gaming"
+          - title: "Coding & Gaming"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_coding-gaming.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Coding-Gaming.pdf"
-            summary: "Technical skills in computer programming, application and game development, as well as creative competencies in game design, animation, and storytelling."
+            description: "Technical skills in computer programming, application and game development, as well as creative competencies in game design, animation, and storytelling."
 
-          - name: "Design & Making"
+          - title: "Design & Making"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_design-making.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Design-Making.pdf"
-            summary: "Imagining an idea, researching the user, designing a concept, choosing materials, practicing technique, fabricating prototypes, and interpreting the built environment."
+            description: "Imagining an idea, researching the user, designing a concept, choosing materials, practicing technique, fabricating prototypes, and interpreting the built environment."
 
-          - name: "Media Making"
+          - title: "Media Making"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_media-making.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Media-Making.pdf"
-            summary: "Producing mass communication, including television, radio, print, digital design, imagery and video, and diverse web-based communications mechanisms."
+            description: "Producing mass communication, including television, radio, print, digital design, imagery and video, and diverse web-based communications mechanisms."
 
-          - name: "Robotics"
+          - title: "Robotics"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_robotics.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Robotics.pdf"
-            summary: "Training in computer programming, fabrication, and electronics with design-thinking, iterative problem-solving, and communication."
+            description: "Training in computer programming, fabrication, and electronics with design-thinking, iterative problem-solving, and communication."
 
-          - name: "STEAM"
+          - title: "STEAM"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_steam.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_STEAM.pdf"
-            summary: "Purposefully incorporating elements of multiple disciplines—especially in the arts and sciences—to develop learners who can address the complexity of real-world problems."
+            description: "Purposefully incorporating elements of multiple disciplines—especially in the arts and sciences—to develop learners who can address the complexity of real-world problems."
 
-          - name: "Early Childhood Education"
+          - title: "Early Childhood Education"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_early-childhood-education.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Early-Childhood-Education.pdf"
-            summary: "Competencies for teachers working with young children include the use of technology, activity planning, and pedagogical approaches."
+            description: "Competencies for teachers working with young children include the use of technology, activity planning, and pedagogical approaches."
 
-          - name: "Cross-Cutting Competencies"
+          - title: "Cross-Cutting Competencies"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_cross-cutting.png"
-            summary: "Although developed independently, several working groups arrived at the same or similar competencies, many of which connect to 21st century learning and innovation skills."
+            description: "Although developed independently, several working groups arrived at the same or similar competencies, many of which connect to 21st century learning and innovation skills."
 
       - title: "Pittsburgh Learning Pathways Summit"
         video: "https://player.vimeo.com/video/118836439?autoplay=1&title=0&byline=0&portrait=0"
@@ -219,35 +219,35 @@ highlights:
         description:
           - "To help support the educators creating and issue digital badges, Sprout also offered hosted periodic “reporting parties” we we invited participating educators and organizations to look back on what worked and what didn’t."
         features:
-          - name: "Digital Badge Lab"
+          - title: "Digital Badge Lab"
             image: "/photos/programs/city-of-learning/digital-badge-lab.jpg"
-            summary: "We hosted awareness-building events to conversations among badge-curious educators and provoke them to think about incorporating digital badges into their own work."
+            description: "We hosted awareness-building events to conversations among badge-curious educators and provoke them to think about incorporating digital badges into their own work."
 
-          - name: "Helpdesk"
+          - title: "Helpdesk"
             image: "/photos/programs/city-of-learning/col-helpdesk.jpg"
-            summary: "We recruited a team of “helpdesk staff” to train and offer tech support to educators from participating organizations as they developed digital badges and navigated the online badge-issuing platform."
+            description: "We recruited a team of “helpdesk staff” to train and offer tech support to educators from participating organizations as they developed digital badges and navigated the online badge-issuing platform."
 
-          - name: "Research & Reporting Party"
+          - title: "Research & Reporting Party"
             image: "/photos/programs/city-of-learning/col-reporting-party.jpg"
-            summary: "In addition to soliciting feedback through a survey for educators, Sprout hosted an the end-of-summer reporting party in order to capture stories from participants and celebrate partners’ work."
+            description: "In addition to soliciting feedback through a survey for educators, Sprout hosted an the end-of-summer reporting party in order to capture stories from participants and celebrate partners’ work."
 
   - title: "Related Programs"
     description:
     features:
-      - name: "Remake Learning"
+      - title: "Remake Learning"
         image: "/logos/remake-learning.png"
         link:  "local://program/remake-learning/"
-        summary: "City of Learning leveraged the strength and enthusiastic participation of Pittsburgh's established network of educators and innovators developing new approaches for teaching and learning."
+        description: "City of Learning leveraged the strength and enthusiastic participation of Pittsburgh's established network of educators and innovators developing new approaches for teaching and learning."
 
-      - name: "Open Badges Summit"
+      - title: "Open Badges Summit"
         image: "/logos/open-badges-summit.png"
         link:  "local://program/open-badges-summit/"
-        summary: "Prior to beginning local badge efforts in Pittsburgh, Sprout hosted a national convening in Silicon Valley to set the course for the next evolution of Open Badges."
+        description: "Prior to beginning local badge efforts in Pittsburgh, Sprout hosted a national convening in Silicon Valley to set the course for the next evolution of Open Badges."
 
-      - name: "Digital Corps"
+      - title: "Digital Corps"
         image: "/logos/digital-corps.png"
         link:  "local://program/digital-corps/"
-        summary: "The Digital Corps was a key program partner for Pittsburgh City of Learning and issued digital badges for skills like webmaking and dispositions like collaboration."
+        description: "The Digital Corps was a key program partner for Pittsburgh City of Learning and issued digital badges for skills like webmaking and dispositions like collaboration."
 
 
 ---

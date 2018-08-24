@@ -67,89 +67,89 @@ highlights:
       - title: "Connected Learning Out-of-School"
         description:
         features:
-          - name: "SocialChange101"
+          - title: "SocialChange101"
             grant-id: "1687-HIVE"
 
-          - name: "Media Lab at Sarah Heinz House"
+          - title: "Media Lab at Sarah Heinz House"
             grant-id: "1682-HIVE"
 
-          - name: "Rankin Gymnasium Mural"
+          - title: "Rankin Gymnasium Mural"
             grant-id: "1885-HIVE"
 
-          - name: "Sister II Sister"
+          - title: "Sister II Sister"
             grant-id: "2521-HIVE"
 
-          - name: "Bulldogs on Bikes"
+          - title: "Bulldogs on Bikes"
             grant-id: "2033-HIVE"
 
-          - name: "Cook, Grow, Garden"
+          - title: "Cook, Grow, Garden"
             grant-id: "2044-HIVE"
 
-          - name: "Teens as Teachers"
+          - title: "Teens as Teachers"
             grant-id: "1881-HIVE"
 
-          - name: "First Waves"
+          - title: "First Waves"
             grant-id: "1969-HIVE"
 
-          - name: "Youth Initiative on Race & Identity"
+          - title: "Youth Initiative on Race & Identity"
             grant-id: "1860-HIVE"
 
-          - name: "My Block is Beautiful"
+          - title: "My Block is Beautiful"
             grant-id: "2524-HIVE"
 
-          - name: "Snap"
+          - title: "Snap"
             grant-id: "2444-HIVE"
 
-          - name: "Lighthouse Summer Music Project"
+          - title: "Lighthouse Summer Music Project"
             grant-id: "1975-HIVE"
 
       - title: "Connected Learning in Classrooms"
         description:
         features:
-          - name: "Build Your Own Desk Project"
+          - title: "Build Your Own Desk Project"
             grant-id: "1968-HIVE"
 
-          - name: "Avonworth Pittsburgh Galleries Project"
+          - title: "Avonworth Pittsburgh Galleries Project"
             grant-id: "1567-HIVE"
 
-          - name: "Saturdays at The Dream Factory"
+          - title: "Saturdays at The Dream Factory"
             grant-id: "1578-HIVE"
 
-          - name: "Explore the New Manufacturing Video Challenge"
+          - title: "Explore the New Manufacturing Video Challenge"
             grant-id: "2243-HIVE"
 
-          - name: "Water Design Challenge—Dive In!"
+          - title: "Water Design Challenge—Dive In!"
             grant-id: "2043-HIVE"
 
-          - name: "S.T.E.A.M. at Brentwood"
+          - title: "S.T.E.A.M. at Brentwood"
             grant-id: "2445-HIVE"
 
       - title: "Connected Learning Events"
         description:
         features:
-          - name: "Media Empowerment Students Summit (M.E.S.S.)"
+          - title: "Media Empowerment Students Summit (M.E.S.S.)"
             grant-id: "2504-HIVE"
 
-          - name: "Mobile Quest CoLab"
+          - title: "Mobile Quest CoLab"
             grant-id: "1730-HIVE"
 
-          - name: "Crossing Fences Oral History Celebration"
+          - title: "Crossing Fences Oral History Celebration"
             grant-id: "1752-HIVE"
 
   - title: "Local Focus, Global Connections"
     description:
     features:
-      - name: "Hive Maker Parties"
+      - title: "Hive Maker Parties"
         image: "/photos/programs/hive/hive-dos-maker-party-2013.jpg"
-        summary: "Each summer, Sprout partnered with Hive projects and Remake Learning Network members to host a free summer event focused on exploring, creating, and sharing."
+        description: "Each summer, Sprout partnered with Hive projects and Remake Learning Network members to host a free summer event focused on exploring, creating, and sharing."
 
-      - name: "DML Conference"
+      - title: "DML Conference"
         image: "/photos/programs/hive/dml-conference-2013.jpg"
-        summary: "Hive Pittsburgh people attended the annual Digital Media & Learning Conference to connect with colleagues and researchers on important Connected Learning topics."
+        description: "Hive Pittsburgh people attended the annual Digital Media & Learning Conference to connect with colleagues and researchers on important Connected Learning topics."
 
-      - name: "MozFest"
+      - title: "MozFest"
         image: "/photos/programs/hive/mozfest-2013.jpg"
-        summary: "As the global steward of the Hive Learning Networks, Mozilla invited partners from North America, Europe, Asia and beyond to London to make a better web."
+        description: "As the global steward of the Hive Learning Networks, Mozilla invited partners from North America, Europe, Asia and beyond to London to make a better web."
 
   - title: "Share & Spread Connected Learning"
     description:
@@ -157,63 +157,63 @@ highlights:
       - "The projects come from remarkably varied sources, including public schools, libraries, museums, and makerspaces. Each project is deeply interdisciplinary: major themes include ecology, sustainability, and visual arts, but these lessons delve into intersections between art, technology, science, history, and more. Some of these lesson plans are for activities lasting an hour or a few class periods; others are intended as major projects that can unfold over several weeks or an entire school year."
       - "Use these PDF downloads as starting points to adapt, remix, and reframe connected learning practices in your own classroom or learning space. All have Creative Commons licenses to help share and spread the remarkable learning practices happening here in the Pittsburgh region with educators everywhere!"
     features:
-      - name: "Assembling Identity: Multimedia Collage Self-Portraits"
-        summary: "from Assemble"
+      - title: "Assembling Identity: Multimedia Collage Self-Portraits"
+        description: "from Assemble"
         link: "local://downloads/hive/Assemble-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Avonworth Galleries Project"
-        summary: "from Avonworth School District"
+      - title: "Avonworth Galleries Project"
+        description: "from Avonworth School District"
         link: "local://downloads/hive/Avonworth-School-District-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Environmental Problem Solvers"
-        summary: "from Pennsylvania Resources Council"
+      - title: "Environmental Problem Solvers"
+        description: "from Pennsylvania Resources Council"
         link: "local://downloads/hive/Pennsylvania-Resources-Council-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Green City Remix"
-        summary: "from Heinz History Center"
+      - title: "Green City Remix"
+        description: "from Heinz History Center"
         link: "local://downloads/hive/HCV-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Local Climate Change Impacts & Solutions"
-        summary: "from Carnegie Museum of Natural History"
+      - title: "Local Climate Change Impacts & Solutions"
+        description: "from Carnegie Museum of Natural History"
         link: "local://downloads/hive/CMNH-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "My Block is Beautiful"
-        summary: "from Homewood Brushton YMCA"
+      - title: "My Block is Beautiful"
+        description: "from Homewood Brushton YMCA"
         link: "local://downloads/hive/Heinz-History-Center-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Pathway to College"
-        summary: "from Homewood Children's Village"
+      - title: "Pathway to College"
+        description: "from Homewood Children's Village"
         link: "local://downloads/hive/Homewood-Brushton-YMCA-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Spoken Word"
-        summary: "Youth Leading Change"
+      - title: "Spoken Word"
+        description: "Youth Leading Change"
         link: "local://downloads/hive/Youth-Leading-Change-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Video Game Design"
-        summary: "from Carnegie Library of Pittsburgh"
+      - title: "Video Game Design"
+        description: "from Carnegie Library of Pittsburgh"
         link: "local://downloads/hive/Carnegie-Library-of-Pittsburgh-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
-      - name: "Water Design Challenge"
-        summary: "from Mt. Lebanon School District"
+      - title: "Water Design Challenge"
+        description: "from Mt. Lebanon School District"
         link: "local://downloads/hive/Mt-Lebanon-School-District-Remake-Learning-Connected-Learning-Lesson-Plan.pdf"
 
   - title: "Related Programs"
     description:
     features:
-      - name: "Remake Learning"
+      - title: "Remake Learning"
         image: "/logos/remake-learning.png"
         link:  "local://program/remake-learning/"
-        summary: "As both were operated by The Sprout Fund, the Hive Learning Network was fully integrated within Remake Learning, Pittsburgh's network of educators and innovators developing new approaches for teaching and learning."
+        description: "As both were operated by The Sprout Fund, the Hive Learning Network was fully integrated within Remake Learning, Pittsburgh's network of educators and innovators developing new approaches for teaching and learning."
 
-      - name: "City of Learning"
+      - title: "City of Learning"
         image: "/logos/city-of-learning.png"
         link:  "local://program/city-of-learning/"
-        summary: "Many Hive projects and organizations were a key program partners for Pittsburgh City of Learning and issued digital badges in the summers of 2014 through 2016."
+        description: "Many Hive projects and organizations were a key program partners for Pittsburgh City of Learning and issued digital badges in the summers of 2014 through 2016."
 
-      - name: "Spark"
+      - title: "Spark"
         image: "/logos/spark.png"
         link:  "local://program/spark/"
-        summary: "Spark was Sprout's original learning innovation program and was focused on providing support for early learning and creativity projects."
+        description: "Spark was Sprout's original learning innovation program and was focused on providing support for early learning and creativity projects."
 
 
 

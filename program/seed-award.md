@@ -72,154 +72,154 @@ highlights:
         description:
           - "Celebrations of local artists through installations, productions, performances, and other art-related experiences."
         features:
-          - name: "Knit the Bridge"
+          - title: "Knit the Bridge"
             grant-id: "1527-SEED"
 
-          - name: "Art Olympic Theatre"
+          - title: "Art Olympic Theatre"
             grant-id: "0788-SEED"
 
-          - name: "Art Lending Collection"
+          - title: "Art Lending Collection"
             grant-id: "1529-SEED"
 
-          - name: "100 Bands, 31 Nights, 1 City"
+          - title: "100 Bands, 31 Nights, 1 City"
             grant-id: "0172-SEED"
 
-          - name: "Puppets for Pittsburgh"
+          - title: "Puppets for Pittsburgh"
             grant-id: "0644-SEED"
 
-          - name: "Take Me Out"
+          - title: "Take Me Out"
             grant-id: "0920-SEED"
 
-          - name: "VIA Music & New Media Festival"
+          - title: "VIA Music & New Media Festival"
             grant-id: "1218-SEED"
 
-          - name: "Community Supported Art (CSA PGH)"
+          - title: "Community Supported Art (CSA PGH)"
             grant-id: "1515-SEED"
 
-          - name: "ALLOY Pittsburgh"
+          - title: "ALLOY Pittsburgh"
             grant-id: "1513-SEED"
 
       - title: "Buses & Bikes"
         description:
           - "Initiatives dedicated to improving and advocating for alternative transportation throughout the region."
         features:
-          - name: "Three Rivers Bike Racks"
+          - title: "Three Rivers Bike Racks"
             grant-id: "0209-SEED"
 
-          - name: "Commute-by-Bike Zine"
+          - title: "Commute-by-Bike Zine"
             grant-id: "0937-SEED"
 
-          - name: "BikeFest"
+          - title: "BikeFest"
             grant-id: "0524-SEED"
 
-          - name: "Pittsburgh Art in Transit"
+          - title: "Pittsburgh Art in Transit"
             grant-id: "0591-SEED"
 
-          - name: "Car Free Streets Event"
+          - title: "Car Free Streets Event"
             grant-id: "1411-SEED"
 
-          - name: "3 Rivers on 2 Wheels"
+          - title: "3 Rivers on 2 Wheels"
             grant-id: "0050-SEED"
 
       - title: "Dialogue & Political Engagement"
         description:
           - "Creative ways to engage local residents in the civic life of their neighborhoods, towns, and rural communities."
         features:
-          - name: "Conflict Kitchen"
+          - title: "Conflict Kitchen"
             grant-id: "1144-SEED"
 
-          - name: "Run Baby, Run"
+          - title: "Run Baby, Run"
             grant-id: "0353-SEED"
 
-          - name: "CivicCards"
+          - title: "CivicCards"
             grant-id: "0504-SEED"
 
-          - name: "Switchboard Stories"
+          - title: "Switchboard Stories"
             grant-id: "2221-SEED"
 
-          - name: "Be Well! Healthcare Options for the Uninsured"
+          - title: "Be Well! Healthcare Options for the Uninsured"
             grant-id: "0654-SEED"
 
-          - name: "Camino"
+          - title: "Camino"
             grant-id: "1311-SEED"
 
       - title: "DIY"
         description:
           - "Events and activities for all ages that highlight the industrious roots of the region."
         features:
-          - name: "Handmade Arcade"
+          - title: "Handmade Arcade"
             grant-id: "0449-SEED"
 
-          - name: "Creative Reuse"
+          - title: "Creative Reuse"
             grant-id: "0869-SEED"
 
-          - name: "Pittsburgh Canning Exchange"
+          - title: "Pittsburgh Canning Exchange"
             grant-id: "1599-SEED"
 
       - title: "Environment"
         description:
           - "Projects and programs devoted to biodiversity, air quality, pollution, cleanup, river life, and urban ecology."
         features:
-          - name: "Tireless Fridays"
+          - title: "Tireless Fridays"
             grant-id: "0445-SEED"
 
-          - name: "Worms for a Better World"
+          - title: "Worms for a Better World"
             grant-id: "0748-SEED"
 
-          - name: "Burgh Bees"
+          - title: "Burgh Bees"
             grant-id: "1006-SEED"
 
-          - name: "Ohio River Lifeboat"
+          - title: "Ohio River Lifeboat"
             grant-id: "0585-SEED"
 
-          - name: "Knotweed Project"
+          - title: "Knotweed Project"
             grant-id: "0430-SEED"
 
-          - name: "Basic Mechanics and Biofuels for Women"
+          - title: "Basic Mechanics and Biofuels for Women"
             grant-id: "0761-SEED"
 
       - title: "Neighborhoods"
         description:
           - "Hands-on approaches that bring people together to capture the unique history and identity of the local community."
         features:
-          - name: "East of Liberty"
+          - title: "East of Liberty"
             grant-id: "0580-SEED"
 
-          - name: "Street with a View"
+          - title: "Street with a View"
             grant-id: "0912-SEED"
 
-          - name: "Hill District Marketpieces"
+          - title: "Hill District Marketpieces"
             grant-id: "1396-SEED"
 
-          - name: "Transformazium"
+          - title: "Transformazium"
             grant-id: "1153-SEED"
 
-          - name: "HOMEWOOD Artist Residency"
+          - title: "HOMEWOOD Artist Residency"
             grant-id: "1230-SEED"
 
-          - name: "Pittsburgh Beautification Project"
+          - title: "Pittsburgh Beautification Project"
             grant-id: "1082-SEED"
 
       - title: "Play"
         description:
           - "Attention-grabbing, unique ways that create a more spontaneous and lively Pittsburgh."
         features:
-          - name: "Accordion Pool Party"
+          - title: "Accordion Pool Party"
             grant-id: "1058-SEED"
 
-          - name: "Dragon Boat Racing"
+          - title: "Dragon Boat Racing"
             grant-id: "0106-SEED"
 
-          - name: "Rhyme Calisthenics"
+          - title: "Rhyme Calisthenics"
             grant-id: "0946-SEED"
 
-          - name: "Vaudeville Carnivale"
+          - title: "Vaudeville Carnivale"
             grant-id: "0866-SEED"
 
-          - name: "Evenings in Quarantine"
+          - title: "Evenings in Quarantine"
             grant-id: "1170-SEED"
 
-          - name: "Everyday Art Assignments"
+          - title: "Everyday Art Assignments"
             grant-id: "0345-SEED"
 
   - title: "Program Features"
@@ -230,53 +230,53 @@ highlights:
         description:
           -  "Setting out to establish a new mechanism to seed lasting community change, Sprout championed trailblazers whose innovative ideas had the potential to create transformative change. "
         features:
-          - name: "Bridging Industries"
-            summary: "Project managers and team members represented the diversity of backgrounds, interests, experience, and expertise found in the region."
+          - title: "Bridging Industries"
+            description: "Project managers and team members represented the diversity of backgrounds, interests, experience, and expertise found in the region."
 
-          - name: "Building Networks"
-            summary: "They joined and created networks—civic, social, and professional—to surround themselves with new people and ideas."
+          - title: "Building Networks"
+            description: "They joined and created networks—civic, social, and professional—to surround themselves with new people and ideas."
 
-          - name: "Shifting the Culture"
-            summary: "They set trends, took action, and influenced the perceptions of others, building a culture of inclusion and collaboration."
+          - title: "Shifting the Culture"
+            description: "They set trends, took action, and influenced the perceptions of others, building a culture of inclusion and collaboration."
 
       - title: "Application Assistance"
         description:
           - "Acknowledging that not every prospective applicant was an experienced fundraiser, Sprout implemented a series of optional support services that anyone could take advantage of leading up to the application deadline."
         features:
-          - name: "Open Application Workshops"
-            summary: "Held on the second Friday of every month for more than a decade, anyone could drop in to learn about the process and ask questions."
+          - title: "Open Application Workshops"
+            description: "Held on the second Friday of every month for more than a decade, anyone could drop in to learn about the process and ask questions."
 
-          - name: "Draft Review"
-            summary: "Staff provided feedback on applications in-progress to help improve projects prior to submission."
+          - title: "Draft Review"
+            description: "Staff provided feedback on applications in-progress to help improve projects prior to submission."
 
-          - name: "Denied Applicant Feedback"
-            summary: "If at first they didn't succeed, applicants could listen to what the committee said about their proposal and make edits before trying again."
+          - title: "Denied Applicant Feedback"
+            description: "If at first they didn't succeed, applicants could listen to what the committee said about their proposal and make edits before trying again."
 
       - title: "Community Decisionmaking"
         description:
           - "Sprout believed that funding recommendations were best made by those that understood the needs of the project’s intended audience intimately and that decisions were rooted in consensus instead of allowing the loudest voice in the room to carry the day."
         features:
-          - name: "Jury of Peers"
-            summary: "Seed Awards were reviewed by people in the target audience the projects were designed to serve."
+          - title: "Jury of Peers"
+            description: "Seed Awards were reviewed by people in the target audience the projects were designed to serve."
 
-          - name: "Individual Criteria Review"
-            summary: "Reviewers judged applications based on established criteria critical to the success of small community projects."
+          - title: "Individual Criteria Review"
+            description: "Reviewers judged applications based on established criteria critical to the success of small community projects."
 
-          - name: "Consensus-Based Decisions"
-            summary: "A final meeting allowed committee members to review high priority projects and make final recommendations for support."
+          - title: "Consensus-Based Decisions"
+            description: "A final meeting allowed committee members to review high priority projects and make final recommendations for support."
 
       - title: "Grantee Support"
         description:
           -  "With service-oriented staff-to-project administration and a peer mentorship program, project managers were assisted in the planning, implementation, and evaluation of their initiatives."
         features:
-          - name: "First Project Meetings"
-            summary: "In-person meetings were used to get to know the project leaders, going over suggestions and feedback from the community-based advisory panel."
+          - title: "First Project Meetings"
+            description: "In-person meetings were used to get to know the project leaders, going over suggestions and feedback from the community-based advisory panel."
 
-          - name: "Peer Mentorship"
-            summary: "Mentors provided customized guidance and support to meet the needs of project managers, promoting project success and leadership potential."
+          - title: "Peer Mentorship"
+            description: "Mentors provided customized guidance and support to meet the needs of project managers, promoting project success and leadership potential."
 
-          - name: "Project Referrals"
-            summary: "Active projects were often referred by Sprout staff to complementary projects, services, or individuals in the community to further enhance their project’s strengths."
+          - title: "Project Referrals"
+            description: "Active projects were often referred by Sprout staff to complementary projects, services, or individuals in the community to further enhance their project’s strengths."
 
   - title: "Spinoff Programs"
     description:
@@ -285,13 +285,13 @@ highlights:
       - title:
         description:
         features:
-          - name: "Grand Ideas"
-            summary: "Showed that a little bit of funding and willingness to take a chance on an unproven idea can go a long way when you simply ask “How would you use $1,000 for an innovative community project?” "
+          - title: "Grand Ideas"
+            description: "Showed that a little bit of funding and willingness to take a chance on an unproven idea can go a long way when you simply ask “How would you use $1,000 for an innovative community project?” "
 
-          - name: "Root Award"
-            summary: "Helped Seed Awardees scale up by making $25,000 grants available only to former Seed Award recipients for a new proposal with a greater scope than their previously supported project."
+          - title: "Root Award"
+            description: "Helped Seed Awardees scale up by making $25,000 grants available only to former Seed Award recipients for a new proposal with a greater scope than their previously supported project."
 
-          - name: "Awards in Fayette & Greene"
-            summary: "Brought the Seed Award approach to a new geographic area, supporting creative ideas that addressed the needs and opportunities unique to Fayette and Greene counties with $5,000 project grants."
+          - title: "Awards in Fayette & Greene"
+            description: "Brought the Seed Award approach to a new geographic area, supporting creative ideas that addressed the needs and opportunities unique to Fayette and Greene counties with $5,000 project grants."
 
 ---

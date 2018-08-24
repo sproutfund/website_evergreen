@@ -104,30 +104,30 @@ highlights:
       - title: "Community Events"
         description:
         features:
-          - name:  "Art-Making Activities"
+          - title: "Art-Making Activities"
             image: "/photos/programs/belonging/art-making-activities.jpg"
-            summary: "Sprout sponsored art-making activities hosted by several of community partners, including Casa San Jose, the Northern Area Multi Service Center, Squirrel Hill Urban Coalition, and United Somali Bantu of Greater Pittsburgh."
+            description: "Sprout sponsored art-making activities hosted by several of community partners, including Casa San Jose, the Northern Area Multi Service Center, Squirrel Hill Urban Coalition, and United Somali Bantu of Greater Pittsburgh."
 
-          - name:  "World Refugee Day"
+          - title: "World Refugee Day"
             image: "/photos/programs/belonging/world-refugee-day.jpg"
-            summary: "More than 1,000 Yard signs and 10,000 posters of the winning design and the community voices poster began distribution at the World Refugee Day celebration in Market Square in downtown Pittsburgh."
+            description: "More than 1,000 Yard signs and 10,000 posters of the winning design and the community voices poster began distribution at the World Refugee Day celebration in Market Square in downtown Pittsburgh."
 
-          - name:  "Ice Cream Social"
+          - title: "Ice Cream Social"
             image: "/photos/programs/belonging/ice-cream-social.jpg"
-            summary: "At the conclusion of the program, Sprout gathered the winning artists, commmunity partners, jurors, and staff to celebrate and connect."
+            description: "At the conclusion of the program, Sprout gathered the winning artists, commmunity partners, jurors, and staff to celebrate and connect."
 
       - title: "Downloads & Resources"
         features:
-          - name:  "Print-at-Home Poster"
+          - title: "Print-at-Home Poster"
             link: "local://downloads/belonging/poster_you-belong.pdf"
-            summary: "Download a PDF of the winning “You Belong” artwork and print your own 18” by 18” poster or yard sign using FedEx Kinkos or a locally-owned print shop of your choice."
+            description: "Download a PDF of the winning “You Belong” artwork and print your own 18” by 18” poster or yard sign using FedEx Kinkos or a locally-owned print shop of your choice."
 
-          - name:  "Teaching Kit"
+          - title: "Teaching Kit"
             link: "local://downloads/belonging/teaching-kit.pdf"
-            summary: "Are you a classroom teacher, community group leader, or out-of-school educator? Encourage your children & youth to create their own unique artistic response using the Belonging teaching kit."
+            description: "Are you a classroom teacher, community group leader, or out-of-school educator? Encourage your children & youth to create their own unique artistic response using the Belonging teaching kit."
 
-          - name:  "Belonging in Your Community"
+          - title: "Belonging in Your Community"
             link: "https://medium.com/@sproutfund/what-we-learned-the-belonging-community-art-project-546a45f2177d"
-            summary: "Lead Sprout staffer Tricia Monticello Kievlan offers advice and recommendations to others who might lead similar work in their communities with this post on Medium."
+            description: "Lead Sprout staffer Tricia Monticello Kievlan offers advice and recommendations to others who might lead similar work in their communities with this post on Medium."
 
 ---

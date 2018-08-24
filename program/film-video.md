@@ -82,47 +82,47 @@ highlights:
         description:
           - "Three projects were selected to receive the full $10,000 award. In addition, a further $5,000 was granted to Pittsburgh Filmmakers / Pittsburgh Center for the Arts to provide fiscal sponsorship for the filmmakers and ongoing technical support for the projects."
         features:
-          - name: "“Aspie Seeks Love”"
+          - title: "“Aspie Seeks Love”"
             grant-id: "1775-SEED"
 
-          - name: "“Fursonas”"
+          - title: "“Fursonas”"
             grant-id: "1782-SEED"
 
-          - name: "“Give Us a Chance: Pittsburgh Punk”"
+          - title: "“Give Us a Chance: Pittsburgh Punk”"
             grant-id: "1785-SEED"
 
       - title: "Honorable Mentions"
         description:
           - " Additionally, Sprout supported 6 other films with that stood out in the Innovative Film & Video Projects review process with $1,000 Honorable Mention awards."
         features:
-          - name: "“Dot”"
+          - title: "“Dot”"
             grant-id: "1779-SEED"
 
-          - name: "“Gas Rush Stories”"
+          - title: "“Gas Rush Stories”"
             grant-id: "1784-SEED"
 
-          - name: "“The Granada Refrain”"
+          - title: "“The Granada Refrain”"
             grant-id: "1786-SEED"
 
-          - name: "“Kill The Artist”"
+          - title: "“Kill The Artist”"
             grant-id: "1774-SEED"
 
-          - name: "“Madame Presidenta”"
+          - title: "“Madame Presidenta”"
             grant-id: "1793-SEED"
 
-          - name: "“What’s Your Favorite Thing About Pittsburgh?”"
+          - title: "“What’s Your Favorite Thing About Pittsburgh?”"
             grant-id: "1807-SEED"
 
   - title: "Programmatic Activities"
     description:
     features:
 
-      - name:  "Screening Party"
-        summary: "Sprout and PF/PCA hosted a free public screening of competition shorts at Pittsburgh Filmmakers Melwood Theater where trailers and short promotional films made by the applicants were shown to a supportive community audience."
+      - title: "Screening Party"
+        description: "Sprout and PF/PCA hosted a free public screening of competition shorts at Pittsburgh Filmmakers Melwood Theater where trailers and short promotional films made by the applicants were shown to a supportive community audience."
 
-      - name:  "Public Voting"
-        summary: "Members of the public were invited to view shorts and trailers for the submitted videos on a special page of the Sprout website, where they could vote for their favorites."
+      - title: "Public Voting"
+        description: "Members of the public were invited to view shorts and trailers for the submitted videos on a special page of the Sprout website, where they could vote for their favorites."
 
-      - name:  "Jury"
-        summary: "Winning projects were selected by a seven-person jury that included members Seed Award committee members, representatives of the film and video community, and experts in film and video creation, production, and management."
+      - title: "Jury"
+        description: "Winning projects were selected by a seven-person jury that included members Seed Award committee members, representatives of the film and video community, and experts in film and video creation, production, and management."
 ---

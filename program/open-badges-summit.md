@@ -106,45 +106,45 @@ highlights:
         description:
           - "The event began with opening remarks from the venue partners, Karen Cator, Executive Director of Digital Promise and Kayvan Baroumand, founder of NestGSV. Throughout the rest of the morning and early afternoon, a series of speakers and panels took the stage on different topics in the badge ecosystem."
         features:
-          - summary: "Cathy Lewis Long from The Sprout Fund"
+          - description: "Cathy Lewis Long from The Sprout Fund"
             image: "/photos/programs/open-badges-summit/speaker_cathy-lewis-long.jpg"
 
-          - summary: "Connie Yowell from MacArthur Foundation"
+          - description: "Connie Yowell from MacArthur Foundation"
             image: "/photos/programs/open-badges-summit/speaker_connie-yowell.jpg"
 
-          - summary: "David Theo Goldberg from HASTAC"
+          - description: "David Theo Goldberg from HASTAC"
             image: "/photos/programs/open-badges-summit/speaker_david-theo-goldberg.jpg"
 
-          - summary: "Mark Surman from Mozilla"
+          - description: "Mark Surman from Mozilla"
             image: "/photos/programs/open-badges-summit/speaker_mark-surman.jpg"
 
-          - summary: "Erin Knight from Mozilla"
+          - description: "Erin Knight from Mozilla"
             image: "/photos/programs/open-badges-summit/speaker_erin-knight.jpg"
 
-          - summary: "Nichole Pinkard from DePaul University"
+          - description: "Nichole Pinkard from DePaul University"
             image: "/photos/programs/open-badges-summit/speaker_nichole-pinkard.jpg"
 
-          - summary: "Elizabeth Swanson from the Office of Chicago Mayor Rahm Emanuel"
+          - description: "Elizabeth Swanson from the Office of Chicago Mayor Rahm Emanuel"
             image: "/photos/programs/open-badges-summit/speaker_elizabeth-swanson.jpg"
 
-          - summary: "Tim Riches from DigitalMe"
+          - description: "Tim Riches from DigitalMe"
             image: "/photos/programs/open-badges-summit/speaker_tim-riches.jpg"
 
-          - summary: "Michael Strautmanis from Disney"
+          - description: "Michael Strautmanis from Disney"
             image: "/photos/programs/open-badges-summit/speaker_michael-strautmanis.jpg"
 
       - title: "Day 2"
         description:
           - "The second day featured panel discussions, a series of announcements committing to the work of Open Badges, and wrapped up with a closing plenary session."
         features:
-          - name: "Morning Panel on Policy"
-            summary: "Public officials and government relations specialists discuss badges for learning, featuring Thelma Melendez of the Office of Los Angeles Mayor Eric Garcetti, Jonathan Williams of Intel Corporation, and Geoff Lane of the Information Technology Industry Council."
+          - title: "Morning Panel on Policy"
+            description: "Public officials and government relations specialists discuss badges for learning, featuring Thelma Melendez of the Office of Los Angeles Mayor Eric Garcetti, Jonathan Williams of Intel Corporation, and Geoff Lane of the Information Technology Industry Council."
 
-          - name: "Afternoon Panel with Funders"
-            summary: "Public and private sector funders discussed investment in Open Badges, featuring Janice Earle of the National Science Foundation, Francesca Carpenter of Qatar Foundation International, Miguel Salinas of Adobe Foundation, and Jennifer Humke of the MacArthur Foundation."
+          - title: "Afternoon Panel with Funders"
+            description: "Public and private sector funders discussed investment in Open Badges, featuring Janice Earle of the National Science Foundation, Francesca Carpenter of Qatar Foundation International, Miguel Salinas of Adobe Foundation, and Jennifer Humke of the MacArthur Foundation."
 
-          - name: "Reflections & Next Steps"
-            summary: "The Summit concluded with closing reflections from Connie Yowell of the MacArthur Foundation, Erin Knight of the Badge Alliance, Jerry Isdale of Spacegambit, Ed Meier of Big Thought, Nate Otto of Indiana University, and other attendees."
+          - title: "Reflections & Next Steps"
+            description: "The Summit concluded with closing reflections from Connie Yowell of the MacArthur Foundation, Erin Knight of the Badge Alliance, Jerry Isdale of Spacegambit, Ed Meier of Big Thought, Nate Otto of Indiana University, and other attendees."
 
   - title: "Working Groups"
     description:

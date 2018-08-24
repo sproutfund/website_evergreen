@@ -110,145 +110,145 @@ highlights:
         description:
           - "A panel of regional leaders, including representatives from all 14 Southwestern Pennsylvania counties, selected 12 compelling initiatives as Regional Projects to receive awards up to $50,000."
         features:
-          - name: "Celebrate Pittsburgh: Music Commissioning Project"
+          - title: "Celebrate Pittsburgh: Music Commissioning Project"
             grant-id: "PGH250-321"
 
-          - name: "Civil Rites: Oral Histories of Two Generations of Pittsburgh Artists"
+          - title: "Civil Rites: Oral Histories of Two Generations of Pittsburgh Artists"
             grant-id: "PGH250-278"
 
-          - name: "Explore Western Pennsylvania’s Wild Waterways"
+          - title: "Explore Western Pennsylvania’s Wild Waterways"
             grant-id: "PGH250-537"
 
-          - name: "Great Allegheny Passage Trail Town Public Art Project"
+          - title: "Great Allegheny Passage Trail Town Public Art Project"
             grant-id: "PGH250-388"
 
-          - name: "In Sisterhood: The Women’s Movement in Pittsburgh"
+          - title: "In Sisterhood: The Women’s Movement in Pittsburgh"
             grant-id: "PGH250-451"
 
-          - name: "In the Making: 250 Years 250 Artists"
+          - title: "In the Making: 250 Years 250 Artists"
             grant-id: "PGH250-429"
 
-          - name: "Mobile Ag/Ed Science Lab"
+          - title: "Mobile Ag/Ed Science Lab"
             grant-id: "PGH250-121"
 
-          - name: "Pittsburgh Environmental Oral History"
+          - title: "Pittsburgh Environmental Oral History"
             grant-id: "PGH250-145"
 
-          - name: "Pittsburgh Signs: 250"
+          - title: "Pittsburgh Signs: 250"
             grant-id: "PGH250-551"
 
-          - name: "Roadside Giants of the Lincoln Highway"
+          - title: "Roadside Giants of the Lincoln Highway"
             grant-id: "PGH250-503"
 
-          - name: "South Side Sculpture Project"
+          - title: "South Side Sculpture Project"
             grant-id: "PGH250-382"
 
-          - name: "Won’t You Be My Neighbor? Days"
+          - title: "Won’t You Be My Neighbor? Days"
             grant-id: "PGH250-348"
 
       - title: "Grassroots Projects"
         description:
           - "Separate panels of community leaders were convened in each county to review the proposals developed by local residents and selected 88 Grassroots Projects to receive awards up to $5,000."
         features:
-          - name: "Arcadia Theater’s Endowment Establishment"
+          - title: "Arcadia Theater’s Endowment Establishment"
             grant-id: "PGH250-335"
 
-          - name: "Citywide Salon"
+          - title: "Citywide Salon"
             grant-id: "PGH250-538"
 
-          - name: "Community Car Ministry"
+          - title: "Community Car Ministry"
             grant-id: "PGH250-187"
 
-          - name: "Diversity Outdoors"
+          - title: "Diversity Outdoors"
             grant-id: "PGH250-036"
 
-          - name: "Downtown Greensburg Campaign"
+          - title: "Downtown Greensburg Campaign"
             grant-id: "PGH250-408"
 
-          - name: "Everson Borough Veterans Parklet"
+          - title: "Everson Borough Veterans Parklet"
             grant-id: "PGH250-153"
 
-          - name: "Fort McIntosh Garrison Revitalization"
+          - title: "Fort McIntosh Garrison Revitalization"
             grant-id: "PGH250-211"
 
-          - name: "Fisherman’s Tale"
+          - title: "Fisherman’s Tale"
             grant-id: "PGH250-556"
 
-          - name: "Gateway to Ambridge"
+          - title: "Gateway to Ambridge"
             grant-id: "PGH250-038"
 
-          - name: "Grant Avenue Pocket Park"
+          - title: "Grant Avenue Pocket Park"
             grant-id: "PGH250-561"
 
-          - name: "Homewood Redd Up!"
+          - title: "Homewood Redd Up!"
             grant-id: "PGH250-262"
 
-          - name: "Indiana County Covered Bridge Festival"
+          - title: "Indiana County Covered Bridge Festival"
             grant-id: "PGH250-308"
 
-          - name: "Jay Bee Model Circus"
+          - title: "Jay Bee Model Circus"
             grant-id: "PGH250-191"
 
-          - name: "Neighborhood Narratives"
+          - title: "Neighborhood Narratives"
             grant-id: "PGH250-469"
 
-          - name: "Old Bedford Village Redoubt"
+          - title: "Old Bedford Village Redoubt"
             grant-id: "PGH250-084"
 
-          - name: "Operation Fresh Express"
+          - title: "Operation Fresh Express"
             grant-id: "PGH250-009"
 
-          - name: "Postage Stamp Park"
+          - title: "Postage Stamp Park"
             grant-id: "PGH250-096"
 
-          - name: "Restoring a Hay Wagon"
+          - title: "Restoring a Hay Wagon"
             grant-id: "PGH250-039"
 
-          - name: "Sailing in Pittsburgh"
+          - title: "Sailing in Pittsburgh"
             grant-id: "PGH250-082"
 
-          - name: "Sandyvale Memorial Botanical Gardens Visitors Area"
+          - title: "Sandyvale Memorial Botanical Gardens Visitors Area"
             grant-id: "PGH250-066"
 
-          - name: "Slippery Rock University ‘Green & Growing’"
+          - title: "Slippery Rock University ‘Green & Growing’"
             grant-id: "PGH250-188"
 
-          - name: "Tanoma AMD Wetlands Educational Trail"
+          - title: "Tanoma AMD Wetlands Educational Trail"
             grant-id: "PGH250-576"
 
-          - name: "Washington’s Encampment"
+          - title: "Washington’s Encampment"
             grant-id: "PGH250-068"
 
-          - name: "Westmoreland County History Speakers"
+          - title: "Westmoreland County History Speakers"
             grant-id: "PGH250-220"
 
   - title: "Programmatic Activities"
     description:
       - "Community events were used throughout all four phases of Community Connections. Citizens were engaged in each step of the process: people participated in idea-generation, decisionmaking, project management, and, ultimately, enjoyed celebrating the success of these 100 projects."
     features:
-      - name: "Ideation Sessions"
+      - title: "Ideation Sessions"
         image: "/photos/programs/community-connections/ideation.jpg"
-        summary: "Outreach and ideation events were held in all 14 counties. Sprout used graphic facilitation as a tool to document the meetings and explore project ideas."
+        description: "Outreach and ideation events were held in all 14 counties. Sprout used graphic facilitation as a tool to document the meetings and explore project ideas."
 
-      - name: "Grassroots Decisionmaking"
+      - title: "Grassroots Decisionmaking"
         image: "/photos/programs/community-connections/grassroots-decisionmaking.jpg"
-        summary: "14 decisionmaking teams were seated to make decisions about grassroots applications, one per county. This model emphasized Sprout’s focus on hyper-local decisionmaking."
+        description: "14 decisionmaking teams were seated to make decisions about grassroots applications, one per county. This model emphasized Sprout’s focus on hyper-local decisionmaking."
 
-      - name: "Regional Decisionmaking Forum"
+      - title: "Regional Decisionmaking Forum"
         image: "/photos/programs/community-connections/regional-decisionmaking.jpg"
-        summary: "A regional committee, comprised of leaders from across Southwestern PA, participated in the Forum, where they heard final pitches from regional applicants and selected winners."
+        description: "A regional committee, comprised of leaders from across Southwestern PA, participated in the Forum, where they heard final pitches from regional applicants and selected winners."
 
-      - name: "Announcement Event"
+      - title: "Announcement Event"
         image: "/photos/programs/community-connections/award-ceremony.jpg"
-        summary: "Funded projects, community leaders, government officials, and the media gathered at the top of the Regional Enterprise Tower for the announcement of the selected projects."
+        description: "Funded projects, community leaders, government officials, and the media gathered at the top of the Regional Enterprise Tower for the announcement of the selected projects."
 
-      - name: "Culminating Event"
+      - title: "Culminating Event"
         image: "/photos/programs/community-connections/culminating-event.jpg"
-        summary: "At the end of the program, project leaders gathered to reflect on the accomplishments of the anniversary year and celebrate Community Connections’ many successes."
+        description: "At the end of the program, project leaders gathered to reflect on the accomplishments of the anniversary year and celebrate Community Connections’ many successes."
 
-      - name: "<em>Making the Connections</em> Book"
+      - title: "<em>Making the Connections</em> Book"
         image: "/photos/programs/community-connections/making-the-connections-book.jpg"
-        summary: "Working with author Justin Hopper and a team of local photographers, Sprout collected the stories and images of Community Connections in a final book published in 2009."
+        description: "Working with author Justin Hopper and a team of local photographers, Sprout collected the stories and images of Community Connections in a final book published in 2009."
         link: "local://downloads/community-connections/Making-the-Connections_by-Justin-Hopper_final.pdf"
 
 

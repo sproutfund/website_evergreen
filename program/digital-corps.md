@@ -69,22 +69,22 @@ highlights:
         description:
           - "Digital Corps mentors were deployed in out-of-school learning sites throughout the city of Pittsburgh and the surrounding communities of Allegheny County. In libraries and afterschool sites, church basements and makerspaces, the Digital Corps engaged learners in free workshops in nearly 40 neighborhood locations in 2014 and 2015."
         features:
-          - name: "Assemble in Garfield"
+          - title: "Assemble in Garfield"
             image: "/photos/programs/digital-corps/host-site_garfield.jpg"
 
-          - name: "Bible Center Church in Homewood"
+          - title: "Bible Center Church in Homewood"
             image: "/photos/programs/digital-corps/host-site_homewood1.jpg"
 
-          - name: "Carnegie Library in Carrick"
+          - title: "Carnegie Library in Carrick"
             image: "/photos/programs/digital-corps/host-site_carrick.jpg"
 
-          - name: "Carnegie Library of Homestead"
+          - title: "Carnegie Library of Homestead"
             image: "/photos/programs/digital-corps/host-site_homestead.jpg"
 
-          - name: "Hilltop YMCA"
+          - title: "Hilltop YMCA"
             image: "/photos/programs/digital-corps/host-site_hilltop.jpg"
 
-          - name: "PPS Schiller on the North Side"
+          - title: "PPS Schiller on the North Side"
             image: "/photos/programs/digital-corps/host-site_north-side.jpg"
 
       - title: "Mentors"
@@ -99,13 +99,13 @@ highlights:
         description:
           - "The Digital Corps and its trained mentors also appeared at pop-up events and summertime maker parties."
         features:
-          - name: "Pittsburgh Maker Party 2014"
+          - title: "Pittsburgh Maker Party 2014"
             image: "/photos/programs/digital-corps/spot-engagements1.jpg"
 
-          - name: "Digital Corps Spring Showcase 2015"
+          - title: "Digital Corps Spring Showcase 2015"
             image: "/photos/programs/digital-corps/spot-engagements2.jpg"
 
-          - name: "Back to School Bash 2015"
+          - title: "Back to School Bash 2015"
             image: "/photos/programs/digital-corps/spot-engagements3.jpg"
 
   - title: "Related Programs"
@@ -113,19 +113,19 @@ highlights:
     sections:
 
       - features:
-          - name: "Remake Learning"
+          - title: "Remake Learning"
             image: "/logos/remake-learning.png"
             link:  "local://program/remake-learning/"
-            summary: "Digital Corps mentors and host sites were drawn from the Remake Learning Network, a community of educators and innovators developing new approaches for teaching and learning."
+            description: "Digital Corps mentors and host sites were drawn from the Remake Learning Network, a community of educators and innovators developing new approaches for teaching and learning."
 
-          - name: "Rec2Tech"
+          - title: "Rec2Tech"
             image: "/logos/rec2tech.png"
             link:  "local://program/rec2tech/"
-            summary: "After the Digital Corps concluded, many of the lessons learned on digital literacy skills development were incorporated into the Rec2Tech demonstration week."
+            description: "After the Digital Corps concluded, many of the lessons learned on digital literacy skills development were incorporated into the Rec2Tech demonstration week."
 
-          - name: "City of Learning"
+          - title: "City of Learning"
             image: "/logos/city-of-learning.png"
             link:  "local://program/city-of-learning/"
-            summary: "The Digital Corps was a key program partner for Pittsburgh City of Learning and issued digital badges for skills like webmaking and dispositions like collaboration."
+            description: "The Digital Corps was a key program partner for Pittsburgh City of Learning and issued digital badges for skills like webmaking and dispositions like collaboration."
 
 ---

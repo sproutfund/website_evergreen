@@ -70,17 +70,17 @@ highlights:
         description:
           - "These 3 working groups exemplified how community partners can come together to expand economic opportunity in the region and better meet the needs of the communities they serve. They each received $5,000 in funding to host a series of meetings to gather community feedback and refine their proposed approaches."
         features:
-          - name: "The City As Our Maker Space"
+          - title: "The City As Our Maker Space"
             image: "/photos/projects/city-as-our-maker-space-economic-opportunity-working-group.jpg"
-            summary: "Expanding feminist makerspace programming from Bloomcraft in the neighborhoods of the Hill District, Wilkinsburg, and Allentown."
+            description: "Expanding feminist makerspace programming from Bloomcraft in the neighborhoods of the Hill District, Wilkinsburg, and Allentown."
 
-          - name: "Cooperative Opportunity Guild of Hazelwood"
+          - title: "Cooperative Opportunity Guild of Hazelwood"
             image: "/photos/projects/cooperative-opportunity-guild-of-hazelwood-economic-opportunity-working-group.jpg"
-            summary: "Developing a capacity-building campaign to build a cooperatively-owned economic resource center in Hazelwood."
+            description: "Developing a capacity-building campaign to build a cooperatively-owned economic resource center in Hazelwood."
 
-          - name: "Workplace Equity Challenge"
+          - title: "Workplace Equity Challenge"
             image: "/photos/projects/workplace-equity-challenge-economic-opportunity-working-group.jpg"
-            summary: "Developing a series of employer-focused workshops to equip key staff with tangible skills for advancing equity in the workplace."
+            description: "Developing a series of employer-focused workshops to equip key staff with tangible skills for advancing equity in the workplace."
 
   - title: "Programmatic Activities"
     description:
@@ -90,12 +90,12 @@ highlights:
         description:
         features:
 
-          - name:  "Ideation Session"
-            summary: "Prior to launching the program, Sprout hosted a community conversation and ideation session to explore how Pittsburghers already perceive and approach expanding economic opportunity. Eighteen people participated in the event, including a staffer from BNY Mellon and representatives from the Office of the Mayor, local nonprofits, corporations, and community groups."
+          - title: "Ideation Session"
+            description: "Prior to launching the program, Sprout hosted a community conversation and ideation session to explore how Pittsburghers already perceive and approach expanding economic opportunity. Eighteen people participated in the event, including a staffer from BNY Mellon and representatives from the Office of the Mayor, local nonprofits, corporations, and community groups."
 
-          - name:  "Working Group Meetings"
-            summary: "Members of the public were invited to attend working group meetings and help develop the three groups’ innovative, collaborative approaches to expanding economic opportunity in the region. Sprout designed a facilitation approach for these meetings and trained working group leaders on how to lead these conversations and incorporate community feedback into their ongoing work."
+          - title: "Working Group Meetings"
+            description: "Members of the public were invited to attend working group meetings and help develop the three groups’ innovative, collaborative approaches to expanding economic opportunity in the region. Sprout designed a facilitation approach for these meetings and trained working group leaders on how to lead these conversations and incorporate community feedback into their ongoing work."
 
-          - name:  "Economic Opportunity Forum"
-            summary: "During Pittsburgh’s 2018 Inclusive Innovation Week, more than 120 people attended the Pittsburgh Economic Opportunity Forum at the  free event at the Energy Innovation Center in the Hill District This free event featured dynamic speakers and engaging activities exploring local efforts to increase economic opportunity in the Pittsburgh region. Each working group presented brief remarks on their progress and collected audience feedback on their approach."
+          - title: "Economic Opportunity Forum"
+            description: "During Pittsburgh’s 2018 Inclusive Innovation Week, more than 120 people attended the Pittsburgh Economic Opportunity Forum at the  free event at the Energy Innovation Center in the Hill District This free event featured dynamic speakers and engaging activities exploring local efforts to increase economic opportunity in the Pittsburgh region. Each working group presented brief remarks on their progress and collected audience feedback on their approach."
 ---
