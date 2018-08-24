@@ -1,8 +1,29 @@
 {%- for highlight in page.highlights -%}
-  <section class="{% cycle 'bg--white', 'bg--secondary' %}">
-    {%- if highlight.include_file -%}
+  {%- if highlight.include_file -%}
+    <section class="{% cycle 'bg--white', 'bg--secondary' %}">
       {% include {{ highlight.include_file }} %}
-    {%- else -%}
+    </section>
+  {%- elsif highlight.style == 'big-text' -%}
+    <section class="{% cycle 'bg--white', 'bg--secondary' %} text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-6">
+            <div class="cta">
+              {%- if highlight.title -%}
+                <h2>{{ highlight.title | smartify }}</h2>
+              {%- endif -%}
+              {%- for description_para in highlight.description -%}
+                <p class="lead">{{ description_para | smartify }}</p>
+              {%- endfor -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {%- elsif highlight.style == 'imageblock' -%}
+    {% include page_parts/highlight_imageblock.html %}
+  {%- else -%}
+    <section class="{% cycle 'bg--white', 'bg--secondary' %}">
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb--1">
@@ -41,8 +62,12 @@
             </div>
           </div>
           <div class="row mb--2">
+            {%- assign feature_style = 'normal' -%}
+            {%- if highlight.style == 'big-features' -%}
+              {%- assign feature_style = 'big' -%}
+            {%- endif -%}
             {%- for feature in highlight.features -%}
-              {% include page_parts/highlights-feature.html %}
+              {% include page_parts/highlight_feature.html %}
             {%- endfor -%}
           </div>
         </div>
@@ -74,14 +99,18 @@
                 </div>
               </div>
               <div class="row mb--2">
+                {%- assign feature_style = 'normal' -%}
+                {%- if section.style == 'big-features' -%}
+                  {%- assign feature_style = 'big' -%}
+                {%- endif -%}
                 {%- for feature in section.features -%}
-                  {% include page_parts/highlights-feature.html %}
+                  {% include page_parts/highlight_feature.html %}
                 {%- endfor -%}
               </div>
             </div>
           {%- endif -%}
         {%- endfor -%}
       {%- endif -%}
-    {%- endif -%}
-  </section>
+    </section>
+  {%- endif -%}
 {%- endfor -%}

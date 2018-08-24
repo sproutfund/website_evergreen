@@ -1,0 +1,62 @@
+<section class="imageblock feature-large {% cycle 'switchable', 'switchable--switch' %} {% cycle 'bg--white', 'bg--secondary' %} highlight--imageblock">
+  <div class="imageblock__content col-lg-5 pos-right">
+    <div class="background-image-holder"><img alt="image" src="{{ highlight.image | relative_url }}"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-12">
+        <div class="row justify-content-{% cycle 'end', 'start' %}">
+          <div class="col-lg-11 col-12">
+            {%- assign highlight_link = false -%}
+            {%- assign highlight_link_icon = false -%}
+            {%- if highlight.link -%}
+              {%- assign highlight_link = highlight.link | replace_first: "local:/",site.baseurl -%}
+              {%- if highlight.link contains "local://downloads/" -%}
+                {%- assign highlight_link_target = "_blank" -%}
+                {%- assign highlight_link_icon = "save_alt" -%}
+              {%- elsif highlight.link contains "local:/" -%}
+                {%- assign highlight_link_target = "_self" -%}
+              {%- else -%}
+                {%- assign highlight_link_target = "_blank" -%}
+                {%- assign highlight_link_icon = "launch" -%}
+              {%- endif -%}
+            {%- endif -%}
+            {%- if highlight.title -%}
+              {%- if highlight_link -%}
+                <a href="{{ highlight_link }}" target="{{ highlight_link_target }}">
+              {%- endif -%}
+              <h2>{{ highlight.title | smartify }}{%- if highlight_link_icon -%}<i class="material-icons feature-link-icon">{{ highlight_link_icon }}</i>{%- endif -%}</h2>
+              {%- if highlight_link -%}
+                </a>
+              {%- endif -%}
+            {%- endif -%}
+            {%- for description_para in highlight.description -%}
+              <p class="lead">{{ description_para | smartify }}</p>
+            {%- endfor -%}
+            {%- if highlight.features -%}
+              <div class="feature-large__group">
+                {%- for feature in highlight.features -%}
+                  <div class="row">
+                    <div class="col-12 feature {% if feature.icon %}feature-2{% endif %}">
+                      {%- if feature.icon -%}
+                        <i class="icon icon-{{ feature.icon }} color--black"></i>
+                      {%- endif -%}
+                      <div class="feature__body">
+                        {%- if feature.title -%}
+                          <h5>{{ feature.title | smartify }}</h5>
+                        {%- endif -%}
+                        {%- if feature.description -%}
+                          <p>{{ feature.description | smartify }}</p>
+                        {%- endif -%}
+                      </div>
+                    </div>
+                  </div>
+                {%- endfor -%}
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
