@@ -14,8 +14,8 @@
   </div><!--end bar-->
   <nav class="bar {% if page.cover-image.source %} bar--transparent bar--absolute{% endif %} hidden-xs" id="menu2" style="">
     <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-12 col-lg-4 text-left hidden-xs">
+      <div class="row">
+        <div class="col-12 col-md-4 text-left hidden-xs">
           <div class="bar__module">
             <ul class="menu-horizontal">
               <li class="dropdown">
@@ -48,10 +48,10 @@
                 <div class="dropdown__container">
                   <div class="container">
                     <div class="row">
-                      <div class="dropdown__content col-lg-6">
+                      <div class="dropdown__content col-lg-12">
                         <div class="row">
-                          <div class="col-lg-7">
-                            <h5>Strategies for Community Change</h5>
+                          <div class="col-lg-3">
+                            <h5>By&nbsp;Strategy</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.strategy.items -%}
                                 {%- if item.slug -%}
@@ -74,38 +74,11 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-5">
-                            <h5>Grantmaking Highlights</h5>
-                            <ul class="menu-vertical">
-                              <li {% if page_slug == 'community' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/projects/highlights/community/">Community Innovation</a>
-                              </li>
-                              <li {% if page_slug == 'learning' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/projects/highlights/learning/">Learning Innovation</a>
-                              </li>
-                              <li {% if page_slug == 'public-art' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/projects/highlights/public-art/">Public Art</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="dropdown">
-                <span class="dropdown__trigger">History</span>
-                <div class="dropdown__container">
-                  <div class="container">
-                    <div class="row">
-                      <div class="dropdown__content col-lg-9">
-                        <div class="row">
                           {%- assign program_col_length = site.data.browse-by.program.items.size | divided_by: 3.0 | ceil -%}
                           {%- assign program_col2_offset = program_col_length -%}
                           {%- assign program_col3_offset = program_col_length | times: 2 -%}
-                          <div class="col-lg-3">
-                            <h5>Programs</h5>
+                          <div class="col-lg-2">
+                            <h5>By&nbsp;Program</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items limit:program_col_length -%}
                                 {%- if item.slug -%}
@@ -128,7 +101,7 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-3">
+                          <div class="col-lg-2">
                             <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col2_offset limit:program_col_length -%}
@@ -152,7 +125,7 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-3">
+                          <div class="col-lg-2">
                             <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col3_offset limit:program_col_length -%}
@@ -180,7 +153,7 @@
                           {%- assign year_col2_offset = year_col_length -%}
                           {%- assign year_col3_offset = year_col_length | times: 2 -%}
                           <div class="col-lg-1">
-                            <h5>Years</h5>
+                            <h5>By&nbsp;Year</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.year.items limit:year_col_length -%}
                                 {%- if item.slug -%}
@@ -258,6 +231,201 @@
                 </div>
               </li>
               <li class="dropdown">
+                <span class="dropdown__trigger">Projects</span>
+                <div class="dropdown__container">
+                  <div class="container">
+                    <div class="row">
+                      <div class="dropdown__content col-lg-8">
+                        <div class="row justify-content-around">
+                          <div class="col-lg-2">
+                            <h5>Highlights</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == 'community' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/community/">Community</a>
+                              </li>
+                              <li {% if page_slug == 'learning' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/learning/">Learning</a>
+                              </li>
+                              <li {% if page_slug == 'public-art' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/public-art/">Public Art</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>By&nbsp;Name</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == 'a' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/a/">A</a>
+                              </li>
+                              <li {% if page_slug == 'b' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/b/">B</a>
+                              </li>
+                              <li {% if page_slug == 'c' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/c/">C</a>
+                              </li>
+                              <li {% if page_slug == 'd' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/d/">D</a>
+                              </li>
+                              <li {% if page_slug == 'e' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/e/">E</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == 'f' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/f/">F</a>
+                              </li>
+                              <li {% if page_slug == 'g' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/g/">G</a>
+                              </li>
+                              <li {% if page_slug == 'h' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/h/">H</a>
+                              </li>
+                              <li {% if page_slug == 'i' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/i/">I</a>
+                              </li>
+                              <li {% if page_slug == 'j' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/j/">J</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == 'k' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/k/">K</a>
+                              </li>
+                              <li {% if page_slug == 'l' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/l/">L</a>
+                              </li>
+                              <li {% if page_slug == 'm' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/m/">M</a>
+                              </li>
+                              <li {% if page_slug == 'n' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/n/">N</a>
+                              </li>
+                              <li {% if page_slug == 'o' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/o/">O</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == 'p' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/p/">P</a>
+                              </li>
+                              <li {% if page_slug == 'q' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/q/">Q</a>
+                              </li>
+                              <li {% if page_slug == 'r' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/r/">R</a>
+                              </li>
+                              <li {% if page_slug == 's' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/s/">S</a>
+                              </li>
+                              <li {% if page_slug == 't' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/t/">T</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == 'u' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/u/">U</a>
+                              </li>
+                              <li {% if page_slug == 'v' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/v/">V</a>
+                              </li>
+                              <li {% if page_slug == 'w' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/w/">W</a>
+                              </li>
+                              <li {% if page_slug == 'y' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/y/">Y</a>
+                              </li>
+                              <li {% if page_slug == 'z' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/z/">Z</a>
+                              </li>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>By&nbsp;Year</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == '2001' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2001/">2001</a>
+                              </li>
+                              <li {% if page_slug == '2002' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2002/">2002</a>
+                              </li>
+                              <li {% if page_slug == '2003' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2003/">2003</a>
+                              </li>
+                              <li {% if page_slug == '2004' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2004/">2004</a>
+                              </li>
+                              <li {% if page_slug == '2005' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2005/">2005</a>
+                              </li>
+                              <li {% if page_slug == '2006' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2006/">2006</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == '2007' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2007/">2007</a>
+                              </li>
+                              <li {% if page_slug == '2008' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2008/">2008</a>
+                              </li>
+                              <li {% if page_slug == '2009' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2009/">2009</a>
+                              </li>
+                              <li {% if page_slug == '2010' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2010/">2010</a>
+                              </li>
+                              <li {% if page_slug == '2011' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2011/">2011</a>
+                              </li>
+                              <li {% if page_slug == '2012' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2012/">2012</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-1">
+                            <h5>&nbsp;</h5>
+                            <ul class="menu-vertical">
+                              <li {% if page_slug == '2013' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2013/">2013</a>
+                              </li>
+                              <li {% if page_slug == '2014' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2014/">2014</a>
+                              </li>
+                              <li {% if page_slug == '2015' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2015/">2015</a>
+                              </li>
+                              <li {% if page_slug == '2016' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2016/">2016</a>
+                              </li>
+                              <li {% if page_slug == '2017' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2017/">2017</a>
+                              </li>
+                              <li {% if page_slug == '2018' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/2018/">2018</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown">
                 <span class="dropdown__trigger">Legacy</span>
                 <div class="dropdown__container">
                   <div class="container">
@@ -282,36 +450,32 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-4 text-center hidden-xs">
+        <div class="col-12 col-md-4 text-center hidden-xs">
           <div class="bar__module">
             {% unless page.url == "/" %}
               <a href="{{ '/' | relative_url }}"><img alt="logo" class="logo logo-dark" src="{{ '/assets/img/sproutfund_black.svg' | relative_url }}"> <img alt="logo" class="logo logo-light" src="{{ '/assets/img/sproutfund_white.svg' | relative_url }}"></a>
             {% endunless %}
           </div><!--end module-->
         </div>
-        <div class="col-12 col-lg-4">
-          <div class="row justify-content-end">
-            <div class="col-lg-9">
-              {%- if page_slug != 'search' -%}
-                <div class="bar__module">
-                  <form action="/website_evergreen/search/" method="get" id="searchbar">
-                    <div class="input-icon">
-                      <i class="material-icons">search</i>
-                      <input type="search" placeholder="Search" name="query" />
-                    </div>
-                  </form>
-                  <style type="text/css">
-                    .bar--transparent #searchbar {
-                      opacity: 0.6;
-                    }
-                    .bar--transparent #searchbar:focus-within {
-                      opacity: 1;
-                    }
-                  </style>
+        <div class="col-12 col-md-4 text-right">
+          {%- if page_slug != 'search' -%}
+            <div class="bar__module">
+              <form action="/website_evergreen/search/" method="get" id="searchbar">
+                <div class="input-icon">
+                  <i class="material-icons">search</i>
+                  <input type="search" placeholder="Search projects &amp; programs" name="query" />
                 </div>
-              {%- endif -%}
+              </form>
+              <style type="text/css">
+                .bar--transparent #searchbar {
+                  opacity: 0.6;
+                }
+                .bar--transparent #searchbar:focus-within {
+                  opacity: 1;
+                }
+              </style>
             </div>
-          </div>
+          {%- endif -%}
         </div>
       </div><!--end of row-->
     </div><!--end of container-->

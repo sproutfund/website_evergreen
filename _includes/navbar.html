@@ -26,16 +26,16 @@
                       <div class="dropdown__content col-lg-2">
                         <ul class="menu-vertical">
                           <li>
-                            <a href="{{ '/about/ideals/' | relative_url }}">Ideals</a>
+                            <a href="{{ '/about/history/' | relative_url }}">Our History</a>
                           </li>
                           <li>
-                            <a href="{{ '/about/history/' | relative_url }}">History</a>
+                            <a href="{{ '/about/ideals/' | relative_url }}">Our Ideals</a>
                           </li>
                           <li>
-                            <a class="type--fade" title="in development">Team</a>
+                            <a class="type--fade" title="in development">Our Team</a>
                           </li>
                           <li>
-                            <a class="type--fade" title="in development">Supporters</a>
+                            <a class="type--fade" title="in development">Our Supporters</a>
                           </li>
                         </ul>
                       </div>
@@ -48,9 +48,9 @@
                 <div class="dropdown__container">
                   <div class="container">
                     <div class="row">
-                      <div class="dropdown__content col-lg-6">
+                      <div class="dropdown__content col-lg-12">
                         <div class="row">
-                          <div class="col-lg-7">
+                          <div class="col-lg-3">
                             <h5>Strategies for Community Change</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.strategy.items -%}
@@ -74,38 +74,11 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-5">
-                            <h5>Grantmaking Highlights</h5>
-                            <ul class="menu-vertical">
-                              <li {% if page_slug == 'community' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/projects/highlights/community/">Community Innovation</a>
-                              </li>
-                              <li {% if page_slug == 'learning' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/projects/highlights/learning/">Learning Innovation</a>
-                              </li>
-                              <li {% if page_slug == 'public-art' %} class="current"{% endif %}>
-                                <a href="{{ site.baseurl }}/projects/highlights/public-art/">Public Art</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="dropdown">
-                <span class="dropdown__trigger">History</span>
-                <div class="dropdown__container">
-                  <div class="container">
-                    <div class="row">
-                      <div class="dropdown__content col-lg-9">
-                        <div class="row">
                           {%- assign program_col_length = site.data.browse-by.program.items.size | divided_by: 3.0 | ceil -%}
                           {%- assign program_col2_offset = program_col_length -%}
                           {%- assign program_col3_offset = program_col_length | times: 2 -%}
-                          <div class="col-lg-3">
-                            <h5>Programs</h5>
+                          <div class="col-lg-2">
+                            <h5>Programs & Initiatives</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items limit:program_col_length -%}
                                 {%- if item.slug -%}
@@ -128,7 +101,7 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-3">
+                          <div class="col-lg-2">
                             <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col2_offset limit:program_col_length -%}
@@ -152,7 +125,7 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-3">
+                          <div class="col-lg-2">
                             <h5>&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col3_offset limit:program_col_length -%}
@@ -176,79 +149,18 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          {%- assign year_col_length = site.data.browse-by.year.items.size | divided_by: 3.0 | ceil -%}
-                          {%- assign year_col2_offset = year_col_length -%}
-                          {%- assign year_col3_offset = year_col_length | times: 2 -%}
-                          <div class="col-lg-1">
-                            <h5>Years</h5>
+                          <div class="col-lg-3">
+                            <h5>Grantmaking Highlights</h5>
                             <ul class="menu-vertical">
-                              {%- for item in site.data.browse-by.year.items limit:year_col_length -%}
-                                {%- if item.slug -%}
-                                  {%- assign item_slug = item.slug -%}
-                                {%- else -%}
-                                  {%- assign item_slug = item.title | slugify -%}
-                                {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' -%}
-                                {%- assign item_exists = false -%}
-                                {%- if published_pages_urls contains item_url -%}
-                                  {%- assign item_exists = true -%}
-                                {%- endif -%}
-                                {%- assign item_current = false -%}
-                                {%- if page_slug == item_slug -%}
-                                  {%- assign item_current = true -%}
-                                {%- endif -%}
-                                <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
-                                </li>
-                              {%- endfor -%}
-                            </ul>
-                          </div>
-                          <div class="col-lg-1">
-                            <h5>&nbsp;</h5>
-                            <ul class="menu-vertical">
-                              {%- for item in site.data.browse-by.year.items offset:year_col2_offset limit:year_col_length -%}
-                                {%- if item.slug -%}
-                                  {%- assign item_slug = item.slug -%}
-                                {%- else -%}
-                                  {%- assign item_slug = item.title | slugify -%}
-                                {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' -%}
-                                {%- assign item_exists = false -%}
-                                {%- if published_pages_urls contains item_url -%}
-                                  {%- assign item_exists = true -%}
-                                {%- endif -%}
-                                {%- assign item_current = false -%}
-                                {%- if page_slug == item_slug -%}
-                                  {%- assign item_current = true -%}
-                                {%- endif -%}
-                                <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
-                                </li>
-                              {%- endfor -%}
-                            </ul>
-                          </div>
-                          <div class="col-lg-1">
-                            <h5>&nbsp;</h5>
-                            <ul class="menu-vertical">
-                              {%- for item in site.data.browse-by.year.items offset:year_col3_offset limit:year_col_length -%}
-                                {%- if item.slug -%}
-                                  {%- assign item_slug = item.slug -%}
-                                {%- else -%}
-                                  {%- assign item_slug = item.title | slugify -%}
-                                {%- endif -%}
-                                {%- assign item_url = item_slug | append: '/' | prepend: site.data.browse-by.year.slug_prefix | prepend: '/' -%}
-                                {%- assign item_exists = false -%}
-                                {%- if published_pages_urls contains item_url -%}
-                                  {%- assign item_exists = true -%}
-                                {%- endif -%}
-                                {%- assign item_current = false -%}
-                                {%- if page_slug == item_slug -%}
-                                  {%- assign item_current = true -%}
-                                {%- endif -%}
-                                <li {% if item_current %} class="current"{% endif %}>
-                                  <a {% if item_exists %} href="{{ item_url | relative_url }}"{% else %} class="type--fade" title="in development"{% endif %}><span>{{ item.title | smartify }}</span></a>
-                                </li>
-                              {%- endfor -%}
+                              <li {% if page_slug == 'community' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/community/">Community Innovation</a>
+                              </li>
+                              <li {% if page_slug == 'learning' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/learning/">Learning Innovation</a>
+                              </li>
+                              <li {% if page_slug == 'public-art' %} class="current"{% endif %}>
+                                <a href="{{ site.baseurl }}/projects/highlights/public-art/">Public Art</a>
+                              </li>
                             </ul>
                           </div>
                         </div>
@@ -269,9 +181,6 @@
                           </li>
                           <li>
                             <a href="#">Last Will &amp; Testament</a>
-                          </li>
-                          <li>
-                            <a href="#">Legacy Awardees</a>
                           </li>
                         </ul>
                       </div>
@@ -297,7 +206,7 @@
                   <form action="/website_evergreen/search/" method="get" id="searchbar">
                     <div class="input-icon">
                       <i class="material-icons">search</i>
-                      <input type="search" placeholder="Search" name="query" />
+                      <input type="search" placeholder="Search funded projects" name="query" />
                     </div>
                   </form>
                   <style type="text/css">
