@@ -31,8 +31,8 @@ highlights:
 
       - title: "Art with Community Engagement"
         style: "imageblock"
-        image: "/photos/strategies/art-community-engagement.jpg"
-        link:  "local://strategy/art-community-engagement/"
+        image: "/photos/strategies/public-art.jpg"
+        link:  "local://strategy/public-art/"
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam erat volutpat."
 
       - title: "Showcase & Creativity Events"
