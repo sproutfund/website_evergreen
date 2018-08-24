@@ -5,7 +5,7 @@ redirect_from:
   - /catalyticfunding
   - /catfun
 title: "Catalytic Funding"
-subtitle: "Seeding change through small grant programs"
+subtitle: "Seeding change through small grant programs."
 description: ""
 keywords: ""
 
@@ -16,145 +16,114 @@ cover-image:
   credit: "photo: Matt Hannigan"
 
 context:
+  heading: "Sprout jumpstarted organizations and tested new ideas with its support for early-stage projects."
   details:
-    - "The Sprout Fund provided critical financial support for small-scale and first-time projects and programs in the early stages of development—when just a small amount of investment had the potential to yield big results in the community. The projects created new initiatives, events, and organizations that helped citizens take action on pressing issues and enhance the vitality of the Pittsburgh region."
+    - "The Sprout Fund provided critical financial support for small-scale and first-time projects and programs in the initial stages of development—when just a small amount of investment had the potential to yield big results in the community. Our catalytic funding helped major funders reach new audiences of first-time grant seekers and enabled communities to make fair decisions for themselves about which projects should be supported."
+    - "Serving as an intermediary between the grassroots community and major regional stakeholders enabled us to build coalitions of support among residents at multiple levels of civic engagement. While many projects yielded individual successes, their cumulative output produced a critical mass of innovative approaches designed by and for the communities we served."
     - "Sprout offered two categories of catalytic funding support with distinctions based on target audience and focus. Learning Innovation funding programs supported projects that impacted children, youth, and teens through new approaches to teaching and learning. Community Innovation funding programs supported projects that fostered creative approaches to civic engagement and community life at the grassroots."
     - "While the focus of the funding programs varied, Sprout opportunities were all connected by being focused on early support for new ideas. By supporting ideas at their germination, our small investments were an entry point for new projects, taking chances on unusual, unexpected, and unique ideas that were not yet proven."
 
 highlights:
-  - title: "Our Approach"
+  - title: "Program Design"
+    style: "imageblock"
+    image: "/photos/!unsplash/rawpixel-701117-unsplash.jpg"
     description:
-      - "Sprout’s approach to catalytic funding support was responsive to the interests and initiatives of the grassroots community. We worked to lower the barriers to program participation and drive successful project implementation through a variety of support activities."
-    sections:
+      - "Sprout often took a dual approach to program design, working with regional stakeholders and the community being served to inform the key components of the program. Both one-off and ongoing programs were designed to support applicants and project managers in a way that solicited benefits every step of the way, helping to create assets beyond what was made possible through the funding support by adding value to the process instead of just the end result."
+    features:
+      - title: "Ongoing Programs"
+        icon: "Calendar-4"
+        description: "Having application deadlines at regular intervals throughout the year enabled Sprout to consistently cultivate prospective applicants and support ideas as they were being developed, when they were most relevant to the community."
 
       - title: "Requests for Proposals"
-        description:
-          - "While Sprout was well known for several of our ongoing small grant programs, our RFPs enabled us to really dive in on special topics and issues that were especially relevant at that point in time."
-        features:
-          - name: "100 Days of US"
-            summary: "The 100 Days of US campaign created opportunities for people to respond to pressing issues facing our country, submitting proposals that addressed the issues that mattered most to them and their local community during the first 100 days of the new presidential administration."
-            link: "local://program/100-days/"
+        icon: "Megaphone"
+        description: "RFPs enabled Sprout to dive in on special topics and issues that were especially relevant at that point in time. These one-time programs also helped to engage project managers with more niche focus areas and skills. "
 
-          - name: "Economic Opportunity"
-            summary: "While Pittsburgh earned national acclaim for innovation and livability, the inclusiveness of our region’s job growth lagged far behind. Sprout requested collaborative proposals for working groups in topic areas that explored economic opportunity for those being left behind."
-            link: "local://program/economic-opportunity/"
+      - title: "Special Collaborations"
+        icon: "Star"
+        description: "Sprout’s broad network of partners and project managers put us in a unique position to bring together top tier civic leaders to demonstrate the region’s work in learning and community innovation during key events and celebrations in the region."
 
-          - name: "My Brother's Keeper"
-            summary: "After the City of Pittsburgh and Allegheny County embraced President Obama’s national call to action for My Brother’s Keeper, Sprout requested proposals for collaborative youth programming that helped address the opportunity gap for boys and young men of color."
-            link: "local://program/my-brothers-keeper/"
+  - title: "Prospect Cultivation"
+    style: "imageblock"
+    image: "/photos/!unsplash/roman-kraft-669711-unsplash.jpg"
+    description:
+      - "With a focus on early support for new ideas, it was important that people knew that their ideas for learning and community innovation were welcomed by The Sprout Fund regardless of their relationship with the organization. Sprout regularly hosted informational events and attended community gatherings to help spread the word about current funding opportunities and continue to diversify the applicant pool."
+    features:
+      - title: "Monthly Workshops"
+        icon: "Alarm"
+        description: "Held on the second Friday of every month for more than a decade, these workshops went over the programs with upcoming deadlines so that people could determine if their idea was a good fit for Sprout funding. Anyone could drop in to learn about the process and ask questions."
 
-      - title: "Draft Review"
-        description:
-          - "By reading applications in advance of the deadline, program staff were able to provide insight and feedback on proposals before they were considered for funding. This also enabled staff to let applicants know if the idea was better suited for an alternate opportunity without waiting for the decisionmaking process to be completed."
-        features:
-          - name: "Seed Award"
-            summary: "With such a longstanding program, it was helpful to communicate common suggestions and recommendations that often came up in the review process during draft review so that the advisory committee could then make more nuanced suggestions once it was time for them to review new applications."
-            link: "local://program/seed-award/"
-
-          - name: "Neighbor-to-Neighbor"
-            summary: "For a “greenlight” program like Neighbor-to-Neighbor, draft reviews were often used to ensure that all of the required materials and information were included and that the project manager had all the pieces in place to implement the project soon after being funded."
-            link: "local://program/one-northside/#neighbor-to-neighbor-grants"
-
-          - name: "Pathways & Playlists"
-            summary: "Especially for more collaborative programs, such as Pathways & Playlists, draft reviews were a good opportunity to learn more about the project and suggest community partners that could help to strengthen the proposal."
-            link: "local://program/city-of-learning/#badge-enable-learning-pathways"
+      - title: "Community Events & Meetings"
+        icon: "Microphone-7"
+        description: "Program staff did their best to meet people where they were, attending meetings and events where people in the program’s target audience could learn more about the funding opportunity through presentations and tabling activities."
 
       - title: "Working Breakfasts"
-        description:
-          - "These breakfast events typically took place on a Saturday morning during the week before the deadline and were used to discuss draft application feedback in person and answer last minute questions from applicants. By having 2-3 hours set aside for the event, applicants were able to meet with program staff outside of regular business hours on a first come, first served basis, enjoying a cup of coffee and some pastries as they waited."
-        features:
-          - name: "100 Days"
-            summary: "The 100 Days equivalent to a working breakfast took place the Saturday before the deadline, with staff available to answer questions and a videographer on site to help applicants with the required video pitch."
-            link: "local://program/100-days/"
+        icon: "Coffee-2"
+        description: "Typically occuring on the Saturday before a deadline, these events were used to provide draft application feedback and answer last-minute questions from applicants. They also enabled applicants to meet with program staff outside of regular business hours on a first-come, first-served basis, as they enjoyed a cup of coffee and some pastries."
 
-          - name: "Grand Ideas"
-            summary: "With only one deadline a year, Grand Ideas had especially large numbers of applicants. Working breakfasts enabled staff to go over drafts in advance of the event so that time spent with applicants could be used to discuss the feedback in person."
-            link: "local://program/grand-ideas/"
+  - title: "Applicant Support"
+    style: "imageblock"
+    image: "/photos/!unsplash/thought-catalog-214785-unsplash.jpg"
+    description:
+      - "Acknowledging that not every prospective applicant was an experienced fundraiser, Sprout implemented a series of optional support services that anyone could take advantage of leading up to the application deadline. These opportunities were typically more personalized than cultivation activities, providing applicants with the chance to speak one-on-one with program staff about their proposal."
+    features:
+      - title: "Draft Review"
+        description: "By reading applications in advance of the deadline, program staff were able to provide insight and feedback on proposals before they were considered for funding. This also enabled staff to let applicants know if the idea was better suited for an alternate opportunity without waiting for the decisionmaking process to be completed."
 
-          - name: "Hive/Spark"
-            summary: "Although Sprout also had a standing funding workshop every month on Fridays, working breakfasts were a great opportunity to connect with applicants who were not able to take advantage of applicant support during the normal business day, such as teachers."
-
-      - title: "Community Advisory Committees"
-        description:
-          - "Funding recommendations were often made by committees of people that were a part of the communities served by the program—emerging civic leaders making decisions to support projects that impacted their communities. These advisors acted as a jury of peers, coming together to determine which applications should receive funding support."
-        features:
-          - name: "Hive/Spark"
-            summary: "The dynamic learning landscape in Pittsburgh provided a diverse, collegial group of advisors that were experts on the audience being served and extremely knowledgeable about the most recent learning innovation trends."
-
-          - name: "Seed Award"
-            summary: "The Seed Award program considered a wide range of project ideas, making it difficult to base the advisory committee on expertise. Instead, Sprout engaged a variety of former project managers and other civic leaders who were actively engaged in their community and knew what it took to lead a successful project."
-            link: "local://program/seed-award/"
-
-          - name: "One Northside"
-            summary: "For a place-based program like One Northside, engaging people who lived or worked on the Northside was a key eligibility criteria not only for the applicant but also for those that served on the advisory committees. This helped to ensure that the funding recommendations reflected the true needs of the Northside community. "
-            link: "local://program/one-northside/"
-
-      - title: "Online Public Voting"
-        description:
-          - "Online voting was used to engage the broader community in the decisionmaking process for several programs. To prevent it from turning into a popularity contest, the online voting was used to inform the funding recommendations but was typically paired with input from the staff and a group of community advisors. However, several projects did end of being funded due to the high level of interest shown by the community."
-        features:
-          - name: "Film & Video"
-            summary: "The Film & Video program was the first time that Sprout utilized online public voting in the decisionmaking process. The requirement of a video as part of the application was not only fitting for the program but also made the public review more engaging."
-            link: "local://program/film-video/"
-
-          - name: 100 Days""
-            summary: "Similarly, 100 Days had a video component to the application and was a program that lent itself to a broader community review. The public voting component along with the crowdfunding campaign helped Sprout to determine which issue areas were the highest priority for the community at that time."
-            link: "local://program/100-days/"
-
-          - name: "Belonging"
-            summary: "While an artist jury could speak to the quality of the artwork, it was the public voting that helped to get a better understanding of the likeability of the selected artwork, which would be seen throughout the community on posters and yard signs."
-            link: "local://program/belonging/"
-
-      - title: "First Project Meetings"
-        description:
-          - "First Project Meeting were scheduled after the applicant has been notified that their project had been recommended for funding. By going through this extra step before receiving the funding, staff were able to share suggestions and feedback from the decisionmaking process, discuss any updates or changes to the project plan, and go over the next steps in the funding process."
-        features:
-          - name: "Seed Award"
-            summary: "Seed Award project managers came from a wide variety of backgrounds, so these in person meetings were a great way to meet with the project teams and get to know more about their work and goals."
-            link: "local://program/seed-award/"
-
-          - name: "100 Days"
-            summary: "Due to the fast pace of the funding program, the First Project Meeting for this class of funded projects took place as a group meeting, placing project managers addressing similar issues or audiences together and having them rotate through stations to discuss the First Project Meeting content and get to know each other."
-            link: "local://program/100-days/"
-
-          - name: "Grand Ideas"
-            summary: "With a large number of small community innovation projects getting started around the same time, Grand Ideas provided an opportunity for staff to suggest collaborations within the cohort of active projects at the First Project Meetings since the activities were not publicly known yet."
-            link: "local://program/grand-ideas/"
+      - title: "Technical Support"
+        description: "To help remove barriers to applying, Sprout provided technical support needed to meet application requirements. This support looked different from program to program but helped to ensure that if someone had an idea, a lack of access to or experience with technology would not hold them back from applying."
 
       - title: "Denied Applicant Feedback"
-        description:
-          - "Unfortunately, not all high quality applications could be funded. To support those that were not recommended for funding, Sprout offered feedback from reviewers and insight into the decisionmaking process to help bring transparency around the funding recommendations."
-          - "These conversations highlighted the strengths and weaknesses of the proposal with the intention of helping the applicant re-apply with more success in a future round or directing them to alternate funding opportunities."
-        features:
-          - name: "Seed Award"
-            summary: "Ongoing programs with regular deadlines, like the Seed Award, enabled staff to help denied applicants to incorporate committee suggestions and feedback into proposals for the next funding round."
-            link: "local://program/seed-award/"
+        description: "To support those that were not recommended for funding, Sprout offered feedback from reviewers and insight into the decisionmaking process. These conversations highlighted the strengths and weaknesses of the proposal with the intention of helping the applicant re-apply or directing them to alternate funding opportunities."
 
-          - name: "Remake Learning"
-            summary: "As steward of the Remake Learning Network, Sprout was very tuned in to alternate funding opportunities for learning innovation projects and could help denied applicants determine if the idea was better suited for opportunities such as STEAM grants, event sponsorships, or opportunities from local foundations."
-            link: "local://program/remake-learning/"
+  - title: "Decisionmaking 1"
+    style: "imageblock"
+    image: "/photos/!unsplash/neonbrand-428982-unsplash.jpg"
+    description:
+      - "Sprout believed that funding recommendations were best made by those that understood the needs of the project’s intended audience intimately and that decisions were rooted in consensus instead of allowing the loudest voice in the room to carry the day."
+    features:
+      - title: "Funding Criteria"
+        description: "After staff ensured that projects met the program’s eligibility criteria, a set of decisionmaking criteria that aligned with the program goals were often used to score the applications. This enabled reviewers to score different aspects of the proposal separately instead of just the proposal as a whole."
 
-          - name: "Economic Opportunity"
-            summary: "Although this was a one-time program, staff encouraged project teams that were not recommended for funding to consider their skills and ideas in a new context and become involved in one of the 3 funded working groups."
-            link: "local://program/economic-opportunity/"
+      - title: "Stoplight Chart"
+        description: "Scores were compiled into a scorecard summary known as a Stoplight Chart. This allowed staff and reviewers to see how the projects performed in the review process, prioritizing proposals and identifying the strengths and weaknesses of projects in relation to the decisionmaking criteria."
 
-      - title: "Grantee Cohorts"
-        description:
-          - "Cohort convenings were used to identify collaborative opportunities and work through challenges being experienced by project managers, sharing best practices between peers and encouraging people to expand the impact of their work and the program as a whole. These activities were often facilitated through a virtual communication platform or fostered through in-person events."
-        features:
-          - name: "100 Days"
-            summary: "Programs that required grantees to follow a similar timeline made cohort activities much easier to coordinate, since project managers were are going through similar phases of their projects around the same time."
-            link: "local://program/100-days/"
+      - title: "Consensus-Based Decisions"
+        description: "A final decisionmaking meeting—most often in-person but sometimes via phone—provided a forum to openly discuss the high and medium priority applications under consideration and compare potentail projects to one another. Not every project received unanimous support but advisors always built consensus around the funding recommendations."
 
-          - name: "Pathways & Playlists"
-            summary: "Cohort convenings provided the opportunity for project teams to share feedback for improvements on each others’ programming. They also enabled Sprout to bring in guests that were experts in the program content area to help fuel the conversations."
-            link: "local://program/city-of-learning/#badge-enable-learning-pathways"
+  - title: "Decisionmaking 2"
+    style: "imageblock"
+    image: "/photos/!unsplash/rawpixel-684806-unsplash.jpg"
+    description:
+      - "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum."
+    features:
+      - title: "Advisory Committees"
+        description: "Funding recommendations were most often made by committees of people that were a part of the communities served by the program. These advisors acted as a jury of peers, coming together to determine which applications should receive funding support."
 
-          - name: "My Brother's Keeper"
-            summary: "Reporting on grantees as a group helped to show a much broader impact of the activities taking place. The cumulative achievements of funded projects were often reflected in Sprout’s storytelling and reporting, helping to encourage funders to continue supporting the work even after Sprout’s funding program had been completed."
-            link: "local://program/my-brothers-keeper/"
+      - title: "Online Voting"
+        description: "Online voting was ocassionally used to engage the broader community in the decisionmaking process. This required developing or purchasing access to technical systems that allowed votes to be counted. To prevent it from turning into a popularity contest, the online voting was typically paired with input from a group of community advisors."
 
+      - title: "“Greenlight” Grantmaking"
+        description: "Some programs had decisonmaking that helped move eligible proposals that fit the funding criteria through the process quickly. Instead of creating competition by selecting only a few of the most innovative projects in the funding round, this process worked to encourage and support people’s desire to make positive change in the target community."
 
+  - title: "Grantee Support"
+    style: "imageblock"
+    image: "/photos/!unsplash/rawpixel-743065-unsplash.jpg"
+    description:
+      - "With service-oriented staff-to-project administration, project managers were assisted in the planning, implementation, and evaluation of their initiatives. This approach encouraged open communication with staff, mentors, and peers regarding both the successes and challenges encountered while implementing their funded project."
+    features:
+      - title: "First Project Meetings"
+        description: "Meetings with the project team after their project was recommended for support created opportunities for Sprout staff to share suggestions and feedback from the decisionmaking process, discuss any updates or changes to the project plan, and go over the next steps in the funding process."
 
+      - title: "Peer Mentorship"
+        description: "An active mentorship program offered personalized guidance from mentors drawn from the community. Mentorship cultivated project manager leadership potential, enhanced the quality of project activities, and added value to our investments in the community."
+
+      - title: "Cohort Activities"
+        description: "Cohort convenings identified opportunities for projects to collaborate and work togeher through challenges being experienced by all project leaders, sharing best practices between peers and encouraging projects to expand or extend their impact."
+
+      - title: "Reporting"
+        description: "In addition to traditional written grant reports, verbal reporting was also utilized to accommodate those who were more comfortable talking through their project activities with program staff or presenting their work to the community at an event."
+
+      - title: "Project Referrals"
+        description: "Active projects were often referred by Sprout staff to complementary projects, services, or individuals in the community to further support their projects. After the grant was closed, many projects were also referred to other funding opportunities to continue their work."
 
 ---
