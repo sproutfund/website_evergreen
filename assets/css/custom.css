@@ -153,10 +153,23 @@ ul.acknowledgements-list li {
 }
 
 @media (min-width: 992px) {
-  section.highlight--big-picture .feature-2 i {
+  section.highlight--imageblock .feature-2 i {
     width: 15%;
   }
-  section.highlight--big-picture .feature-2 .feature__body {
+  section.highlight--imageblock .feature-2 .feature__body {
     width: 85%;
   }
+}
+
+.highlight--imageblock a:link,
+.highlight--imageblock a:hover {
+  color: #252525;
+}
+
+.container > .row.mb--2:last-child {
+  margin-bottom: 0;
+}
+
+.container > .row.mb--2 > .mb--2:last-child {
+  margin-bottom: 0;
 }
