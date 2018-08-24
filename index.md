@@ -8,34 +8,38 @@ cover-image:
 
 highlights:
   - title: "Strategies for Community Change"
+    style: "big-features"
     description:
       - "This is how we did it."
     features:
-      - name:  "Catalytic Funding"
+      - title: "Catalytic Funding"
         image: "/photos/strategies/catalytic-funding.jpg"
         link:  "local://strategy/catalytic-funding/"
-        summary: "Seeding change through small grant programs."
+        description: "Sprout’s approach to catalytic funding support was responsive to the interests and initiatives of the grassroots community. We worked to lower the barriers to program participation and drive successful project implementation through a variety of support activities."
 
-      - name:  "Networks & Community Building"
+      - title: "Networks & Community Building"
+        style: "imageblock"
         image: "/photos/strategies/networks-community-building.jpg"
         link:  "local://strategy/networks-community-building/"
-        summary: "Helping people openly collaborate to achieve shared goals."
+        description: "Sprout hosted hundreds of small- and large-scale events, from focus groups to multi-day festivals. We embraced unexpected collaborations. We valued openness, which means sharing ideas, showing your work, and inviting contributions from others. We insisted on recruiting diverse participants and we employed high-quality facilitators who help push the work forward."
 
-      - name:  "Storytelling & Documentation"
+      - title: "Storytelling & Documentation"
+        style: "imageblock"
         image: "/photos/strategies/storytelling-documentation.jpg"
         link:  "local://strategy/storytelling-documentation/"
-        summary: ""
+        description: "Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat."
 
-      - name:  "Art with Community Engagement"
+      - title: "Art with Community Engagement"
+        style: "imageblock"
         image: "/photos/strategies/art-community-engagement.jpg"
         link:  "local://strategy/art-community-engagement/"
-        summary: ""
+        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam erat volutpat."
 
-      - name:  "Showcase & Creativity Events"
+      - title: "Showcase & Creativity Events"
+        style: "imageblock"
         image: "/photos/strategies/showcase-creativity-events.jpg"
         link:  "local://strategy/showcase-creativity-events/"
-        summary: ""
-
+        description: "Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
 
   - title: "Browse By Program"
     description:
@@ -46,91 +50,91 @@ highlights:
         description:
         features:
 
-          - name:  "Seed Award"
+          - title: "Seed Award"
             image: "/photos/programs/seed-award.jpg"
             link:  "local://program/seed-award/"
-            summary: "Providing support when just a small investment has the potential to yield big results in the community."
+            description: "Providing support when just a small investment has the potential to yield big results in the community."
 
-          - name:  "One Northside"
+          - title: "One Northside"
             image: "/photos/programs/one-northside.jpg"
             link:  "local://program/one-northside/"
-            summary: "Improving the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside."
+            description: "Improving the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside."
 
-          - name:  "100 Days of US"
+          - title: "100 Days of US"
             image: "/photos/programs/100-days.jpg"
             link:  "local://program/100-days/"
-            summary: "Empowering the people's agenda for the first 100 days of a new presidential administration."
+            description: "Empowering the people's agenda for the first 100 days of a new presidential administration."
 
-          - name:  "Community Connections"
+          - title: "Community Connections"
             image: "/photos/programs/community-connections.jpg"
             link:  "local://program/community-connections/"
-            summary: "Celebrating Pittsburgh’s 250th anniversary by engaging citizens and contributing to regional “Pride & Progress.”"
+            description: "Celebrating Pittsburgh’s 250th anniversary by engaging citizens and contributing to regional “Pride & Progress.”"
 
-          - name:  "Grand Ideas"
+          - title: "Grand Ideas"
             image: "/photos/programs/grand-ideas.jpg"
             link:  "local://program/grand-ideas/"
-            summary: "Demonstrating how a good idea and a small amount of support can go a long way."
+            description: "Demonstrating how a good idea and a small amount of support can go a long way."
 
-          - name:  "Spring"
+          - title: "Spring"
             image: "/photos/programs/spring.jpg"
             link:  "local://program/spring/"
-            summary: "Supporting local, community-based biodiversity initiatives in and around Pittsburgh."
+            description: "Supporting local, community-based biodiversity initiatives in and around Pittsburgh."
 
-          - name:  "Economic Opportunity"
+          - title: "Economic Opportunity"
             image: "/photos/programs/economic-opportunity.jpg"
             link:  "local://program/economic-opportunity/"
-            summary: "Supporting collaborative approaches that expand economic opportunity for all."
+            description: "Supporting collaborative approaches that expand economic opportunity for all."
 
-          - name:  "Film & Video"
+          - title: "Film & Video"
             image: "/photos/programs/film-video.jpg"
             link:  "local://program/film-video/"
-            summary: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
+            description: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
 
       - title: "Learning Innovation"
         description:
         features:
-          - name: "Hive"
+          - title: "Hive"
             image: "/photos/programs/hive.jpg"
             link:  "local://program/hive/"
-            summary: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school."
+            description: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school."
 
-          - name: "City of Learning"
+          - title: "City of Learning"
             image: "/photos/programs/city-of-learning.jpg"
             link:  "local://program/city-of-learning/"
-            summary: "Recognizing learning and achievement anytime, anywhere with digital badges and enriching summer experiences."
+            description: "Recognizing learning and achievement anytime, anywhere with digital badges and enriching summer experiences."
 
-          - name: "The Digital Corps"
+          - title: "The Digital Corps"
             image: "/photos/programs/digital-corps.jpg"
             link:  "local://program/digital-corps/"
-            summary: "Developing digital literacy skills to enable youth to thrive in school, college, and the workforce."
+            description: "Developing digital literacy skills to enable youth to thrive in school, college, and the workforce."
 
-          - name: "Rec2Tech"
+          - title: "Rec2Tech"
             image: "/photos/programs/rec2tech.jpg"
             link:  "local://program/rec2tech/"
-            summary: "Transforming community spaces into technology learning centers for Pittsburgh youth."
+            description: "Transforming community spaces into technology learning centers for Pittsburgh youth."
 
-          - name: "My Brother's Keeper"
+          - title: "My Brother's Keeper"
             image: "/photos/programs/my-brothers-keeper.jpg"
             link:  "local://program/my-brothers-keeper/"
-            summary: "Addressing opportunity gaps for boys and young men of color from cradle to career."
+            description: "Addressing opportunity gaps for boys and young men of color from cradle to career."
 
-          - name: "Open Badges Summit"
+          - title: "Open Badges Summit"
             image: "/photos/programs/open-badges-summit.jpg"
             link:  "local://program/open-badges-summit/"
-            summary: "Setting the course for the next evolution to assess learning and recognize skills and competencies."
+            description: "Setting the course for the next evolution to assess learning and recognize skills and competencies."
 
       - title: "Public Art"
         description:
         features:
-          - name: "Community Murals"
+          - title: "Community Murals"
             image: "/photos/programs/murals.jpg"
             link:  "local://program/murals/"
-            summary: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
+            description: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
 
-          - name: "Belonging"
+          - title: "Belonging"
             image: "/photos/programs/belonging.jpg"
             link:  "local://program/belonging/"
-            summary: "A community art project affirming that Pittsburgh is a place where we all belong."
+            description: "A community art project affirming that Pittsburgh is a place where we all belong."
 
   - title: "Browse By Year"
     description:
@@ -141,9 +145,9 @@ highlights:
         description:
         features:
 
-          - name:  "2007"
+          - title: "2007"
             image: "/photos/covers/2007.jpg"
             link:  "local://year/2007/"
-            summary: "The Sprout Fund invested in new ideas that responded to community requests for proposals and travelled across the region to cultivate projects in celebration of Pittsburgh’s 250th anniversary."
+            description: "The Sprout Fund invested in new ideas that responded to community requests for proposals and travelled across the region to cultivate projects in celebration of Pittsburgh’s 250th anniversary."
 
 ---
