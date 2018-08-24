@@ -1,5 +1,6 @@
 plural:      "Programs"
 singular:    "Program"
+browse_text: "Programs & Initiatives"
 slug_prefix: "program/"
 items:
 

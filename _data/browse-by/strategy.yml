@@ -1,5 +1,6 @@
 plural:      "Strategies"
 singular:    "Strategy"
+browse_text: "Strategies for Community Change"
 slug_prefix: "strategy/"
 items:
 
@@ -10,6 +11,6 @@ items:
   - title: "Storytelling & Documentation"
 
   - title: "Art with Community Engagement"
-    slug:  "art-community-engagement"
+    slug:  "public-art"
 
   - title: "Showcase & Creativity Events"

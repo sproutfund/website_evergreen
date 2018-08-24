@@ -41,7 +41,7 @@ highlights:
         link:  "local://strategy/showcase-creativity-events/"
         description: "Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
 
-  - title: "Browse By Program"
+  - title: "Program & Initiatives"
     description:
       - "Many program pages are still in development. Here's what's available so far."
     sections:

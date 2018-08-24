@@ -1,5 +1,6 @@
-plural:      "Project Name"
+plural:      "Project Names"
 singular:    "Project Name"
+browse_text: "Funded Projects by Name"
 slug_prefix: "projects/"
 items:
 

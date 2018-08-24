@@ -1,7 +1,7 @@
-plural:      "Years"
-singular:    "Year"
-browse_text: "Years"
-slug_prefix: "year/"
+plural:      "Funding Years"
+singular:    "Funding Year"
+browse_text: "Funded Projects by Year"
+slug_prefix: "projects/"
 items:
 
   - title: "2001"

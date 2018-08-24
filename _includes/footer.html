@@ -6,20 +6,20 @@
         {%- when 'year' -%}
           {%- assign browse-by-groups = "year, strategy, program, slug" | split: ", " -%}
         {%- when 'projects-by-year' -%}
-          {%- assign browse-by-groups = "year, strategy, program, slug" | split: ", " -%}
+          {%- assign browse-by-groups = "funding-year, strategy, program, slug" | split: ", " -%}
         {%- when 'strategy' -%}
-          {%- assign browse-by-groups = "strategy, program, year, slug" | split: ", " -%}
+          {%- assign browse-by-groups = "strategy, program, slug, funding-year" | split: ", " -%}
         {%- when 'program' -%}
-          {%- assign browse-by-groups = "program, strategy, year, slug" | split: ", " -%}
+          {%- assign browse-by-groups = "program, strategy, slug, funding-year" | split: ", " -%}
         {%- when 'projects-by-slug' -%}
-          {%- assign browse-by-groups = "slug, strategy, program, year" | split: ", " -%}
+          {%- assign browse-by-groups = "slug, strategy, program, funding-year" | split: ", " -%}
         {%- else -%}
-          {%- assign browse-by-groups = "strategy, program, year, slug" | split: ", " -%}
+          {%- assign browse-by-groups = "strategy, program, slug, funding-year" | split: ", " -%}
       {% endcase %}
       {%- for browse-by in browse-by-groups -%}
         {%- assign browse-by_data = site.data.browse-by[browse-by] -%}
         <div class="col-md-12 text-left text-md-center">
-          <div class="m-0 mb-md-3"><span class="type--fine-print">Browse By {{ browse-by_data.singular }}</span></div>
+          <div class="m-0 mb-md-3"><span class="type--fine-print">{{ browse-by_data.browse_text | smartify }}</span></div>
           <div class="heading-block mb-3 mb-md-5">
             <ul class="list-inline list--hover">
               {%- for item in browse-by_data.items -%}
