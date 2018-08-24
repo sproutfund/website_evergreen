@@ -1,0 +1,9 @@
+<h4>Strategic Approaches to {{ page.title | smartify }}</h4>
+<div class="list-group">
+  {%- for highlight in page.highlights -%}
+    {%- if highlight.style == 'imageblock' -%}
+      {%- assign section_slug = highlight.title | slugify -%}
+      <a href="#{{ section_slug }}" class="list-group-item list-group-item-action">{{ highlight.title | smartify }}</a>
+    {%- endif -%}
+  {%- endfor -%}
+</div>

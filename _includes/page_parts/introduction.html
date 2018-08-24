@@ -10,6 +10,10 @@
         {%- endif -%}
         {%- if page.by-the-numbers -%}
           {% include page_parts/by-the-numbers.html %}
+        {%- else -%}
+          {%- if page.layout == 'strategy' -%}
+            {% include page_parts/strategy-nav.html %}
+          {%- endif -%}
         {%- endif -%}
       </div>
     </div>
