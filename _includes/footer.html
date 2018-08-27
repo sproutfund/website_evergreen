@@ -52,11 +52,27 @@
 
 <footer class="space--xs footer-1 bg--secondary">
   <div class="container">
-    <div class="row">
-      <div class="col-8 text-left text-center-xs">
-        <a href="{{ '/' | relative_url }}"><img alt="Image" class="logo" src="{{ '/assets/img/sprout_grey-circle.png' | relative_url }}"></a> <span class="type--fine-print">This work by The Sprout Fund is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</span>
+    <div class="row justify-content-between mb-4">
+      <div class="col-12 col-md-9 text-center text-md-left">
+        <ul class="list-inline list--hover">
+          <li>
+            <a href="{{ '/#story' | relative_url }}"><span>Our Story</span></a>
+          </li>
+          <li>
+            <a href="{{ '/#legacy' | relative_url }}"><span>Our Legacy</span></a>
+          </li>
+          <li>
+            <a href="{{ '/team/' | relative_url }}"><span>Our Team</span></a>
+          </li>
+          <li>
+            <a href="{{ '/#history' | relative_url }}"><span>Our History</span></a>
+          </li>
+          <li>
+            <a href="{{ '/#supporters' | relative_url }}"><span>Our Supporters</span></a>
+          </li>
+        </ul>
       </div>
-      <div class="col-4 text-right text-center-xs">
+      <div class="col-12 col-md-3 text-center text-md-right">
         <ul class="social-list list-inline list--hover">
           <li class="list-inline-item">
             <a target="_blank" title="Twitter" href="https://twitter.com/sproutfund"><i class="socicon socicon-twitter icon icon--xs"></i></a>
@@ -71,6 +87,11 @@
             <a target="_blank" title="Github" href="https://github.com/sproutfund/"><i class="socicon socicon-github icon icon--xs"></i></a>
           </li>
         </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center text-md-left">
+        <a href="{{ '/' | relative_url }}"><img alt="The Sprout Fund" class="logo" src="{{ '/assets/img/sprout_grey-circle.png' | relative_url }}" style="max-height: 4em;"></a> <span class="type--fine-print">This work by The Sprout Fund is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</span>
       </div>
     </div>
   </div>
