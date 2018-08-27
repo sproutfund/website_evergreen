@@ -36,7 +36,7 @@ Tasks To-Do
 - [ ] City of Learning 
 - [ ] One Northside 
 - [ ] Rec2Tech 
-- [ ] 100 Days 
+- [X] 100 Days 
 - [ ] Belonging 
 - [ ] My Brother’s Keeper 
 - [ ] Economic Opportunity 
@@ -66,7 +66,7 @@ Tasks To-Do
 - [ ] City of Learning 
 - [ ] One Northside 
 - [ ] Rec2Tech 
-- [ ] 100 Days 
+- [ ] 100 Days: need Partners
 - [ ] Belonging 
 - [ ] My Brother’s Keeper 
 - [ ] Economic Opportunity 
