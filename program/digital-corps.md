@@ -55,10 +55,10 @@ by-the-numbers:
 context:
   heading: "Empowering youth through free digital literacy programming"
   details:
-    - "The Digital Corps connected youth in Allegheny County with opportunities to develop digital literacy skills and enable them to thrive in school, college, and the workforce by providing free digital learning experiences in afterschool programs."
+    - "The Digital Corps connected youth in Allegheny County with opportunities to develop digital literacy skills and enable them to thrive in school, college, and the workforce through free digital learning experiences in afterschool programs."
     - "In partnership with APOST (Allegheny Partners for Out-of-School Time), The Sprout Fund recruited and trained mentors in the effective use of digital learning tools and then matched them with afterschool programs and community centers. Digital Corps members worked side by side with youth ages 10–18 to demystify robotics, code websites, program mobile apps, investigate online privacy, and empower the next generation of digital innovators."
     - "Members of the Digital Corps include informal educators, designers, technologists, scientists, youth workers, college students, and self-taught tinkerers interested in helping more youth develop their digital literacies, skills, and capacities. Many host sites were drawn from APOST's network of out-of-school learning providers serving thousands of children throughout Pittsburgh and Allegheny County."
-    - "The program emphasized collaborative, discovery-based learning where students created projects in every session, like simple video games with joysticks made of play dough & foil. Teens completed Digital Corps with online portfolios showcasing their new skills including mobile apps they built and webpages they designed, and they departed with the confidence to explore, investigate, and contribute to the digital world."
+    - "The program emphasized collaborative, discovery-based learning where students created projects in every session, like simple video games with joysticks made of play dough and foil. Teens completed Digital Corps with online portfolios showcasing their new skills including mobile apps they built and webpages they designed, and they departed with the confidence to explore, investigate, and contribute to the digital world."
 
 highlights:
   - title: "Program Activities"
@@ -67,7 +67,7 @@ highlights:
 
       - title: "Host Sites"
         description:
-          - "Digital Corps mentors were deployed in out-of-school learning sites throughout the city of Pittsburgh and the surrounding communities of Allegheny County. In libraries and afterschool sites, church basements and makerspaces, the Digital Corps engaged learners in free workshops in nearly 40 neighborhood locations in 2014 and 2015."
+          - "Digital Corps mentors were deployed in out-of-school learning sites throughout the city of Pittsburgh and in surrounding communities in Allegheny County. In libraries, afterschool sites, church basements, and makerspaces, the Digital Corps engaged learners in free workshops in nearly 40 neighborhood locations in 2014 and 2015."
         features:
           - title: "Assemble in Garfield"
             image: "/photos/programs/digital-corps/host-site_garfield.jpg"
@@ -121,7 +121,7 @@ highlights:
           - title: "Rec2Tech"
             image: "/logos/rec2tech.png"
             link:  "local://program/rec2tech/"
-            description: "After the Digital Corps concluded, many of the lessons learned on digital literacy skills development were incorporated into the Rec2Tech demonstration week."
+            description: "After Digital Corps concluded, many of the program's lessons learned were incorporated into the Rec2Tech demonstration week."
 
           - title: "City of Learning"
             image: "/logos/city-of-learning.png"
