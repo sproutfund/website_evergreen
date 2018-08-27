@@ -33,11 +33,11 @@ Tasks To-Do
 - [ ] Film & Video 
 - [ ] Open Badges Summit 
 - [ ] The Digital Corps 
-- [ ] City of Learning 
+- [X] City of Learning 
 - [ ] One Northside 
 - [ ] Rec2Tech 
 - [X] 100 Days 
-- [ ] Belonging 
+- [X] Belonging 
 - [ ] My Brother’s Keeper 
 - [ ] Economic Opportunity 
 - [ ] Sunset
@@ -63,7 +63,7 @@ Tasks To-Do
 - [ ] Film & Video 
 - [ ] Open Badges Summit 
 - [ ] The Digital Corps 
-- [ ] City of Learning 
+- [ ] City of Learning: needs Partners
 - [ ] One Northside 
 - [ ] Rec2Tech 
 - [ ] 100 Days: need Partners
