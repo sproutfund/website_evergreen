@@ -11,9 +11,9 @@ keywords: ""
 
 cover-image:
   source: "/photos/covers/belonging.jpg"
-  caption: ""
-  subcaption: ""
-  credit: ""
+  caption: "Bob Ziller's winning design as a yard sign"
+  subcaption: "Point Breeze, August 2018"
+  credit: "photo: Matt Hannigan"
 
 video:
   url: "https://player.vimeo.com/video/221251312?autoplay=1&title=0&byline=0&portrait=0"
