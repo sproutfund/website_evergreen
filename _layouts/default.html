@@ -9,6 +9,10 @@
 
   <div class="main-container">
 
+    {%- if page.cover-image.source -%}
+      {% include page_parts/cover.html %}
+    {%- endif -%}
+
     {{ content }}
 
     {% include footer.html %}
