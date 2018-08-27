@@ -59,7 +59,7 @@ context:
   details:
     - "To provide an opportunity for Pittsburgh’s community of filmmakers, videographers, and multimedia artists to showcase their approach to community innovation, The Sprout Fund announced a special Request for Proposals in fall 2013 to support film, video, and multimedia art projects. Sprout partnered closely with Pittsburgh Filmmakers/Pittsburgh Center for the Arts to cultivate applicants and support funded projects."
     - "In Fall 2013, Sprout offered a Request for Proposals for Innovative Community Film and Video Projects. For this RFP, Sprout sought $10,000 proposals from Pittsburgh’s filmmakers, videographers, and multimedia artists to catalyze the creation or completion of new and innovative community-based projects that take the form of short or feature-length films, documentaries, online videos, and multimedia experiences."
-    - "Winning projects were selected by a seven-person jury that included members of the standing Seed Award for Community Innovation Advisory Committee, representatives of the film and video community, and experts in film and video creation, production, and management. Several of the recognized films went on to further development and cinematic release in the years ahead: for example, Aspie Seeks Love won Best Documentary Feature Film at its premier at Cinequest Film Festival, and Fursonas won a “Spirit of Slamdance” award at its premier at Slamdance Film Festival."
+    - "Winning projects were selected by a seven-person jury that included members of the standing Seed Award for Community Innovation Advisory Committee, representatives of the film and video community, and experts in film and video creation, production, and management. Several of the recognized films went on to further development and cinematic release in the years ahead: for example, "Aspie Seeks Love" won Best Documentary Feature Film at its premier at Cinequest Film Festival, and "Fursonas" won a “Spirit of Slamdance” award at its premier at Slamdance Film Festival."
 
 # In November 2013, The Sprout Fund requested proposals to catalyze the creation or completion of new and innovative community-based projects that take the form of short or feature-length films, documentaries, online videos, and multimedia experiences.
 
@@ -80,7 +80,7 @@ highlights:
 
       - title: "Winning Films"
         description:
-          - "Three projects were selected to receive the full $10,000 award. In addition, a further $5,000 was granted to Pittsburgh Filmmakers / Pittsburgh Center for the Arts to provide fiscal sponsorship for the filmmakers and ongoing technical support for the projects."
+          - "Three projects were selected to receive the full $10,000 award. In addition, a further $5,000 was granted to Pittsburgh Filmmakers/Pittsburgh Center for the Arts to provide fiscal sponsorship for the filmmakers and ongoing technical support for the projects."
         features:
           - title: "“Aspie Seeks Love”"
             grant-id: "1775-SEED"
@@ -93,7 +93,7 @@ highlights:
 
       - title: "Honorable Mentions"
         description:
-          - " Additionally, Sprout supported 6 other films with that stood out in the Innovative Film & Video Projects review process with $1,000 Honorable Mention awards."
+          - " Additionally, Sprout supported 6 other films that stood out in the review process with $1,000 Honorable Mention awards."
         features:
           - title: "“Dot”"
             grant-id: "1779-SEED"
@@ -124,5 +124,5 @@ highlights:
         description: "Members of the public were invited to view shorts and trailers for the submitted videos on a special page of the Sprout website, where they could vote for their favorites."
 
       - title: "Jury"
-        description: "Winning projects were selected by a seven-person jury that included members Seed Award committee members, representatives of the film and video community, and experts in film and video creation, production, and management."
+        description: "Winning projects were selected by a seven-person jury that included Seed Award committee members, representatives of the film and video community, and experts in film and video creation, production, and management."
 ---
