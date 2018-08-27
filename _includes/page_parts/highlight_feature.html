@@ -48,7 +48,7 @@
 {%- if feature_style == 'big' -%}
   <div class="col-md-12 mb--2">
     <div class="row justify-content-between {% cycle '', 'flex-row-reverse' %}">
-      <div class="col-lg-5">
+      <div class="col-12 col-md-6 col-lg-5">
         {%- if feature_link -%}
           <a href="{{ feature_link }}" target="{{ feature_link_target }}">
         {%- endif -%}
@@ -57,9 +57,9 @@
           </a>
         {%- endif -%}
       </div>
-      <div class="col-lg-7">
+      <div class="col-12 col-md-6 col-lg-7">
         <div class="row">
-          {% cycle '<div class="col-lg-1">&nbsp;</div>', '' %}
+          {% cycle '<div class="d-none d-lg-block col-lg-1">&nbsp;</div>', '' %}
           <div class="col-lg-11">
             <div class="feature">
               {%- if feature_link -%}
@@ -105,14 +105,14 @@
           <div class="modal-container" data-modal-id="{{feature_slug}}">
             <div class="modal-content section-modal">
               <section class="imageblock feature-large bg--site border--round">
-                <div class="imageblock__content col-lg-5 col-md-4 pos-left">
+                <div class="imageblock__content col-md-4 col-lg-5 pos-left">
                   <div class="background-image-holder">
                     <img alt="background" src="{{ site.baseurl }}{{ feature_image }}" />
                   </div>
                 </div>
                 <div class="container">
                   <div class="row justify-content-end">
-                    <div class="col-lg-7 col-md-8">
+                    <div class="col-md-8 col-lg-7">
                       <div class="row justify-content-center">
                         <div class="col-md-11 col-lg-10">
                           <h2>{{ feature_title | smartify }}</h2>
