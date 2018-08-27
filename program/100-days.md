@@ -60,7 +60,7 @@ by-the-numbers:
   - heading: "Funded Projects"
     data:    "26"
   - heading: "Event Sponsorships"
-    data:    "6"
+    data:    "5"
   - heading: "Online Votes"
     data:    "41,000"
 
@@ -69,7 +69,7 @@ context:
   details:
     - "Following the 2016 presidential election, The Sprout Fund helped Pittsburghers take action to protect and support what mattered most to them. 100 Days of US was an initiative to advance positive, solution-oriented responses to issues of national importance."
     - "Sprout pledged $100,000 of its strategic reserves to support projects that would set Pittsburgh’s own agenda for the first 100 days of the new presidential administration."
-    - "Sprout received more than 150 project idea applications and raised more than $34,000 in additional public support from 250 donors, including $10,000 contributions each from the Urban Redevelopment Authority of Pittsburgh and Allegheny County."
+    - "Sprout received more than 150 project idea applications and raised more than $34,000 in additional public support from 250 donors, including contributions of $10,000 each from the Urban Redevelopment Authority of Pittsburgh and Allegheny County."
     - "After public voting that generated 41,000 likes and a thorough review by 60 community advisors, Sprout selected 26 projects and 5 event sponsorships to receive 100 Days support. Sprout worked closely with project leaders to assure the successful implementation of their ideas and celebrate the efforts they began during the first 100 days."
     - "From day 1 to day 100, we made it 100 Days of US."
 
