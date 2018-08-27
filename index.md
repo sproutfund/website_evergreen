@@ -7,7 +7,8 @@ cover-image:
   source: "/photos/sprouts.jpg"
 
 highlights:
-  - title: "Strategies for Community Change"
+  - title: "Our Strategies for Community Change"
+    slug: "strategies"
     style: "big-features"
     description:
       - "This is how we did it."
@@ -41,9 +42,32 @@ highlights:
         link:  "local://strategy/showcase-creativity-events/"
         description: "Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
 
-  - title: "Program & Initiatives"
+  - title: "Our Sunset & Legacy"
+    slug: "legacy"
     description:
-      - "Many program pages are still in development. Here's what's available so far."
+      - "As an investment in Pittsburgh’s bright future at Sprout's sunset, we documented our best practices, shared our enduring values, and gave the rest of our money away."
+    features:
+      - title: "Field Guide"
+        image: "/photos/programs/sunset/fieldguide-screen-capture.png"
+        link:  "https://fieldguide.sproutfund.org/"
+        description: "We shared nearly 20 years’ worth of lessons learned and best practices to help others catalyze positive change and cultivate connected communities."
+
+      - title: "Last Will & Testament"
+        style: "imageblock"
+        image: "/photos/programs/sunset/last-will-testament.png"
+        link:  "https://medium.com/@sproutfund/last-will-testament-26ab31ee583c"
+        description: "We looked back on the beliefs and ideals that guided our work from 2001 to 2018 and shared our reflections for Pittsburgh’s continued bright future."
+
+      - title: "Legacy Awards"
+        style: "imageblock"
+        image: "/photos/programs/sunset/legacy-awardees-collage.jpg"
+        link:  "local://program/sunset/#legacy-awards"
+        description: "We named 50 exceptional Pittsburghers as representatives of the next generation of “Sprouters” and provided them with grants of $1,000 to help get them started."
+
+  - title: "Our Program & Initiatives"
+    slug: "programs-initiatives"
+    description:
+      - "Sprout's programs were unique within Pittsburgh, with a distinctive approach to facilitating community change and creating social impact through a blend of grantmaking, community engagement strategies, and other forms of support."
     sections:
 
       - title: "Community Innovation"
@@ -80,23 +104,34 @@ highlights:
             link:  "local://program/spring/"
             description: "Supporting local, community-based biodiversity initiatives in and around Pittsburgh."
 
+          - title: "Engage Pittsburgh"
+            image: "/photos/!placeholder.png"
+            description: ""
+
           - title: "Economic Opportunity"
             image: "/photos/programs/economic-opportunity.jpg"
             link:  "local://program/economic-opportunity/"
             description: "Supporting collaborative approaches that expand economic opportunity for all."
 
-          - title: "Film & Video"
-            image: "/photos/programs/film-video.jpg"
-            link:  "local://program/film-video/"
-            description: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
+          - title: "Social Innovation Exchange"
+            image: "/photos/!placeholder.png"
+            description: ""
 
       - title: "Learning Innovation"
         description:
         features:
+          - title: "Remake Learning"
+            image: "/photos/!placeholder.png"
+            description: ""
+
           - title: "Hive"
             image: "/photos/programs/hive.jpg"
             link:  "local://program/hive/"
             description: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school."
+
+          - title: "Spark"
+            image: "/photos/!placeholder.png"
+            description: ""
 
           - title: "City of Learning"
             image: "/photos/programs/city-of-learning.jpg"
@@ -135,6 +170,26 @@ highlights:
             image: "/photos/programs/belonging.jpg"
             link:  "local://program/belonging/"
             description: "A community art project affirming that Pittsburgh is a place where we all belong."
+
+          - title: "Giant Inflatables"
+            image: "/photos/!placeholder.png"
+            description: ""
+
+      - title: "Showcase & Creativity"
+        description:
+        features:
+          - title: "Hothouse"
+            image: "/photos/!placeholder.png"
+            description: ""
+
+          - title: "Film & Video"
+            image: "/photos/programs/film-video.jpg"
+            link:  "local://program/film-video/"
+            description: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
+
+          - title: "AMP"
+            image: "/photos/!placeholder.png"
+            description: ""
 
 #  - title: "Browse By Year"
 #    description:
