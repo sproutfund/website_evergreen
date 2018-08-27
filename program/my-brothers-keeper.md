@@ -12,7 +12,7 @@ keywords: ""
 cover-image:
   source: "/photos/covers/my-brothers-keeper.jpg"
   caption: "Pittsburgh youth provide feedback on best practices for MBK programs"
-  subcaption: "Grayson Community Center, November 2016"
+  subcaption: "Jeron X. Grayson Community Center, November 2016"
   credit: "photo: Ben Filio"
 
 video:
@@ -62,16 +62,16 @@ by-the-numbers:
 context:
   heading: "Promoting Equity Through Collaboration"
   details:
-    - "When the City of Pittsburgh and Allegheny County embraced President Obama’s call to action for My Brother’s Keeper (MBK), The Sprout Fund quickly supported the regional commitment to create a more equitable community where all residents—especially boys and young men of color—benefit from the growth and improvements made in Pittsburgh."
-    - "In 2015, a 16-member committee, with representatives from academia, the clergy, community groups, police, city and county government and local school systems, created the local MBK Playbook for the City of Pittsburgh and Allegheny County. Released in October 2015, it identifying strategies and community partners already working to achieve social and economic equity."
-    - "To sustain this momentum and with support from the Heinz Endowments, Sprout engaged Homewood Children’s Village (HCV) to serve as the MBK project manager. HCV was tasked to plan and execute MBK-related meetings, communication, evaluation, and advocacy. Additionally, Sprout engaged Urbankind Institute to lead a community and stakeholder planning process."
-    - "These efforts informed the Digital Literacy Collaborative, a community of practice Sprout established to connect organizations who worked directly with youth, particularly young men of color ages 16-24, in out-of-school-time settings, to resource organizations with demonstrated experience in mentorship, youth leadership, and/or digital literacy best practices."
-    - "Finally, Sprout supported a comprehensive planning process for the future of MBK. An in-depth action plan was developed as a result of stakeholder feedback and community conversations. The action plan was used to secure ongoing funding for the initiative at a new long-term organizational home."
+    - "In 2014, the City of Pittsburgh and Allegheny County embraced President Obama’s call to action for My Brother’s Keeper (MBK), and The Sprout Fund quickly supported the regional commitment to create a more equitable community where all residents—especially boys and young men of color—benefit from the region's growth and improvements."
+    - "In 2015, a 16-member committee formed with representatives from academia, the clergy, community groups, police, city and county government, and local school systems, and this group created the local MBK Playbook for the City of Pittsburgh and Allegheny County. Released in October 2015, this publication identified community partners already working to achieve social and economic equity, and it outlined a series of future strategies that might advance the same work in the years ahead."
+    - "With support from The Heinz Endowments, Sprout worked with key regional partners to understand how to transform the committee's early momentum into tangible regional impact. Sprout engaged Homewood Children’s Village (HCV) to serve as the MBK project manager to plan and lead MBK-related meetings, communication, evaluation, and advocacy. Additionally, Sprout engaged UrbanKind Institute to lead a community and stakeholder planning process."
+    - "These efforts inspired the creation of the Digital Literacy Collaborative, a community of practice and funding program that Sprout established to forge new partnerships between “youth-serving” organizations that worked directly with youth in out-of-school-time settings, particularly young men of color ages 16-24, and “resource” organizations with demonstrated experience in mentorship, youth leadership, and/or digital literacy best practices."
+    - "Finally, Sprout supported a comprehensive planning process for the future of MBK by developing an in-depth action plan that resulted from an intensive series stakeholder feedback interviews and community conversations. The action plan was used to secure ongoing funding for the initiative at a new long-term organizational home."
 
 highlights:
   - title: "MBK Digital Literacy Collaborative"
     description:
-      - "The Digital Literacy Collaborative sought to create more inclusive community programming through the implementation of projects and activities that cultivated digital literacy skills connected to future employment for boys and young men of color. Through a series of 3 professional development and technical assistance sessions during Summer 2017, the youth-serving organizations and resources partners worked to refine plans for 2017-18 programming and create case studies illustrating high-quality program examples."
+      - "The Digital Literacy Collaborative sought to create more inclusive community programming through the implementation of projects and activities that cultivated digital literacy skills connected to future employment for boys and young men of color. Through a series of 3 professional development and technical assistance sessions during Summer 2017, the youth-serving organizations and resource organizations worked together to refine plans for 2017-18 programming and create case studies illustrating examples of high-quality programming for the youth they served."
     sections:
 
       - title: "Funded Projects"
@@ -86,7 +86,7 @@ highlights:
           - title: "Coding Club and Digital Literacy Labs"
             grant-id: "3183-MBK"
             image: "/photos/programs/my-brothers-keeper/mbk-dlc_08.jpg"
-            description: "Developing STEM opportunities, enhancing 21st Century skills, and providing career exploration support for youth in McKees Rocks at Focus on Renewal."
+            description: "Developing STEM opportunities, enhancing 21st century skills, and providing career exploration support for youth in McKees Rocks at Focus on Renewal."
 
           - title: "College Tech Connect: Music Technology Dual Enrollment Program"
             grant-id: "3185-MBK"
@@ -105,7 +105,7 @@ highlights:
 
       - title: "Case Studies"
         description:
-          - "The 5 Digital Literacy Collaborative resource organizations developed case studies on programs that provided youth with the opportunity to acquire technological, social, and academic skills that enhanced their quality of life and ability to secure employment. Resource organizations were encouraged to select a program that also incorporated peer-supported mentorship, workforce development, and excellence in digital literacy training."
+          - "The 5 Digital Literacy Collaborative resource organizations developed case studies on programs that provided youth with opportunities to acquire technological, social, and academic skills that enhanced their quality of life and ability to secure employment. Resource organizations were encouraged to detail a program that also incorporated peer-supported mentorship, workforce development, and excellence in digital literacy training."
         features:
           - title: "Coding Club"
             image: "/photos/programs/my-brothers-keeper/mbk-dlc_01.jpg"
@@ -121,7 +121,7 @@ highlights:
 
           - title: "Pathway to a Technology Career"
             image: "/photos/programs/my-brothers-keeper/mbk-dlc_02.jpg"
-            description: "CCAC Homewood-Brushton enables youth interested in music technology and transitioning into college to take an entry level course through the community college."
+            description: "CCAC Homewood-Brushton enables youth interested in music technology and transitioning into college to take an entry-level course through the community college."
 
           - title: "Technology Explorer"
             image: "/photos/programs/my-brothers-keeper/mbk-dlc_04.jpg"
@@ -134,16 +134,16 @@ highlights:
 
       - title: "Best Practices for MBK Youth Programs"
         description:
-          - "UrbanKind Institute facilitated conversations among and between young men, service providers, and others about out-of-school programming via 7 public planning sessions in venues across Allegheny County. Based on the information generated by UrbanKind, Sprout identified the following programmatic recommendations for best practices to narrow the opportunity gap for youth in Pittsburgh and Allegheny County."
+          - "UrbanKind Institute facilitated conversations among young men, service providers, and other community members about out-of-school programming through a series of 7 public planning sessions in venues across Allegheny County. Based on the information generated by UrbanKind, Sprout identified the following programmatic recommendations for best practices to narrow the opportunity gap for youth in Pittsburgh and Allegheny County."
         features:
           - title: "Partnerships with schools"
-            description: "Schools often offer secure spaces and transportation options, which are desirable elements in program design. However, many high-quality programs also exist outside of the traditional school context."
+            description: "Schools often offer secure spaces and transportation options, which are desirable elements in program design. Meanwhile, many high-quality programs also exist outside of the traditional school context."
 
           - title: "Consistency and care"
             description: "Relationships between youth and program staff are critical but take time to build. Programs that retain participants are spaces where youth feel loved and listened to, and where they feel a sense of belonging and stability."
 
           - title: "Clear expectations"
-            description: "Youth should know what is expected of them in terms of attendance and participation as well as the skills and experiences a program can (and cannot) offer so that youth can make informed decisions about participation."
+            description: "Youth should know what is expected of them in terms of attendance and participation as well as the skills and experiences a program can (and cannot) offer so that they can make informed decisions about participation."
 
           - title: "Peer and near-peer mentoring"
             description: "When youth relate to a mentor socially and culturally, and are made responsible for a peer’s success, they learn valuable lessons in leadership and other beneficial social and professional skills."
@@ -155,16 +155,16 @@ highlights:
             description: "Programs should offer a continuous sequence of activities to choose from, go between, or grow into to expose youth to relevant opportunities and encourage interest in digital technology fields."
 
           - title: "Year-round programming"
-            description: "Year-round programs build stronger peer and staff relationships with youth, offer more in-depth learning experiences, and provide consistent safe spaces for participants not supported at home or in-school."
+            description: "Year-round programs build stronger peer and staff relationships with youth, offer more in-depth learning experiences, and provide consistent safe spaces for participants who are not otherwise supported at home or in-school."
 
           - title: "Opportunities to stay connected"
             description: "Providers should allow participants to stay involved even after youth finish high school and “age out.” Such youth build deeper relationships, serve as peer mentors, and help to shape future programming."
 
           - title: "Hands-on activities with real world applications"
-            description: "Attractive programs engage participants in hands-on, experiential learning focused on life skills and/or college and career preparation, which often includes digital literacy."
+            description: "Attractive programs engage participants in hands-on, experiential learning focused on life skills and/or college and career preparation, which often includes digital literacy programming."
 
           - title: "Youth input"
-            description: "More personalized goal-setting, meeting youth where they are, and making participants part of the assessment process at the beginning of a new program are critical when setting the program’s goals and outcomes."
+            description: "More personalized goal-setting, meeting youth where they are, and making participants part of the assessment process from the beginning of a new program are critical when setting the program’s goals and outcomes."
 
       - title: "Planning for MBK in 2018 and Beyond"
         description:
