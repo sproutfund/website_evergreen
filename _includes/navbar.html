@@ -15,7 +15,7 @@
   <nav class="bar {% if page.cover-image.source %} bar--transparent bar--absolute{% endif %} hidden-xs" id="menu2" style="">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-12 col-lg-4 text-left hidden-xs">
+        <div class="col-12 col-lg-4 text-left">
           <div class="bar__module">
             <ul class="menu-horizontal">
               <li class="dropdown">
@@ -26,16 +26,16 @@
                       <div class="dropdown__content col-lg-2">
                         <ul class="menu-vertical">
                           <li>
-                            <a href="{{ '/about/history/' | relative_url }}">Our History</a>
+                            <a href="{{ '/#story' | relative_url }}">Our Story</a>
                           </li>
                           <li>
-                            <a href="{{ '/about/ideals/' | relative_url }}">Our Ideals</a>
+                            <a href="{{ '/team/' | relative_url }}">Our Team</a>
                           </li>
                           <li>
-                            <a class="type--fade" title="in development">Our Team</a>
+                            <a href="{{ '/#history' | relative_url }}">Our History</a>
                           </li>
                           <li>
-                            <a class="type--fade" title="in development">Our Supporters</a>
+                            <a href="{{ '/#supporters' | relative_url }}">Our Supporters</a>
                           </li>
                         </ul>
                       </div>
@@ -102,7 +102,7 @@
                             </ul>
                           </div>
                           <div class="col-lg-2">
-                            <h5>&nbsp;</h5>
+                            <h5 class="d-none d-md-block">&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col2_offset limit:program_col_length -%}
                                 {%- if item.slug -%}
@@ -126,7 +126,7 @@
                             </ul>
                           </div>
                           <div class="col-lg-2">
-                            <h5>&nbsp;</h5>
+                            <h5 class="d-none d-md-block">&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col3_offset limit:program_col_length -%}
                                 {%- if item.slug -%}
@@ -177,10 +177,13 @@
                       <div class="dropdown__content col-lg-2">
                         <ul class="menu-vertical">
                           <li>
-                            <a href="#">Field Guide</a>
+                            <a href="https://fieldguide.sproutfund.org/">Field Guide</a>
                           </li>
                           <li>
-                            <a href="#">Last Will &amp; Testament</a>
+                            <a href="https://medium.com/@sproutfund/last-will-testament-26ab31ee583c">Last Will &amp; Testament</a>
+                          </li>
+                          <li>
+                            <a href="{{ '/program/sunset/#legacy-awards' | relative_url }}">Legacy Awards</a>
                           </li>
                         </ul>
                       </div>
