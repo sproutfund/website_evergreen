@@ -124,7 +124,7 @@ highlights:
 
           - title: "Teaching Kit"
             link: "local://downloads/belonging/teaching-kit.pdf"
-            description: "Are you a classroom teacher, community group leader, or out-of-school educator? Encourage your children & youth to create their own unique artistic response using the Belonging teaching kit."
+            description: "Download a PDF of the Belonging teaching kit and encourage children and youth in your classroom or community to create their own unique artistic response."
 
           - title: "Belonging in Your Community"
             link: "https://medium.com/@sproutfund/what-we-learned-the-belonging-community-art-project-546a45f2177d"
