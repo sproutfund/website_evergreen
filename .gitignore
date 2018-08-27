@@ -20,6 +20,7 @@ _vendor
 *.zip
 *~
 *.lock
+*_tmp*
 
 # OS or Editor folders
 ._*
@@ -57,6 +58,7 @@ theme
 
 # Ignore Source Photos
 _photos_src
+logos/friends/src
 
 # Ignore Source Videos
 _videos_src
