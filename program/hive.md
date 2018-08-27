@@ -4,7 +4,7 @@ redirect_from:
   - /hive
   - /hivepgh
 title: "Hive"
-subtitle: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school."
+subtitle: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school time."
 description: "Hive created “connected learning” experiences where youth can participate in accessible, “anytime, anywhere” learning activities by pursuing their interests and engaging with their peers in formal classrooms and in a range of informal settings, from museums and libraries to afterschool programs and community centers. Pittsburgh was the third official Hive and part of a global network of cities supported by the MacArthur Foundation and Mozilla."
 logo: "/logos/hive.png"
 superprogram: "Learning"
@@ -54,7 +54,7 @@ context:
   heading: ""
   details:
     - "In 2013, Pittsburgh joined Hive Learning Networks, an international movement to reimagine learning across youth-serving organizations. Every day, students move among learning experiences in formal classrooms and in a range of informal settings, from museums and libraries to afterschool programs and community centers."
-    - "Hive Learning Networks endeavor to link these environments to create “connected learning” experiences where youth can participate in accessible, “anytime, anywhere” learning activities by pursuing their interests and engaging with their peers."
+    - "Hive Learning Networks endeavor to link these environments to create “Connected Learning” experiences where youth can participate in accessible, “anytime, anywhere” learning activities by pursuing their interests and engaging with their peers."
     - "With support from the MacArthur Foundation’s digital media and learning initiative, the first Hive Learning Networks were created in New York City in 2007 and Chicago in 2009. Pittsburgh’s Hive operated within the Remake Learning Network as an ongoing grant program to spur new connected learning projects and programs for tweens, teens, and young adults."
     - "Although Hive ceased to be a brand actively used in Pittsburgh at the end of 2015, Sprout continued to support Connected Learning with catalytic funding and event sponsorships through the Remake Learning funding stream starting in 2016."
 
@@ -149,7 +149,7 @@ highlights:
 
       - title: "MozFest"
         image: "/photos/programs/hive/mozfest-2013.jpg"
-        description: "As the global steward of the Hive Learning Networks, Mozilla invited partners from North America, Europe, Asia and beyond to London to make a better web."
+        description: "As the global steward of the Hive Learning Networks, Mozilla invited partners from North America, Europe, Asia, and beyond to London to make a better web."
 
   - title: "Share & Spread Connected Learning"
     description:
@@ -208,7 +208,7 @@ highlights:
       - title: "City of Learning"
         image: "/logos/city-of-learning.png"
         link:  "local://program/city-of-learning/"
-        description: "Many Hive projects and organizations were a key program partners for Pittsburgh City of Learning and issued digital badges in the summers of 2014 through 2016."
+        description: "Many Hive projects and organizations were key program partners for Pittsburgh City of Learning and issued digital badges in the summers of 2014 through 2016."
 
       - title: "Spark"
         image: "/logos/spark.png"
