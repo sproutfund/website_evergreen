@@ -80,9 +80,9 @@ context:
   heading: "Turning the entire city into a campus for learning"
   details:
     - "From 2014 to 2016, The Sprout Fund worked with local and national partners to promote digital badges for learning. Like badges earned in scouting, digital badges recognize learning wherever and whenever it happens: in classrooms, in libraries, in city parks, and more."
-    - "Sprout led local and national conversations about this new model’s potential to transform how employers and educators recognize and reward learning. It was closely aligned with our stewardship of the Remake Learning Network and its efforts to make remarkable learning opportunities available to all youth in the greater Pittsburgh region."
+    - "Sprout led local and national conversations about this new model’s potential to transform how employers and educators recognize and reward learning. This work was closely aligned with our stewardship of the Remake Learning Network and its efforts to make remarkable learning opportunities available to all youth in the greater Pittsburgh region."
     - "With City of Learning, our region joined a national movement to develop digital badges for learning to help young people explore their interests, develop new skills, and connect with real-world opportunities. In 2014 and 2015, Pittsburgh was one of the four vanguard cities piloting this approach, and we were one of 12 Cities of Learning nationwide using the LRNG platform in 2016."
-    - "Through this program, more than 6,000 students across Pittsburgh and the surrounding communities of Allegheny County had the opportunity to earn more than 8,000 digital badges through their participation in summer programs in schools, museums, libraries, and learning spaces across the city."
+    - "Through this program, more than 6,000 students across Pittsburgh and Allegheny County had the opportunity to earn more than 8,000 digital badges through participating in summer programs in schools, museums, libraries, and learning spaces across the city."
     - "To develop this new learning ecosystem, Sprout worked behind the scenes to coordinate the tools, trainings, and support that educators would need to translate their existing learning programs into the language of digital badges. We built major partnerships with regional institutions, hosted large-scale events to focus community attention on this opportunity, and developed tools and resources used in Pittsburgh and across the country."
     - "Along the way, we enlisted the expertise of local community members, documented our work, and shared what we learned."
 
@@ -93,7 +93,7 @@ highlights:
 
       - title: "Summer Learning Partners"
         description:
-          - "Sprout supported 45 summer enrichment programs in 2014 and 2015 that provided 6,000 young people the chance to explore their interests, develop new skills, and connect to real-world opportunity. We recruited a cohort of smaller-scale partners who we led through a series of trainings and engagement activities to help them develop badges to reward students who participate in their programs for their achievements."
+          - "Sprout supported 45 summer enrichment programs in 2014 and 2015 that provided 6,000 young people the chance to explore their interests, develop new skills, and connect to real-world opportunity. We recruited a cohort of smaller-scale partners who we led through a series of trainings and engagement activities to help them develop badges to reward their students for their achievements in these organizations' summer programs."
           - "We also built relationships with 3 major citywide partners: our public school system, our public library system, and the local workforce investment board, which champions our region’s summer youth employment program."
           - "Finally, Sprout hosted several community events each summer to help build awareness of innovative learning activities available to youth and families throughout the city."
         features:
@@ -120,7 +120,7 @@ highlights:
 
       - title: "Badge-Enable Learning Pathways"
         description:
-          - "In 2016, Sprout funded six projects that created cross-disciplinary, collaborative learning approaches called “learning pathways” during the academic year 2016-2017. These projects empowered students to earn digital badges as they progressed through related learning activities at multiple organizations, enabling students to access new opportunities and organizations to reach new audiences."
+          - "In 2016, Sprout funded six projects that created cross-disciplinary, collaborative learning approaches called “learning pathways” during the 2016-2017 academic year. These projects empowered students to earn digital badges as they progressed through related learning activities at multiple organizations, enabling students to access new opportunities and organizations to reach new audiences."
         features:
           - title: "Architecture Learning Network"
             grant-id: "!2016-08-11_multi(05)_architecture-learning-network"
@@ -149,7 +149,7 @@ highlights:
         description:
           - "The Remake Learning Competencies form the foundation of learning pathways that connect students to opportunities offered by schools, afterschool programs, cultural organizations, and online learning resources."
           - "The competencies were developed through the active engagement of more than 100 local subject matter experts, informal and formal educators, youth workers, and program managers. Led by a team of trained facilitators, multiple meetings held in the summer and fall of 2014 harnessed the diverse knowledge and expertise of these community members."
-          - "The results were organized into centers of programmatic excellence within the Pittsburgh education ecosystem."
+          - "The results were organized into centers of programmatic excellence inspired by the Pittsburgh education ecosystem."
         features:
           - title: "Career Readiness"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_career-readiness.png"
@@ -159,7 +159,7 @@ highlights:
           - title: "Coding & Gaming"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_coding-gaming.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Coding-Gaming.pdf"
-            description: "Technical skills in computer programming, application and game development, as well as creative competencies in game design, animation, and storytelling."
+            description: "Technical skills in computer programming and application and game development, plus creative competencies in game design, animation, and storytelling."
 
           - title: "Design & Making"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_design-making.png"
@@ -174,7 +174,7 @@ highlights:
           - title: "Robotics"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_robotics.png"
             link: "local://downloads/city-of-learning/RemakeLearning_Competencies_Robotics.pdf"
-            description: "Training in computer programming, fabrication, and electronics with design-thinking, iterative problem-solving, and communication."
+            description: "Training in computer programming, fabrication, and electronics with design thinking, iterative problem solving, and communication."
 
           - title: "STEAM"
             image: "/photos/programs/city-of-learning/remakelearning_competencies_steam.png"
@@ -193,7 +193,7 @@ highlights:
       - title: "Pittsburgh Learning Pathways Summit"
         video: "https://player.vimeo.com/video/118836439?autoplay=1&title=0&byline=0&portrait=0"
         description:
-          - "In November 2014, Sprout hosted a large public forum to explore the potential for digital badges. The event featured a mixture of remarks from stage, panel discussions, table-based facilitation activities, science fair-style feedback stations, and an enthusiastic emcee."
+          - "In November 2014, Sprout hosted a large public forum to explore the potential for digital badges. The event featured a mixture of keynote remarks, panel discussions, table-based facilitation activities, science fair-style feedback stations, and an enthusiastic emcee."
           - "Attended by more than 300 educators and 100 high school students and supported by a local team of 35 facilitators, the event helped kick off a region-wide effort to reimagine how Pittsburgh might recognize and reward learning."
         features:
           - image: "/photos/programs/city-of-learning/learning-pathways-summit_1.jpg"
@@ -218,15 +218,15 @@ highlights:
 
       - title: "Other Events & Support"
         description:
-          - "To help support the educators creating and issue digital badges, Sprout also offered hosted periodic “reporting parties” we we invited participating educators and organizations to look back on what worked and what didn’t."
+          - "To help support the educators creating and issue digital badges, Sprout also hosted periodic “reporting parties” where we invited participating educators and organizations to look back on what worked and what didn’t."
         features:
           - title: "Digital Badge Lab"
             image: "/photos/programs/city-of-learning/digital-badge-lab.jpg"
-            description: "We hosted awareness-building events to conversations among badge-curious educators and provoke them to think about incorporating digital badges into their own work."
+            description: "We hosted awareness-building events to conversations among badge-curious educators and provoked them to think about incorporating digital badges into their own work."
 
           - title: "Helpdesk"
             image: "/photos/programs/city-of-learning/col-helpdesk.jpg"
-            description: "We recruited a team of “helpdesk staff” to train and offer tech support to educators from participating organizations as they developed digital badges and navigated the online badge-issuing platform."
+            description: "We recruited a team of “helpdesk staff” to train and offer tech support to educators from participating organizations as they developed digital badges and navigated the online badge-issuing platforms."
 
           - title: "Research & Reporting Party"
             image: "/photos/programs/city-of-learning/col-reporting-party.jpg"
