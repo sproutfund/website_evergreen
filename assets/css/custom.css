@@ -166,10 +166,17 @@ ul.acknowledgements-list li {
   color: #252525;
 }
 
-.container > .row.mb--2:last-child {
+section .container:last-child > .row.mb--2:last-child {
   margin-bottom: 0;
 }
 
-.container > .row.mb--2 > .mb--2:last-child {
+section .container:last-child > .row.mb--2 > .mb--2:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .feature-8 {
+    padding-top: 1.392855rem;
+    padding-bottom: 1.392855rem;
+  }
 }
