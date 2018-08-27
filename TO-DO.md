@@ -31,7 +31,7 @@ Tasks To-Do
 - [ ] Remake Learning 
 - [ ] Grand Ideas 
 - [ ] Hive 
-- [ ] Film & Video 
+- [X] Film & Video 
 - [ ] Open Badges Summit 
 - [X] The Digital Corps 
 - [X] City of Learning 
