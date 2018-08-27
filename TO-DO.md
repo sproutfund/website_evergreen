@@ -46,3 +46,33 @@ Tasks To-Do
 - [ ] Storytelling & Documentation
 - [ ] Art with Community Engagement
 - [ ] Showcase & Creativity Events 
+
+## STILL NEEDED:
+- [ ] Seed Award: needs Partners and Supporters
+- [ ] Community Murals 
+- [ ] Hothouse 
+- [ ] AMP 
+- [ ] Engage Pittsburgh 
+- [ ] Giant Inflatables 
+- [ ] Community Connections 
+- [ ] Spark 
+- [ ] Spring Social Innovation Exchange 
+- [ ] Remake Learning 
+- [ ] Grand Ideas 
+- [ ] Hive 
+- [ ] Film & Video 
+- [ ] Open Badges Summit 
+- [ ] The Digital Corps 
+- [ ] City of Learning 
+- [ ] One Northside 
+- [ ] Rec2Tech 
+- [ ] 100 Days 
+- [ ] Belonging 
+- [ ] My Brother’s Keeper 
+- [ ] Economic Opportunity 
+- [ ] Sunset
+- [ ] Catalytic Funding 
+- [ ] Networks & Community Building
+- [ ] Storytelling & Documentation
+- [ ] Art with Community Engagement
+- [ ] Showcase & Creativity Events 
