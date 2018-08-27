@@ -30,7 +30,7 @@ Tasks To-Do
 - [ ] Social Innovation Exchange 
 - [ ] Remake Learning 
 - [X] Grand Ideas 
-- [ ] Hive 
+- [X] Hive 
 - [X] Film & Video 
 - [ ] Open Badges Summit 
 - [X] The Digital Corps 
@@ -60,8 +60,8 @@ Tasks To-Do
 - [ ] Spring Social Innovation Exchange 
 - [ ] Remake Learning 
 - [ ] Grand Ideas: Need supporters and partners
-- [ ] Hive 
-- [ ] Film & Video 
+- [ ] Hive: Needs supporters, partners, staff
+- [X] Film & Video: DONE
 - [ ] Open Badges Summit 
 - [X] The Digital Corps: DONE 
 - [ ] City of Learning: needs Partners
