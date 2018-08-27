@@ -1,6 +1,13 @@
 Tasks To-Do
 ======
 
+## UI
+- [ ] lightbox galleries
+
+## Team Page
+- [ ] Add Spring decisionmakers
+- [ ] 
+
 ## Grants Database
 - [ ] split organizations column into orgs and project leaders
 - [ ] check project descriptions for "org, a project of org" language
