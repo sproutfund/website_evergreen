@@ -57,15 +57,15 @@ by-the-numbers:
 context:
   heading: "Seeding Transformative Change"
   details:
-    - "The Seed Award program was the flagship funding program of The Sprout Fund. More than 300 modest financial awards up to $10,000 supported community-based projects and initiatives at the grassroots-level."
+    - "The Seed Award program was the flagship funding program of The Sprout Fund. More than 300 modest financial awards up to $10,000 supported community-based projects and initiatives at the grassroots level."
     - "The model was the natural outgrowth of the New Idea Factory, which worked in 2000 to develop the ideas of young people (18-40 years old) and contribute to the region’s overall ability to attract and retain its young talent. Seed Award was created as a mechanism to support these and future innovative ideas to make Pittsburgh a better place to live, work, and play."
     - "The program was unique within Southwestern Pennsylvania, with a distinctive approach to facilitating community change and creating social impact through a blend of grantmaking, community engagement strategies, and other forms of support. Seed Award supported, celebrated, and showcased the initiatives of young and creative people in the region."
-    - "The program’s cumulative power helped to create a critical mass of positive change for Pittsburgh and the surrounding communities of Allegheny County, Fayette, and Greene counties."
+    - "The program’s cumulative power helped to create a critical mass of positive change for Pittsburgh and the surrounding communities of Allegheny, Fayette, and Greene counties."
 
 highlights:
   - title: "Funded Project Highlights"
     description:
-      - "Seed Award projects were innovative, non-traditional ideas that focused on current issues and challenges faced by the community, inspiring a diverse group of participants to be more involved in their community and assume leadership roles."
+      - "Seed Award projects were innovative, non-traditional ideas that focused on current issues and challenges faced by the community, inspiring a diverse group of participants to be more involved in their communities and assume leadership roles."
     sections:
 
       - title: "Art, Music, & Performance"
@@ -145,7 +145,7 @@ highlights:
 
       - title: "DIY"
         description:
-          - "Events and activities for all ages that highlight the industrious roots of the region."
+          - "Events and activities for all ages that highlight the region's industrious roots."
         features:
           - title: "Handmade Arcade"
             grant-id: "0449-SEED"
@@ -202,7 +202,7 @@ highlights:
 
       - title: "Play"
         description:
-          - "Attention-grabbing, unique ways that create a more spontaneous and lively Pittsburgh."
+          - "Attention-grabbing, unique approaches that create a more spontaneous and lively Pittsburgh."
         features:
           - title: "Accordion Pool Party"
             grant-id: "1058-SEED"
@@ -228,7 +228,7 @@ highlights:
 
       - title: "The People Behind the Projects"
         description:
-          -  "Setting out to establish a new mechanism to seed lasting community change, Sprout championed trailblazers whose innovative ideas had the potential to create transformative change. "
+          -  "Setting out to establish a new mechanism to seed lasting community change, Sprout championed trailblazers whose innovative ideas had the potential to create transformative change."
         features:
           - title: "Bridging Industries"
             description: "Project managers and team members represented the diversity of backgrounds, interests, experience, and expertise found in the region."
@@ -241,16 +241,16 @@ highlights:
 
       - title: "Application Assistance"
         description:
-          - "Acknowledging that not every prospective applicant was an experienced fundraiser, Sprout implemented a series of optional support services that anyone could take advantage of leading up to the application deadline."
+          - "Because  not every prospective applicant was an experienced fundraiser, Sprout implemented a series of optional support services that anyone could use in advance of the application deadline."
         features:
           - title: "Open Application Workshops"
-            description: "Held on the second Friday of every month for more than a decade, anyone could drop in to learn about the process and ask questions."
+            description: "We hosted workshops on the second Friday of every month for more than a decade, where anyone could drop in to learn about the process and ask questions."
 
           - title: "Draft Review"
-            description: "Staff provided feedback on applications in-progress to help improve projects prior to submission."
+            description: "Staff provided feedback on in-progress applications to help improve projects prior to submission."
 
           - title: "Denied Applicant Feedback"
-            description: "If at first they didn't succeed, applicants could listen to what the committee said about their proposal and make edits before trying again."
+            description: "If at first they didn't succeed, applicants could learn what the committee said about their proposal and make edits before trying again."
 
       - title: "Community Decisionmaking"
         description:
@@ -263,20 +263,20 @@ highlights:
             description: "Reviewers judged applications based on established criteria critical to the success of small community projects."
 
           - title: "Consensus-Based Decisions"
-            description: "A final meeting allowed committee members to review high priority projects and make final recommendations for support."
+            description: "A final meeting allowed committee members to review high-priority projects and make final recommendations for support."
 
       - title: "Grantee Support"
         description:
           -  "With service-oriented staff-to-project administration and a peer mentorship program, project managers were assisted in the planning, implementation, and evaluation of their initiatives."
         features:
           - title: "First Project Meetings"
-            description: "In-person meetings were used to get to know the project leaders, going over suggestions and feedback from the community-based advisory panel."
+            description: "In-person meetings helped project leaders get to know program staff, who shared suggestions and feedback from the community-based advisory panel."
 
           - title: "Peer Mentorship"
-            description: "Mentors provided customized guidance and support to meet the needs of project managers, promoting project success and leadership potential."
+            description: "Mentors provided customized guidance and support to meet project managers' needs, promoting project success and leadership potential."
 
           - title: "Project Referrals"
-            description: "Active projects were often referred by Sprout staff to complementary projects, services, or individuals in the community to further enhance their project’s strengths."
+            description: "Active projects were often referred by Sprout staff to complementary projects, services, or individuals in the community to further enhance each project’s strengths."
 
   - title: "Spinoff Programs"
     description:
@@ -286,7 +286,7 @@ highlights:
         description:
         features:
           - title: "Grand Ideas"
-            description: "Showed that a little bit of funding and willingness to take a chance on an unproven idea can go a long way when you simply ask “How would you use $1,000 for an innovative community project?” "
+            description: "Demonstrated that a little bit of funding and willingness to take a chance on an unproven idea can go a long way when you simply ask, “How would you use $1,000 for an innovative community project?” "
 
           - title: "Root Award"
             description: "Helped Seed Awardees scale up by making $25,000 grants available only to former Seed Award recipients for a new proposal with a greater scope than their previously supported project."
