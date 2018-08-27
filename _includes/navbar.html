@@ -15,7 +15,7 @@
   <nav class="bar {% if page.cover-image.source %} bar--transparent bar--absolute{% endif %} hidden-xs" id="menu2" style="">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-12 col-lg-4 text-left">
+        <div class="col-12 col-md-4 text-left">
           <div class="bar__module">
             <ul class="menu-horizontal">
               <li class="dropdown">
@@ -194,14 +194,14 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-4 text-center hidden-xs">
+        <div class="col-12 col-md-4 text-center hidden-xs">
           <div class="bar__module">
             {% unless page.url == "/" %}
               <a href="{{ '/' | relative_url }}"><img alt="logo" class="logo logo-dark" src="{{ '/assets/img/sproutfund_black.svg' | relative_url }}"> <img alt="logo" class="logo logo-light" src="{{ '/assets/img/sproutfund_white.svg' | relative_url }}"></a>
             {% endunless %}
           </div><!--end module-->
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-md-4">
           <div class="row justify-content-end">
             <div class="col-lg-9">
               {%- if page_slug != 'search' -%}
