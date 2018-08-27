@@ -40,7 +40,7 @@ Tasks To-Do
 - [X] 100 Days 
 - [X] Belonging 
 - [ ] My Brother’s Keeper 
-- [ ] Economic Opportunity 
+- [X] Economic Opportunity 
 - [ ] Sunset
 - [ ] Catalytic Funding 
 - [ ] Networks & Community Building
@@ -55,7 +55,7 @@ Tasks To-Do
 - [ ] AMP 
 - [ ] Engage Pittsburgh 
 - [ ] Giant Inflatables 
-- [ ] Community Connections 
+- [X] Community Connections: DONE
 - [ ] Spark 
 - [ ] Spring Social Innovation Exchange 
 - [ ] Remake Learning 
@@ -63,14 +63,14 @@ Tasks To-Do
 - [ ] Hive 
 - [ ] Film & Video 
 - [ ] Open Badges Summit 
-- [ ] The Digital Corps 
+- [X] The Digital Corps: DONE 
 - [ ] City of Learning: needs Partners
 - [ ] One Northside 
 - [ ] Rec2Tech 
 - [ ] 100 Days: need Partners
 - [ ] Belonging 
 - [ ] My Brother’s Keeper 
-- [ ] Economic Opportunity 
+- [ ] Economic Opportunity: Need partners
 - [ ] Sunset
 - [ ] Catalytic Funding 
 - [ ] Networks & Community Building
