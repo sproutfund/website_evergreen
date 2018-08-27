@@ -104,34 +104,34 @@ highlights:
             link:  "local://program/spring/"
             description: "Supporting local, community-based biodiversity initiatives in and around Pittsburgh."
 
-          - title: "Engage Pittsburgh"
-            image: "/photos/!placeholder.png"
-            description: ""
+#          - title: "Engage Pittsburgh"
+#            image: "/photos/!placeholder.png"
+#            description: ""
 
           - title: "Economic Opportunity"
             image: "/photos/programs/economic-opportunity.jpg"
             link:  "local://program/economic-opportunity/"
             description: "Supporting collaborative approaches that expand economic opportunity for all."
 
-          - title: "Social Innovation Exchange"
-            image: "/photos/!placeholder.png"
-            description: ""
+#          - title: "Social Innovation Exchange"
+#            image: "/photos/!placeholder.png"
+#            description: ""
 
       - title: "Learning Innovation"
         description:
         features:
-          - title: "Remake Learning"
-            image: "/photos/!placeholder.png"
-            description: ""
+#          - title: "Remake Learning"
+#            image: "/photos/!placeholder.png"
+#            description: ""
 
           - title: "Hive"
             image: "/photos/programs/hive.jpg"
             link:  "local://program/hive/"
             description: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school."
 
-          - title: "Spark"
-            image: "/photos/!placeholder.png"
-            description: ""
+#          - title: "Spark"
+#            image: "/photos/!placeholder.png"
+#            description: ""
 
           - title: "City of Learning"
             image: "/photos/programs/city-of-learning.jpg"
@@ -171,25 +171,25 @@ highlights:
             link:  "local://program/belonging/"
             description: "A community art project affirming that Pittsburgh is a place where we all belong."
 
-          - title: "Giant Inflatables"
-            image: "/photos/!placeholder.png"
-            description: ""
+#          - title: "Giant Inflatables"
+#            image: "/photos/!placeholder.png"
+#            description: ""
 
       - title: "Showcase & Creativity"
         description:
         features:
-          - title: "Hothouse"
-            image: "/photos/!placeholder.png"
-            description: ""
+#          - title: "Hothouse"
+#            image: "/photos/!placeholder.png"
+#            description: ""
 
           - title: "Film & Video"
             image: "/photos/programs/film-video.jpg"
             link:  "local://program/film-video/"
             description: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
 
-          - title: "AMP"
-            image: "/photos/!placeholder.png"
-            description: ""
+#          - title: "AMP"
+#            image: "/photos/!placeholder.png"
+#            description: ""
 
 #  - title: "Browse By Year"
 #    description:
