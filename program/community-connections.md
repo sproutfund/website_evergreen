@@ -3,7 +3,7 @@ layout: program
 redirect_from: /community-connections
 title: "Community Connections"
 subtitle: "Celebrating Pittsburgh’s 250th anniversary by engaging citizens and contributing to the “Pride & Progress” of Southwestern Pennsylvania."
-description: "Community Connections was a regional grantmaking program led by The Sprout Fund on the occasion of the Pittsburgh region’s 250th anniversary. In partnership with the Allegheny Conference on Community Development, and dozens of other partners, Community Connections granted nearly $1 million to 100 projects across 14 counties of Southwestern Pennsylvania."
+description: "Community Connections was a regional grantmaking program led by The Sprout Fund on the occasion of the Pittsburgh region’s 250th anniversary. In partnership with the Allegheny Conference on Community Development and dozens of other partners, Community Connections granted nearly $1 million to 100 projects across 14 counties."
 logo: "/logos/community-connections.png"
 superprogram: "Community"
 program: "Community Connections"
@@ -95,15 +95,15 @@ context:
     - "Community Connections was a regional grantmaking program led by The Sprout Fund on the occasion of the Pittsburgh region’s 250th anniversary. In partnership with the Allegheny Conference on Community Development, and dozens of other partners, Community Connections granted nearly $1 million to 100 projects across 14 counties of Southwestern Pennsylvania."
     - "Community Connections engaged citizens, addressed pressing issues, left a lasting impact on communities, and contributed to the “Pride & Progress” of Southwestern Pennsylvania in 2008. Led by established and emerging civic leaders, these initiatives created a critical mass of grassroots activity throughout the anniversary year."
     - "Community Connections was divided into four phases: Idea Generation & Solicitation, Project Selection, Project Execution, and Reporting & Documentation."
-    - "In summer 2007, Sprout invited neighborhoods, communities, and civic organizationsin Southwestern Pennsylvania to “Imagine What You Can Do Here.” A coordinated outreach campaign was conducted to garner ideas from across the 14-county region and encourage the submission of applications from as diverse a network as possible. Ultimately, in fall 2017, 558 applications were received for consideration."
+    - "In summer 2007, Sprout invited neighborhoods, communities, and civic organizations in Southwestern Pennsylvania to “Imagine What You Can Do Here.” A coordinated outreach campaign was conducted to garner ideas from across the 14-county region and encourage the submission of applications from as diverse a network as possible. Ultimately, in fall 2007, 558 applications were received for consideration."
     - "Sprout used a community-based decisionmaking model to select 100 projects to receive support. 270 people participated as part of 15 decisionmaking teams, one for each of the 14 counties and one regional committee. All meetings were held in person and used the scoring and selection process that was originally developed for the Seed Award program."
-    - "Throughout 2008, in addition to grant dollars, Sprout provided each project with technical assistance, marketing support, and fostered collaboration between related projects. A significant effort was made to professionally document and capture the persons, projects, and activities that had a role in making the Community Connections a success, resulting in 2009 in the creation of <em>Making the Connections</em>, a collection of stories about the funded projects and their impact on their communities."
+    - "Throughout 2008, in addition to grant dollars, Sprout provided each project with technical assistance and marketing support and fostered collaboration between related projects. A significant effort was made to professionally document and capture the people, projects, and activities that had a role in making these projects a success, resulting in the 2009 release of <em>Making the Connections</em>, a collection of stories about the funded projects and their impact on their communities."
     - "The program marked the first time that Sprout’s footprint expanded beyond Pittsburgh and proved that Sprout’s community decisionmaking model was effective in geographically diverse environments. Community Connections also represented Sprout’s first deep dive into program documentation, which resulted in an increased focus on professional photography and writing for many future funding programs."
 
 highlights:
   - title: "Funded Project Highlights"
     description:
-      - "Community Connections projects came in from across the spectrum of Southwestern Pennsylvania—both geographically, and in terms of project focus, with applicants ranging from churches and community organizations to museums, schools, artists, and even farmers."
+      - "Community Connections projects represented the vibrancy of Southwestern Pennsylvania both geographically and in terms of project focus, with applicants ranging from churches and community organizations to museums, schools, artists, and even farmers."
     sections:
 
       - title: "Regional Projects"
@@ -148,7 +148,7 @@ highlights:
 
       - title: "Grassroots Projects"
         description:
-          - "Separate panels of community leaders were convened in each county to review the proposals developed by local residents and selected 88 Grassroots Projects to receive awards up to $5,000."
+          - "Separate panels of community leaders were convened in each county to review the proposals developed by local residents, and these panels selected 88 Grassroots Projects to receive awards up to $5,000."
         features:
           - title: "Arcadia Theater’s Endowment Establishment"
             grant-id: "PGH250-335"
@@ -224,7 +224,7 @@ highlights:
 
   - title: "Programmatic Activities"
     description:
-      - "Community events were used throughout all four phases of Community Connections. Citizens were engaged in each step of the process: people participated in idea-generation, decisionmaking, project management, and, ultimately, enjoyed celebrating the success of these 100 projects."
+      - "Community events were used throughout all four phases of Community Connections. Citizens were engaged in each step of the process: people participated in idea generation, decisionmaking, and project management, and ultimately they enjoyed celebrating the success of these 100 projects."
     features:
       - title: "Ideation Sessions"
         image: "/photos/programs/community-connections/ideation.jpg"
@@ -236,7 +236,7 @@ highlights:
 
       - title: "Regional Decisionmaking Forum"
         image: "/photos/programs/community-connections/regional-decisionmaking.jpg"
-        description: "A regional committee, comprised of leaders from across Southwestern PA, participated in the Forum, where they heard final pitches from regional applicants and selected winners."
+        description: "A regional committee comprised of leaders from across Southwestern PA participated in the Forum, where they heard regional applicants' final pitches and selected winners."
 
       - title: "Announcement Event"
         image: "/photos/programs/community-connections/award-ceremony.jpg"
@@ -248,7 +248,7 @@ highlights:
 
       - title: "<em>Making the Connections</em> Book"
         image: "/photos/programs/community-connections/making-the-connections-book.jpg"
-        description: "Working with author Justin Hopper and a team of local photographers, Sprout collected the stories and images of Community Connections in a final book published in 2009."
+        description: "Working with author Justin Hopper and a team of local photographers, Sprout collected the stories and images of Community Connections in a commemorative book published in 2009."
         link: "local://downloads/community-connections/Making-the-Connections_by-Justin-Hopper_final.pdf"
 
 
