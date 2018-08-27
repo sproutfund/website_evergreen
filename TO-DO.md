@@ -24,9 +24,10 @@ Tasks To-Do
 - [ ] AMP 
 - [ ] Engage Pittsburgh 
 - [ ] Giant Inflatables 
-- [ ] Community Connections 
+- [X] Community Connections 
 - [ ] Spark 
-- [ ] Spring Social Innovation Exchange 
+- [ ] Spring 
+- [ ] Social Innovation Exchange 
 - [ ] Remake Learning 
 - [ ] Grand Ideas 
 - [ ] Hive 
