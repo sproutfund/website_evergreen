@@ -33,7 +33,7 @@ Tasks To-Do
 - [ ] Hive 
 - [ ] Film & Video 
 - [ ] Open Badges Summit 
-- [ ] The Digital Corps 
+- [X] The Digital Corps 
 - [X] City of Learning 
 - [ ] One Northside 
 - [ ] Rec2Tech 
