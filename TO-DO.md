@@ -18,7 +18,7 @@ Tasks To-Do
 - [ ] update DB with photo highlights even if not ticked
 
 ## Copyedit
-- [ ] Seed Award 
+- [X] Seed Award 
 - [ ] Community Murals 
 - [ ] Hothouse 
 - [ ] AMP 
