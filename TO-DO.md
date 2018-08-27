@@ -29,7 +29,7 @@ Tasks To-Do
 - [ ] Spring 
 - [ ] Social Innovation Exchange 
 - [ ] Remake Learning 
-- [ ] Grand Ideas 
+- [X] Grand Ideas 
 - [ ] Hive 
 - [X] Film & Video 
 - [ ] Open Badges Summit 
@@ -59,7 +59,7 @@ Tasks To-Do
 - [ ] Spark 
 - [ ] Spring Social Innovation Exchange 
 - [ ] Remake Learning 
-- [ ] Grand Ideas 
+- [ ] Grand Ideas: Need supporters and partners
 - [ ] Hive 
 - [ ] Film & Video 
 - [ ] Open Badges Summit 
