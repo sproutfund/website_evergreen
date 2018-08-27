@@ -47,6 +47,7 @@ acknowledgements:
       - "Cathy Lewis Long"
       - "Dustin Stiver"
       - "Jeremy Zerbe|2014"
+      - "Teresa DeFlitch|Pathways Summit Event Organizer"
 
 years:
   - 2014
