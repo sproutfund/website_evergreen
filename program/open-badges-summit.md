@@ -91,20 +91,20 @@ by-the-numbers:
 context:
   heading: "Growing the Open Badges Ecosystem"
   details:
-    - "The 2014 Open Badges Summit to Reconnect Learning brought together nearly 300 participants from around the world to work together on setting the course for the next evolution of Open Badges, a new approach to assessing learning and recognizing skills and competencies wherever they are learned—in school, on the job, in the community, or online."
-    - "Since emerging through a series of pilot projects like the Chicago Summer of Learning and supported by research initiatives like HASTAC, Open Badges have demonstrated the potential for disruptive innovation in the way we learn in today’s connected, digital world. Held in February 2014 in Silicon Valley, the Summit to Reconnect Learning was the first event to focus on moving Open Badges from the edges of innovation to the mainstream."
-    - "For K-12 schools, out-of-school programs, colleges and universities, as well as businesses and professional organizations, open digital badges are an increasingly popular way to verify and document skills and achievements that are not adequately measured by standardized tests and traditional resumes or diplomas. Throughout the event, a wave of new business and education partners made public pledges committing to help accelerate the spread and scale of digital badges for learning."
+    - "The 2014 Open Badges Summit to Reconnect Learning brought together nearly 300 participants from around the world to set the course for the next evolution of Open Badges, a new approach to assessing learning and recognizing skills and competencies wherever they are learned—in school, on the job, in the community, or online."
+    - "For K-12 schools, out-of-school programs, higher education, businesses, and professional organizations, open digital badges are an increasingly popular way to verify and document skills and achievements that are not adequately measured by standardized tests and traditional resumes or diplomas. Open badges emerged through a series of pilot projects like Chicago Summer of Learning and research initiatives like HASTAC, and they have demonstrated the potential for disruptive innovation in the way we learn in today’s connected, digital world."
+   - "Held in February 2014 in Silicon Valley, the Summit to Reconnect Learning was the first event to focus on moving Open Badges from the edges of innovation to the mainstream. Throughout the event, a wave of new business and education partners made public pledges committing to help accelerate the spread and scale of digital badges for learning."
     - "The Sprout Fund hosted the event on behalf of the John D. and Catherine T. MacArthur Foundation, a leader in the Open Badges movement."
 
 highlights:
   - title: "Speakers & Panels"
     description:
-      - "The event featured remarks and presentations by thought leaders representing key stakeholders in the badges for learning movement, as well as announcements from organizations and businesses making new commitments to contribute to the next evolution of badges for learning."
+      - "The event featured remarks and presentations by thought leaders and key stakeholders in the badges for learning movement, in addition to announcements from organizations and businesses making new commitments to contribute to the next evolution of badges for learning."
     sections:
 
       - title: "Day 1"
         description:
-          - "The event began with opening remarks from the venue partners, Karen Cator, Executive Director of Digital Promise and Kayvan Baroumand, founder of NestGSV. Throughout the rest of the morning and early afternoon, a series of speakers and panels took the stage on different topics in the badge ecosystem."
+          - "The event began with opening remarks from the venue partners; Karen Cator, Executive Director of Digital Promise; and Kayvan Baroumand, founder of NestGSV. Throughout the morning and early afternoon, a series of speakers and panels explored a range of topics in the badge ecosystem."
         features:
           - description: "Cathy Lewis Long from The Sprout Fund"
             image: "/photos/programs/open-badges-summit/speaker_cathy-lewis-long.jpg"
@@ -135,10 +135,10 @@ highlights:
 
       - title: "Day 2"
         description:
-          - "The second day featured panel discussions, a series of announcements committing to the work of Open Badges, and wrapped up with a closing plenary session."
+          - "The second day featured panel discussions and a series of announcements committing to the work of Open Badges. The event wrapped up with a final plenary session."
         features:
           - title: "Morning Panel on Policy"
-            description: "Public officials and government relations specialists discuss badges for learning, featuring Thelma Melendez of the Office of Los Angeles Mayor Eric Garcetti, Jonathan Williams of Intel Corporation, and Geoff Lane of the Information Technology Industry Council."
+            description: "Public officials and government relations specialists discussed badges for learning, featuring Thelma Melendez of the Office of Los Angeles Mayor Eric Garcetti, Jonathan Williams of Intel Corporation, and Geoff Lane of the Information Technology Industry Council."
 
           - title: "Afternoon Panel with Funders"
             description: "Public and private sector funders discussed investment in Open Badges, featuring Janice Earle of the National Science Foundation, Francesca Carpenter of Qatar Foundation International, Miguel Salinas of Adobe Foundation, and Jennifer Humke of the MacArthur Foundation."
@@ -148,7 +148,7 @@ highlights:
 
   - title: "Working Groups"
     description:
-      - "Working groups were a critical component of the Summit to Reconnect Learning. Composed of a diverse array of participants, 21 groups were assembled to represent a variety of badge audiences, various levels of awareness and experience with badging, and different potential roles within Open Badges (issuers, earners, endorsers, researchers, badge system designers, etc.)."
+      - "Working groups were a critical component of the Summit to Reconnect Learning. Composed of a diverse array of participants, 21 groups were assembled to represent a variety of badge audiences, various levels of awareness and experience with badging, and different potential roles within the Open Badges ecosystem (including issuers, earners, endorsers, researchers, badge system designers, etc.)."
       - "Discussions were facilitated by Sprout Fund-trained moderators who led Working Groups through a process designed to help participants at all levels of the badge awareness spectrum discuss issues related to the conception and implementation of badge projects. One of the ultimate goals of the Working Group process was to enable participants to develop pledges that would commit their organizations to the shared effort to move the Open Badges movement forward."
     features:
       - image: "/photos/programs/open-badges-summit/working-groups_1.jpg"
@@ -161,6 +161,6 @@ highlights:
   - title: "Commitments"
     description:
       - "Leading the pack of commitment pledges was the announcement of the formation of the Badge Alliance, a network of organizations and individuals building and enhancing an open badging ecosystem. This new entity will take lead responsibility for stewarding the Open Badges movement as it continues to evolve. It was announced that Erin Knight, Director of Learning at Mozilla, would lead the Badge Alliance."
-      - "Among the other major announcements made at the Summit to Reconnect Learning, several major global education companies including Pearson, Blackboard, edX, workforce.io and others committed to integrating the Open Badges platform into their digital credentialing systems."
+      - "Among other major announcements made at the Summit to Reconnect Learning, several major global education companies including Pearson, Blackboard, edX, and workforce.io committed to integrating the Open Badges platform into their digital credentialing systems."
 
 ---
