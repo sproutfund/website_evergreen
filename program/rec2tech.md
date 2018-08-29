@@ -64,8 +64,8 @@ context:
   heading: "Meeting Kids Where They Are"
   details:
     - "During a one-week demonstration in September 2016, The Sprout Fund worked with the City of Pittsburgh and educators from the Remake Learning Network to transform 5 city-owned recreation centers into technology-enhanced STEAM learning centers where youth learned to use technology to express their creativity, solve real-world problems, and build job-ready skills."
-    - "In response to President Obama’s 2014 call to action that “every company, every college, every community, every citizen joins us as we lift up makers and builders and doers across the country,” Pittsburgh joined a national movement to transform underutilized municipal assets like recreation centers into youth- centered, technology-enabled, maker learning spaces. For people who lack reliable internet service and access to technology, these “Rec2Tech” transformations can increase digital literacy and cultivate skills connected to future employment."
-    - "With support from lead sponsor Comcast NBCUniversal, Rec2Tech Pittsburgh demonstrated how partners from the public, private, and nonprofit sectors can work together to start to address the digital divide and help young people can engage with science, technology, engineering, arts, and math (STEAM)."
+    - "In response to President Obama’s 2014 call to action that “every company, every college, every community, every citizen joins us as we lift up makers and builders and doers across the country,” Pittsburgh joined a national movement to transform underutilized municipal assets like recreation centers into youth-centered, technology-enabled, maker learning spaces. For people who lack reliable internet service and access to technology, these “Rec2Tech” transformations can increase digital literacy and cultivate skills connected to future employment."
+    - "With support from lead sponsor Comcast NBCUniversal, Rec2Tech Pittsburgh demonstrated how partners from the public, private, and nonprofit sectors can work together to start to address the digital divide and help young people engage with science, technology, engineering, arts, and math (STEAM)."
 
 highlights:
   - title: "Program Activities"
@@ -74,7 +74,7 @@ highlights:
 
       - title: "Rec Center Transformations"
         description:
-          - "Each afternoon during the demonstration week, educators from local nonprofit program providers hosted hands-on STEAM learning activities for youth ages 7 to 12. Sessions challenged youth to apply lessons learned in science, technology, engineering, arts, and math to complete a project that helped solve a community challenge. And rec center staff made sure each session included a snack, physical activity, and dinner so that youth had all the basic resources they needed to stay healthy and engaged."
+          - "Each afternoon during the demonstration week, educators from local nonprofit program providers hosted hands-on learning activities for youth ages 7 to 12. Sessions challenged youth at each rec center to use what they learned from these activities to help solve a community challenge. Meanwhile, rec center staff made sure each session included a healthy snack, physical activity, and dinner to help participants stay engaged."
         features:
           - title: "Exploration & Expression at Ormsby"
             grant-id: "2970-R2T"
