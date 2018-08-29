@@ -11,10 +11,11 @@ permalink:      pretty
 
 # Server
 source:         "."
-url:            "https://sproutfund.github.io"
-baseurl:        "/website_evergreen"
+url:            "https://www,sproutfund.org"
+baseurl:        "/"
 encoding:       UTF-8
 exclude:
+  - CNAME
   - .bundle/
   - .git/
   - .github/
