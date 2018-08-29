@@ -60,8 +60,8 @@ context:
   heading: "Combining Community and Public Art"
   details:
     - "The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art."
-    - "Launched in 2003, the community murals program was modeled after successful similar efforts in Philadelphia and other cities across the country. Through support from local foundations and corporations, Sprout enhanced the visual landscape of neighborhoods in Pittsburgh and the surrounding communities of Allegheny County—creating an always-open “museum without walls” of local artworks."
-    - "The program’s collaborative dialogue and design process excelled at considering the people of the community, their history, and their vision for the future. The program also raised awareness about the important role that local artists can have in shaping communities, encouraging dialogue between communities and artists while contributing to neighborhood development. The program concluded in 2010 after largely achieving its goals of creating corridors, concentrations, and coverage of murals throughout the area."
+    - "Launched in 2003, the community murals program was modeled after successful similar efforts in Philadelphia and other cities across the country. Through support from local foundations and corporations, Sprout enhanced the visual landscape of neighborhoods in Pittsburgh and the surrounding communities of Allegheny County—creating an always-open “museum without walls” of local artwork."
+    - "The program’s collaborative dialogue and design process excelled at considering the people of the community, their history, and their vision for the future. The program also raised awareness about the important role that local artists can play in shaping communities, encouraging dialogue between communities and artists while contributing to neighborhood development. The program concluded in 2010 after largely achieving its goals of creating corridors, concentrations, and coverage of murals throughout the area."
     - "Conceived as long-lasting works, the murals were painted using materials with a 20-year lifespan. However, as many murals were created in communities already in a state of change, some of Sprout's most prominent murals were later removed or lost to redevelopment."
 
 highlights:
@@ -224,15 +224,15 @@ highlights:
 
       - title: "Community Events"
         description:
-          -  "The concept of community engagement was central to Sprout’s vision for site-specific public art. Community members were engaged multiple times throughout the process to ensure that the final design reflected and incorporated the voices of residents."
+          -  "Community engagement was central to Sprout’s vision for site-specific public art. Community members were engaged multiple times throughout the process to ensure that the final designs reflected and incorporated the voices of residents."
         features:
           - title: "Community Brainstorming"
             image: "/photos/programs/murals/community-brainstorming.jpg"
-            description: "Community members were invited to participate in a facilitated brainstorming session. The resulting notes were made available to artists to use as for their preliminary designs."
+            description: "Community members were invited to participate in a facilitated brainstorming session. The resulting notes were made available to artists to use for their preliminary designs."
 
           - title: "Annual Preliminary Design Exhibition"
             image: "/photos/programs/murals/preliminary-design-exhibition.jpg"
-            description: "Preliminary designs were debuted to the communities through an annual show that showcased the designs in a gallery setting."
+            description: "Preliminary designs were debuted to the communities through an annual show in a gallery setting."
 
           - title: "Mural Dedications"
             image: "/photos/programs/murals/dedication-event.jpg"
@@ -240,7 +240,7 @@ highlights:
 
       - title: "Selection Process"
         description:
-          -  "Local communities applied and were selected by the Sprout Public Art Advisory Committee to receive murals. This group also juried artists into the program who were then placed in competition for the selected community mural sites."
+          -  "Local communities applied and were selected by the Sprout Public Art Advisory Committee to receive murals. This advisory group also selected artists for the program who were then placed in competition for the selected community mural sites."
         features:
           - title: "Jury Members"
             description: "A group of local artists, critics, educators, and other community stakeholders made up the jury that selected the pool of artists to participate in each year’s program."
@@ -249,6 +249,6 @@ highlights:
             description: "Communities were selected through a 3 C’s placement strategy: Coverage, Corridor, and Concentration. Engaging a variety of neighborhoods was also a key part of the process."
 
           - title: "Artists"
-            description: "Local artists were juried into the program on the strength of their portfolios as well as their experience doing murals or large scale art."
+            description: "Local artists were juried into the program on the strength of their portfolios as well as their experience doing murals or large-scale art."
 
 ---
