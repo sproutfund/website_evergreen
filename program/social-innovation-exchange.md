@@ -3,7 +3,7 @@ sitemap: false
 layout: program
 redirect_from: /social-innovation-exchange
 title: "Social Innovation Exchange"
-subtitle: ""
+subtitle: "Identifying stubborn community issues and supporting innovative local solutions."
 description: ""
 logo: "/logos/social-innovation-exchange.png"
 superprogram: "Community"
