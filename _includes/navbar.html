@@ -48,8 +48,9 @@
                 <div class="dropdown__container">
                   <div class="container">
                     <div class="row">
-                      <div class="dropdown__content col-lg-12">
+                      <div class="dropdown__content col-lg-9">
                         <div class="row">
+                          <!--
                           <div class="col-lg-3">
                             <h5>Strategies for Community Change</h5>
                             <ul class="menu-vertical">
@@ -74,10 +75,11 @@
                               {%- endfor -%}
                             </ul>
                           </div>
+                          -->
                           {%- assign program_col_length = site.data.browse-by.program.items.size | divided_by: 3.0 | ceil -%}
                           {%- assign program_col2_offset = program_col_length -%}
                           {%- assign program_col3_offset = program_col_length | times: 2 -%}
-                          <div class="col-lg-2">
+                          <div class="col-lg-3">
                             <h5>Programs & Initiatives</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items limit:program_col_length -%}
@@ -101,7 +103,7 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-2">
+                          <div class="col-lg-3">
                             <h5 class="d-none d-md-block">&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col2_offset limit:program_col_length -%}
@@ -125,7 +127,7 @@
                               {%- endfor -%}
                             </ul>
                           </div>
-                          <div class="col-lg-2">
+                          <div class="col-lg-3">
                             <h5 class="d-none d-md-block">&nbsp;</h5>
                             <ul class="menu-vertical">
                               {%- for item in site.data.browse-by.program.items offset:program_col3_offset limit:program_col_length -%}
