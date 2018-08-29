@@ -17,7 +17,7 @@ video:
   url: "https://player.vimeo.com/video/219520743?autoplay=1#t=2s&title=0&byline=0&portrait=0"
   thumbnail: "/photos/video_thumbnails/one-northside.jpg"
   title:   "Neighbors seeding change on Pittsburgh’s Northside"
-  caption: "Learn more about One Northside and Sprout's microgrant program for residents."
+  caption: "Learn more about One Northside and Sprout's micro grant program for residents."
   duration: "5½ minutes"
 
 acknowledgements:
@@ -55,7 +55,7 @@ by-the-numbers:
 context:
   heading: "Promoting Resident-led Change"
   details:
-    - "One Northside was a community-driven initiative to improve the quality of life in all 18 neighborhoods of Pittsburgh’s Northside. Through $1,000 Neighbor-to-Neighbor grants and other funding programs, Sprout helped residents leverage existing community assets and the dedication of the people of the Northside to create a meaningful local change."
+    - "One Northside was a community-driven initiative to improve the quality of life in all 18 neighborhoods of Pittsburgh’s Northside. Through $1,000 Neighbor-to-Neighbor grants and other funding programs, Sprout helped residents leverage existing community assets and the dedication of the people of the Northside to create meaningful local change."
     - "Beginning in early 2014, hundreds of Northside residents engaged with local leaders and stakeholders in community-wide conversations to create a shared agenda for the revitalization of this vital component of the greater Pittsburgh region. Facilitated by Jackson/Clark Partners and on behalf of The Buhl Foundation, this process articulated a compelling vision for the future of these communities."
     - "Through grants from The Buhl Foundation from 2015 to 2017, Sprout’s combination of direct funding and ongoing support helped to increase the capacity of diverse groups of Northsiders and tapped into the ingenuity of these emerging leaders to create innovative responses to the issues and challenges faced by Northside neighborhoods and communities."
 
