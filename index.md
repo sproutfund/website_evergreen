@@ -62,7 +62,7 @@ highlights:
         style: "imageblock"
         image: "/photos/programs/sunset/legacy-awardees-collage.jpg"
         link:  "local://program/sunset/#legacy-awards"
-        description: "We named 50 exceptional Pittsburghers as representatives of the next generation of “Sprouters” and provided them with grants of $1,000 to help get them started."
+        description: "We named 50 exceptional Pittsburghers as representatives of the next generation of “Sprouters” and provided them with $1,000 to get them started."
 
   - title: "Our Program & Initiatives"
     slug: "programs-initiatives"
@@ -92,7 +92,7 @@ highlights:
           - title: "Community Connections"
             image: "/photos/programs/community-connections.jpg"
             link:  "local://program/community-connections/"
-            description: "Celebrating Pittsburgh’s 250th anniversary by engaging citizens and contributing to regional “Pride & Progress.”"
+            description: "Celebrating Pittsburgh’s 250th anniversary with engagement and contributions to “Pride & Progress.”"
 
           - title: "Grand Ideas"
             image: "/photos/programs/grand-ideas.jpg"
@@ -113,30 +113,30 @@ highlights:
             link:  "local://program/economic-opportunity/"
             description: "Supporting collaborative approaches that expand economic opportunity for all."
 
-#          - title: "Social Innovation Exchange"
-#            image: "/photos/!placeholder.png"
-#            description: ""
+          - title: "Social Innovation Exchange"
+            image: "/photos/programs/social-innovation-exchange.jpg"
+            description: "Identifying stubborn community issues and supporting innovative local solutions."
 
       - title: "Learning Innovation"
         description:
         features:
-#          - title: "Remake Learning"
-#            image: "/photos/!placeholder.png"
-#            description: ""
+          - title: "Remake Learning"
+            image: "/photos/programs/remake-learning.jpg"
+            description: "Shaping the future of teaching and learning with a network of educators and innovators."
 
           - title: "Hive"
             image: "/photos/programs/hive.jpg"
             link:  "local://program/hive/"
-            description: "Promoting production-centered, peer-supported, interest-driven learning in classrooms and out-of-school."
+            description: "Promoting production-centered, peer-supported, interest-driven learning in- and and out-of-school."
 
-#          - title: "Spark"
-#            image: "/photos/!placeholder.png"
-#            description: ""
+          - title: "Spark"
+            image: "/photos/programs/spark.jpg"
+            description: "Creating relevant early learning opportunities through technology, media, and the arts."
 
           - title: "City of Learning"
             image: "/photos/programs/city-of-learning.jpg"
             link:  "local://program/city-of-learning/"
-            description: "Recognizing learning and achievement anytime, anywhere with digital badges and enriching summer experiences."
+            description: "Recognizing learning and achievement with digital badges and enriching summer experiences."
 
           - title: "The Digital Corps"
             image: "/photos/programs/digital-corps.jpg"
@@ -169,7 +169,7 @@ highlights:
           - title: "Belonging"
             image: "/photos/programs/belonging.jpg"
             link:  "local://program/belonging/"
-            description: "A community art project affirming that Pittsburgh is a place where we all belong."
+            description: "Affirming that Pittsburgh is a place where we all belong with a call for community art."
 
 #          - title: "Giant Inflatables"
 #            image: "/photos/!placeholder.png"
@@ -178,9 +178,9 @@ highlights:
       - title: "Showcase & Creativity"
         description:
         features:
-#          - title: "Hothouse"
-#            image: "/photos/!placeholder.png"
-#            description: ""
+          - title: "Hothouse"
+            image: "/photos/programs/hothouse.jpg"
+            description: "Making Sprout's “live annual report” to the community a rockin’ summer party."
 
           - title: "Film & Video"
             image: "/photos/programs/film-video.jpg"
