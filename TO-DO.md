@@ -4,9 +4,12 @@ Tasks To-Do
 ## UI
 - [ ] lightbox galleries
 
+## Our Supporters (on homepage)
+- [ ] add Beauty Shoppe to friends
+- [ ] add Tides Center to friends
+
 ## Team Page
 - [ ] Add Spring decisionmakers
-- [ ] 
 
 ## Grants Database
 - [ ] split organizations column into orgs and project leaders
@@ -18,62 +21,62 @@ Tasks To-Do
 - [ ] update DB with photo highlights even if not ticked
 
 ## Copyedit
-- [X] Seed Award 
-- [ ] Community Murals 
-- [ ] Hothouse 
-- [ ] AMP 
-- [ ] Engage Pittsburgh 
-- [ ] Giant Inflatables 
-- [X] Community Connections 
-- [ ] Spark 
-- [ ] Spring 
-- [ ] Social Innovation Exchange 
-- [ ] Remake Learning 
-- [X] Grand Ideas 
-- [X] Hive 
-- [X] Film & Video 
-- [ ] Open Badges Summit 
-- [X] The Digital Corps 
-- [X] City of Learning 
-- [ ] One Northside 
-- [ ] Rec2Tech 
-- [X] 100 Days 
-- [X] Belonging 
-- [ ] My Brother’s Keeper 
-- [X] Economic Opportunity 
+- [X] Seed Award
+- [ ] Community Murals
+- [ ] Hothouse
+- [ ] AMP
+- [ ] Engage Pittsburgh
+- [ ] Giant Inflatables
+- [X] Community Connections
+- [ ] Spark
+- [ ] Spring
+- [ ] Social Innovation Exchange
+- [ ] Remake Learning
+- [X] Grand Ideas
+- [X] Hive
+- [X] Film & Video
+- [ ] Open Badges Summit
+- [X] The Digital Corps
+- [X] City of Learning
+- [ ] One Northside
+- [ ] Rec2Tech
+- [X] 100 Days
+- [X] Belonging
+- [ ] My Brother’s Keeper
+- [X] Economic Opportunity
 - [ ] Sunset
-- [ ] Catalytic Funding 
+- [ ] Catalytic Funding
 - [ ] Networks & Community Building
 - [ ] Storytelling & Documentation
 - [ ] Art with Community Engagement
-- [ ] Showcase & Creativity Events 
+- [ ] Showcase & Creativity Events
 
 ## STILL NEEDED:
 - [ ] Seed Award: needs Partners and Supporters
-- [ ] Community Murals 
-- [ ] Hothouse 
-- [ ] AMP 
-- [ ] Engage Pittsburgh 
-- [ ] Giant Inflatables 
+- [ ] Community Murals
+- [ ] Hothouse
+- [ ] AMP
+- [ ] Engage Pittsburgh
+- [ ] Giant Inflatables
 - [X] Community Connections: DONE
-- [ ] Spark 
-- [ ] Spring Social Innovation Exchange 
-- [ ] Remake Learning 
+- [ ] Spark
+- [ ] Spring Social Innovation Exchange
+- [ ] Remake Learning
 - [ ] Grand Ideas: Need supporters and partners
 - [ ] Hive: Needs supporters, partners, staff
 - [X] Film & Video: DONE
-- [ ] Open Badges Summit 
-- [X] The Digital Corps: DONE 
+- [ ] Open Badges Summit
+- [X] The Digital Corps: DONE
 - [ ] City of Learning: needs Partners
-- [ ] One Northside 
-- [ ] Rec2Tech 
+- [ ] One Northside
+- [ ] Rec2Tech
 - [ ] 100 Days: need Partners
-- [ ] Belonging 
-- [ ] My Brother’s Keeper 
+- [ ] Belonging
+- [ ] My Brother’s Keeper
 - [ ] Economic Opportunity: Need partners
 - [ ] Sunset
-- [ ] Catalytic Funding 
+- [ ] Catalytic Funding
 - [ ] Networks & Community Building
 - [ ] Storytelling & Documentation
 - [ ] Art with Community Engagement
-- [ ] Showcase & Creativity Events 
+- [ ] Showcase & Creativity Events
