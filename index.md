@@ -7,41 +7,41 @@ cover-image:
   source: "/photos/sprouts.jpg"
 
 highlights:
-  - title: "Our Strategies for Community Change"
-    slug: "strategies"
-    style: "big-features"
-    description:
-      - "This is how we did it."
-    features:
-      - title: "Catalytic Funding"
-        image: "/photos/strategies/catalytic-funding.jpg"
-        link:  "local://strategy/catalytic-funding/"
-        description: "Sprout’s approach to catalytic funding support was responsive to the interests and initiatives of the grassroots community. We worked to lower the barriers to program participation and drive successful project implementation through a variety of support activities."
-
-      - title: "Networks & Community Building"
-        style: "imageblock"
-        image: "/photos/strategies/networks-community-building.jpg"
-        link:  "local://strategy/networks-community-building/"
-        description: "Sprout hosted hundreds of small- and large-scale events, from focus groups to multi-day festivals. We embraced unexpected collaborations. We valued openness, which means sharing ideas, showing your work, and inviting contributions from others. We insisted on recruiting diverse participants and we employed high-quality facilitators who help push the work forward."
-
-      - title: "Storytelling & Documentation"
-        style: "imageblock"
-        image: "/photos/strategies/storytelling-documentation.jpg"
-        link:  "local://strategy/storytelling-documentation/"
-        description: "Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat."
-
-      - title: "Art with Community Engagement"
-        style: "imageblock"
-        image: "/photos/strategies/public-art.jpg"
-        link:  "local://strategy/public-art/"
-        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam erat volutpat."
-
-      - title: "Showcase & Creativity Events"
-        style: "imageblock"
-        image: "/photos/strategies/showcase-creativity-events.jpg"
-        link:  "local://strategy/showcase-creativity-events/"
-        description: "Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
-
+#  - title: "Our Strategies for Community Change"
+#    slug: "strategies"
+#    style: "big-features"
+#    description:
+#      - "This is how we did it."
+#    features:
+#      - title: "Catalytic Funding"
+#        image: "/photos/strategies/catalytic-funding.jpg"
+#        link:  "local://strategy/catalytic-funding/"
+#        description: "Sprout’s approach to catalytic funding support was responsive to the interests and initiatives of the grassroots community. We worked to lower the barriers to program participation and drive successful project implementation through a variety of support activities."
+#
+#      - title: "Networks & Community Building"
+#        style: "imageblock"
+#        image: "/photos/strategies/networks-community-building.jpg"
+#        link:  "local://strategy/networks-community-building/"
+#        description: "Sprout hosted hundreds of small- and large-scale events, from focus groups to multi-day festivals. We embraced unexpected collaborations. We valued openness, which means sharing ideas, showing your work, and inviting contributions from others. We insisted on recruiting diverse participants and we employed high-quality facilitators who help push the work forward."
+#
+#      - title: "Storytelling & Documentation"
+#        style: "imageblock"
+#        image: "/photos/strategies/storytelling-documentation.jpg"
+#        link:  "local://strategy/storytelling-documentation/"
+#        description: "Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat."
+#
+#      - title: "Art with Community Engagement"
+#        style: "imageblock"
+#        image: "/photos/strategies/public-art.jpg"
+#        link:  "local://strategy/public-art/"
+#        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam erat volutpat."
+#
+#      - title: "Showcase & Creativity Events"
+#        style: "imageblock"
+#        image: "/photos/strategies/showcase-creativity-events.jpg"
+#        link:  "local://strategy/showcase-creativity-events/"
+#        description: "Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
+#
   - title: "Our Sunset & Legacy"
     slug: "legacy"
     description:
