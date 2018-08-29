@@ -53,10 +53,10 @@ context:
   heading: "Catalyzing Biodiversity"
   details:
     - "Spring was a funding stream that was developed by The Sprout Fund and sponsored by The Pittsburgh Foundation to support local biodiversity initiatives and inspire greater stewardship of the Pittsburgh region’s natural resources. It complemented and bolstered the efforts already underway in support of United Nations World Environment Day and the International Year of Biodiversity."
-    - "Biodiversity, or the variety of life on Earth, is essential to sustaining the living networks and systems that provide us with health, wealth, food, fuel, and the vital resources our lives depend on. The loss of biodiversity, due in part to human activity, has greatly accelerated in recent years. These irreversible losses impoverish us all and damage the life support systems we rely on every day."
+    - "Biodiversity, or the variety of life on Earth, is essential to sustaining the living networks and systems that provide us with health, wealth, food, fuel, and the vital resources our lives depend on. The loss of biodiversity, due in part to human activity, has greatly accelerated in recent years. These irreversible losses impoverish us all and damage the systems we rely on every day."
     - "Sprout designed, executed, and professionally documented a customized grantmaking and civic engagement program about biodiversity and environmental stewardship for citizens of Southwestern Pennsylvania."
-    - "Following the submission of 75 requests for support in early fall 2010, The Sprout Fund engaged citizens from across the region in a comprehensive community decisionmaking process. In total, $200,000 was invested in 21 biodiversity projects."
-    - "The program demonstrated the value of biodiversity, increased understanding of its vital role in our lives both locally and globally, and catalyzed creative solutions. Spring is a prime example of how Sprout blended catalytic grantmaking with community building and storytelling to accelerate collective action."
+    - "Following the submission of 75 requests for support in early fall 2010, The Sprout Fund engaged citizens from across the region in a comprehensive community decisionmaking process. In total, 21 biodiversity projects were supported with a total of $200,000."
+    - "The program demonstrated the value of biodiversity, catalyzed creative solutions, and increased understanding of biodiversity's vital role in our lives both locally and globally. Spring is a prime example of how Sprout blended catalytic grantmaking with community building and storytelling to accelerate collective action."
 
 highlights:
   - title: "Funded Project Highlights"
@@ -101,7 +101,7 @@ highlights:
 
   - title: "Programmatic Activities"
     description:
-      - "Throughout 2010 and 2011, Spring hosted networking activities like workshops, meet & greet happy hours, and site visits to coordinate activity among organizations already working to enhance biodiversity, as well as galvanize interest of individuals and community groups who had not previously worked on this issue. Additionally, Spring staged several major public events to educate citizens about biodiversity issues and offer concrete ways for them to get involved."
+      - "Throughout 2010 and 2011, Spring hosted networking activities like workshops, meet-and-greet happy hours, and local site visits. These events helped coordinate activity among organizations already working to enhance biodiversity and galvanize interest among individuals and community groups that had not previously worked on this issue. Additionally, Spring staged several major public events to educate citizens about biodiversity issues and offer concrete ways for them to get involved."
     features:
 
       - title: "Biodiversity Symposium"
