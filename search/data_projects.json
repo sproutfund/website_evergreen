@@ -42,8 +42,8 @@
     "type"        : "{{ grant_type }}",
     "firstletter" : "{{ grant.first-letter }}",
     "keywords"    : {{ grant_keywords | jsonify }},
-    "image"       : "{{ grant_image | relative_url | prepend: 'https://sproutfund.github.io' }}",
-    "url"         : "{{ grant.url-evergreen | relative_url | prepend: 'https://sproutfund.github.io' }}"
+    "image"       : "{{ grant_image | relative_url | prepend: site.url }}",
+    "url"         : "{{ grant.url-evergreen | relative_url | prepend: site.url }}"
   }{%- unless forloop.last -%},{%- endunless -%}
 {%- endfor -%}
 {{ "]" }}

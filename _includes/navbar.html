@@ -208,7 +208,7 @@
             <div class="col-lg-9">
               {%- if page_slug != 'search' -%}
                 <div class="bar__module">
-                  <form action="/website_evergreen/search/" method="get" id="searchbar">
+                  <form action="{{ '/search/' | relative_url }}'" method="get" id="searchbar">
                     <div class="input-icon">
                       <i class="material-icons">search</i>
                       <input type="search" placeholder="Search funded projects" name="query" />
