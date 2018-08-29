@@ -6,7 +6,7 @@ redirect_from:
   - /catfun
 title: "Catalytic Funding"
 subtitle: "Seeding change through small grant programs."
-description: ""
+description: "The Sprout Fund provided critical financial support for small-scale and first-time projects and programs in the initial stages of development—when just a small amount of investment had the potential to yield big results in the community."
 keywords: ""
 
 cover-image:
