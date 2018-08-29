@@ -39,6 +39,7 @@ exclude:
   - search/data_projects.json
   - search/data_programs.json
   - test.md
+  - year/
 
 keep_files:
   - assets/brand/
