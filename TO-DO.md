@@ -3,6 +3,7 @@ Tasks To-Do
 
 ## UI
 - [ ] lightbox galleries
+- [ ] make lessons on Hive look better with custom HTML
 
 ## Our Supporters (on homepage)
 - [ ] add Beauty Shoppe to friends
