@@ -61,9 +61,9 @@ acknowledgements:
         - "Blaine Siegel"
     - title: "Staff"
       items:
-        - "Morton Brown|project manager"
         - "Tricia Monticello Kievlan"
         - "Matt Hannigan"
+        - "Morton Brown|project manager"
 
 years: 2017
 
