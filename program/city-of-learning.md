@@ -40,7 +40,7 @@ acknowledgements:
       - "University of Pittsburgh"  
       - "Carnegie Mellon University" 
       - "Children's Museum of Pittsburgh"
-- title: "Staff"
+  - title: "Staff"
     items:
       - "Khalif Ali|2014-2015"
       - "Tim Cook|2015"
