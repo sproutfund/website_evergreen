@@ -22,10 +22,10 @@ acknowledgements:
       - "NEED TO ADD"
   - title: "Staff"
     items:
-      - "Matt Hannigan|2001-2004"
-      - "Sandra Hartkopf|2012-2014"
-      - "Mac Howison|2004-2014"
       - "Cathy Lewis Long|2001-2002"
+      - "Matt Hannigan|2001-2004"
+      - "Mac Howison|2004-2014"
+      - "Sandra Hartkopf|2012-2014"
 
 years:
   - 2001
