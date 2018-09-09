@@ -23,22 +23,22 @@ Tasks To-Do
 
 ## Copyedit
 - [X] Seed Award
-- [ ] Community Murals
+- [X] Community Murals
 - [X] Community Connections
-- [ ] Spring
+- [X] Spring
 - [X] Grand Ideas
 - [X] Hive
 - [X] Film & Video
-- [ ] Open Badges Summit
+- [X] Open Badges Summit
 - [X] The Digital Corps
 - [X] City of Learning
-- [ ] One Northside
-- [ ] Rec2Tech
+- [X] One Northside
+- [X] Rec2Tech
 - [X] 100 Days
 - [X] Belonging
-- [ ] My Brother’s Keeper
+- [X] My Brother’s Keeper
 - [X] Economic Opportunity
-- [ ] Sunset
+- [X] Sunset
 
 
 ## STILL NEEDED:
