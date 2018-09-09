@@ -44,58 +44,61 @@ Tasks To-Do
 ## STILL NEEDED:
 
 ### Seed Award & Grand Ideas
-- [ ] Partners
-- [ ] Supporters
+- [ ] Partners: PMK tried; hard to discern. 
+- [ ] Supporters: PMK tried; hard to discern. 
 
 ### Community Murals
-- [ ] ?
+- [ ] Partners: PMK tried; hard to discern. 
+- [ ] Supporters: PMK tried; hard to discern. 
 
 ### Hothouse
 - [ ] ?
 
-### Community Connections
-DONE
-
 ### Spring 
 - [ ] ?
+
+### 100 Days
+- [ ] Partners: added CLP and Union Project as partners. Anyone else? 
 
 ### Hive
 - [ ] Supporters
 - [ ] Partners
-- [ ] Staff
+- [ ] Staff: should this be all hands? in what order?
+
+### Sunset
+- [ ] Supporters: does this make sense? 
+- [ ] Partners: 
+- [ ] Staff: should this be all hands? in what order?
+
+### Community Connections
+DONE
 
 ### Film & Video
 DONE
 
 ### Open Badges Summit
-- [ ] ?
+DONE
 
 ### The Digital Corps
 DONE
 
 ### City of Learning
-- [ ] Partners
+DONE
 
 ### One Northside
-- [ ] ?
+DONE
 
 ### Rec2Tech
-- [ ] ?
-
-### 100 Days
-- [ ] Partners
+DONE
 
 ### Belonging
-- [ ] ?
+DONE
 
 ### My Brother’s Keeper
-- [ ] ?
+DONE
 
 ### Economic Opportunity
-- [ ] Partners
-
-### Sunset
-- [ ] ?
+DONE
 
 
 # Entire Strategies to Migrate
