@@ -54,9 +54,6 @@ Tasks To-Do
 ### Hothouse
 - [ ] ?
 
-### Spring 
-- [ ] ?
-
 ### 100 Days
 - [ ] Partners: added CLP and Union Project as partners. Anyone else? 
 
@@ -71,6 +68,9 @@ Tasks To-Do
 - [ ] Staff: should this be all hands? in what order?
 
 ### Community Connections
+DONE
+
+### Spring 
 DONE
 
 ### Film & Video
