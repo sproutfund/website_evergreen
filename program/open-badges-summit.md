@@ -3,7 +3,7 @@ layout: program
 redirect_from: /open-badges-summit
 title: "Open Badges Summit to Reconnect Learning"
 subtitle: "Setting the course for the next evolution to assess learning and recognize skills and competencies at a Silicon Valley conference."
-description: "The 2014 Open Badges Summit to Reconnect Learning brought together nearly 300 participants from around the world to work together on setting the course for the next evolution of Open Badges, a new approach to assessing learning and recognizing skills and competencies wherever they are learned—in school, on the job, in the community, or online."
+description: "The 2014 Open Badges Summit to Reconnect Learning brought together nearly 300 participants from around the world to work together on setting the course for the next evolution of Open Badges, a new approach to assessing learning and recognizing skills and competencies wherever they are learned: in school, on the job, in the community, or online."
 logo: "/logos/open-badges-summit.png"
 superprogram: "Learning"
 program: "Open Badges Summit"
