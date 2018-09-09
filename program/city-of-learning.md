@@ -39,7 +39,7 @@ acknowledgements:
       - "Carnegie Library of Pittsburgh"
       - "University of Pittsburgh"  
       - "Carnegie Mellon University" 
-      - "Children's Museum of Pittsburgh" 
+      - "Children's Museum of Pittsburgh"
 - title: "Staff"
     items:
       - "Khalif Ali|2014-2015"
