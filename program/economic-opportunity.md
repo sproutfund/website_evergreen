@@ -27,7 +27,7 @@ acknowledgements:
       - "BNY Mellon Foundation of Southwestern Pennsylvania"
   - title: "Partners"
     items:
-      - "NEED TO ADD"
+      - "City of Pittsburgh Department of Innovation & Performance"
   - title: "Staff"
     items:
       - "Diana Avart"
