@@ -33,7 +33,8 @@ acknowledgements:
       - "Crowdrise campaign donors"
   - title: "Partners"
     items:
-      - "NEED TO ADD"
+      - "Carnegie Library of Pittsburgh"
+      - "Union Project"
   - title: "Staff"
     items:
       - "Cathy Lewis Long"

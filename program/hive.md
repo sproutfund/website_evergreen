@@ -24,16 +24,16 @@ video:
   caption: "Hive supported Connected Learning experiences such as Youth Invasion, an event where teens take over programming at The Andy Warhol Museum."
   duration: "4 minutes"
 
-acknowledgements:
-  - title: "Supporters"
-    items:
-      - "NEED TO ADD"
-  - title: "Partners"
-    items:
-      - "NEED TO ADD"
-  - title: "Staff"
-    items:
-      - "NEED TO ADD"
+#acknowledgements:
+#  - title: "Supporters"
+#    items:
+#      - "NEED TO ADD"
+#  - title: "Partners"
+#    items:
+#      - "NEED TO ADD"
+#  - title: "Staff"
+#    items:
+#      - "NEED TO ADD"
 
 years:
   - 2013

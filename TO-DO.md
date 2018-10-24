@@ -3,6 +3,7 @@ Tasks To-Do
 
 ## UI
 - [ ] lightbox galleries
+- [ ] make lessons on Hive look better with custom HTML
 
 ## Our Supporters (on homepage)
 - [ ] add Beauty Shoppe to friends
@@ -16,67 +17,103 @@ Tasks To-Do
 - [ ] check project descriptions for "org, a project of org" language
 - [ ] 100 Days full descriptions are a little skinny
 
-# Project Photos
-- [ ] sweep through program/year pics and add highlight also to respective projects
+## Project Photos
+- [ ] sweep through program pics and add highlight also to respective projects
 - [ ] update DB with photo highlights even if not ticked
 
 ## Copyedit
 - [X] Seed Award
-- [ ] Community Murals
-- [ ] Hothouse
-- [ ] AMP
-- [ ] Engage Pittsburgh
-- [ ] Giant Inflatables
+- [X] Community Murals
 - [X] Community Connections
-- [ ] Spark
-- [ ] Spring
-- [ ] Social Innovation Exchange
-- [ ] Remake Learning
+- [X] Spring
 - [X] Grand Ideas
 - [X] Hive
 - [X] Film & Video
-- [ ] Open Badges Summit
+- [X] Open Badges Summit
 - [X] The Digital Corps
 - [X] City of Learning
-- [ ] One Northside
-- [ ] Rec2Tech
+- [X] One Northside
+- [X] Rec2Tech
 - [X] 100 Days
 - [X] Belonging
-- [ ] My Brother’s Keeper
+- [X] My Brother’s Keeper
 - [X] Economic Opportunity
-- [ ] Sunset
+- [X] Sunset
+
+
+## STILL NEEDED:
+
+### Seed Award & Grand Ideas
+- [ ] Partners: PMK tried; hard to discern. 
+- [ ] Supporters: PMK tried; hard to discern. 
+
+### Community Murals
+- [ ] Partners: PMK tried; hard to discern. 
+- [ ] Supporters: PMK tried; hard to discern. 
+
+### Hothouse
+- [ ] ?
+
+### 100 Days
+- [ ] Partners: added CLP and Union Project as partners. Anyone else? 
+
+### Hive
+- [ ] Supporters
+- [ ] Partners
+- [ ] Staff: should this be all hands? in what order?
+
+### Sunset
+- [ ] Supporters: does this make sense? 
+- [ ] Partners: 
+- [ ] Staff: should this be all hands? in what order?
+
+### Community Connections
+DONE
+
+### Spring 
+DONE
+
+### Film & Video
+DONE
+
+### Open Badges Summit
+DONE
+
+### The Digital Corps
+DONE
+
+### City of Learning
+DONE
+
+### One Northside
+DONE
+
+### Rec2Tech
+DONE
+
+### Belonging
+DONE
+
+### My Brother’s Keeper
+DONE
+
+### Economic Opportunity
+DONE
+
+
+# Entire Strategies to Migrate
 - [ ] Catalytic Funding
 - [ ] Networks & Community Building
 - [ ] Storytelling & Documentation
 - [ ] Art with Community Engagement
 - [ ] Showcase & Creativity Events
 
-## STILL NEEDED:
-- [ ] Seed Award: needs Partners and Supporters
-- [ ] Community Murals
-- [ ] Hothouse
+# Entire Programs to Migrate
+- [ ] Remake Learning
+- [ ] Spark
+
+# Entire Other Programs That Could/Should Be Added Someday
 - [ ] AMP
 - [ ] Engage Pittsburgh
 - [ ] Giant Inflatables
-- [X] Community Connections: DONE
-- [ ] Spark
-- [ ] Spring Social Innovation Exchange
-- [ ] Remake Learning
-- [ ] Grand Ideas: Need supporters and partners
-- [ ] Hive: Needs supporters, partners, staff
-- [X] Film & Video: DONE
-- [ ] Open Badges Summit
-- [X] The Digital Corps: DONE
-- [ ] City of Learning: needs Partners
-- [ ] One Northside
-- [ ] Rec2Tech
-- [ ] 100 Days: need Partners
-- [ ] Belonging
-- [ ] My Brother’s Keeper
-- [ ] Economic Opportunity: Need partners
-- [ ] Sunset
-- [ ] Catalytic Funding
-- [ ] Networks & Community Building
-- [ ] Storytelling & Documentation
-- [ ] Art with Community Engagement
-- [ ] Showcase & Creativity Events
+

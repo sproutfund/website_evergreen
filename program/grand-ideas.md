@@ -33,11 +33,11 @@ acknowledgements:
       - "NEED TO ADD"
   - title: "Staff"
     items:
-      - "Diana Avart|2015-2016"
-      - "Matt Hannigan|2001-2004"
-      - "Sandra Hartkopf|2012-2014"
-      - "Mac Howison|2004-2016"
       - "Cathy Lewis Long|2001-2002"
+      - "Matt Hannigan|2001-2004"
+      - "Mac Howison|2004-2016"
+      - "Sandra Hartkopf|2012-2014"
+      - "Diana Avart|2015-2016"
 
 years:
   - 2001
