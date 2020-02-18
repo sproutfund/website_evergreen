@@ -1,0 +1,11 @@
+_assets_src/* linguist-vendored
+assets/css/bootstrap/* linguist-vendored
+assets/css/fontawesome-pro/* linguist-vendored
+assets/css/stack/* linguist-vendored
+assets/fonts/fontawesome-pro/* linguist-vendored
+assets/fonts/stack/* linguist-vendored
+assets/js/bootstrap/* linguist-vendored
+assets/js/fontawesome-pro/* linguist-vendored
+assets/js/jquery/* linguist-vendored
+assets/js/stack/* linguist-vendored
+*.md linguist-detectable
