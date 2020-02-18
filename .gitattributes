@@ -12,4 +12,3 @@ Gemfile linguist-vendored
 TO-DO.md linguist-vendored
 test.md linguist-vendored 
 *.md linguist-detectable
-*.csv linguist-detectable
