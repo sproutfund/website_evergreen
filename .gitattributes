@@ -9,3 +9,4 @@ assets/js/fontawesome-pro/* linguist-vendored
 assets/js/jquery/* linguist-vendored
 assets/js/stack/* linguist-vendored
 *.md linguist-detectable
+*.csv linguist-detectable
