@@ -8,5 +8,8 @@ assets/js/bootstrap/* linguist-vendored
 assets/js/fontawesome-pro/* linguist-vendored
 assets/js/jquery/* linguist-vendored
 assets/js/stack/* linguist-vendored
+Gemfile linguist-vendored
+TO-DO.md linguist-vendored
+test.md linguist-vendored 
 *.md linguist-detectable
 *.csv linguist-detectable
