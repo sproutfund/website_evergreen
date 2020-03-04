@@ -33,7 +33,7 @@ window.addEventListener('load', function() {
       '<h4>{{{_highlightResult.name.value}}}</h4>' +
       '{{#featured}}<span><i class="icon icon--xs stack-plus-circled"></i></span></a>{{/featured}}' +
     '</div>' +
-    '<p>{{{_highlightResult.description.value}}}<br/><span class="type--fine-print">{{{_highlightResult.addon.value}}}</span>';
+    '<p>{{{_highlightResult.description.value}}}<br/><span class="type--fine-print">{{{_highlightResult.addon.value}}}</span></p>';
 
   var noResultsTemplate = '<div class="text-center">' +
     'No projects found{{#query}} matching <strong>{{query}}</strong>{{/query}}.' +
