@@ -62,3 +62,6 @@ logos/friends/src
 
 # Ignore Source Videos
 _videos_src
+
+# Ignore Docker container files
+.devcontainer
