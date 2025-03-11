@@ -6,7 +6,7 @@ description: "Communities are better places to live, learn, and thrive because o
 cover-image:
   source: "/photos/sprouts.jpg"
 
-highlights:
+#highlights:
 #  - title: "Our Strategies for Community Change"
 #    slug: "strategies"
 #    style: "big-features"
@@ -42,6 +42,7 @@ highlights:
 #        link:  "local://strategy/showcase-creativity-events/"
 #        description: "Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
 #
+highlights:
   - title: "Our Sunset & Legacy"
     slug: "legacy"
     description:
