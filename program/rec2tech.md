@@ -14,7 +14,8 @@ cover-image:
   subcaption: "Paulson Recreation Center, September 2016"
 
 video:
-  url: "https://player.vimeo.com/video/190143250?autoplay=1&title=0&byline=0&portrait=0"
+#  url: "https://player.vimeo.com/video/190143250?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/oLQibugUEGc?autoplay=1&controls=1&modestbranding=1"
   thumbnail: "/photos/video_thumbnails/rec2tech.jpg"
   title: "Rec2Tech Pittsburgh Video Recap"
   caption: "Learn more about the program partners and activities during the demonstration week in September 2016."
