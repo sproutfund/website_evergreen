@@ -1,6 +1,6 @@
 # "#################################################"
 # Dockerfile to build a GitHub Pages Jekyll site
-#   - Ubuntu 22.04
+#   - Ubuntu 24.04
 #   - Ruby 3.1.2
 #   - Jekyll 3.9.3
 #   - GitHub Pages 288
@@ -44,9 +44,9 @@ RUN apt-get -y install git \
 # "GitHub Pages/Jekyll is based on Ruby. Set the version and path"
 # "As of this writing, use Ruby 3.1.2
 # "Based on: https://talk.jekyllrb.com/t/liquid-4-0-3-tainted/7946/12"
-ENV RBENV_ROOT /usr/local/src/rbenv
-ENV RUBY_VERSION 3.1.2
-ENV PATH ${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH
+ENV RBENV_ROOT=/usr/local/src/rbenv
+ENV RUBY_VERSION=3.3.7
+ENV PATH=${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH
 
 # "#################################################"
 # "Install rbenv to manage Ruby versions"
@@ -62,9 +62,27 @@ RUN rbenv install ${RUBY_VERSION} \
   && rbenv global ${RUBY_VERSION}
 
 # "#################################################"
+# Install program to configure locales
+RUN apt-get install -y locales
+RUN dpkg-reconfigure locales && \
+  locale-gen C.UTF-8 && \
+  /usr/sbin/update-locale LANG=C.UTF-8
+
+# Install needed default locale for Makefly
+RUN echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen && \
+  locale-gen
+
+# Set default locale for the environment
+ENV LC_ALL=C.UTF-8
+ENV LANG=en_US.UTF-8
+ENV LANGUAGE=en_US.UTF-8
+
+# "#################################################"
 # "Install the version of Jekyll that GitHub Pages supports"
 # "Based on: https://pages.github.com/versions/"
 # "Note: If you always want the latest 3.9.x version,"
 # "       use this line instead:"
 # "       RUN gem install jekyll -v '~>3.9'"
-RUN gem install jekyll -v '3.9.3'
+RUN gem update bundler
+RUN gem install jekyll -v '3.10.0'
+RUN gem install github-pages -v '232'
