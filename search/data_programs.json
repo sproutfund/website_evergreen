@@ -39,8 +39,8 @@
     "type"        : "",
     "firstletter" : "",
     "keywords"    : {{ program_keywords | jsonify }},
-    "image"       : "{{ '/logos/' | append: program_slug | append: '.png' | relative_url | prepend: 'https://sproutfund.github.io' }}",
-    "url"         : "{{ program.url | relative_url | prepend: 'https://sproutfund.github.io' }}"
+    "image"       : "{{ '/logos/' | append: program_slug | append: '.png' | relative_url | prepend: site.url }}",
+    "url"         : "{{ program.url | relative_url | prepend: site.url }}"
   }{%- unless forloop.last -%},{%- endunless -%}
 {%- endfor -%}
 {{ "]" }}
