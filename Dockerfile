@@ -1,25 +1,24 @@
 # "#################################################"
 # Dockerfile to build a GitHub Pages Jekyll site
 #   - Ubuntu 24.04
-#   - Ruby 3.1.2
-#   - Jekyll 3.9.3
-#   - GitHub Pages 288
+#   - Ruby 3.3.4
+#   - Node.js & npm (for Lunr.js search)
+#   - Jekyll 3.10.0
+#   - GitHub Pages 232
 #
-#   This code is from the following Gist:
-#   https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332#file-post-run-txt
+#   Based on: https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332#file-post-run-txt
+#   Modified to include Node.js/npm and proper WORKDIR
 #
 # Instructions:
-#  1. Copy all the text in this file
-#  2. Create a file named Dockerfile and paste the code
-#  3. Create the Docker image/container
-#  4. Locate the shell file in this Gist file and run it in the local repo's root
+#  1. Build: docker build -t sproutfund-jekyll .
+#  2. Run: docker run --rm -it -v "$(pwd):/srv/jekyll" -p 4000:4000 sproutfund-jekyll bundle exec jekyll serve
 # "#################################################"
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 # "#################################################"
-# "Get the latest APT packages"
+# "Get the latest APT packages and security updates"
 # "apt-get update"
-RUN apt-get update
+RUN apt-get update && apt-get upgrade -y
 
 # "#################################################"
 # "Install Ubuntu prerequisites for Ruby and GitHub Pages (Jekyll)"
@@ -38,14 +37,16 @@ RUN apt-get -y install git \
     libgdbm6 \
     libgdbm-dev \
     libdb-dev \
-    apt-utils
+    apt-utils \
+    nodejs \
+    npm
     
 # "#################################################"
 # "GitHub Pages/Jekyll is based on Ruby. Set the version and path"
-# "As of this writing, use Ruby 3.1.2
+# "As of this writing, use Ruby 3.3.4 to match GitHub Pages"
 # "Based on: https://talk.jekyllrb.com/t/liquid-4-0-3-tainted/7946/12"
 ENV RBENV_ROOT=/usr/local/src/rbenv
-ENV RUBY_VERSION=3.3.7
+ENV RUBY_VERSION=3.3.4
 ENV PATH=${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH
 
 # "#################################################"
@@ -86,3 +87,10 @@ ENV LANGUAGE=en_US.UTF-8
 RUN gem update bundler
 RUN gem install jekyll -v '3.10.0'
 RUN gem install github-pages -v '232'
+
+# "#################################################"
+# "Set the working directory for Jekyll projects"
+WORKDIR /srv/jekyll
+
+# Expose Jekyll's default port and LiveReload port
+EXPOSE 4000 35729
