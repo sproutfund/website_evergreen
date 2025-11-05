@@ -1,0 +1,78 @@
+# Server
+baseurl:  "/website_evergreen"
+exclude:
+  - CNAME
+  - .bundle/
+  - .git/
+  - .github/
+  - _vendor/
+  - _assets_src/
+  - logos/src/
+  - _photos_src/
+  - node_modules/
+  - AGENTS.md
+  - CLAUDE.md
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE.md
+  - TO-DO.md
+  - sache.json
+  - twbsconfig.yml
+  - vendor.yml
+  - "*.bak"
+  - scripts
+#  - team.html
+#  - assets/
+  - downloads/
+#  - logos/
+#  - photos/
+#  - program/
+  - projects/
+#  - search/
+  - search/data_projects.json
+  - search/data_programs.json
+#  - strategy/
+  - theme/
+  - year/
+#  - index.md
+
+algolia-index:
+#  program: "City of Learning"
+
+keep_files:
+  - assets/brand/
+  - assets/fonts/
+  - assets/img/
+  - assets/js/
+  - search/search.js
+  - downloads/
+  - photos/
+  - videos/
+  - theme/
+
+plugins:
+  - github-pages
+#  - jekyll-redirect-from
+#  - jekyll-relative-links
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+  - jemoji
+
+sass:
+  style: full
+
+page_gen-dirs: true
+
+page_gen:
+  - data: "grants"
+    template: "grant"
+    name: "grant-id"
+    extension: "txt"
+    filter_condition: "record['show-hide'] == 'show'"

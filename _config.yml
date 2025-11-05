@@ -21,10 +21,14 @@ exclude:
   - .github/
   - _vendor/
   - _assets_src/
+  - logos/src/
   - _photos_src/
   - node_modules/
+  - AGENTS.md
+  - CLAUDE.md
   - CODE_OF_CONDUCT.md
   - composer.json
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - package.js
@@ -35,6 +39,7 @@ exclude:
   - TO-DO.md
   - sache.json
   - twbsconfig.yml
+  - vendor.yml
   - scripts
   - "*.bak"
   - search/data_projects.json
