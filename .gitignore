@@ -50,7 +50,6 @@ _assets_src
 
 # Ignore dev files
 _plugins
-_config_dev.yml
 scripts
 
 # Ignore Theme Files
