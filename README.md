@@ -226,32 +226,54 @@ The master database contains ~40 fields per project:
 - **Assets**: `photo`, `website`
 - **Financial**: `amount`, `amount-numeric`, `date-authorized`
 
-### Program Pages
+### Content Rendering with Front Matter
 
-Program pages (`program/*.md`) use extensive YAML frontmatter:
+Program pages (`program/*.md`) use a **data-driven templating system** that separates content from presentation:
+
+- **Content** lives in YAML front matter within markdown files
+- **Structure** is defined by Liquid templates (`_layouts/*.html`, `_includes/page_parts/*.html`)
+- **Project data** is automatically loaded from `_data/grants.csv` via `grant-id` references
+
+This architecture enables:
+- Content updates without touching HTML/templates
+- Consistent styling across all program pages
+- Dynamic integration with the grants database
+- Flexible page structures through configuration
+
+**Example front matter structure:**
 
 ```yaml
 layout: program
 title: "Program Name"
 subtitle: "Brief description"
-description: "Full description"
 logo: "/logos/program-name.png"
-superprogram: "Community" or "Learning"
-program: "Short Name"
+
 cover-image:
-  source: "/photos/covers/..."
-  caption: "..."
-video:
-  url: "..."
-  thumbnail: "..."
+  source: "/photos/covers/hero.jpg"
+  caption: "Photo description"
+
+by-the-numbers:
+  - heading: "Total Investment"
+    data: "$982,000"
+
+context:
+  heading: "Program Overview"
+  details:
+    - "Program description paragraph 1"
+    - "Program description paragraph 2"
+
+highlights:
+  - title: "Funded Projects"
+    features:
+      - grant-id: "ABC-123"    # Auto-populated from grants.csv
+      - grant-id: "ABC-124"
+
 acknowledgements:
   - title: "Supporters"
-    items: [...]
-  - title: "Partners"
-    items: [...]
-  - title: "Staff"
-    items: [...]
+    items: ["Organization Name", "Partner Org"]
 ```
+
+**📖 For complete documentation on front matter fields, template mappings, and examples, see [FRONTMATTER_GUIDE.md](FRONTMATTER_GUIDE.md)**
 
 ### Search Implementation
 

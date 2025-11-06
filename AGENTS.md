@@ -142,30 +142,11 @@ The site includes a client-side search using:
 
 ### Program Pages (program/*.md)
 
-Each program page uses the `program` layout with extensive frontmatter:
+Program pages use a **data-driven templating system**: content lives in YAML front matter, structure is defined by Liquid templates (`_layouts/program.html`, `_includes/page_parts/*.html`), and project data auto-loads from grants.csv via `grant-id` references.
 
-```yaml
-layout: program
-title: "Program Name"
-subtitle: "Brief description"
-description: "Full description"
-logo: "/logos/program-name.png"
-superprogram: "Community" or "Learning"
-program: "Short Name"
-cover-image:
-  source: "/photos/covers/..."
-  caption: "..."
-video:
-  url: "..."
-  thumbnail: "..."
-acknowledgements:
-  - title: "Supporters"
-    items: [...]
-  - title: "Partners"
-    items: [...]
-  - title: "Staff"
-    items: [...]
-```
+Key front matter sections: `cover-image`, `video`, `context`, `by-the-numbers`, `highlights` (with nested `sections` and `features`), `acknowledgements`.
+
+**See [FRONTMATTER_GUIDE.md](FRONTMATTER_GUIDE.md) for complete documentation** on all fields, template mappings, data integration, and examples.
 
 ### Grants CSV Structure
 
