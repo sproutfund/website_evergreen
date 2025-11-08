@@ -13,13 +13,27 @@ cover-image:
   caption: "Opening of The Album Art of Mozelle Thompson"
   subcaption: "Penn Avenue Arts District, November 2014"
 
+video:
+  url: "https://www.youtube-nocookie.com/embed/oowkvBTwX_A?rel=0"
+  thumbnail: "/photos/video_thumbnails/seed-award.jpg"
+  title: "Project Spotlight: Art Lending Collection at Braddock Carnegie Library"
+  caption: "Seed Award supported innovative ideas that showcased the creativity and ingenuity of young people, such as the Art Lending Collection, a project at the Braddock Carnegie Library to lend art to the community just like library books."
+  duration: "6 minutes"
+  date: "May 2014"
+
 acknowledgements:
   - title: "Supporters"
     items:
-      - "NEED TO ADD"
-  - title: "Partners"
-    items:
-      - "NEED TO ADD"
+      - "<strong>Richard King Mellon Foundation</strong>|2001-2010"
+      - "Claude Worthington Benedum Foundation|2009-2011"
+      - "The Benter Foundation|2009, 2011"
+      - "Community Foundation of Fayette County|2010"
+      - "The Hillman Foundation|2012"
+      - "The Pittsburgh Foundation|2012-2015"
+      - "Hundreds of annual operating support gifts from generous individuals"
+#  - title: "Partners"
+#    items:
+#      - "NEED TO ADD"
   - title: "Staff"
     items:
       - "Cathy Lewis Long|2001-2002"
@@ -41,6 +55,7 @@ years:
   - 2011
   - 2012
   - 2013
+  - 2014
 
 by-the-numbers:
   - heading: "Years Active"
