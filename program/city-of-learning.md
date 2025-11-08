@@ -20,7 +20,7 @@ cover-image:
   credit: "photo: Ben Filio"
 
 video:
-  url: "https://player.vimeo.com/video/160728893?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/ULaLXDQT7JA?rel=0"
   thumbnail: "/photos/video_thumbnails/city-of-learning.jpg"
   title: "Pittsburgh City of Learning Program Recap"
   caption: "Looking back at how youth in Pittsburgh spent their summer 2015 learning new knowledge and skills and earning digital badges."

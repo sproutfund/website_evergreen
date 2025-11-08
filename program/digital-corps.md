@@ -15,7 +15,7 @@ cover-image:
   subcaption: "Bible Center Church in Homewood, 2014"
 
 video:
-  url: "https://player.vimeo.com/video/134246465?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/DJDLk3HL1UI?rel=0"
   thumbnail: "/photos/video_thumbnails/digital-corps.jpg"
   title: "Building Digital Skills with Mobile Mentors"
   caption: "Learn more about the Digital Corps through this video featurette about the program's activities in one neighborhood near Pittsburgh, Prospect Park."

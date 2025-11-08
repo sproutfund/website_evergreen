@@ -16,7 +16,7 @@ cover-image:
   credit: "photo: Ben Filio"
 
 video:
-  url: "https://player.vimeo.com/video/284823424?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/I9_Fc_6zmZI?rel=0"
   thumbnail: "/photos/video_thumbnails/my-brothers-keeper.jpg"
   title: "My Brother's Keeper Program Recap"
   caption: "Learn more about Sprout's efforts to support community efforts that create a more equitable community—especially for boys and young men of color."

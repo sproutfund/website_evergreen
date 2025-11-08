@@ -16,7 +16,7 @@ cover-image:
   credit: "photo: Matt Hannigan"
 
 video:
-  url: "https://player.vimeo.com/video/221251312?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/p1CtH-SmMqo?rel=0"
   thumbnail: "/photos/video_thumbnails/belonging.jpg"
   title:   "Belonging Community Art Project Video Recap"
   caption:

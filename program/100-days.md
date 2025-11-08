@@ -18,11 +18,11 @@ cover-image:
   credit: "photo: Mitch Wilston"
 
 video:
-  url: "https://player.vimeo.com/video/202757080?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/AJ_gwLHR11M?rel=0"
   thumbnail: "/photos/video_thumbnails/100-days.jpg"
   title: "Pittsburgh Pledges to Take Action during the First 100 Days"
   caption: "Sprout supported people to demonstrate their values and vision for America. This video is a compliation from the submissions of funded projects."
-  duration: "6 minutes"
+  duration: "90 seconds"
 
 acknowledgements:
   - title: "Supporters"

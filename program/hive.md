@@ -18,7 +18,7 @@ cover-image:
   credit: "photo: Ben Filio"
 
 video:
-  url: "https://player.vimeo.com/video/69059306?autoplay=1#t=6s&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/jZuYU1Cy9QU?rel=0"
   thumbnail: "/photos/video_thumbnails/hive.jpg"
   title: "Project Spotlight: Youth Invasion"
   caption: "Hive supported Connected Learning experiences such as Youth Invasion, an event where teens take over programming at The Andy Warhol Museum."

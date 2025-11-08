@@ -16,7 +16,7 @@ cover-image:
   credit: "photo: Nathan Schritter"
 
 video:
-  url: "https://www.youtube-nocookie.com/embed/s7h-Cogf_4Q?rel=0&controls=1&showinfo=0&autoplay=1"
+  url: "https://www.youtube-nocookie.com/embed/s7h-Cogf_4Q?rel=0"
   thumbnail: "/photos/video_thumbnails/community-connections.jpg"
   title: "<em>Making the Connections</em> Video Trailer"
   caption: "At the conclusion of Community Connections, The Sprout Fund released a book that captured stories and photos from the initiative. This video shares some of the best examples of people and projects we supported."

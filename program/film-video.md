@@ -18,7 +18,7 @@ cover-image:
   credit: "photo: Ben Filio"
 
 video:
-  url: "https://player.vimeo.com/video/75466000?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/yzakW2mKj_Q?rel=0"
   thumbnail: "/photos/video_thumbnails/film-video.jpg"
   title: "Trailer for Film & Video Program"
   caption: "Sprout shared this video to request proposals for film and video projects and encourage the public to cast their votes."

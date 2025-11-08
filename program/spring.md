@@ -18,7 +18,7 @@ cover-image:
   credit: "photo: Joey Kennedy"
 
 video:
-  url: "https://player.vimeo.com/video/38993137?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/7fVFeJJ0AlU?rel=0"
   thumbnail: "/photos/video_thumbnails/spring.jpg"
   title: "Spring Biodiversity Awards Program Recap"
   caption: "Highlights of funded projects supported through the Spring program."

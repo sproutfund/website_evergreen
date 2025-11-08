@@ -16,7 +16,7 @@ cover-image:
   credit: "photo: Ben Filio"
 
 video:
-  url: "https://player.vimeo.com/video/88193782?autoplay=1#t=9s&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/xo4zI6X1k98?rel=0"
   thumbnail: "/photos/video_thumbnails/open-badges-summit.jpg"
   title: "Open Badges Summit Video Recap"
   caption: "Learn more about the Open Badges Summit to Reconnect Learning."

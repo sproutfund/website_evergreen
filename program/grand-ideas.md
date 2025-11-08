@@ -18,7 +18,7 @@ cover-image:
   credit: "photo: Ben Filio"
 
 video:
-  url: "https://player.vimeo.com/video/178596793?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/ZiYfvWbmXEI?rel=0"
   thumbnail: "/photos/video_thumbnails/grand-ideas.jpg"
   title: "What Can You Do with $1,000?"
   caption: "Dozens of Sprout projects demonstrate their creativity and ingenious use of just a little bit of support in this promotional video encouraging applications for Grand Ideas."

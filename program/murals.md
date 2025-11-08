@@ -14,7 +14,7 @@ cover-image:
   subcaption: "2006"
 
 video:
-  url: "https://player.vimeo.com/video/47045579?autoplay=1#t=2s&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/JmNWGHqg0gM?rel=0"
   thumbnail: "/photos/video_thumbnails/murals.jpg"
   title:   "Sprout Public Art 2003–2010 Video Retrospective"
   caption: "Learn more about Sprout's process for creating community murals and the goals of the program."

@@ -15,7 +15,7 @@ cover-image:
   credit: "photo: Ben Filio"
 
 video:
-  url: "https://player.vimeo.com/video/275110417?autoplay=1&title=0&byline=0&portrait=0"
+  url: "https://www.youtube-nocookie.com/embed/VwiMKFhipz4?rel=0"
   thumbnail: "/photos/video_thumbnails/economic-opportunity.jpg"
   title: "Expanding Economic Opportunity in Pittsburgh"
   caption: "Learn more about the process and funded projects for 2018 Sprout Seed Award for Economic Opportunity."
