@@ -1,3 +1,6 @@
+# Export configuration for generating PROGRAMS.md
+# Usage: bundle exec jekyll build --config "_config.yml,_config_export.yml"
+
 # Dependencies
 markdown:       kramdown
 highlighter:    rouge
@@ -9,11 +12,11 @@ kramdown:
 # Permalinks
 permalink:      pretty
 
-# Server
-source:         "."
-url:            "https://www.sproutfund.org"
-baseurl:        "/"
+# Use clean URLs for the export
+baseurl: "https://www.sproutfund.org"
 encoding:       UTF-8
+
+# Don't exclude export.md during export build
 exclude:
   - CNAME
   - .bundle/
@@ -21,7 +24,6 @@ exclude:
   - .github/
   - _vendor/
   - _assets_src/
-  - _content-import/
   - docs/
   - logos/src/
   - _photos_src/
@@ -48,7 +50,6 @@ exclude:
   - "*.sh"
   - search/data_projects.json
   - search/data_programs.json
-  - export.md
   - test.md
   - year/
 
@@ -74,25 +75,8 @@ plugins:
 # Github
 repository: sproutfund/website_evergreen
 
-# Social
-title:              "The Sprout Fund"
-description:        "Communities are better places to live, learn, and thrive because of the people and ideas supported by The Sprout Fund."
-twitter:            sproutfund
-authors:            "The Sprout Fund"
-social_image_path:  /assets/brand/sproutfund-in-circle_social-square.png
-social_logo_path:   /assets/brand/sproutfund-in-circle_social-wide.png
-
 # Custom variables
 repo:               "https://github.com/sproutfund/website_evergreen"
-
-cdn:
-  # See https://www.srihash.org for info on how to generate the hashes
-#  bootstrap_css:      "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-#  bootstrap_css_hash: "sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-#  bootstrap_js:       "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-#  bootstrap_js_hash:  "sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-#  jquery:             "https://code.jquery.com/jquery-3.3.1.slim.min.js"
-#  jquery_hash:        "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 
 relative_links:
   enabled:     true

@@ -41,6 +41,17 @@
             "command": "bundle exec jekyll build",
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "label": "Export Programs to Markdown",
+            "type": "shell",
+            "command": "bundle exec jekyll build --config '_config_export.yml' && cp _site/PROGRAMS.md PROGRAMS.md",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
         }
     ]
 }

@@ -7,6 +7,8 @@ exclude:
   - .github/
   - _vendor/
   - _assets_src/
+  - _content-import/
+  - docs/
   - logos/src/
   - _photos_src/
   - node_modules/
@@ -20,6 +22,7 @@ exclude:
   - package.js
   - package.json
   - package-lock.json
+  - PROGRAMS.md
   - README.md
   - LICENSE.md
   - TO-DO.md
