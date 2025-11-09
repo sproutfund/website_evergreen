@@ -11,17 +11,20 @@ items:
 
   - title: "Hothouse"
 
-#  - title: "AMP"
+  - title: "AMP"
 
-#  - title: "Engage Pittsburgh"
+  - title: "Engage Pittsburgh"
 
-#  - title: "Giant Inflatables"
+  - title: "Giant Inflatable Art"
+    slug:  "giant-inflatables"
 
   - title: "Community Connections"
 
   - title: "Spark"
 
   - title: "Spring"
+
+  - title: "TENACITY"
 
   - title: "Social Innovation Exchange"
 

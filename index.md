@@ -105,9 +105,10 @@ highlights:
             link:  "local://program/spring/"
             description: "Supporting local, community-based biodiversity initiatives in and around Pittsburgh."
 
-#          - title: "Engage Pittsburgh"
-#            image: "/photos/!placeholder.png"
-#            description: ""
+          - title: "Engage Pittsburgh"
+            image: "/photos/programs/engage-pittsburgh.jpg"
+            link:  "local://program/engage-pittsburgh/"
+            description: "A new model for turning civic dialogue into community action."
 
           - title: "Economic Opportunity"
             image: "/photos/programs/economic-opportunity.jpg"
@@ -116,6 +117,7 @@ highlights:
 
           - title: "Social Innovation Exchange"
             image: "/photos/programs/social-innovation-exchange.jpg"
+            link:  "local://program/social-innovation-exchange/"
             description: "Identifying stubborn community issues and supporting innovative local solutions."
 
       - title: "Learning Innovation"
@@ -123,6 +125,7 @@ highlights:
         features:
           - title: "Remake Learning"
             image: "/photos/programs/remake-learning.jpg"
+            link:  "local://program/remake-learning/"
             description: "Shaping the future of teaching and learning with a network of educators and innovators."
 
           - title: "Hive"
@@ -132,6 +135,7 @@ highlights:
 
           - title: "Spark"
             image: "/photos/programs/spark.jpg"
+            link:  "local://program/spark/"
             description: "Creating relevant early learning opportunities through technology, media, and the arts."
 
           - title: "City of Learning"
@@ -172,15 +176,17 @@ highlights:
             link:  "local://program/belonging/"
             description: "Affirming that Pittsburgh is a place where we all belong with a call for community art."
 
-#          - title: "Giant Inflatables"
-#            image: "/photos/!placeholder.png"
-#            description: ""
+          - title: "Giant Inflatable Art"
+            image: "/photos/programs/giant-inflatables.jpg"
+            link:  "local://program/giant-inflatables/"
+            description: "Ten larger-than-life works of temporary, inflatable public art that embodied the spirit of Pittsburgh Roars."
 
       - title: "Showcase & Creativity"
         description:
         features:
           - title: "Hothouse"
             image: "/photos/programs/hothouse.jpg"
+            link:  "local://program/hothouse/"
             description: "Making Sprout's “live annual report” to the community a rockin’ summer party."
 
           - title: "Film & Video"
@@ -188,9 +194,15 @@ highlights:
             link:  "local://program/film-video/"
             description: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
 
-#          - title: "AMP"
-#            image: "/photos/!placeholder.png"
-#            description: ""
+          - title: "TENACITY"
+            image: "/photos/programs/tenacity.jpg"
+            link:  "local://program/tenacity/"
+            description: "A one-night-only retrospective of original performances from The Sprout Fund’s first decade."
+
+          - title: "AMP"
+            image: "/photos/programs/amp.jpg"
+            link:  "local://program/amp/"
+            description: "Amplifying the voices of Pittsburgh's emerging arts scene."
 
 #  - title: "Browse By Year"
 #    description:
