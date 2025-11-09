@@ -146,7 +146,7 @@ Program pages use a **data-driven templating system**: content lives in YAML fro
 
 Key front matter sections: `cover-image`, `video`, `context`, `by-the-numbers`, `highlights` (with nested `sections` and `features`), `acknowledgements`.
 
-**See [FRONTMATTER_GUIDE.md](FRONTMATTER_GUIDE.md) for complete documentation** on all fields, template mappings, data integration, and examples.
+**See [FRONTMATTER_GUIDE.md](docs/FRONTMATTER_GUIDE.md) for complete documentation** on all fields, template mappings, data integration, and examples.
 
 ### Grants CSV Structure
 

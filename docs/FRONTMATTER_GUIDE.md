@@ -139,6 +139,7 @@ video:
   title: "Video Title"                    # Can include <em> tags
   caption: "Description of video content"
   duration: "5 minutes"
+  date: "February 2024"                   # Optional: publication date
 ```
 
 **Template:** `_includes/page_parts/video.html`
