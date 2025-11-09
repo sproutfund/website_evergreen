@@ -64,3 +64,6 @@ _videos_src
 
 # Ignore Docker container files
 .devcontainer
+
+PROGRAMS.md
+_content-import/
