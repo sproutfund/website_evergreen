@@ -1,8 +1,10 @@
 ---
-layout: program_export
-permalink: /PROGRAMS.md
+layout: program_export_filtered
+permalink: /PROGRAMS_all.md
+filter_superprogram: null
+sort_by_earliest_year: false
 ---
-# The Sprout Fund Programs
+# The Sprout Fund Programs - All Programs
 
 This document is an auto-generated export of all program pages from The Sprout Fund's evergreen website. It consolidates content from individual program markdown files and resolves project references from the grants database.
 

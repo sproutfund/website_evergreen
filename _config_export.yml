@@ -1,5 +1,6 @@
-# Export configuration for generating PROGRAMS.md
+# Export configuration for generating PROGRAMS_*.md files
 # Usage: bundle exec jekyll build --config "_config.yml,_config_export.yml"
+# Exports all program pages to filtered markdown files in exports/ directory
 
 # Dependencies
 markdown:       kramdown
@@ -16,7 +17,6 @@ permalink:      pretty
 baseurl: "https://www.sproutfund.org"
 encoding:       UTF-8
 
-# Don't exclude export.md during export build
 exclude:
   - CNAME
   - .bundle/
@@ -38,7 +38,7 @@ exclude:
   - package.js
   - package.json
   - package-lock.json
-  - PROGRAMS.md
+  - exports/
   - README.md
   - LICENSE.md
   - TO-DO.md

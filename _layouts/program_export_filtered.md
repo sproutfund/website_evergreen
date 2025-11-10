@@ -2,12 +2,42 @@
 layout: null
 ---
 {%- comment -%}
-This layout exports program page frontmatter to Markdown format.
+This layout exports program page frontmatter to Markdown format with optional filtering and sorting.
 It resolves grant-id references from _data/grants.csv just like the website does.
+
+Parameters (set in page frontmatter):
+- filter_superprogram: String to filter by superprogram (e.g., "Community"), or null for all programs
+- sort_by_earliest_year: Boolean to sort programs by their earliest year
 {%- endcomment -%}
 
+{%- comment -%}{{ content }}{%- endcomment -%}
+
+{%- comment -%} Step 1: Collect all program pages {%- endcomment -%}
+{%- assign all_programs = "" | split: "" -%}
 {%- for program_page in site.pages -%}
-{%- if program_page.path contains 'program/' and program_page.path contains '.md' and program_page.layout == 'program' and program_page.sitemap != false -%}
+  {%- if program_page.path contains 'program/' and program_page.path contains '.md' and program_page.layout == 'program' and program_page.sitemap != false -%}
+    {%- assign all_programs = all_programs | push: program_page -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Step 2: Filter by superprogram if specified {%- endcomment -%}
+{%- if page.filter_superprogram -%}
+  {%- assign programs = all_programs | where: "superprogram", page.filter_superprogram -%}
+{%- else -%}
+  {%- assign programs = all_programs -%}
+{%- endif -%}
+
+{%- comment -%} Step 3: Sort by earliest year if requested {%- endcomment -%}
+{%- if page.sort_by_earliest_year -%}
+  {%- comment -%}
+  Sort by earliest_year field using Liquid's built-in sort filter.
+  All program pages now have an earliest_year field in frontmatter.
+  {%- endcomment -%}
+  {%- assign programs = programs | sort: "earliest_year" -%}
+{%- endif -%}
+
+{%- comment -%} Step 4: Render each program using the same logic as program_export.md {%- endcomment -%}
+{%- for program_page in programs -%}
 
 # {{ program_page.title | smartify }}
 
@@ -188,5 +218,4 @@ It resolves grant-id references from _data/grants.csv just like the website does
 ---
 {{ "" }}
 {{ "" }}
-{%- endif %}
 {%- endfor %}
