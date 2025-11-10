@@ -43,6 +43,7 @@ acknowledgements:
 years:
   - 2016
   - 2017
+earliest_year: 2016
 
 by-the-numbers:
   - heading: "Years Active"

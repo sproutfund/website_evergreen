@@ -8,7 +8,7 @@ title: "Film & Video"
 subtitle: "A special funding opportunity in 2013 for Pittsburgh’s community of filmmakers, videographers, and multimedia artists to showcase their approach to community innovation and receive support for their work."
 description: "In late 2013, The Sprout Fund provided catalytic support to catalyze the creation or completion of new and innovative community-based projects that took the form of short or feature-length films, documentaries, online videos, and multimedia experiences. 3 projects were selected to receive the $10,000 awards and 6 received $1,000 honorable mentions."
 logo: "/logos/film-video.png"
-superprogram: "Community"
+superprogram: "Showcase"
 keywords: ""
 
 cover-image:
@@ -41,6 +41,7 @@ acknowledgements:
       - "Matt Hannigan"
 
 years: 2013
+earliest_year: 2013
 
 by-the-numbers:
   - heading: "Year Active"

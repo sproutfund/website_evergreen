@@ -56,6 +56,7 @@ years:
   - 2012
   - 2013
   - 2014
+earliest_year: 2001
 
 by-the-numbers:
   - heading: "Years Active"

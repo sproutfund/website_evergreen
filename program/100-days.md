@@ -50,6 +50,7 @@ acknowledgements:
       - "Victoria Zuber|intern"
 
 years: 2017
+earliest_year: 2017
 
 by-the-numbers:
   - heading: "Year Active"

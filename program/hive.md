@@ -39,6 +39,7 @@ years:
   - 2013
   - 2014
   - 2015
+earliest_year: 2013
 
 by-the-numbers:
   - heading: "Years Active"
