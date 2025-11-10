@@ -4,7 +4,7 @@ title: "Hothouse"
 subtitle: "The Sprout Fund's annual showcase event and community fundraiser, celebrating a year of innovative, community-led projects."
 description: "Held annually from 2003 to 2010, Hothouse was The Sprout Fund's \"live annual report to the community.\" Part summer benefit, part project showcase, the one-night-only event transformed a unique, raw urban space into an immersive celebration of Pittsburgh's creative and civically engaged community, featuring live music, performances, an \"arcade\" of Sprout-supported projects, and a smorgasbord of local food and drink."
 program: "Hothouse"
-superprogram: "Community"
+superprogram: "Showcase"
 years:
   - 2003
   - 2004
@@ -14,6 +14,7 @@ years:
   - 2008
   - 2009
   - 2010
+earliest_year: 2003
 logo: "/logos/hothouse.png"
 
 cover-image:

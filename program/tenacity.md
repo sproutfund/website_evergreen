@@ -5,7 +5,7 @@ title: "TENACITY"
 subtitle: "a retrospective of original performances from The Sprout Fund's first decade"
 description: "To celebrate its 10th anniversary, The Sprout Fund presented TENACITY, a one-night-only retrospective of original performances from its first decade. Held on December 9, 2011, at the August Wilson Center, the event showcased the best Sprout-supported performing arts groups and individuals. The evening celebrated a decade of Sprout's support for Pittsburgh's creative community and served as a benefit for The Sprout Fund."
 logo: "/logos/tenacity.png"
-superprogram: "Community"
+superprogram: "Showcase"
 program: "TENACITY"
 
 cover-image:
@@ -16,6 +16,7 @@ cover-image:
 
 years:
   - 2011
+earliest_year: 2011
 
 by-the-numbers:
   - heading: "Years Active"

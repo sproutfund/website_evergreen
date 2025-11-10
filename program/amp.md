@@ -5,7 +5,7 @@ title: "AMP"
 subtitle: "Amplifying the voices of Pittsburgh's emerging arts scene"
 description: "AMP was a three-month series in early 2004 that showcased local art, music, and performance. Presented by The Sprout Fund in partnership with Club Café, The Andy Warhol Museum, and the Brew House Association, the series aimed to amplify and raise the profile of Pittsburgh's emerging arts scene. It provided innovative artists with opportunities to create and promote their work, introducing new audiences to the region's vibrant creative talent."
 logo: "/logos/amp.png"
-superprogram: "Community"
+superprogram: "Showcase"
 program: "AMP"
 
 cover-image:
@@ -16,6 +16,7 @@ cover-image:
 
 years:
   - 2004
+earliest_year: 2004
 
 by-the-numbers:
   - heading: "Years Active"

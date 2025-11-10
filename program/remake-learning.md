@@ -29,6 +29,7 @@ years:
   - 2015
   - 2016
   - 2017
+earliest_year: 2012
 
 context:
   heading: "Connecting a region to create the future of learning."

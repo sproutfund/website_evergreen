@@ -30,6 +30,7 @@ years:
   - 2013
   - 2014
   - 2015
+earliest_year: 2009
 
 context:
   heading: "Seeding innovation for Pittsburgh's youngest learners"
