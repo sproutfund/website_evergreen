@@ -19,7 +19,7 @@ years:
 earliest_year: 2004
 
 by-the-numbers:
-  - heading: "Years Active"
+  - heading: "Year Active"
     data: "2004"
   - heading: "Total Artists Showcased"
     data: "239 (78 bands, 138 visual artists, 23 performance groups)"

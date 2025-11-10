@@ -19,7 +19,7 @@ years:
 earliest_year: 2011
 
 by-the-numbers:
-  - heading: "Years Active"
+  - heading: "Year Active"
     data: "2011"
   - heading: "Anniversary"
     data: "10th year celebration"

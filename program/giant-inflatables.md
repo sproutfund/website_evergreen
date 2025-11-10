@@ -64,7 +64,7 @@ years: 2006
 earliest_year: 2006
 
 by-the-numbers:
-  - heading: "Years Active"
+  - heading: "Year Active"
     data: "2006"
   - heading: "Artist Honoraria"
     data: "$15,000 ($1,500 for each of 10 artists)"
