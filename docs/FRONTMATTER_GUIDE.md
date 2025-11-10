@@ -97,10 +97,41 @@ years:                                    # Or multiple years
   - 2007
   - 2008
   - 2009
+earliest_year: 2007                       # Required: earliest year from years field (for sorting exports)
 redirect_from:                            # Legacy URL redirects (jekyll-redirect-from)
   - /old-url
   - /another-old-url
 ```
+
+### Years and Earliest Year
+
+The `years` field tracks all years a program was active, while `earliest_year` enables chronological sorting in exports.
+
+**Single Year Programs:**
+```yaml
+years: 2013
+earliest_year: 2013
+```
+
+**Multi-Year Programs:**
+```yaml
+years:
+  - 2007
+  - 2008
+  - 2009
+earliest_year: 2007  # Always the first year in the list
+```
+
+**Purpose:**
+- `years` is displayed on the website and in exports
+- `earliest_year` enables the Markdown export system to sort programs chronologically by their starting year
+- Both fields are required for all program pages
+
+**Rules:**
+- For single-year programs: `earliest_year` must equal `years`
+- For multi-year programs: `earliest_year` must equal the first year in the `years` array
+- Values must be integers (not strings)
+- Use decimal values (e.g., `2014.1`, `2014.2`) to control sort order for programs starting in the same year
 
 ### Cover Image Section
 

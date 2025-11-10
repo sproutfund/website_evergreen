@@ -38,6 +38,7 @@ acknowledgements:
 years:
   - 2010
   - 2011
+earliest_year: 2010
 
 by-the-numbers:
   - heading: "Years Active"

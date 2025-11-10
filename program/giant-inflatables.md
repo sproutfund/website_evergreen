@@ -61,6 +61,7 @@ acknowledgements:
       - "Cathy Lewis"
 
 years: 2006
+earliest_year: 2006
 
 by-the-numbers:
   - heading: "Years Active"

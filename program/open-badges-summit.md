@@ -74,6 +74,7 @@ acknowledgements:
         - "Kate Stoltzfus"
 
 years: 2014
+earliest_year: 2014.2
 
 by-the-numbers:
   - heading: "Dates"

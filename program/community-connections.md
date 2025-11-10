@@ -78,6 +78,7 @@ years:
   - 2007
   - 2008
   - 2009
+earliest_year: 2007
 
 by-the-numbers:
   - heading: "Years Active"

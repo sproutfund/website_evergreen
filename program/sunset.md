@@ -16,6 +16,7 @@ cover-image:
   caption: "<a href='https://commons.wikimedia.org/wiki/File:Pittsburgh_Skyline_at_Sunset_-_panoramio.jpg' target='_blank' class='type--fine-print' style='opacity: .5; font-weight: normal; color: white;'><i class='fab fa-creative-commons'></i> photo: FishSpeaker</a>"
 
 years: 2018
+earliest_year: 2018
 
 by-the-numbers:
   - heading: "Year Active"

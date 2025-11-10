@@ -35,6 +35,7 @@ acknowledgements:
       - "Dustin Stiver"
 
 years: 2018
+earliest_year: 2018
 
 by-the-numbers:
   - heading: "Year Active"

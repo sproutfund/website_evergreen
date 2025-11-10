@@ -49,6 +49,12 @@ exclude:
   - search/data_projects.json
   - search/data_programs.json
   - export.md
+  - export_all.md
+  - export_community.md
+  - export_learning.md
+  - export_public-art.md
+  - export_showcase.md
+  - exports/
   - test.md
   - year/
 

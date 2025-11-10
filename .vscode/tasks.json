@@ -45,7 +45,7 @@
         {
             "label": "Export Programs to Markdown",
             "type": "shell",
-            "command": "bundle exec jekyll build --config '_config_export.yml' && cp _site/PROGRAMS.md PROGRAMS.md",
+            "command": "bundle exec jekyll build --config '_config.yml,_config_export.yml' && mkdir -p exports && cp _site/PROGRAMS_all.md _site/PROGRAMS_community.md _site/PROGRAMS_learning.md _site/PROGRAMS_public-art.md _site/PROGRAMS_showcase.md exports/",
             "group": "build",
             "problemMatcher": [],
             "presentation": {

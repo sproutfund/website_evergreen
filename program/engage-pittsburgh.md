@@ -17,6 +17,7 @@ cover-image:
 years:
   - 2006
   - 2007
+earliest_year: 2006
 
 context:
   heading: "A new standard for collaborative and inclusive innovation"

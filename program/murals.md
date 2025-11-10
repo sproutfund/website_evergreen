@@ -41,6 +41,7 @@ years:
   - 2008
   - 2009
   - 2010
+earliest_year: 2003
 
 by-the-numbers:
   - heading: "Years Active"

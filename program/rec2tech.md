@@ -49,6 +49,7 @@ acknowledgements:
       - "Njaimeh Njie|production assistant"
 
 years: 2016
+earliest_year: 2016
 
 by-the-numbers:
   - heading: "Demonstration Week"
