@@ -9,7 +9,7 @@ superprogram: "Learning"
 program: "Remake Learning"
 
 cover-image:
-  source: "/photos/programs/remake-learning/network-primer-2013.jpg"
+  source: "/photos/covers/remake-learning.jpg"
   caption: "More than 500 educators, technologists, artists, and innovators gather for the Kids+Creativity Network Primer at Carnegie Mellon University."
   subcaption: "Carnegie Mellon University, February 2013"
   credit: "photo: The Sprout Fund"
