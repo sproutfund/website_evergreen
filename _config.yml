@@ -57,6 +57,7 @@ exclude:
   - exports/
   - test.md
   - year/
+  - _working/
 
 keep_files:
   - assets/brand/
