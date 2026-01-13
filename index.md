@@ -65,141 +65,171 @@ highlights:
         link:  "local://program/sunset/#legacy-awards"
         description: "We named 50 exceptional Pittsburghers as representatives of the next generation of “Sprouters” and provided them with $1,000 to get them started."
 
-  - title: "Our Program & Initiatives"
+  - title: "Our Programs & Initiatives"
     slug: "programs-initiatives"
     description:
       - "Sprout's programs were unique within Pittsburgh, with a distinctive approach to facilitating community change and creating social impact through a blend of grantmaking, community engagement strategies, and other forms of support."
     sections:
 
-      - title: "Community Innovation"
-        description:
+      - title: "Signature Programs"
         features:
 
           - title: "Seed Award"
+            addon: "2001–2014"
             image: "/photos/programs/seed-award.jpg"
             link:  "local://program/seed-award/"
             description: "Providing support when just a small investment has the potential to yield big results in the community."
 
+          - title: "Remake Learning"
+            addon: "2012–2017"
+            image: "/photos/programs/remake-learning.jpg"
+            link:  "local://program/remake-learning/"
+            description: "Shaping the future of teaching and learning with a network of educators and innovators."
+
+          - title: "Community Murals"
+            addon: "2003–2011"
+            image: "/photos/programs/murals.jpg"
+            link:  "local://program/murals/"
+            description: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
+
+      - title: "Community Innovation Focus"
+        description:
+        features:
+
           - title: "One Northside"
+            addon: "2015–2017"
             image: "/photos/programs/one-northside.jpg"
             link:  "local://program/one-northside/"
             description: "Improving the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside."
 
           - title: "100 Days of US"
+            addon: "2017"
             image: "/photos/programs/100-days.jpg"
             link:  "local://program/100-days/"
             description: "Empowering the people's agenda for the first 100 days of a new presidential administration."
 
           - title: "Community Connections"
+            addon: "2007–2009"
             image: "/photos/programs/community-connections.jpg"
             link:  "local://program/community-connections/"
             description: "Celebrating Pittsburgh’s 250th anniversary with engagement and contributions to “Pride & Progress.”"
 
           - title: "Grand Ideas"
+            addon: "2001–2016"
             image: "/photos/programs/grand-ideas.jpg"
             link:  "local://program/grand-ideas/"
             description: "Demonstrating how a good idea and a small amount of support can go a long way."
 
           - title: "Spring"
+            addon: "2010–2011"
             image: "/photos/programs/spring.jpg"
             link:  "local://program/spring/"
             description: "Supporting local, community-based biodiversity initiatives in and around Pittsburgh."
 
           - title: "Engage Pittsburgh"
+            addon: "2006–2007"
             image: "/photos/programs/engage-pittsburgh.jpg"
             link:  "local://program/engage-pittsburgh/"
             description: "A new model for turning civic dialogue into community action."
 
           - title: "Economic Opportunity"
+            addon: "2018"
             image: "/photos/programs/economic-opportunity.jpg"
             link:  "local://program/economic-opportunity/"
             description: "Supporting collaborative approaches that expand economic opportunity for all."
 
           - title: "Social Innovation Exchange"
+            addon: "2012–2013"
             image: "/photos/programs/social-innovation-exchange.jpg"
             link:  "local://program/social-innovation-exchange/"
             description: "Identifying stubborn community issues and supporting innovative local solutions."
 
-      - title: "Learning Innovation"
+          - title: "Change Machine"
+            addon: "2016"
+            image: "/photos/programs/change-machine.jpg"
+            link:  "local://program/change-machine/"
+            description: "Empowering young people and catalyzing new ideas generated directly by youth."
+
+      - title: "Learning Innovation Focus"
         description:
         features:
-          - title: "Remake Learning"
-            image: "/photos/programs/remake-learning.jpg"
-            link:  "local://program/remake-learning/"
-            description: "Shaping the future of teaching and learning with a network of educators and innovators."
-
           - title: "Hive"
+            addon: "2013–2015"
             image: "/photos/programs/hive.jpg"
             link:  "local://program/hive/"
             description: "Promoting production-centered, peer-supported, interest-driven learning in- and and out-of-school."
 
           - title: "Spark"
+            addon: "2009–2015"
             image: "/photos/programs/spark.jpg"
             link:  "local://program/spark/"
             description: "Creating relevant early learning opportunities through technology, media, and the arts."
 
           - title: "City of Learning"
+            addon: "2014–2016"
             image: "/photos/programs/city-of-learning.jpg"
             link:  "local://program/city-of-learning/"
             description: "Recognizing learning and achievement with digital badges and enriching summer experiences."
 
           - title: "The Digital Corps"
+            addon: "2014–2015"
             image: "/photos/programs/digital-corps.jpg"
             link:  "local://program/digital-corps/"
             description: "Developing digital literacy skills to enable youth to thrive in school, college, and the workforce."
 
           - title: "Rec2Tech"
+            addon: "2016"
             image: "/photos/programs/rec2tech.jpg"
             link:  "local://program/rec2tech/"
             description: "Transforming community spaces into technology learning centers for Pittsburgh youth."
 
           - title: "My Brother's Keeper"
+            addon: "2016–2017"
             image: "/photos/programs/my-brothers-keeper.jpg"
             link:  "local://program/my-brothers-keeper/"
             description: "Addressing opportunity gaps for boys and young men of color from cradle to career."
 
           - title: "Open Badges Summit"
+            addon: "2014"
             image: "/photos/programs/open-badges-summit.jpg"
             link:  "local://program/open-badges-summit/"
             description: "Setting the course for the next evolution to assess learning and recognize skills and competencies."
 
-      - title: "Public Art"
-        description:
-        features:
-          - title: "Community Murals"
-            image: "/photos/programs/murals.jpg"
-            link:  "local://program/murals/"
-            description: "Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County."
-
-          - title: "Belonging"
-            image: "/photos/programs/belonging.jpg"
-            link:  "local://program/belonging/"
-            description: "Affirming that Pittsburgh is a place where we all belong with a call for community art."
-
-          - title: "Giant Inflatable Art"
-            image: "/photos/programs/giant-inflatables.jpg"
-            link:  "local://program/giant-inflatables/"
-            description: "Ten larger-than-life works of temporary, inflatable public art that embodied the spirit of Pittsburgh Roars."
-
-      - title: "Showcase & Creativity"
+      - title: "Showcase, Creativity & Public Art Focus"
         description:
         features:
           - title: "Hothouse"
+            addon: "2003–2010"
             image: "/photos/programs/hothouse.jpg"
             link:  "local://program/hothouse/"
             description: "Making Sprout's “live annual report” to the community a rockin’ summer party."
 
-          - title: "Film & Video"
-            image: "/photos/programs/film-video.jpg"
-            link:  "local://program/film-video/"
-            description: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
+          - title: "Belonging"
+            addon: "2017"
+            image: "/photos/programs/belonging.jpg"
+            link:  "local://program/belonging/"
+            description: "Affirming that Pittsburgh is a place where we all belong with a call for community art."
 
           - title: "TENACITY"
+            addon: "2011"
             image: "/photos/programs/tenacity.jpg"
             link:  "local://program/tenacity/"
             description: "A one-night-only retrospective of original performances from The Sprout Fund’s first decade."
 
+          - title: "Giant Inflatable Art"
+            addon: "2006"
+            image: "/photos/programs/giant-inflatables.jpg"
+            link:  "local://program/giant-inflatables/"
+            description: "Larger-than-life works of temporary, inflatable public art that embodied the spirit of Pittsburgh Roars."
+
+          - title: "Film & Video"
+            addon: "2013"
+            image: "/photos/programs/film-video.jpg"
+            link:  "local://program/film-video/"
+            description: "Showcasing Pittsburgh’s filmmakers, videographers, and multimedia artists and their work."
+
           - title: "AMP"
+            addon: "2004"
             image: "/photos/programs/amp.jpg"
             link:  "local://program/amp/"
             description: "Amplifying the voices of Pittsburgh's emerging arts scene."
