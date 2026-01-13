@@ -6,12 +6,14 @@ subtitle: "Transforming community spaces into technology learning centers for Pi
 description: "During a one-week demonstration in September 2016, The Sprout Fund worked with the City of Pittsburgh and educators from the Remake Learning Network to transform 5 city-owned recreation centers into technology-enhanced STEAM learning centers."
 logo: "/logos/rec2tech.png"
 superprogram: "Learning"
+program: "Rec2Tech"
 keywords: ""
 
 cover-image:
   source: "/photos/covers/rec2tech.jpg"
   caption: "Game Design with Carnegie Library of Pittsburgh"
   subcaption: "Paulson Recreation Center, September 2016"
+  credit: "photo: Ben Filio"
 
 video:
   url: "https://www.youtube-nocookie.com/embed/oLQibugUEGc?rel=0"

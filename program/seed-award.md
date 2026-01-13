@@ -6,12 +6,14 @@ subtitle: "Providing support when just a small amount of investment has the pote
 description: "Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community."
 logo: "/logos/seed-award.png"
 superprogram: "Community"
+program: "Seed Award"
 keywords: ""
 
 cover-image:
   source: "/photos/projects/album-art-of-mozelle-thompson.jpg"
   caption: "Opening of The Album Art of Mozelle Thompson"
   subcaption: "Penn Avenue Arts District, November 2014"
+  credit: "photo: Ben Filio"
 
 video:
   url: "https://www.youtube-nocookie.com/embed/oowkvBTwX_A?rel=0"

@@ -3,9 +3,10 @@ layout: program
 redirect_from: /economic-opportunity
 title: "Economic Opportunity"
 subtitle: "Supporting collaborative approaches that expand economic opportunity for all."
-description: ""
+description: "Supported by the BNY Mellon Foundation, Sprout's Economic Opportunity program fostered collaborative approaches to address systemic inequality and expand inclusive job growth in Pittsburgh. The initiative engaged local organizations through the 2018 Seed Award, ultimately funding community-led projects designed to create equitable economic opportunities for all residents."
 logo: "/logos/economic-opportunity.png"
 superprogram: "Community"
+program: "Economic Opportunity"
 keywords: ""
 
 cover-image:

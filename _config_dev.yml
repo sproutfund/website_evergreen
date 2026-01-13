@@ -37,14 +37,17 @@ exclude:
 #  - logos/
 #  - photos/
 #  - program/
-  - projects/
+#  - projects/
 #  - search/
   - search/data_projects.json
   - search/data_programs.json
 #  - strategy/
   - theme/
   - year/
+  - _working/
 #  - index.md
+  - exports/
+  - export_*.md
 
 algolia-index:
 #  program: "City of Learning"

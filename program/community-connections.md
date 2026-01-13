@@ -89,6 +89,8 @@ by-the-numbers:
     data:    "100"
   - heading: "Geograhy"
     data:    "14 counties of Southwestern PA"
+  - heading: "Decisionmakers"
+    data:    "270 people on 15 teams"
 
 context:
   heading: "A Grassroots Celebration"

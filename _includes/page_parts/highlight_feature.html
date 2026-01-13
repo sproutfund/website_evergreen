@@ -1,5 +1,6 @@
 {%- assign feature_image = feature.image -%}
 {%- assign feature_title  = feature.title -%}
+{%- assign feature_addon = feature.addon -%}
 {%- assign feature_description = feature.description -%}
 {%- assign feature_moretext = feature.moretext -%}
 {%- assign feature_link = false -%}
@@ -66,7 +67,7 @@
                 <a href="{{ feature_link }}" target="{{ feature_link_target }}">
               {%- endif -%}
               {%- if feature_title -%}
-                <h2>{{ feature_title | smartify }}{%- if feature_link_icon -%}<i class="material-icons feature-link-icon">{{ feature_link_icon }}</i>{%- endif -%}</h2>
+                <h2>{{ feature_title | smartify }}{%- if feature_addon -%} <small class="pl-2 type--fine-print type--fade">{{ feature_addon | smartify }}</small>{%- endif -%}{%- if feature_link_icon -%}<i class="material-icons feature-link-icon">{{ feature_link_icon }}</i>{%- endif -%}</h2>
               {%- endif -%}
               {%- if feature_link -%}
                 </a>
@@ -96,7 +97,7 @@
               <img alt="{{ feature.title | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
             {%- endif -%}
             {%- if feature_title -%}
-              <h4>{{ feature_title | smartify }}</h4>
+              <h4>{{ feature_title | smartify }}{%- if feature_addon -%} <small class="pl-2 type--fine-print type--fade">{{ feature_addon | smartify }}</small>{%- endif -%}</h4>
             {%- endif -%}
           </a>
           {%- if feature_description -%}
@@ -115,7 +116,7 @@
                     <div class="col-md-8 col-lg-7">
                       <div class="row justify-content-center">
                         <div class="col-md-11 col-lg-10">
-                          <h2>{{ feature_title | smartify }}</h2>
+                          <h2>{{ feature_title | smartify }}{%- if feature_addon -%} <small class="pl-2 type--fine-print type--fade">{{ feature_addon | smartify }}</small>{%- endif -%}</h2>
                           {% if grant_addon %}<p class="lead">{{ grant_addon | smartify }}</p>{% endif %}
                           <p>{{ feature_moretext | smartify }}{%- if jekyll.environment == "development" -%}<br/><br/><span class="type--fine-print">{{ feature_slug }}</span>{%- endif -%}</p>
                         </div><!--end of col-->
@@ -136,7 +137,7 @@
           <img alt="{{ feature_title | smartify }}" class="border--round" src="{{ site.baseurl }}{{ feature_image }}">
         {%- endif -%}
         {%- if feature_title -%}
-          <h4>{{ feature_title | smartify }}{%- if feature_link_icon -%}<i class="material-icons feature-link-icon">{{ feature_link_icon }}</i>{%- endif -%}</h4>
+          <h4>{{ feature_title | smartify }}{%- if feature_addon -%} <small class="pl-2 type--fine-print type--fade">{{ feature_addon | smartify }}</small>{%- endif -%}{%- if feature_link_icon -%}<i class="material-icons feature-link-icon">{{ feature_link_icon }}</i>{%- endif -%}</h4>
         {%- endif -%}
         {%- if feature_link -%}
           </a>

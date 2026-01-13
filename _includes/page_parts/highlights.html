@@ -10,7 +10,7 @@
           <div class="col-md-8 col-lg-6">
             <div class="cta">
               {%- if highlight.title -%}
-                <h2>{{ highlight.title | smartify }}</h2>
+                <h2>{{ highlight.title | smartify }}{%- if highlight.addon -%} <small class="pl-2 type--fine-print type--fade">{{ highlight.addon | smartify }}</small>{%- endif -%}</h2>
               {%- endif -%}
               {%- for description_para in highlight.description -%}
                 <p class="lead">{{ description_para | smartify }}</p>
@@ -92,7 +92,7 @@
                       </div>
                     </div>
                   {%- else -%}
-                    <h2 id="{{ section_slug }}">{{ section.title | smartify }}</h2>
+                    <h2 id="{{ section_slug }}">{{ section.title | smartify }}{%- if section.addon -%} <small class="pl-2 type--fine-print type--fade">{{ section.addon | smartify }}</small>{%- endif -%}</h2>
                   {%- endif -%}
                   {%- for description_para in section.description -%}
                     <p class="lead">{{ description_para | smartify }}</p>

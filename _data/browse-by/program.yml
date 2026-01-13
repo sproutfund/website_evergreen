@@ -4,53 +4,58 @@ browse_text: "Programs & Initiatives"
 slug_prefix: "program/"
 items:
 
-  - title: "Seed Award"
+  - title: "100 Days"
+
+  - title: "AMP"
+
+  - title: "Belonging"
+
+  - title: "Change Machine"
+
+  - title: "City of Learning"
+
+  - title: "Community Connections"
 
   - title: "Community Murals"
     slug:  "murals"
 
-  - title: "Hothouse"
+  - title: "The Digital Corps"
+    slug:  "digital-corps"
 
-#  - title: "AMP"
+  - title: "Economic Opportunity"
 
-#  - title: "Engage Pittsburgh"
+  - title: "Engage Pittsburgh"
 
-#  - title: "Giant Inflatables"
+  - title: "Film & Video"
 
-  - title: "Community Connections"
-
-  - title: "Spark"
-
-  - title: "Spring"
-
-  - title: "Social Innovation Exchange"
-
-  - title: "Remake Learning"
+  - title: "Giant Inflatable Art"
+    slug:  "giant-inflatables"
 
   - title: "Grand Ideas"
 
   - title: "Hive"
 
-  - title: "Film & Video"
-
-  - title: "Open Badges Summit"
-
-  - title: "The Digital Corps"
-    slug:  "digital-corps"
-
-  - title: "City of Learning"
-
-  - title: "One Northside"
-
-  - title: "Rec2Tech"
-
-  - title: "100 Days"
-
-  - title: "Belonging"
+  - title: "Hothouse"
 
   - title: "My Brother's Keeper"
     slug:  "my-brothers-keeper"
 
-  - title: "Economic Opportunity"
+  - title: "One Northside"
+
+  - title: "Open Badges Summit"
+
+  - title: "Rec2Tech"
+
+  - title: "Remake Learning"
+
+  - title: "Seed Award"
+
+  - title: "Social Innovation Exchange"
+
+  - title: "Spark"
+
+  - title: "Spring"
 
   - title: "Sunset"
+
+  - title: "TENACITY"
