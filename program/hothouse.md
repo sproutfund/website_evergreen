@@ -19,9 +19,9 @@ logo: "/logos/hothouse.png"
 
 cover-image:
   source: "/photos/covers/hothouse.jpg"
-  caption: "A massive crowd of attendees fills the main party area at Hothouse 2009, held at the new Bakery Square development in East Liberty."
-  subcaption: "Bakery Square, East Liberty, August 2009"
-  credit: "photo: [Photographer Name]"
+  caption: "A massive crowd of attendees fills the main party area at Hothouse 2006, held at the new EastSide development."
+  subcaption: "East Liberty/Shadyside, June 2006"
+  credit: "photo: Mara Rago"
 
 context:
   heading: "A showcase of creativity and innovation in Pittsburgh for you and 2,000 of your closest friends."
@@ -126,7 +126,7 @@ highlights:
 
       - title: "Hothouse 2006: EastSide Village"
         description:
-          - "The 2006 event, held on Saturday, June 17, 2006, at the new EastSide Development in East Liberty/Shadyside, was themed \"Village of the Arts\" for its \~1,500 attendees. A \"Market Bazaar\" featured Handmade Arcade and Encyclopedia Destructica, while a \"Red Bull Video Feed Command Center\" was perched 20 feet above the main party. The event also showcased the 10 Giant Inflatables from Sprout's \"Pittsburgh Roars\" project."
+          - "The 2006 event, held on Saturday, June 17, 2006, at the new EastSide Development in East Liberty/Shadyside, was themed \"Village of the Arts\" for its ~1,500 attendees. A \"Market Bazaar\" featured Handmade Arcade and Encyclopedia Destructica, while a \"Red Bull Video Feed Command Center\" was perched 20 feet above the main party. The event also showcased the 10 Giant Inflatables from Sprout's \"Pittsburgh Roars\" project."
         features:
           - image: "/photos/!placeholder.png"
 #            description: ""
@@ -143,7 +143,7 @@ highlights:
 
       - title: "Hothouse 2005: Factory of Innovation"
         description:
-          - "On Saturday, June 18, 2005, Hothouse took over the Blackbird Lofts and Artist Studios in Lawrenceville, drawing \~1,500 guests. The theme was a \"fresh, sprout-filled factory of innovation,\" with the raw industrial space completely transformed by thousands of sprouts and yards of fabric. The event featured blended project areas, Handmade Arcade, the Zany Umbrella Circus, barebones productions, and a headline performance by the 14-member creative music ensemble, OPEK."
+          - "On Saturday, June 18, 2005, Hothouse took over the Blackbird Lofts and Artist Studios in Lawrenceville, drawing ~1,500 guests. The theme was a \"fresh, sprout-filled factory of innovation,\" with the raw industrial space completely transformed by thousands of sprouts and yards of fabric. The event featured blended project areas, Handmade Arcade, the Zany Umbrella Circus, barebones productions, and a headline performance by the 14-member creative music ensemble, OPEK."
         features:
           - image: "/photos/!placeholder.png"
 #            description: ""
