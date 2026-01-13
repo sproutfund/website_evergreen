@@ -10,9 +10,9 @@ program: "AMP"
 
 cover-image:
   source: "/photos/covers/amp.jpg"
-  caption: "[*Recommendation: A photo from the AMP @ The Warhol exhibition, showing the 138 12\"x12\" pieces hung in a line on the gallery wall.*]"
-  subcaption: "[The Andy Warhol Museum, February 2004]"
-  credit: "photo: [Photographer Name]"
+  caption: "Allegheny Rhythm Kings perform at the AMP @ The Warhol exhibition opening event"
+  subcaption: "The Andy Warhol Museum, February 2004"
+  credit: "photo: Matt Hannigan"
 
 years:
   - 2004
@@ -46,7 +46,7 @@ highlights:
   - title: "AMP @ Club Café: Music"
     description:
       - "In January 2004, Club Café hosted 78 local bands performing six days a week. This month-long showcase built on the success of the 2003 \"100 Bands\" series, highlighting the region's eclectic music community—from \"political hip hop to amorphous electronica\" and \"modernist reggae to anachronistic bluegrass-jazz\". The series drew 2,400 attendees and successfully connected new bands with new audiences."
-      - "**Participating Bands Included**: BEAM, Black Ireland, Gene Stovall with CLECT, Midnight Plowboys, Boilermaker Jazz Band, African Drum Ensemble, Allegheny Rhythm Kings, MLK Tribute Night (Urban Kontent Presents), Adam Evil and the Outside Royalty, FYAH WYAH, Xanopticon (Electronica Night), Jenn Wertz"
+      - "<strong>Participating Bands Included</strong>: BEAM, Black Ireland, Gene Stovall with CLECT, Midnight Plowboys, Boilermaker Jazz Band, African Drum Ensemble, Allegheny Rhythm Kings, MLK Tribute Night (Urban Kontent Presents), Adam Evil and the Outside Royalty, FYAH WYAH, Xanopticon (Electronica Night), Jenn Wertz"
 
   - title: "AMP @ The Warhol: Visual Art"
     description:
@@ -56,8 +56,6 @@ highlights:
         description: "The show opened with a VIP party for nearly 400 supporters and ran for the month of February. A key goal was to \"kick-ass with collectors\" by offering a wide array of affordable, small-sized works, encouraging visitors to become local art patrons. By the show's end, 21 pieces had been sold."
       - title: "Pierogi 2000 Flat Files"
         description: "To connect Pittsburgh's scene to the wider emerging art world, the exhibition also featured the internationally-recognized Flat Files from Brooklyn's Pierogi 2000 Gallery. This \"banquet of art\" included works from over 700 under-recognized artists from around the world."
-      - title: "Participating Artists"
-        description: "Corey Antis, Peter Burr, Steffi Domike, Ron Donoughe, Robin Hewlett, George Kollar, Clayton Merrell, Paul Schifino, Blaine Siegel, James Simon, Julie Stunden, Jason Yates"
 
   - title: "AMP @ The Brew House: Performance"
     description:
@@ -81,20 +79,47 @@ highlights:
         description: "A troupe performing Indonesian music, puppetry, dance, and drama, featuring two visiting artists from Indonesia."
 
 acknowledgements:
-  - title: "Supporters"
-    items:
-      - "The Sprout Fund"
-  - title: "Partners"
-    items:
-      - "Club Café"
-      - "The Andy Warhol Museum"
-      - "Brew House Association"
-  - title: "Jury (AMP @ The Warhol)"
-    items:
-      - "Thomas Sokolowski, Director, The Andy Warhol Museum"
-      - "John Smith, Assistant Director of Collections & Research, The Andy Warhol Museum"
-      - "Curatorial Staff of The Andy Warhol Museum"
+  - width: "col-12 col-md-3"
+    stacked:
+      - title: "Partners"
+        items:
+          - "Club Café"
+          - "The Andy Warhol Museum"
+          - "Brew House Association"
+      - title: "Sponsors"
+        items:
+          - "Pittsburgh City Paper"
+          - "WYEP 91.3 FM"
+          - "Absolut"
+          - "Penn Brewery"
+  - title: "Selection Committees"
+    width: "col-12 col-md-9"
+    divided:
+      - title: "Music @ Club Café"
+        items:
+          - "Amy Wellock|Club Café"
+          - "Y. Sean Cho"
+          - "Ben Hartlage"
+          - "Justin Hopper"
+          - "Kyle Smith"
+          - "Justin Strong"
+          - "Ashwin Tumne"
+      - title: "Art @ The Warhol"
+        items:
+          - "Thomas Sokolowski|Director, The Andy Warhol Museum"
+          - "John Smith|Assistant Director of Collections & Research, The Andy Warhol Museum"
+          - "Curatorial Staff of The Andy Warhol Museum"
+      - title: "Performance @ The Brew House"
+        items:
+          - "George Davis|chair"
+          - "Rich Bach"
+          - "Tim Kaulen"
+          - "Suzanne Pace"
+          - "Margie Romero"
+          - "Tom Sarver"
+          - "D Winnans"
   - title: "Staff"
+    width: "col-12 col-md-3 pt-md-3"
     items:
       - "Cathy Lewis Long"
       - "Matt Hannigan"
