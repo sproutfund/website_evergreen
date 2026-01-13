@@ -23,7 +23,15 @@
               </div>
               <div class="row">
                 {%- for list in column.divided -%}
-                  <div class="col">
+                  {%- if list.width -%}
+                    {%- assign list_width = list.width -%}
+                  {%- else -%}
+                    {%- assign list_width = "col" -%}
+                  {%- endif -%}
+                  <div class="{{ list_width }}">
+                    {%- if list.title -%}
+                      <h4>{{ list.title }}</h4>
+                    {%- endif -%}
                     {%- assign list_items = list.items -%}
                     {% include page_parts/acknowledgements-list.html %}
                   </div>
