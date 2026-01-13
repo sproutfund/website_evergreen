@@ -6,12 +6,14 @@ subtitle: "Improving the quality of life for residents in all 18 neighborhoods o
 description: "One Northside was a community-driven initiative to improve the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside. Sprout provided $553,000 to 187 projects over 3 years from 2015 to 2017."
 logo: "/logos/one-northside.png"
 superprogram: "Community"
+program: "One Northside"
 keywords: ""
 
 cover-image:
   source: "/photos/covers/one-northside.jpg"
   caption: "Northside project leaders at a meet-up in Manchester"
   subcaption: "June 2015"
+  credit: "photo: Ben Filio"
 
 video:
   url: "https://www.youtube-nocookie.com/embed/79jq9UW1tpE?rel=0"

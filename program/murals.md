@@ -6,12 +6,14 @@ subtitle: "Enhancing the urban landscape of Pittsburgh and surrounding communiti
 description: "From 2003 to 2010, The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art."
 logo: "/logos/murals.png"
 superprogram: "Public Art"
+program: "Community Murals"
 keywords: ""
 
 cover-image:
   source: "/photos/covers/murals.jpg"
   caption: "Artist Jonathan Laidacker painting in Oakland"
   subcaption: "2006"
+  credit: "photo: The Sprout Fund"
 
 video:
   url: "https://www.youtube-nocookie.com/embed/JmNWGHqg0gM?rel=0"
@@ -23,10 +25,12 @@ video:
 acknowledgements:
   - title: "Supporters"
     items:
-      - "NEED TO ADD"
+      - "Laurel Foundation"
+      - "PNC Foundation"
+      - "American Eagle Outfitters Foundation"
   - title: "Partners"
     items:
-      - "NEED TO ADD"
+      - "Dozens of Community and Neighborhood Groups"
   - title: "Staff"
     items:
       - "Morton Brown|2003-2007"

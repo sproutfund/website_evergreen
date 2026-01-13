@@ -19,7 +19,7 @@ video:
   url: "https://www.youtube-nocookie.com/embed/p1CtH-SmMqo?rel=0"
   thumbnail: "/photos/video_thumbnails/belonging.jpg"
   title:   "Belonging Community Art Project Video Recap"
-  caption:
+  caption: "A visual recap of the Belonging Community Art Project showcasing artwork submissions, jury process, and distribution of winning designs throughout Pittsburgh."
   duration: "1½ minutes"
 
 acknowledgements:

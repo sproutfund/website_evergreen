@@ -25,12 +25,6 @@ video:
   duration: "1 minute"
 
 acknowledgements:
-  - title: "Supporters"
-    items:
-      - "NEED TO ADD"
-  - title: "Partners"
-    items:
-      - "NEED TO ADD"
   - title: "Staff"
     items:
       - "Cathy Lewis Long|2001-2002"

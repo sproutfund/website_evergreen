@@ -3,7 +3,7 @@ layout: program
 redirect_from: /digital-corps
 title: "The Digital Corps"
 subtitle: "Developing digital literacy skills to enable youth to thrive in school, college, and the workforce."
-description: ""
+description: "The Digital Corps connected youth in Allegheny County with opportunities to develop digital literacy skills through free digital learning experiences in afterschool programs. From 2014 to 2015, Sprout trained 82 adult mentors and deployed them to 53 host sites, engaging 500+ youth in workshops on robotics, coding, web design, and online privacy."
 logo: "/logos/digital-corps.png"
 superprogram: "Learning"
 program: "Digital Corps"

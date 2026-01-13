@@ -52,7 +52,7 @@ by-the-numbers:
     data:    "36"
 
 context:
-  heading: ""
+  heading: "Creating connected learning experiences for Pittsburgh youth"
   details:
     - "In 2013, Pittsburgh joined Hive Learning Networks, an international movement to reimagine learning across youth-serving organizations. Every day, students move among learning experiences in formal classrooms and in a range of informal settings, from museums and libraries to afterschool programs and community centers."
     - "Hive Learning Networks endeavor to link these environments to create “Connected Learning” experiences where youth can participate in accessible, “anytime, anywhere” learning activities by pursuing their interests and engaging with their peers."
