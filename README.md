@@ -12,7 +12,7 @@ This Jekyll-based static site archives The Sprout Fund's legacy of programs, pro
 - Jekyll 3.10.0 (static site generator)
 - GitHub Pages 232
 - Ruby 3.3.4
-- Lunr.js (client-side search)
+- Algolia InstantSearch (search page)
 - Bootstrap (theme framework)
 
 ## Quick Start with Docker (Recommended)
@@ -105,18 +105,12 @@ If you prefer to develop without Docker, you can install dependencies locally.
 
 - Ruby 3.3.4 (recommended) or compatible version
 - Bundler gem
-- Node.js and npm
 
 ### Setup
 
 1. **Install Ruby dependencies**:
    ```bash
    bundle install
-   ```
-
-2. **Install Node dependencies**:
-   ```bash
-   npm install
    ```
 
 ### Development Commands
@@ -184,7 +178,7 @@ projects/                 # Project index pages
 search/                   # Client-side search
   ├── data_programs.json  # Liquid-generated index
   ├── data_projects.json
-  └── search.js           # Lunr.js implementation
+  └── search.js           # Algolia InstantSearch UI
 
 photos/, logos/           # Static assets
 theme/                    # Bootstrap-based theme
@@ -195,7 +189,6 @@ theme/                    # Bootstrap-based theme
 - **_config.yml**: Production configuration (baseurl: `/`)
 - **_config_dev.yml**: Development overrides (baseurl: `/website_evergreen`)
 - **Gemfile**: Ruby dependencies (uses `github-pages` gem)
-- **package.json**: Node dependencies (Lunr.js for search)
 
 ## Architecture Details
 
@@ -277,10 +270,10 @@ acknowledgements:
 
 ### Search Implementation
 
-Client-side search using Lunr.js:
-- Jekyll generates search indexes at build time (`search/data_*.json`)
-- Lunr.js provides fast, client-side full-text search
-- No server-side search infrastructure needed
+The search page uses Algolia InstantSearch, loaded from a CDN:
+- Jekyll generates the record files at build time (`search/data_*.json`)
+- The records live in the `sproutfund_grants` Algolia index, which `search/search.js` queries with a search-only key
+- Nothing in the build uses Node.js or npm
 
 ## Important Development Notes
 

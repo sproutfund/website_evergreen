@@ -2,12 +2,11 @@
 # Dockerfile to build a GitHub Pages Jekyll site
 #   - Ubuntu 24.04
 #   - Ruby 3.3.4
-#   - Node.js & npm (for Lunr.js search)
 #   - Jekyll 3.10.0
 #   - GitHub Pages 232
 #
 #   Based on: https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332#file-post-run-txt
-#   Modified to include Node.js/npm and proper WORKDIR
+#   Modified to set a proper WORKDIR
 #
 # Instructions:
 #  1. Build: docker build -t sproutfund-jekyll .
@@ -37,9 +36,7 @@ RUN apt-get -y install git \
     libgdbm6 \
     libgdbm-dev \
     libdb-dev \
-    apt-utils \
-    nodejs \
-    npm
+    apt-utils
     
 # "#################################################"
 # "GitHub Pages/Jekyll is based on Ruby. Set the version and path"
