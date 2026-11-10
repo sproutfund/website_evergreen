@@ -35,7 +35,6 @@ The recommended development approach uses VS Code with devcontainers, which prov
 The project includes a comprehensive Dockerfile:
 - **Base**: Ubuntu 24.04 LTS
 - **Ruby**: 3.3.4 (matches GitHub Pages exactly)
-- **Node.js/npm**: Required for Lunr.js search functionality
 - **Jekyll**: 3.10.0
 - **GitHub Pages gem**: 232
 
@@ -61,9 +60,8 @@ docker run --rm -it \
 If developing without Docker, install dependencies locally:
 
 ```bash
-# Install dependencies (requires Ruby 3.3.4 and Node.js)
+# Install dependencies (requires Ruby 3.3.4)
 bundle install
-npm install
 
 # Development server with live reload (uses both config files)
 bundle exec jekyll serve --config "_config.yml,_config_dev.yml" --livereload
@@ -78,7 +76,7 @@ bundle exec jekyll build --config "_config.yml,_config_dev.yml"
 bundle exec jekyll build
 ```
 
-**Note:** Both `bundle install` (Ruby gems) and `npm install` (Node.js for Lunr.js) are required.
+**Note:** Only `bundle install` is required; the site has no Node.js dependencies.
 
 ## Architecture
 
@@ -95,7 +93,7 @@ The site uses a **data-driven architecture** where project/grant information liv
 - **_layouts/**: Page templates (grant.html, program.html, project-*.html, etc.)
 - **_includes/**: Reusable components (navbar, footer, header, analytics, etc.)
 - **program/**: Markdown files for each program (100-days.md, hive.md, etc.) with frontmatter defining title, logo, acknowledgements, etc.
-- **search/**: Search functionality using Lunr.js with JSON indexes generated from Jekyll data
+- **search/**: Search page using Algolia InstantSearch, with JSON records generated from Jekyll data
 - **photos/**, **logos/**: Static assets referenced by grants.csv and program pages
 - **theme/**: Bootstrap-based theme files
 
@@ -104,7 +102,6 @@ The site uses a **data-driven architecture** where project/grant information liv
 - **_config.yml**: Production configuration (baseurl: `/`)
 - **_config_dev.yml**: Development overrides (baseurl: `/website_evergreen`, enables page_gen for testing)
 - **Gemfile**: Uses `github-pages` gem for consistency with GitHub Pages deployment
-- **package.json**: Node.js dependencies (primarily Lunr.js for client-side search)
 - **.devcontainer/devcontainer.json**: VS Code devcontainer configuration
 - **.vscode/tasks.json**: VS Code tasks for Jekyll commands
 
@@ -125,9 +122,9 @@ This generates a page for each grant where `show-hide` == 'show', creating URLs 
 
 ### Search Implementation
 
-The site includes a client-side search using:
-- **Lunr.js** for indexing and search (specified in package.json)
-- **search/data_programs.json** and **search/data_projects.json**: Liquid-generated JSON indexes
+The search page uses:
+- **Algolia InstantSearch** (loaded from a CDN), querying the `sproutfund_grants` index with a search-only key
+- **search/data_programs.json** and **search/data_projects.json**: Liquid-generated JSON records for the index
 - **search/search.js**: Search UI logic
 
 ### Jekyll Plugins Used
@@ -164,5 +161,4 @@ Key fields in _data/grants.csv:
 - **Baseurl difference**: Production uses `baseurl: "/"` while development uses `baseurl: "/website_evergreen"`
 - **Asset management**: Many assets (photos, logos, theme files) are kept in _site/ via `keep_files` configuration
 - **URL structure**: The `page_gen-dirs: true` setting creates directory-based URLs (name/index.html) instead of flat files (name.html)
-- **Node.js requirement**: npm is required for Lunr.js search dependencies (included in Dockerfile)
 - **Development workflow**: Preferred approach is VS Code devcontainer + command-line `claude` on host machine for seamless file sharing and live reload
