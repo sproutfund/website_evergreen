@@ -16,5 +16,5 @@ This document is an auto-generated export of all program pages from The Sprout F
 
 ---
 
-{%- assign program_pages = site.pages | where: "layout", "program" -%}
+{%- assign program_pages = site.pages | where: "layout", "program" | where_exp:"page","page.sitemap != false" -%}
 This export includes {{ program_pages | size }} programs.

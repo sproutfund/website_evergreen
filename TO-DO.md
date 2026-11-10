@@ -117,3 +117,21 @@ DONE
 - [ ] Engage Pittsburgh
 - [ ] Giant Inflatables
 
+
+## Program drafts (parked in _working/ when PR #8 merged)
+
+### Legacy Awards (`_working/legacy-awards_draft.md`)
+- [ ] Convert to program-page front matter (layout, cover image, highlights) and move back to `program/`
+- [ ] Strip leftover research citations (e.g. "[Collage of 50 Awardees from Source 2493]")
+- [ ] Decide whether it stands alone or stays a section of Sunset (`/program/sunset/#legacy-awards`)
+
+### Unrealized Program Ideas (`_working/whiteboard_draft.md`)
+- [ ] Fill in subtitle, description, superprogram
+- [ ] Write up Community Innovation Fellows (2014) and Sessions Pittsburgh (2010); photos are already in `photos/programs/whiteboard/`
+- [ ] Move back to `program/` when ready (it stays `sitemap: false`, with a redirect from `/whiteboard`)
+
+### Hothouse
+- [ ] Wire the photos in `photos/hothouse/` into `program/hothouse.md` (gallery or highlights)
+
+### Metadata gaps
+- [ ] Work through `_working/TODO_programs-claude.md` (empty Program, cover-image credit, and video caption fields on several programs)

@@ -20,5 +20,5 @@ This document is an auto-generated export of Public Art program pages from The S
 
 ---
 
-{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Public Art" -%}
+{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Public Art" | where_exp:"page","page.sitemap != false" -%}
 This export includes {{ program_pages | size }} Public Art programs.

@@ -4,7 +4,7 @@
 
 - **Subtitle:** Providing support when just a small amount of investment has the potential to yield big results in the community.
 - **Description:** Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community.
-- **Program:** 
+- **Program:** Seed Award
 - **Superprogram:** Community
 - **Years:** 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
 - **Logo:** https://www.sproutfund.org/logos/seed-award.png
@@ -15,6 +15,7 @@
 - **Source:** https://www.sproutfund.org/photos/projects/album-art-of-mozelle-thompson.jpg
 - **Caption:** Opening of The Album Art of Mozelle Thompson
 - **Subcaption:** Penn Avenue Arts District, November 2014
+- **Credit:** photo: Ben Filio
 
 ### Video
 
@@ -95,7 +96,7 @@ Creative ways to engage local residents in the civic life of their neighborhoods
 
 - **Conflict Kitchen**: Serving cuisine from countries with which the United States was currently in conflict as a way to create greater awareness of the culture in question. *1144-SEED* [image](https://www.sproutfund.org/photos/projects/conflict-kitchen.jpg)
 
-- **Run Baby, Run**: Giving young adults in Pittsburgh the basic tools to run for office, including info on finding open positions, forming committees, creating budgets, and working with the media. *0353-SEED* [image](https://www.sproutfund.org/photos/projects/giving-young-adults-in-pittsburgh-the-basic-tools-to-run-for-office-including-information-on-finding-open-positions-forming-committees-creating-budgets-and-working-with-the-media.jpg)
+- **Run Baby, Run**: Giving young adults in Pittsburgh the basic tools to run for office, including info on finding open positions, forming committees, creating budgets, and working with the media. *0353-SEED* [image](https://www.sproutfund.org/photos/projects/run-baby-run.jpg)
 
 - **CivicCards**: Providing an interactive way to learn about government leaders as well as key features of Pittsburgh institutions and history. *0504-SEED* [image](https://www.sproutfund.org/photos/projects/civiccards.jpg)
 
@@ -378,6 +379,7 @@ The program marked the first time that Sprout’s footprint expanded beyond Pitt
 - **Total Investment:** $982,000
 - **Funded Projects:** 100
 - **Geograhy:** 14 counties of Southwestern PA
+- **Decisionmakers:** 270 people on 15 teams
 
 ## Highlights
 
@@ -784,12 +786,6 @@ With such a large programmatic emphasis on fostering connections, Sprout worked 
 
 ## Acknowledgements
 
-### Supporters
-- NEED TO ADD
-
-### Partners
-- NEED TO ADD
-
 ### Staff
 - Cathy Lewis Long, 2001-2002
 - Matt Hannigan, 2001-2004
@@ -916,7 +912,7 @@ This RFP provided a year-end burst of support, funding 14 small projects with $1
 
 - **Subtitle:** Improving the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside.
 - **Description:** One Northside was a community-driven initiative to improve the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside. Sprout provided $553,000 to 187 projects over 3 years from 2015 to 2017.
-- **Program:** 
+- **Program:** One Northside
 - **Superprogram:** Community
 - **Years:** 2015, 2016, 2017
 - **Logo:** https://www.sproutfund.org/logos/one-northside.png
@@ -927,6 +923,7 @@ This RFP provided a year-end burst of support, funding 14 small projects with $1
 - **Source:** https://www.sproutfund.org/photos/covers/one-northside.jpg
 - **Caption:** Northside project leaders at a meet-up in Manchester
 - **Subcaption:** June 2015
+- **Credit:** photo: Ben Filio
 
 ### Video
 
@@ -1015,6 +1012,91 @@ Community events were used to solicit in-kind support from neighbors, update the
 - Mac Howison
 - Diana Avart
 - Amber Farr, Buhl Foundation Fellow
+
+
+---
+
+# Change Machine
+
+## Metadata
+
+- **Subtitle:** Catalytic funding for innovative projects led by youth
+- **Description:** The Change Machine provided $500 catalytic grants to support, celebrate, and showcase unique youth-led initiatives with the power to incite positive change. Change Machine projects were innovative, non-traditional ideas that focused on current issues and challenges faced by youth, inspiring participants to be more active, involved, and civically-engaged.
+- **Program:** Change Machine
+- **Superprogram:** Community
+- **Years:** 2016
+- **Logo:** https://www.sproutfund.org/logos/change-machine.png
+- **URL:** https://www.sproutfund.org/program/change-machine/
+
+### Cover Image
+
+- **Source:** https://www.sproutfund.org/photos/covers/change-machine.jpg
+- **Caption:** Young project leaders from a Change Machine-funded initiative collaborate on their community project.
+- **Subcaption:** Pittsburgh, PA, 2016
+- **Credit:** photo: The Sprout Fund
+
+## Context
+
+**Empowering the next generation of community leaders.**
+
+The Sprout Fund sought to empower young people and catalyze new ideas generated directly by youth. The Change Machine program provided a direct, accessible funding stream for innovative, non-traditional ideas focused on issues and challenges faced by young people in the Pittsburgh region. The goal was to inspire a diverse group of participants to become more active, involved, and civically-engaged in their communities.
+
+The program offered small, catalytic $500 grants to youth leaders aged 18 and younger. These micro-grants supported projects across Pittsburgh and Allegheny County that ranged from community improvement and education to arts, technology, and cultural showcases.
+
+The program was led by co-founders Megan Cicconi and Alison Francis and supported by a dedicated Program Advisory Committee of approximately 10 individuals. This committee not only made funding recommendations to The Sprout Fund’s Board but also acted as community ambassadors and contributed financially to create the resource pool for the grants. Applications were accepted in multiple rounds per year. Once funded, each youth-led project was paired with at least one adult mentor to help guide their work.
+
+In 2016, the Change Machine funded a diverse portfolio of projects that empowered youth to develop as leaders, amplified a wide array of youth voices, and created tangible, positive changes. Initiatives included everything from building “Buddy Benches” to foster inclusion in elementary schools and constructing a “Tiny Home” to raise environmental awareness, to launching a dance team for young women and hosting a fashion show to showcase diverse cultures.
+
+## By the Numbers
+
+- **Year Active:** 2016
+- **Grant Size:** $500
+- **Funded Projects (2016):** 15
+- **Eligibility:** Youth ages 18 and younger
+- **Geography:** Pittsburgh and Allegheny County
+- **Advisory Committee Members:** Approximately 10
+- **Mentors per Project:** At least 1
+
+## Highlights
+
+### Funded Project Highlights
+
+The 2016 cohort of Change Machine projects showcased the creativity and civic-mindedness of Pittsburgh’s youth, tackling issues of social inclusion, education, environmentalism, and cultural expression.
+
+- **Buddy Benches for my Little Buddies**: Encouraging students to include their peers during recess and serving as a place for children to go when they don’t have anyone to play with. *2709-CM* [image](https://www.sproutfund.org/photos/projects/buddy-benches.jpg)
+
+- **Hampton High School Tiny Home**:  *2712-CM*
+
+- **Critter Camp**:  *2839-CM*
+
+- **Love Your Self-ie**:  *2836-CM*
+
+- **Culture Fashion Show**:  *2838-CM*
+
+- **School Garden**:  *2835-CM*
+
+## Acknowledgements
+
+### Supporters
+- Change Machine Program Advisory Committee
+
+### Partners
+- Dreams of Hope
+- Remake Learning Network
+- Three Rivers Bridges Kids Club
+- Toastmasters International
+
+### Program Advisory Committee
+- Megan Cicconi, Co-Founder
+- Alison Francis, Co-Founder
+
+### Staff
+- Mac Howison
+- Dustin Stiver
+- Ryan Coon
+- Diana Avart
+- Ani Martinez
+- Arielle Evans
 
 
 ---
@@ -1140,8 +1222,8 @@ The 26 supported projects and 5 sponsored events represented 12 critical issue a
 ## Metadata
 
 - **Subtitle:** Supporting collaborative approaches that expand economic opportunity for all.
-- **Description:** 
-- **Program:** 
+- **Description:** Supported by the BNY Mellon Foundation, Sprout’s Economic Opportunity program fostered collaborative approaches to address systemic inequality and expand inclusive job growth in Pittsburgh. The initiative engaged local organizations through the 2018 Seed Award, ultimately funding community-led projects designed to create equitable economic opportunities for all residents.
+- **Program:** Economic Opportunity
 - **Superprogram:** Community
 - **Years:** 2018
 - **Logo:** https://www.sproutfund.org/logos/economic-opportunity.png

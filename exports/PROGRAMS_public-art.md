@@ -4,7 +4,7 @@
 
 - **Subtitle:** Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County.
 - **Description:** From 2003 to 2010, The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art.
-- **Program:** 
+- **Program:** Community Murals
 - **Superprogram:** Public Art
 - **Years:** 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010
 - **Logo:** https://www.sproutfund.org/logos/murals.png
@@ -15,6 +15,7 @@
 - **Source:** https://www.sproutfund.org/photos/covers/murals.jpg
 - **Caption:** Artist Jonathan Laidacker painting in Oakland
 - **Subcaption:** 2006
+- **Credit:** photo: The Sprout Fund
 
 ### Video
 
@@ -185,10 +186,12 @@ Local communities applied and were selected by the Sprout Public Art Advisory Co
 ## Acknowledgements
 
 ### Supporters
-- NEED TO ADD
+- Laurel Foundation
+- PNC Foundation
+- American Eagle Outfitters Foundation
 
 ### Partners
-- NEED TO ADD
+- Dozens of Community and Neighborhood Groups
 
 ### Staff
 - Morton Brown, 2003-2007
@@ -212,7 +215,7 @@ Local communities applied and were selected by the Sprout Public Art Advisory Co
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/giant-inflatables.jpg
-- **Caption:** Daniel Franke’s “The Thinker” sits outside the Carnegie Museum of Art, the anchor institution for the <em>Fierce Friends</em> exhibition that inspired the Pittsburgh Roars campaign.
+- **Caption:** Blaine Segal’s “Monongahela Monster” outside the Carnegie Museum of Art, the anchor institution for the <em>Fierce Friends</em> exhibition that inspired the Pittsburgh Roars campaign.
 - **Subcaption:** Oakland, 2006
 - **Credit:** photo: The Sprout Fund
 
@@ -230,7 +233,7 @@ Throughout 2006, Sprout managed the logistics of a rotating, city-wide outdoor g
 
 ## By the Numbers
 
-- **Years Active:** 2006
+- **Year Active:** 2006
 - **Artist Honoraria:** $15,000 ($1,500 for each of 10 artists)
 - **Commissioned Artworks:** 10 inflatable sculptures
 - **Artist Submissions:** 90+
@@ -245,25 +248,25 @@ Throughout 2006, Sprout managed the logistics of a rotating, city-wide outdoor g
 
 Ten artists were commissioned to create giant inflatable sculptures that were rotated around Pittsburgh.
 
-- **Feature**:  *ROARS-01* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/bessie.jpg)
+- **“Bessie” by Steve O’Hearn**:  *ROARS-01* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/bessie.jpg)
 
-- **Feature**:  *ROARS-02* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/blam.jpg)
+- **“BLAM!” by Shannon McMullen**:  *ROARS-02* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/blam.jpg)
 
-- **Feature**:  *ROARS-03* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/green-monster.jpg)
+- **“Green Monster” by Brian Holderman**:  *ROARS-03* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/green-monster.jpg)
 
-- **Feature**:  *ROARS-04* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/grrr.jpg)
+- **“GRRR!” by Fabian Winkler**:  *ROARS-04* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/grrr.jpg)
 
-- **Feature**:  *ROARS-05* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/houndstoothy-the-squirrel.jpg)
+- **“Houndstoothy the Squirrel” by Sylvia Kay**:  *ROARS-05* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/houndstoothy-the-squirrel.jpg)
 
-- **Feature**:  *ROARS-06* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/like-a-lionfish-out-of-water.jpg)
+- **“Like a Lionfish Out of Water” by Alison Zapata**:  *ROARS-06* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/like-a-lionfish-out-of-water.jpg)
 
-- **Feature**:  *ROARS-07* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/monongahela-monster.jpg)
+- **“Monongahela Monster” by Blaine Siegel**:  *ROARS-07* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/monongahela-monster.jpg)
 
-- **Feature**:  *ROARS-08* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburgh-is-the-zombie-capital-of-the-world.jpg)
+- **“Pittsburgh Is the Zombie Capital of the World” by Jessica Jade Jacob**:  *ROARS-08* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburgh-is-the-zombie-capital-of-the-world.jpg)
 
-- **Feature**:  *ROARS-09* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburghs-painted-pachyderm.jpg)
+- **“Pittsburgh’s Painted Pachyderm” by David Edwards**:  *ROARS-09* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburghs-painted-pachyderm.jpg)
 
-- **Feature**:  *ROARS-10* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/thinker.jpg)
+- **“The Thinker” by Daniel Franke**:  *ROARS-10* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/thinker.jpg)
 
 ### Programmatic Activities
 
@@ -280,11 +283,11 @@ Ten artists were commissioned to create giant inflatable sculptures that were ro
 ### Supporters
 - Richard King Mellon Foundation
 
-### Partners
+### Program Partners
 - Pittsburgh Roars
-- Carnegie Museums of Pittsburgh (Fiscal Agent)
-- Inflatable Images, Inc. (Fabricator)
-- ELF Entertainment (Installation Team)
+- Carnegie Museums of Pittsburgh
+- Inflatable Images, Inc., fabricator
+- ELF Entertainment, installation team
 
 ### Host Site Partners
 - Carnegie Library of Pittsburgh
@@ -346,7 +349,7 @@ Ten artists were commissioned to create giant inflatable sculptures that were ro
 
 - **URL:** https://www.youtube.com/watch?v=p1CtH-SmMqo?rel=0
 - **Title:** Belonging Community Art Project Video Recap
-- **Caption:** 
+- **Caption:** A visual recap of the Belonging Community Art Project showcasing artwork submissions, jury process, and distribution of winning designs throughout Pittsburgh.
 - **Duration:** 1½ minutes
 - **Thumbnail:** https://www.sproutfund.org/photos/video_thumbnails/belonging.jpg
 

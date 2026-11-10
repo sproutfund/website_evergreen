@@ -20,5 +20,5 @@ This document is an auto-generated export of Community program pages from The Sp
 
 ---
 
-{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Community" -%}
+{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Community" | where_exp:"page","page.sitemap != false" -%}
 This export includes {{ program_pages | size }} Community programs.
