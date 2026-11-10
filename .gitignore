@@ -67,3 +67,6 @@ _videos_src
 
 PROGRAMS.md
 _content-import/
+# Open-items tracker read off the filesystem by the Positronic Matt-rix nightly
+# roll-up. Local only, as in the Field Guide repo.
+OPEN_ITEMS.md
