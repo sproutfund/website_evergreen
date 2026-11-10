@@ -129,9 +129,9 @@ The 26 supported projects and 5 sponsored events represented 12 critical issue a
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/amp.jpg
-- **Caption:** [*Recommendation: A photo from the AMP @ The Warhol exhibition, showing the 138 12”x12” pieces hung in a line on the gallery wall.*]
-- **Subcaption:** [The Andy Warhol Museum, February 2004]
-- **Credit:** photo: [Photographer Name]
+- **Caption:** Allegheny Rhythm Kings perform at the AMP @ The Warhol exhibition opening event
+- **Subcaption:** The Andy Warhol Museum, February 2004
+- **Credit:** photo: Matt Hannigan
 
 ## Context
 
@@ -147,7 +147,7 @@ AMP successfully showcased nearly 300 musicians and visual and performing artist
 
 ## By the Numbers
 
-- **Years Active:** 2004
+- **Year Active:** 2004
 - **Total Artists Showcased:** 239 (78 bands, 138 visual artists, 23 performance groups)
 - **Region Served:** 13-county Western Pennsylvania region
 - **Music @ Club Café:** 78 bands, 2,400 attendees
@@ -161,7 +161,7 @@ AMP successfully showcased nearly 300 musicians and visual and performing artist
 
 In January 2004, Club Café hosted 78 local bands performing six days a week. This month-long showcase built on the success of the 2003 “100 Bands” series, highlighting the region’s eclectic music community—from “political hip hop to amorphous electronica” and “modernist reggae to anachronistic bluegrass-jazz”. The series drew 2,400 attendees and successfully connected new bands with new audiences.
 
-**Participating Bands Included**: BEAM, Black Ireland, Gene Stovall with CLECT, Midnight Plowboys, Boilermaker Jazz Band, African Drum Ensemble, Allegheny Rhythm Kings, MLK Tribute Night (Urban Kontent Presents), Adam Evil and the Outside Royalty, FYAH WYAH, Xanopticon (Electronica Night), Jenn Wertz
+<strong>Participating Bands Included</strong>: BEAM, Black Ireland, Gene Stovall with CLECT, Midnight Plowboys, Boilermaker Jazz Band, African Drum Ensemble, Allegheny Rhythm Kings, MLK Tribute Night (Urban Kontent Presents), Adam Evil and the Outside Royalty, FYAH WYAH, Xanopticon (Electronica Night), Jenn Wertz
 
 ### AMP @ The Warhol: Visual Art
 
@@ -170,8 +170,6 @@ In February, The Andy Warhol Museum hosted a group show of small works juried by
 - **Exhibition and Sale**: The show opened with a VIP party for nearly 400 supporters and ran for the month of February. A key goal was to “kick-ass with collectors” by offering a wide array of affordable, small-sized works, encouraging visitors to become local art patrons. By the show’s end, 21 pieces had been sold.
 
 - **Pierogi 2000 Flat Files**: To connect Pittsburgh’s scene to the wider emerging art world, the exhibition also featured the internationally-recognized Flat Files from Brooklyn’s Pierogi 2000 Gallery. This “banquet of art” included works from over 700 under-recognized artists from around the world.
-
-- **Participating Artists**: Corey Antis, Peter Burr, Steffi Domike, Ron Donoughe, Robin Hewlett, George Kollar, Clayton Merrell, Paul Schifino, Blaine Siegel, James Simon, Julie Stunden, Jason Yates
 
 ### AMP @ The Brew House: Performance
 
@@ -195,18 +193,35 @@ In March, the series concluded with weekend performances at the Brew House I.A.C
 
 ## Acknowledgements
 
-### Supporters
-- The Sprout Fund
-
 ### Partners
 - Club Café
 - The Andy Warhol Museum
 - Brew House Association
 
-### Jury (AMP @ The Warhol)
+### Sponsors
+- Pittsburgh City Paper
+- WYEP 91.3 FM
+- Absolut
+- Penn Brewery
+
+### Selection Committees
+- Amy Wellock, Club Café
+- Y. Sean Cho
+- Ben Hartlage
+- Justin Hopper
+- Kyle Smith
+- Justin Strong
+- Ashwin Tumne
 - Thomas Sokolowski, Director, The Andy Warhol Museum
 - John Smith, Assistant Director of Collections &amp; Research, The Andy Warhol Museum
 - Curatorial Staff of The Andy Warhol Museum
+- George Davis, chair
+- Rich Bach
+- Tim Kaulen
+- Suzanne Pace
+- Margie Romero
+- Tom Sarver
+- D Winnans
 
 ### Staff
 - Cathy Lewis Long
@@ -238,7 +253,7 @@ In March, the series concluded with weekend performances at the Brew House I.A.C
 
 - **URL:** https://www.youtube.com/watch?v=p1CtH-SmMqo?rel=0
 - **Title:** Belonging Community Art Project Video Recap
-- **Caption:** 
+- **Caption:** A visual recap of the Belonging Community Art Project showcasing artwork submissions, jury process, and distribution of winning designs throughout Pittsburgh.
 - **Duration:** 1½ minutes
 - **Thumbnail:** https://www.sproutfund.org/photos/video_thumbnails/belonging.jpg
 
@@ -332,6 +347,91 @@ Thoughout the project, Sprout worked with advocates and allies of the immgrant a
 - Tricia Monticello Kievlan
 - Matt Hannigan
 - Morton Brown, project manager
+
+
+---
+
+# Change Machine
+
+## Metadata
+
+- **Subtitle:** Catalytic funding for innovative projects led by youth
+- **Description:** The Change Machine provided $500 catalytic grants to support, celebrate, and showcase unique youth-led initiatives with the power to incite positive change. Change Machine projects were innovative, non-traditional ideas that focused on current issues and challenges faced by youth, inspiring participants to be more active, involved, and civically-engaged.
+- **Program:** Change Machine
+- **Superprogram:** Community
+- **Years:** 2016
+- **Logo:** https://www.sproutfund.org/logos/change-machine.png
+- **URL:** https://www.sproutfund.org/program/change-machine/
+
+### Cover Image
+
+- **Source:** https://www.sproutfund.org/photos/covers/change-machine.jpg
+- **Caption:** Young project leaders from a Change Machine-funded initiative collaborate on their community project.
+- **Subcaption:** Pittsburgh, PA, 2016
+- **Credit:** photo: The Sprout Fund
+
+## Context
+
+**Empowering the next generation of community leaders.**
+
+The Sprout Fund sought to empower young people and catalyze new ideas generated directly by youth. The Change Machine program provided a direct, accessible funding stream for innovative, non-traditional ideas focused on issues and challenges faced by young people in the Pittsburgh region. The goal was to inspire a diverse group of participants to become more active, involved, and civically-engaged in their communities.
+
+The program offered small, catalytic $500 grants to youth leaders aged 18 and younger. These micro-grants supported projects across Pittsburgh and Allegheny County that ranged from community improvement and education to arts, technology, and cultural showcases.
+
+The program was led by co-founders Megan Cicconi and Alison Francis and supported by a dedicated Program Advisory Committee of approximately 10 individuals. This committee not only made funding recommendations to The Sprout Fund’s Board but also acted as community ambassadors and contributed financially to create the resource pool for the grants. Applications were accepted in multiple rounds per year. Once funded, each youth-led project was paired with at least one adult mentor to help guide their work.
+
+In 2016, the Change Machine funded a diverse portfolio of projects that empowered youth to develop as leaders, amplified a wide array of youth voices, and created tangible, positive changes. Initiatives included everything from building “Buddy Benches” to foster inclusion in elementary schools and constructing a “Tiny Home” to raise environmental awareness, to launching a dance team for young women and hosting a fashion show to showcase diverse cultures.
+
+## By the Numbers
+
+- **Year Active:** 2016
+- **Grant Size:** $500
+- **Funded Projects (2016):** 15
+- **Eligibility:** Youth ages 18 and younger
+- **Geography:** Pittsburgh and Allegheny County
+- **Advisory Committee Members:** Approximately 10
+- **Mentors per Project:** At least 1
+
+## Highlights
+
+### Funded Project Highlights
+
+The 2016 cohort of Change Machine projects showcased the creativity and civic-mindedness of Pittsburgh’s youth, tackling issues of social inclusion, education, environmentalism, and cultural expression.
+
+- **Buddy Benches for my Little Buddies**: Encouraging students to include their peers during recess and serving as a place for children to go when they don’t have anyone to play with. *2709-CM* [image](https://www.sproutfund.org/photos/projects/buddy-benches.jpg)
+
+- **Hampton High School Tiny Home**:  *2712-CM*
+
+- **Critter Camp**:  *2839-CM*
+
+- **Love Your Self-ie**:  *2836-CM*
+
+- **Culture Fashion Show**:  *2838-CM*
+
+- **School Garden**:  *2835-CM*
+
+## Acknowledgements
+
+### Supporters
+- Change Machine Program Advisory Committee
+
+### Partners
+- Dreams of Hope
+- Remake Learning Network
+- Three Rivers Bridges Kids Club
+- Toastmasters International
+
+### Program Advisory Committee
+- Megan Cicconi, Co-Founder
+- Alison Francis, Co-Founder
+
+### Staff
+- Mac Howison
+- Dustin Stiver
+- Ryan Coon
+- Diana Avart
+- Ani Martinez
+- Arielle Evans
 
 
 ---
@@ -595,6 +695,7 @@ The program marked the first time that Sprout’s footprint expanded beyond Pitt
 - **Total Investment:** $982,000
 - **Funded Projects:** 100
 - **Geograhy:** 14 counties of Southwestern PA
+- **Decisionmakers:** 270 people on 15 teams
 
 ## Highlights
 
@@ -757,7 +858,7 @@ Community events were used throughout all four phases of Community Connections. 
 ## Metadata
 
 - **Subtitle:** Developing digital literacy skills to enable youth to thrive in school, college, and the workforce.
-- **Description:** 
+- **Description:** The Digital Corps connected youth in Allegheny County with opportunities to develop digital literacy skills through free digital learning experiences in afterschool programs. From 2014 to 2015, Sprout trained 82 adult mentors and deployed them to 53 host sites, engaging 500+ youth in workshops on robotics, coding, web design, and online privacy.
 - **Program:** Digital Corps
 - **Superprogram:** Learning
 - **Years:** 2014, 2015
@@ -870,8 +971,8 @@ The Digital Corps and its trained mentors also appeared at pop-up events and sum
 ## Metadata
 
 - **Subtitle:** Supporting collaborative approaches that expand economic opportunity for all.
-- **Description:** 
-- **Program:** 
+- **Description:** Supported by the BNY Mellon Foundation, Sprout’s Economic Opportunity program fostered collaborative approaches to address systemic inequality and expand inclusive job growth in Pittsburgh. The initiative engaged local organizations through the 2018 Seed Award, ultimately funding community-led projects designed to create equitable economic opportunities for all residents.
+- **Program:** Economic Opportunity
 - **Superprogram:** Community
 - **Years:** 2018
 - **Logo:** https://www.sproutfund.org/logos/economic-opportunity.png
@@ -1056,7 +1157,7 @@ The Engage Pittsburgh process was a multi-stage funnel designed to capture, refi
 
 - **Subtitle:** A special funding opportunity in 2013 for Pittsburgh’s community of filmmakers, videographers, and multimedia artists to showcase their approach to community innovation and receive support for their work.
 - **Description:** In late 2013, The Sprout Fund provided catalytic support to catalyze the creation or completion of new and innovative community-based projects that took the form of short or feature-length films, documentaries, online videos, and multimedia experiences. 3 projects were selected to receive the $10,000 awards and 6 received $1,000 honorable mentions.
-- **Program:** 
+- **Program:** Film &amp; Video
 - **Superprogram:** Showcase
 - **Years:** 2013
 - **Logo:** https://www.sproutfund.org/logos/film-video.png
@@ -1167,7 +1268,7 @@ Three projects were selected to receive the full $10,000 award. In addition, a f
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/giant-inflatables.jpg
-- **Caption:** Daniel Franke’s “The Thinker” sits outside the Carnegie Museum of Art, the anchor institution for the <em>Fierce Friends</em> exhibition that inspired the Pittsburgh Roars campaign.
+- **Caption:** Blaine Segal’s “Monongahela Monster” outside the Carnegie Museum of Art, the anchor institution for the <em>Fierce Friends</em> exhibition that inspired the Pittsburgh Roars campaign.
 - **Subcaption:** Oakland, 2006
 - **Credit:** photo: The Sprout Fund
 
@@ -1185,7 +1286,7 @@ Throughout 2006, Sprout managed the logistics of a rotating, city-wide outdoor g
 
 ## By the Numbers
 
-- **Years Active:** 2006
+- **Year Active:** 2006
 - **Artist Honoraria:** $15,000 ($1,500 for each of 10 artists)
 - **Commissioned Artworks:** 10 inflatable sculptures
 - **Artist Submissions:** 90+
@@ -1200,25 +1301,25 @@ Throughout 2006, Sprout managed the logistics of a rotating, city-wide outdoor g
 
 Ten artists were commissioned to create giant inflatable sculptures that were rotated around Pittsburgh.
 
-- **Feature**:  *ROARS-01* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/bessie.jpg)
+- **“Bessie” by Steve O’Hearn**:  *ROARS-01* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/bessie.jpg)
 
-- **Feature**:  *ROARS-02* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/blam.jpg)
+- **“BLAM!” by Shannon McMullen**:  *ROARS-02* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/blam.jpg)
 
-- **Feature**:  *ROARS-03* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/green-monster.jpg)
+- **“Green Monster” by Brian Holderman**:  *ROARS-03* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/green-monster.jpg)
 
-- **Feature**:  *ROARS-04* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/grrr.jpg)
+- **“GRRR!” by Fabian Winkler**:  *ROARS-04* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/grrr.jpg)
 
-- **Feature**:  *ROARS-05* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/houndstoothy-the-squirrel.jpg)
+- **“Houndstoothy the Squirrel” by Sylvia Kay**:  *ROARS-05* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/houndstoothy-the-squirrel.jpg)
 
-- **Feature**:  *ROARS-06* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/like-a-lionfish-out-of-water.jpg)
+- **“Like a Lionfish Out of Water” by Alison Zapata**:  *ROARS-06* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/like-a-lionfish-out-of-water.jpg)
 
-- **Feature**:  *ROARS-07* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/monongahela-monster.jpg)
+- **“Monongahela Monster” by Blaine Siegel**:  *ROARS-07* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/monongahela-monster.jpg)
 
-- **Feature**:  *ROARS-08* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburgh-is-the-zombie-capital-of-the-world.jpg)
+- **“Pittsburgh Is the Zombie Capital of the World” by Jessica Jade Jacob**:  *ROARS-08* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburgh-is-the-zombie-capital-of-the-world.jpg)
 
-- **Feature**:  *ROARS-09* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburghs-painted-pachyderm.jpg)
+- **“Pittsburgh’s Painted Pachyderm” by David Edwards**:  *ROARS-09* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/pittsburghs-painted-pachyderm.jpg)
 
-- **Feature**:  *ROARS-10* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/thinker.jpg)
+- **“The Thinker” by Daniel Franke**:  *ROARS-10* [image](https://www.sproutfund.org/photos/public-art/giant-inflatables/thinker.jpg)
 
 ### Programmatic Activities
 
@@ -1235,11 +1336,11 @@ Ten artists were commissioned to create giant inflatable sculptures that were ro
 ### Supporters
 - Richard King Mellon Foundation
 
-### Partners
+### Program Partners
 - Pittsburgh Roars
-- Carnegie Museums of Pittsburgh (Fiscal Agent)
-- Inflatable Images, Inc. (Fabricator)
-- ELF Entertainment (Installation Team)
+- Carnegie Museums of Pittsburgh
+- Inflatable Images, Inc., fabricator
+- ELF Entertainment, installation team
 
 ### Host Site Partners
 - Carnegie Library of Pittsburgh
@@ -1413,12 +1514,6 @@ With such a large programmatic emphasis on fostering connections, Sprout worked 
 
 ## Acknowledgements
 
-### Supporters
-- NEED TO ADD
-
-### Partners
-- NEED TO ADD
-
 ### Staff
 - Cathy Lewis Long, 2001-2002
 - Matt Hannigan, 2001-2004
@@ -1458,7 +1553,7 @@ With such a large programmatic emphasis on fostering connections, Sprout worked 
 
 ## Context
 
-****
+**Creating connected learning experiences for Pittsburgh youth**
 
 In 2013, Pittsburgh joined Hive Learning Networks, an international movement to reimagine learning across youth-serving organizations. Every day, students move among learning experiences in formal classrooms and in a range of informal settings, from museums and libraries to afterschool programs and community centers.
 
@@ -1591,9 +1686,9 @@ Use these PDF downloads as starting points to adapt, remix, and reframe connecte
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/hothouse.jpg
-- **Caption:** A massive crowd of attendees fills the main party area at Hothouse 2009, held at the new Bakery Square development in East Liberty.
-- **Subcaption:** Bakery Square, East Liberty, August 2009
-- **Credit:** photo: [Photographer Name]
+- **Caption:** A massive crowd of attendees fills the main party area at Hothouse 2006, held at the new EastSide development.
+- **Subcaption:** East Liberty/Shadyside, June 2006
+- **Credit:** photo: Mara Rago
 
 ## Context
 
@@ -1788,7 +1883,7 @@ The very first Hothouse on Saturday, June 7, 2003, established the event’s sig
 
 - **Subtitle:** Enhancing the urban landscape of Pittsburgh and surrounding communities of Allegheny County.
 - **Description:** From 2003 to 2010, The Sprout Fund worked with nearly 100 community groups and dozens of local artists to develop 56 large-scale works of public art.
-- **Program:** 
+- **Program:** Community Murals
 - **Superprogram:** Public Art
 - **Years:** 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010
 - **Logo:** https://www.sproutfund.org/logos/murals.png
@@ -1799,6 +1894,7 @@ The very first Hothouse on Saturday, June 7, 2003, established the event’s sig
 - **Source:** https://www.sproutfund.org/photos/covers/murals.jpg
 - **Caption:** Artist Jonathan Laidacker painting in Oakland
 - **Subcaption:** 2006
+- **Credit:** photo: The Sprout Fund
 
 ### Video
 
@@ -1969,10 +2065,12 @@ Local communities applied and were selected by the Sprout Public Art Advisory Co
 ## Acknowledgements
 
 ### Supporters
-- NEED TO ADD
+- Laurel Foundation
+- PNC Foundation
+- American Eagle Outfitters Foundation
 
 ### Partners
-- NEED TO ADD
+- Dozens of Community and Neighborhood Groups
 
 ### Staff
 - Morton Brown, 2003-2007
@@ -2130,7 +2228,7 @@ Sprout also facilitated a community-based planning process to inform the future 
 
 - **Subtitle:** Improving the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside.
 - **Description:** One Northside was a community-driven initiative to improve the quality of life for residents in all 18 neighborhoods of Pittsburgh’s Northside. Sprout provided $553,000 to 187 projects over 3 years from 2015 to 2017.
-- **Program:** 
+- **Program:** One Northside
 - **Superprogram:** Community
 - **Years:** 2015, 2016, 2017
 - **Logo:** https://www.sproutfund.org/logos/one-northside.png
@@ -2141,6 +2239,7 @@ Sprout also facilitated a community-based planning process to inform the future 
 - **Source:** https://www.sproutfund.org/photos/covers/one-northside.jpg
 - **Caption:** Northside project leaders at a meet-up in Manchester
 - **Subcaption:** June 2015
+- **Credit:** photo: Ben Filio
 
 ### Video
 
@@ -2400,7 +2499,7 @@ Among other major announcements made at the Summit to Reconnect Learning, severa
 
 - **Subtitle:** Transforming community spaces into technology learning centers for Pittsburgh youth.
 - **Description:** During a one-week demonstration in September 2016, The Sprout Fund worked with the City of Pittsburgh and educators from the Remake Learning Network to transform 5 city-owned recreation centers into technology-enhanced STEAM learning centers.
-- **Program:** 
+- **Program:** Rec2Tech
 - **Superprogram:** Learning
 - **Years:** 2016
 - **Logo:** https://www.sproutfund.org/logos/rec2tech.png
@@ -2411,6 +2510,7 @@ Among other major announcements made at the Summit to Reconnect Learning, severa
 - **Source:** https://www.sproutfund.org/photos/covers/rec2tech.jpg
 - **Caption:** Game Design with Carnegie Library of Pittsburgh
 - **Subcaption:** Paulson Recreation Center, September 2016
+- **Credit:** photo: Ben Filio
 
 ### Video
 
@@ -2524,7 +2624,7 @@ To wrap up the demonstration week, Rec2Tech hosted a public party in Pittsburgh�
 
 ### Cover Image
 
-- **Source:** https://www.sproutfund.org/photos/programs/remake-learning/network-primer-2013.jpg
+- **Source:** https://www.sproutfund.org/photos/covers/remake-learning.jpg
 - **Caption:** More than 500 educators, technologists, artists, and innovators gather for the Kids+Creativity Network Primer at Carnegie Mellon University.
 - **Subcaption:** Carnegie Mellon University, February 2013
 - **Credit:** photo: The Sprout Fund
@@ -2729,7 +2829,7 @@ Remake Learning served as the umbrella for Sprout’s many learning initiatives.
 
 - **Subtitle:** Providing support when just a small amount of investment has the potential to yield big results in the community.
 - **Description:** Seed Awards provided critical financial support for projects and programs in the early stages of development when just a small amount of investment had the potential to yield big results in the community.
-- **Program:** 
+- **Program:** Seed Award
 - **Superprogram:** Community
 - **Years:** 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
 - **Logo:** https://www.sproutfund.org/logos/seed-award.png
@@ -2740,6 +2840,7 @@ Remake Learning served as the umbrella for Sprout’s many learning initiatives.
 - **Source:** https://www.sproutfund.org/photos/projects/album-art-of-mozelle-thompson.jpg
 - **Caption:** Opening of The Album Art of Mozelle Thompson
 - **Subcaption:** Penn Avenue Arts District, November 2014
+- **Credit:** photo: Ben Filio
 
 ### Video
 
@@ -2820,7 +2921,7 @@ Creative ways to engage local residents in the civic life of their neighborhoods
 
 - **Conflict Kitchen**: Serving cuisine from countries with which the United States was currently in conflict as a way to create greater awareness of the culture in question. *1144-SEED* [image](https://www.sproutfund.org/photos/projects/conflict-kitchen.jpg)
 
-- **Run Baby, Run**: Giving young adults in Pittsburgh the basic tools to run for office, including info on finding open positions, forming committees, creating budgets, and working with the media. *0353-SEED* [image](https://www.sproutfund.org/photos/projects/giving-young-adults-in-pittsburgh-the-basic-tools-to-run-for-office-including-information-on-finding-open-positions-forming-committees-creating-budgets-and-working-with-the-media.jpg)
+- **Run Baby, Run**: Giving young adults in Pittsburgh the basic tools to run for office, including info on finding open positions, forming committees, creating budgets, and working with the media. *0353-SEED* [image](https://www.sproutfund.org/photos/projects/run-baby-run.jpg)
 
 - **CivicCards**: Providing an interactive way to learn about government leaders as well as key features of Pittsburgh institutions and history. *0504-SEED* [image](https://www.sproutfund.org/photos/projects/civiccards.jpg)
 
@@ -3384,7 +3485,7 @@ No property was tied to our version of the last will and testament concept. Inst
 
 ## Metadata
 
-- **Subtitle:** a retrospective of original performances from The Sprout Fund’s first decade
+- **Subtitle:** A retrospective of original performances from The Sprout Fund’s first decade
 - **Description:** To celebrate its 10th anniversary, The Sprout Fund presented TENACITY, a one-night-only retrospective of original performances from its first decade. Held on December 9, 2011, at the August Wilson Center, the event showcased the best Sprout-supported performing arts groups and individuals. The evening celebrated a decade of Sprout’s support for Pittsburgh’s creative community and served as a benefit for The Sprout Fund.
 - **Program:** TENACITY
 - **Superprogram:** Showcase
@@ -3395,9 +3496,9 @@ No property was tied to our version of the last will and testament concept. Inst
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/tenacity.jpg
-- **Caption:** Performers take a final bow on stage at the August Wilson Center during the TENACITY 10th-anniversary celebration.
+- **Caption:** Performers take a final bow on stage during the TENACITY 10th-anniversary celebration.
 - **Subcaption:** August Wilson Center for African American Culture, December 2011
-- **Credit:** photo: [Photographer Name]
+- **Credit:** photo: Joey Kennedy
 
 ## Context
 
@@ -3413,13 +3514,12 @@ TENACITY successfully brought together a wide array of performers—from poetry 
 
 ## By the Numbers
 
-- **Years Active:** 2011
+- **Year Active:** 2011
 - **Anniversary:** 10th year celebration
 - **Event Date:** December 9, 2011
-- **Featured Performers/Groups:** 14
-- **Ticket Price:** $125 for an individual
-- **Ticket Price (Pair):** $200 for a pair
 - **Venue:** August Wilson Center for African American Culture
+- **Featured Performers/Groups:** 3 dozen
+- **Sponsors &amp; Partners:** 20+
 
 ## Highlights
 
@@ -3427,33 +3527,35 @@ TENACITY successfully brought together a wide array of performers—from poetry 
 
 The evening featured a curated retrospective of performances from Sprout-supported artists, spanning music, theater, dance, and spoken word.
 
-- **All Accordion Orchestra**: Kicked off the night with a medley of traditional folk music. This group grew out of the 2009 Seed Award-winning Accordion Pool Party in Lawrenceville. [image](https://www.sproutfund.org/photos/programs/tenacity/accordion-orchestra.jpg)
+- **All Accordion Orchestra**: Kicked off the night with a medley of traditional folk music. This group grew out of the 2009 Seed Award-winning Accordion Pool Party in Lawrenceville. [image](https://www.sproutfund.org/photos/programs/tenacity/accordion-pool-party.jpg)
 
-- **Alexi Morrissey**: A multi-time Seed Award recipient, artist Alexi Morrissey delivered an original monologue titled “A Love Letter to Sprout”.
+- **Alexi Morrissey**: A multi-time Seed Award recipient, artist Alexi Morrissey delivered an original monologue titled “A Love Letter to Sprout”. [image](https://www.sproutfund.org/photos/programs/tenacity/alexi-morrissey.jpg)
 
 - **Zafira Dance Company**: The 2007 Seed Awardees performed “Nomad,” a multimedia dance performance blending Tango, Jazz, Flamenco, and Belly Dance. [image](https://www.sproutfund.org/photos/programs/tenacity/zafira.jpg)
 
-- **Art Olympic Theater**: Tom Sarver’s 2007 Seed Award project hosted a live, timed puppet-making contest featuring surprise celebrity guests. [image](https://www.sproutfund.org/photos/programs/tenacity/art-olympic.jpg)
+- **Art Olympic Theater**: Tom Sarver’s 2007 Seed Award project hosted a live, timed puppet-making contest featuring surprise celebrity guests. [image](https://www.sproutfund.org/photos/programs/tenacity/art-olympic-theater.jpg)
 
-- **Frank Ferraro**: The artist restaged scenes from his opera “Gravity + Grace,” a piece inspired by his experience with early-onset Parkinson’s disease.
+- **Frank Ferraro**: The artist restaged scenes from his opera “Gravity + Grace,” a piece inspired by his experience with early-onset Parkinson’s disease. [image](https://www.sproutfund.org/photos/programs/tenacity/gravity-grace.jpg)
 
-- **BRICKS for Young Adults**: A moving reading of “A Thursday to Remember” by Joe DeFerrari, from the 2009 Seed Award-supported collection of stories about young adults impacted by cancer.
+- **BRICKS for Young Adults**: A moving reading of “A Thursday to Remember” by Joe DeFerrari, from the 2009 Seed Award-supported collection of stories about young adults impacted by cancer. [image](https://www.sproutfund.org/photos/programs/tenacity/bricks.jpg)
 
-- **Barrett Black**: A 2002 Seed Award recipient, Black performed original music on solo cello and electric guitar.
+- **Barrett Black**: A 2002 Seed Award recipient, Black performed original music on solo cello and electric guitar. [image](https://www.sproutfund.org/photos/programs/tenacity/barrett-black.jpg)
 
-- **Hiawatha Project**: The 2011 Seed Award-winning company staged an excerpt from “Camino,” a play exploring immigration, detention, and identity.
+- **Hiawatha Project**: The 2011 Seed Award-winning company staged an excerpt from “Camino,” a play exploring immigration, detention, and identity. [image](https://www.sproutfund.org/photos/programs/tenacity/hiawatha-project.jpg)
 
-- **Gab Cody &amp; Sam Turich**: An encore screening of “Mombies,” their comedic short film about zombie parents from the 2008 Neighborhood Narratives film series.
+- **Gab Cody &amp; Sam Turich**: An encore screening of “Mombies,” their comedic short film about zombie parents from the 2008 Neighborhood Narratives film series. [image](https://www.sproutfund.org/photos/programs/tenacity/mombies.jpg)
 
-- **Bricolage**: The company enacted the classic 1930s radio drama “Down a Country Road” from their irreverent and popular “Midnight Radio” series. [image](https://www.sproutfund.org/photos/programs/tenacity/bricolage.jpg)
+- **Bricolage**: The company enacted the classic 1930s radio drama “Down a Country Road” from their irreverent and popular “Midnight Radio” series. [image](https://www.sproutfund.org/photos/programs/tenacity/midnight-radio.jpg)
 
-- **barebones productions**: Staged a scene excerpted from the Tony Award-winning play “Take Me Out”.
+- **barebones productions**: Staged a scene excerpted from the Tony Award-winning play “Take Me Out”. [image](https://www.sproutfund.org/photos/programs/tenacity/take-me-out.jpg)
 
 - **Vanessa German**: The nationally-lauded poet and multi-time Seed Awardee performed her original spoken word operetta, “love poem for water”. [image](https://www.sproutfund.org/photos/programs/tenacity/vanessa-german.jpg)
 
-- **Original Music &amp; Video**: The evening was tied together with original music composed by David Bernabo and video shorts from Ambulantic Videoworks.
+- **Original Music &amp; Video**: The evening was tied together with original music composed by David Bernabo and video shorts from Ambulantic Videoworks. [image](https://www.sproutfund.org/photos/programs/tenacity/dave-bernabo.jpg)
 
-- **Reception**: The event included a reception catered by Parkhurst Dining Services and featured live music from the Turpentiners.
+- **Live Music &amp; DJ**: Guest enjoyed live performances from The Turpentiners and danced to beats from Ed Um. [image](https://www.sproutfund.org/photos/programs/tenacity/turpentiners.jpg)
+
+- **Reception**: The event concluded with a reception catered by Parkhurst Dining Services. [image](https://www.sproutfund.org/photos/programs/tenacity/reception.jpg)
 
 ### Production Highlights
 
@@ -3501,18 +3603,12 @@ TENACITY was a high-caliber production made possible by key creative partners.
 - Penn Brewery
 - Mosaic Linens
 
-### Partners
-- Clear Story
-- August Wilson Center for African American Culture
-- Parkhurst Dining Services
-- Paul Schifino
-- Brian Holderman
-
 ### Special Thanks
 - Stephan Bontrager
 - Allison Burns
 - Jeffrey Carpenter
 - Ben Hernstrom
+- Brian Holderman
 - Patrick Jordan
 - Lisha Logan
 - Rob Long

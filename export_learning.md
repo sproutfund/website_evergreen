@@ -20,5 +20,5 @@ This document is an auto-generated export of Learning program pages from The Spr
 
 ---
 
-{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Learning" -%}
+{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Learning" | where_exp:"page","page.sitemap != false" -%}
 This export includes {{ program_pages | size }} Learning programs.

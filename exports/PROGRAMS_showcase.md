@@ -13,9 +13,9 @@
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/hothouse.jpg
-- **Caption:** A massive crowd of attendees fills the main party area at Hothouse 2009, held at the new Bakery Square development in East Liberty.
-- **Subcaption:** Bakery Square, East Liberty, August 2009
-- **Credit:** photo: [Photographer Name]
+- **Caption:** A massive crowd of attendees fills the main party area at Hothouse 2006, held at the new EastSide development.
+- **Subcaption:** East Liberty/Shadyside, June 2006
+- **Credit:** photo: Mara Rago
 
 ## Context
 
@@ -219,9 +219,9 @@ The very first Hothouse on Saturday, June 7, 2003, established the event’s sig
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/amp.jpg
-- **Caption:** [*Recommendation: A photo from the AMP @ The Warhol exhibition, showing the 138 12”x12” pieces hung in a line on the gallery wall.*]
-- **Subcaption:** [The Andy Warhol Museum, February 2004]
-- **Credit:** photo: [Photographer Name]
+- **Caption:** Allegheny Rhythm Kings perform at the AMP @ The Warhol exhibition opening event
+- **Subcaption:** The Andy Warhol Museum, February 2004
+- **Credit:** photo: Matt Hannigan
 
 ## Context
 
@@ -237,7 +237,7 @@ AMP successfully showcased nearly 300 musicians and visual and performing artist
 
 ## By the Numbers
 
-- **Years Active:** 2004
+- **Year Active:** 2004
 - **Total Artists Showcased:** 239 (78 bands, 138 visual artists, 23 performance groups)
 - **Region Served:** 13-county Western Pennsylvania region
 - **Music @ Club Café:** 78 bands, 2,400 attendees
@@ -251,7 +251,7 @@ AMP successfully showcased nearly 300 musicians and visual and performing artist
 
 In January 2004, Club Café hosted 78 local bands performing six days a week. This month-long showcase built on the success of the 2003 “100 Bands” series, highlighting the region’s eclectic music community—from “political hip hop to amorphous electronica” and “modernist reggae to anachronistic bluegrass-jazz”. The series drew 2,400 attendees and successfully connected new bands with new audiences.
 
-**Participating Bands Included**: BEAM, Black Ireland, Gene Stovall with CLECT, Midnight Plowboys, Boilermaker Jazz Band, African Drum Ensemble, Allegheny Rhythm Kings, MLK Tribute Night (Urban Kontent Presents), Adam Evil and the Outside Royalty, FYAH WYAH, Xanopticon (Electronica Night), Jenn Wertz
+<strong>Participating Bands Included</strong>: BEAM, Black Ireland, Gene Stovall with CLECT, Midnight Plowboys, Boilermaker Jazz Band, African Drum Ensemble, Allegheny Rhythm Kings, MLK Tribute Night (Urban Kontent Presents), Adam Evil and the Outside Royalty, FYAH WYAH, Xanopticon (Electronica Night), Jenn Wertz
 
 ### AMP @ The Warhol: Visual Art
 
@@ -260,8 +260,6 @@ In February, The Andy Warhol Museum hosted a group show of small works juried by
 - **Exhibition and Sale**: The show opened with a VIP party for nearly 400 supporters and ran for the month of February. A key goal was to “kick-ass with collectors” by offering a wide array of affordable, small-sized works, encouraging visitors to become local art patrons. By the show’s end, 21 pieces had been sold.
 
 - **Pierogi 2000 Flat Files**: To connect Pittsburgh’s scene to the wider emerging art world, the exhibition also featured the internationally-recognized Flat Files from Brooklyn’s Pierogi 2000 Gallery. This “banquet of art” included works from over 700 under-recognized artists from around the world.
-
-- **Participating Artists**: Corey Antis, Peter Burr, Steffi Domike, Ron Donoughe, Robin Hewlett, George Kollar, Clayton Merrell, Paul Schifino, Blaine Siegel, James Simon, Julie Stunden, Jason Yates
 
 ### AMP @ The Brew House: Performance
 
@@ -285,18 +283,35 @@ In March, the series concluded with weekend performances at the Brew House I.A.C
 
 ## Acknowledgements
 
-### Supporters
-- The Sprout Fund
-
 ### Partners
 - Club Café
 - The Andy Warhol Museum
 - Brew House Association
 
-### Jury (AMP @ The Warhol)
+### Sponsors
+- Pittsburgh City Paper
+- WYEP 91.3 FM
+- Absolut
+- Penn Brewery
+
+### Selection Committees
+- Amy Wellock, Club Café
+- Y. Sean Cho
+- Ben Hartlage
+- Justin Hopper
+- Kyle Smith
+- Justin Strong
+- Ashwin Tumne
 - Thomas Sokolowski, Director, The Andy Warhol Museum
 - John Smith, Assistant Director of Collections &amp; Research, The Andy Warhol Museum
 - Curatorial Staff of The Andy Warhol Museum
+- George Davis, chair
+- Rich Bach
+- Tim Kaulen
+- Suzanne Pace
+- Margie Romero
+- Tom Sarver
+- D Winnans
 
 ### Staff
 - Cathy Lewis Long
@@ -309,7 +324,7 @@ In March, the series concluded with weekend performances at the Brew House I.A.C
 
 ## Metadata
 
-- **Subtitle:** a retrospective of original performances from The Sprout Fund’s first decade
+- **Subtitle:** A retrospective of original performances from The Sprout Fund’s first decade
 - **Description:** To celebrate its 10th anniversary, The Sprout Fund presented TENACITY, a one-night-only retrospective of original performances from its first decade. Held on December 9, 2011, at the August Wilson Center, the event showcased the best Sprout-supported performing arts groups and individuals. The evening celebrated a decade of Sprout’s support for Pittsburgh’s creative community and served as a benefit for The Sprout Fund.
 - **Program:** TENACITY
 - **Superprogram:** Showcase
@@ -320,9 +335,9 @@ In March, the series concluded with weekend performances at the Brew House I.A.C
 ### Cover Image
 
 - **Source:** https://www.sproutfund.org/photos/covers/tenacity.jpg
-- **Caption:** Performers take a final bow on stage at the August Wilson Center during the TENACITY 10th-anniversary celebration.
+- **Caption:** Performers take a final bow on stage during the TENACITY 10th-anniversary celebration.
 - **Subcaption:** August Wilson Center for African American Culture, December 2011
-- **Credit:** photo: [Photographer Name]
+- **Credit:** photo: Joey Kennedy
 
 ## Context
 
@@ -338,13 +353,12 @@ TENACITY successfully brought together a wide array of performers—from poetry 
 
 ## By the Numbers
 
-- **Years Active:** 2011
+- **Year Active:** 2011
 - **Anniversary:** 10th year celebration
 - **Event Date:** December 9, 2011
-- **Featured Performers/Groups:** 14
-- **Ticket Price:** $125 for an individual
-- **Ticket Price (Pair):** $200 for a pair
 - **Venue:** August Wilson Center for African American Culture
+- **Featured Performers/Groups:** 3 dozen
+- **Sponsors &amp; Partners:** 20+
 
 ## Highlights
 
@@ -352,33 +366,35 @@ TENACITY successfully brought together a wide array of performers—from poetry 
 
 The evening featured a curated retrospective of performances from Sprout-supported artists, spanning music, theater, dance, and spoken word.
 
-- **All Accordion Orchestra**: Kicked off the night with a medley of traditional folk music. This group grew out of the 2009 Seed Award-winning Accordion Pool Party in Lawrenceville. [image](https://www.sproutfund.org/photos/programs/tenacity/accordion-orchestra.jpg)
+- **All Accordion Orchestra**: Kicked off the night with a medley of traditional folk music. This group grew out of the 2009 Seed Award-winning Accordion Pool Party in Lawrenceville. [image](https://www.sproutfund.org/photos/programs/tenacity/accordion-pool-party.jpg)
 
-- **Alexi Morrissey**: A multi-time Seed Award recipient, artist Alexi Morrissey delivered an original monologue titled “A Love Letter to Sprout”.
+- **Alexi Morrissey**: A multi-time Seed Award recipient, artist Alexi Morrissey delivered an original monologue titled “A Love Letter to Sprout”. [image](https://www.sproutfund.org/photos/programs/tenacity/alexi-morrissey.jpg)
 
 - **Zafira Dance Company**: The 2007 Seed Awardees performed “Nomad,” a multimedia dance performance blending Tango, Jazz, Flamenco, and Belly Dance. [image](https://www.sproutfund.org/photos/programs/tenacity/zafira.jpg)
 
-- **Art Olympic Theater**: Tom Sarver’s 2007 Seed Award project hosted a live, timed puppet-making contest featuring surprise celebrity guests. [image](https://www.sproutfund.org/photos/programs/tenacity/art-olympic.jpg)
+- **Art Olympic Theater**: Tom Sarver’s 2007 Seed Award project hosted a live, timed puppet-making contest featuring surprise celebrity guests. [image](https://www.sproutfund.org/photos/programs/tenacity/art-olympic-theater.jpg)
 
-- **Frank Ferraro**: The artist restaged scenes from his opera “Gravity + Grace,” a piece inspired by his experience with early-onset Parkinson’s disease.
+- **Frank Ferraro**: The artist restaged scenes from his opera “Gravity + Grace,” a piece inspired by his experience with early-onset Parkinson’s disease. [image](https://www.sproutfund.org/photos/programs/tenacity/gravity-grace.jpg)
 
-- **BRICKS for Young Adults**: A moving reading of “A Thursday to Remember” by Joe DeFerrari, from the 2009 Seed Award-supported collection of stories about young adults impacted by cancer.
+- **BRICKS for Young Adults**: A moving reading of “A Thursday to Remember” by Joe DeFerrari, from the 2009 Seed Award-supported collection of stories about young adults impacted by cancer. [image](https://www.sproutfund.org/photos/programs/tenacity/bricks.jpg)
 
-- **Barrett Black**: A 2002 Seed Award recipient, Black performed original music on solo cello and electric guitar.
+- **Barrett Black**: A 2002 Seed Award recipient, Black performed original music on solo cello and electric guitar. [image](https://www.sproutfund.org/photos/programs/tenacity/barrett-black.jpg)
 
-- **Hiawatha Project**: The 2011 Seed Award-winning company staged an excerpt from “Camino,” a play exploring immigration, detention, and identity.
+- **Hiawatha Project**: The 2011 Seed Award-winning company staged an excerpt from “Camino,” a play exploring immigration, detention, and identity. [image](https://www.sproutfund.org/photos/programs/tenacity/hiawatha-project.jpg)
 
-- **Gab Cody &amp; Sam Turich**: An encore screening of “Mombies,” their comedic short film about zombie parents from the 2008 Neighborhood Narratives film series.
+- **Gab Cody &amp; Sam Turich**: An encore screening of “Mombies,” their comedic short film about zombie parents from the 2008 Neighborhood Narratives film series. [image](https://www.sproutfund.org/photos/programs/tenacity/mombies.jpg)
 
-- **Bricolage**: The company enacted the classic 1930s radio drama “Down a Country Road” from their irreverent and popular “Midnight Radio” series. [image](https://www.sproutfund.org/photos/programs/tenacity/bricolage.jpg)
+- **Bricolage**: The company enacted the classic 1930s radio drama “Down a Country Road” from their irreverent and popular “Midnight Radio” series. [image](https://www.sproutfund.org/photos/programs/tenacity/midnight-radio.jpg)
 
-- **barebones productions**: Staged a scene excerpted from the Tony Award-winning play “Take Me Out”.
+- **barebones productions**: Staged a scene excerpted from the Tony Award-winning play “Take Me Out”. [image](https://www.sproutfund.org/photos/programs/tenacity/take-me-out.jpg)
 
 - **Vanessa German**: The nationally-lauded poet and multi-time Seed Awardee performed her original spoken word operetta, “love poem for water”. [image](https://www.sproutfund.org/photos/programs/tenacity/vanessa-german.jpg)
 
-- **Original Music &amp; Video**: The evening was tied together with original music composed by David Bernabo and video shorts from Ambulantic Videoworks.
+- **Original Music &amp; Video**: The evening was tied together with original music composed by David Bernabo and video shorts from Ambulantic Videoworks. [image](https://www.sproutfund.org/photos/programs/tenacity/dave-bernabo.jpg)
 
-- **Reception**: The event included a reception catered by Parkhurst Dining Services and featured live music from the Turpentiners.
+- **Live Music &amp; DJ**: Guest enjoyed live performances from The Turpentiners and danced to beats from Ed Um. [image](https://www.sproutfund.org/photos/programs/tenacity/turpentiners.jpg)
+
+- **Reception**: The event concluded with a reception catered by Parkhurst Dining Services. [image](https://www.sproutfund.org/photos/programs/tenacity/reception.jpg)
 
 ### Production Highlights
 
@@ -426,18 +442,12 @@ TENACITY was a high-caliber production made possible by key creative partners.
 - Penn Brewery
 - Mosaic Linens
 
-### Partners
-- Clear Story
-- August Wilson Center for African American Culture
-- Parkhurst Dining Services
-- Paul Schifino
-- Brian Holderman
-
 ### Special Thanks
 - Stephan Bontrager
 - Allison Burns
 - Jeffrey Carpenter
 - Ben Hernstrom
+- Brian Holderman
 - Patrick Jordan
 - Lisha Logan
 - Rob Long
@@ -464,7 +474,7 @@ TENACITY was a high-caliber production made possible by key creative partners.
 
 - **Subtitle:** A special funding opportunity in 2013 for Pittsburgh’s community of filmmakers, videographers, and multimedia artists to showcase their approach to community innovation and receive support for their work.
 - **Description:** In late 2013, The Sprout Fund provided catalytic support to catalyze the creation or completion of new and innovative community-based projects that took the form of short or feature-length films, documentaries, online videos, and multimedia experiences. 3 projects were selected to receive the $10,000 awards and 6 received $1,000 honorable mentions.
-- **Program:** 
+- **Program:** Film &amp; Video
 - **Superprogram:** Showcase
 - **Years:** 2013
 - **Logo:** https://www.sproutfund.org/logos/film-video.png

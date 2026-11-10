@@ -145,7 +145,7 @@ Key activities at each convening included:
 
 ### Cover Image
 
-- **Source:** https://www.sproutfund.org/photos/programs/remake-learning/network-primer-2013.jpg
+- **Source:** https://www.sproutfund.org/photos/covers/remake-learning.jpg
 - **Caption:** More than 500 educators, technologists, artists, and innovators gather for the Kids+Creativity Network Primer at Carnegie Mellon University.
 - **Subcaption:** Carnegie Mellon University, February 2013
 - **Credit:** photo: The Sprout Fund
@@ -373,7 +373,7 @@ Remake Learning served as the umbrella for Sprout’s many learning initiatives.
 
 ## Context
 
-****
+**Creating connected learning experiences for Pittsburgh youth**
 
 In 2013, Pittsburgh joined Hive Learning Networks, an international movement to reimagine learning across youth-serving organizations. Every day, students move among learning experiences in formal classrooms and in a range of informal settings, from museums and libraries to afterschool programs and community centers.
 
@@ -496,7 +496,7 @@ Use these PDF downloads as starting points to adapt, remix, and reframe connecte
 ## Metadata
 
 - **Subtitle:** Developing digital literacy skills to enable youth to thrive in school, college, and the workforce.
-- **Description:** 
+- **Description:** The Digital Corps connected youth in Allegheny County with opportunities to develop digital literacy skills through free digital learning experiences in afterschool programs. From 2014 to 2015, Sprout trained 82 adult mentors and deployed them to 53 host sites, engaging 500+ youth in workshops on robotics, coding, web design, and online privacy.
 - **Program:** Digital Corps
 - **Superprogram:** Learning
 - **Years:** 2014, 2015
@@ -1122,7 +1122,7 @@ Sprout also facilitated a community-based planning process to inform the future 
 
 - **Subtitle:** Transforming community spaces into technology learning centers for Pittsburgh youth.
 - **Description:** During a one-week demonstration in September 2016, The Sprout Fund worked with the City of Pittsburgh and educators from the Remake Learning Network to transform 5 city-owned recreation centers into technology-enhanced STEAM learning centers.
-- **Program:** 
+- **Program:** Rec2Tech
 - **Superprogram:** Learning
 - **Years:** 2016
 - **Logo:** https://www.sproutfund.org/logos/rec2tech.png
@@ -1133,6 +1133,7 @@ Sprout also facilitated a community-based planning process to inform the future 
 - **Source:** https://www.sproutfund.org/photos/covers/rec2tech.jpg
 - **Caption:** Game Design with Carnegie Library of Pittsburgh
 - **Subcaption:** Paulson Recreation Center, September 2016
+- **Credit:** photo: Ben Filio
 
 ### Video
 

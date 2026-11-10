@@ -20,5 +20,5 @@ This document is an auto-generated export of Showcase program pages from The Spr
 
 ---
 
-{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Showcase" -%}
+{%- assign program_pages = site.pages | where: "layout", "program" | where: "superprogram", "Showcase" | where_exp:"page","page.sitemap != false" -%}
 This export includes {{ program_pages | size }} Showcase programs.
